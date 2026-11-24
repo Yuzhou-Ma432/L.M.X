@@ -1,0 +1,15 @@
+{
+  "id": "4bae-3jps",
+  "name": "MTNYC_PlantedBlocks_20150930",
+  "strategy": "baseline",
+  "description": "This dataset contains records of planted street blocks in New York City, sampled at 5,000 rows with eight fields. Each row identifies a physical block (physicalid, bphys_id, objectid) and includes the street name label (stname_lab), borough code (boroughcod), segment length (segmentlen), a block-level score or classification (b5_sc), and a planting season indicator (plnt_seas). The data supports mapping and analysis of where street-tree planting activity occurred, comparing planting coverage across boroughs and streets, and examining how planting relates to block length or season. It could be useful for urban forestry planning, environmental equity studies, and neighborhood-level reporting.",
+  "prompt": "Title: MTNYC_PlantedBlocks_20150930\nCategory: Environment\nRows (sampled): 5000\nColumns: 8\nColumn names: physicalid, objectid, stname_lab, boroughcod, segmentlen, b5_sc, bphys_id, plnt_seas\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 139,
+    "completion_tokens": 139,
+    "total_tokens": 278
+  },
+  "elapsed_seconds": 1.84
+}

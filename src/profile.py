@@ -37,6 +37,12 @@ def _safe_num(v) -> float | None:
         return None
 
 
+def _trunc(v, limit: int | None = None) -> str:
+    limit = limit if limit is not None else config.MAX_VALUE_LEN
+    s = str(v)
+    return s if len(s) <= limit else s[:limit] + "…"
+
+
 def _describe_column(series: pd.Series) -> dict:
     nonnull = series.dropna()
     n_rows = len(series)
@@ -45,21 +51,36 @@ def _describe_column(series: pd.Series) -> dict:
         "missing": int(series.isna().sum()),
         "missing_pct": round(series.isna().sum() / n_rows * 100, 2) if n_rows else 0.0,
         "nunique": int(nonnull.nunique()),
-        "sample_values": nonnull.astype(str).head(config.SAMPLE_ROWS).tolist(),
+        "sample_values": [_trunc(v) for v in nonnull.astype(str).head(config.SAMPLE_ROWS)],
     }
-    if pd.api.types.is_numeric_dtype(series) and len(nonnull):
+    # Value distribution: top-N frequent values for low-cardinality columns.
+    if len(nonnull) and info["nunique"] <= config.TOP_VALUES_MAX_CARDINALITY:
+        vc = nonnull.astype(str).value_counts().head(config.TOP_VALUES_N)
+        info["top_values"] = [
+            {"value": _trunc(v), "count": int(c), "pct": round(c / len(nonnull) * 100, 1)}
+            for v, c in vc.items()
+        ]
+    # Numeric stats only for true integer/float columns (excludes bool).
+    if (pd.api.types.is_integer_dtype(series) or pd.api.types.is_float_dtype(series)) and len(nonnull):
         info["stats"] = {
             "min": _safe_num(nonnull.min()),
             "max": _safe_num(nonnull.max()),
             "mean": _safe_num(nonnull.mean()),
             "median": _safe_num(nonnull.median()),
+            "p25": _safe_num(nonnull.quantile(0.25)),
+            "p75": _safe_num(nonnull.quantile(0.75)),
         }
     return info
 
 
+DROP_COLUMNS = {"shape", "the_geom"}  # geospatial binary blob columns
+
+
 def profile_dataframe(df: pd.DataFrame) -> dict:
-    # Drop Socrata-internal columns (e.g. ":@computed_region_...").
-    df = df.loc[:, [c for c in df.columns if not c.startswith(":@")]]
+    # Drop Socrata-internal columns and geospatial binary blobs.
+    df = df.loc[:, [c for c in df.columns
+                    if not c.startswith(":@")
+                    and str(c).strip().lower() not in DROP_COLUMNS]]
     return {
         "n_rows": int(len(df)),
         "n_cols": int(df.shape[1]),
@@ -78,8 +99,9 @@ def profile_one(meta: dict, force: bool = False) -> dict | None:
 
     try:
         df = fetch_rows(sid, config.PROFILE_ROWS)
+        prof = profile_dataframe(df)
     except Exception as e:  # noqa: BLE001 — a bad dataset must not stop the run
-        print(f"  !! {sid} ({meta['name']}): fetch failed: {e}")
+        print(f"  !! {sid} ({meta['name']}): failed: {e}")
         return None
 
     profile = {
@@ -89,7 +111,7 @@ def profile_one(meta: dict, force: bool = False) -> dict | None:
         "category": meta["category"],
         "permalink": meta["permalink"],
         "sampled_rows": config.PROFILE_ROWS,
-        **profile_dataframe(df),
+        **prof,
     }
     out_path.write_text(json.dumps(profile, indent=2, ensure_ascii=False), encoding="utf-8")
     return profile

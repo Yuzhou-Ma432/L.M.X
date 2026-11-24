@@ -1,0 +1,15 @@
+{
+  "id": "mfz4-pj9t",
+  "name": "RFP Summary by Agency and Fiscal Year",
+  "strategy": "content",
+  "description": "This dataset summarizes the number of Requests for Proposals (RFPs) released by 14 New York City agencies during fiscal year 2020. Each row represents one agency and includes its RFP count for the year, along with a citywide median calendar value of 130 days that is repeated for every record. The data covers a single fiscal year, so comparisons are limited to differences between agencies rather than trends over time. RFP counts range from 1 to 211, with a mean of about 44 per agency. The dataset could be used to compare procurement activity across agencies, identify which agencies issued the most or fewest solicitations, or provide context for analyses of city contracting and vendor opportunities. Because it contains only one year and one repeated benchmark value, it is best suited as a snapshot or as a supporting reference rather than a standalone time-series source.",
+  "prompt": "Title: RFP Summary by Agency and Fiscal Year\nCategory: City Government\nRows (sampled): 14\nColumns: 4\n\nColumn details:\n- fiscal_year (type int64) 1 distinct values 0.0% missing min=2020.0 max=2020.0 mean=2020.0 p25=2020.0 p75=2020.0 common values: 2020 (100.0%) samples: 2020, 2020, 2020, 2020, 2020\n- agency (type object) 14 distinct values 0.0% missing common values: ACS (7.1%), DCA (7.1%), DCAS (7.1%), DFTA (7.1%), DHS (7.1%) samples: ACS, DCA, DCAS, DFTA, DHS\n- rfps_released_in_fiscal_year (type int64) 13 distinct values 0.0% missing min=1.0 max=211.0 mean=43.5 p25=11.5 p75=51.75 common values: 1 (14.3%), 10 (7.1%), 22 (7.1%), 13 (7.1%), 52 (7.1%) samples: 52, 10, 22, 13, 72\n- citywide_median_calendar (type int64) 1 distinct values 0.0% missing min=130.0 max=130.0 mean=130.0 p25=130.0 p75=130.0 common values: 130 (100.0%) samples: 130, 130, 130, 130, 130\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 441,
+    "completion_tokens": 174,
+    "total_tokens": 615
+  },
+  "elapsed_seconds": 2.55
+}

@@ -1,0 +1,612 @@
+{
+  "id": "rrtd-iyd7",
+  "name": "485-x Affordable Neighborhoods for New Yorkers: Registrations of Prospective Applicants for Tax Benefits",
+  "description": "On April 20th, 2024, New York State enacted New York State Real Property Tax Law Section 485-x. This legislation requires prospective applicants for 485-x tax exemption benefits to file an agency-supplied online form with HPD. Information submitted to the agency via this form: \n(i) states an intention to file for such benefits under the provisions of this section, \n(ii) includes the commencement date, and (iii) establishes the intended number of total dwelling units and, if applicable, restricted units. This form also includes information on prospective applicants including, but not limited to, applicant information, the reported number of dwelling units, restricted units anticipated to be included in the building, reported commencement dates, and reported anticipated completion dates.\n \nTo learn more, please refer to: https://www.nyc.gov/site/hpd/services-and-information/tax-incentives-485-x.page",
+  "category": "Housing & Development",
+  "permalink": "https://data.cityofnewyork.us/d/rrtd-iyd7",
+  "sampled_rows": 5000,
+  "n_rows": 472,
+  "n_cols": 25,
+  "columns": [
+    {
+      "name": "no",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 472,
+      "sample_values": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 472.0,
+        "mean": 236.5,
+        "median": 236.5,
+        "p25": 118.75,
+        "p75": 354.25
+      }
+    },
+    {
+      "name": "form_submission_date",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 447,
+      "sample_values": [
+        "2024-07-08T11:51:38.000",
+        "2024-07-08T12:42:52.000",
+        "2024-07-17T12:53:21.000",
+        "2024-07-09T15:15:28.000",
+        "2024-11-13T14:08:56.000"
+      ]
+    },
+    {
+      "name": "reported_property_address",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 457,
+      "sample_values": [
+        "26-18 4TH STREET",
+        "26-18 4TH STREET",
+        "3815 CARPENTER AVENUE",
+        "239 EAST 28 STREET",
+        "91 DE SALES PL"
+      ]
+    },
+    {
+      "name": "reported_property_borough",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5,
+      "sample_values": [
+        "QUEENS",
+        "QUEENS",
+        "BRONX",
+        "BROOKLYN",
+        "BROOKLYN"
+      ],
+      "top_values": [
+        {
+          "value": "BRONX",
+          "count": 216,
+          "pct": 45.8
+        },
+        {
+          "value": "BROOKLYN",
+          "count": 159,
+          "pct": 33.7
+        },
+        {
+          "value": "QUEENS",
+          "count": 78,
+          "pct": 16.5
+        },
+        {
+          "value": "MANHATTAN",
+          "count": 18,
+          "pct": 3.8
+        },
+        {
+          "value": "STATEN ISLAND",
+          "count": 1,
+          "pct": 0.2
+        }
+      ]
+    },
+    {
+      "name": "reported_dob_bin",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 452,
+      "sample_values": [
+        "4020673",
+        "4020673",
+        "2057543",
+        "3119204",
+        "3080465"
+      ],
+      "stats": {
+        "min": 1026951.0,
+        "max": 4831375.0,
+        "mean": 2862258.2309,
+        "median": 3003182.5,
+        "p25": 2054621.75,
+        "p75": 3429995.25
+      }
+    },
+    {
+      "name": "reported_dob_permit_sequence",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 450,
+      "sample_values": [
+        "Q00713110",
+        "Q00713110",
+        "X08028598",
+        "322031145",
+        "B00672250-S1-FO-EA"
+      ]
+    },
+    {
+      "name": "reported_property_tax_block",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 364,
+      "sample_values": [
+        "910",
+        "910",
+        "4653",
+        "5172",
+        "3469"
+      ],
+      "stats": {
+        "min": 151.0,
+        "max": 16188.0,
+        "mean": 3794.214,
+        "median": 3198.0,
+        "p25": 2406.75,
+        "p75": 4528.25
+      }
+    },
+    {
+      "name": "reported_property_tax_lot",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 124,
+      "sample_values": [
+        "29",
+        "29",
+        "22",
+        "51",
+        "30"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 4647.0,
+        "mean": 58.5678,
+        "median": 32.0,
+        "p25": 18.0,
+        "p75": 55.0
+      }
+    },
+    {
+      "name": "reported_units",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 91,
+      "sample_values": [
+        "22",
+        "22",
+        "18",
+        "6",
+        "12"
+      ],
+      "stats": {
+        "min": 3.0,
+        "max": 792.0,
+        "mean": 42.3814,
+        "median": 27.0,
+        "p25": 13.0,
+        "p75": 59.25
+      }
+    },
+    {
+      "name": "reported_restricted_units",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 30,
+      "sample_values": [
+        "5",
+        "5",
+        "4",
+        "2",
+        "3"
+      ],
+      "top_values": [
+        {
+          "value": "2",
+          "count": 75,
+          "pct": 15.9
+        },
+        {
+          "value": "3",
+          "count": 56,
+          "pct": 11.9
+        },
+        {
+          "value": "20",
+          "count": 50,
+          "pct": 10.6
+        },
+        {
+          "value": "4",
+          "count": 40,
+          "pct": 8.5
+        },
+        {
+          "value": "5",
+          "count": 39,
+          "pct": 8.3
+        }
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 267.0,
+        "mean": 9.2076,
+        "median": 6.0,
+        "p25": 3.0,
+        "p75": 13.0
+      }
+    },
+    {
+      "name": "reported_commencement_date",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 335,
+      "sample_values": [
+        "2024-02-09T00:00:00.000",
+        "2023-05-23T00:00:00.000",
+        "2023-11-17T00:00:00.000",
+        "2022-07-27T00:00:00.000",
+        "2023-06-27T00:00:00.000"
+      ]
+    },
+    {
+      "name": "reported_anticipated",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 204,
+      "sample_values": [
+        "2024-10-01T00:00:00.000",
+        "2024-10-01T00:00:00.000",
+        "2025-02-01T00:00:00.000",
+        "2027-01-04T00:00:00.000",
+        "2024-11-04T00:00:00.000"
+      ]
+    },
+    {
+      "name": "reported_affordability_option",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "OPTION B",
+        "OPTION B",
+        "OPTION B",
+        "OPTION C",
+        "OPTION B"
+      ],
+      "top_values": [
+        {
+          "value": "OPTION B",
+          "count": 431,
+          "pct": 91.3
+        },
+        {
+          "value": "OPTION D",
+          "count": 21,
+          "pct": 4.4
+        },
+        {
+          "value": "OPTION C",
+          "count": 15,
+          "pct": 3.2
+        },
+        {
+          "value": "OPTION A",
+          "count": 5,
+          "pct": 1.1
+        }
+      ]
+    },
+    {
+      "name": "presumed_community_board",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 52,
+      "sample_values": [
+        "401",
+        "401",
+        "212",
+        "317",
+        "304"
+      ],
+      "stats": {
+        "min": 102.0,
+        "max": 503.0,
+        "mean": 276.1186,
+        "median": 302.0,
+        "p25": 206.0,
+        "p75": 316.0
+      }
+    },
+    {
+      "name": "presumed_duplicate",
+      "dtype": "object",
+      "missing": 432,
+      "missing_pct": 91.53,
+      "nunique": 1,
+      "sample_values": [
+        "DUPLICATE",
+        "DUPLICATE",
+        "DUPLICATE",
+        "DUPLICATE",
+        "DUPLICATE"
+      ],
+      "top_values": [
+        {
+          "value": "DUPLICATE",
+          "count": 40,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "duplicate_count",
+      "dtype": "float64",
+      "missing": 432,
+      "missing_pct": 91.53,
+      "nunique": 2,
+      "sample_values": [
+        "2.0",
+        "2.0",
+        "4.0",
+        "4.0",
+        "4.0"
+      ],
+      "top_values": [
+        {
+          "value": "2.0",
+          "count": 36,
+          "pct": 90.0
+        },
+        {
+          "value": "4.0",
+          "count": 4,
+          "pct": 10.0
+        }
+      ],
+      "stats": {
+        "min": 2.0,
+        "max": 4.0,
+        "mean": 2.2,
+        "median": 2.0,
+        "p25": 2.0,
+        "p75": 2.0
+      }
+    },
+    {
+      "name": "presumed_building_units",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 91,
+      "sample_values": [
+        "22",
+        "22",
+        "18",
+        "6",
+        "10"
+      ],
+      "stats": {
+        "min": 3.0,
+        "max": 792.0,
+        "mean": 42.3771,
+        "median": 27.0,
+        "p25": 13.0,
+        "p75": 59.25
+      }
+    },
+    {
+      "name": "presumed_restricted_units",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 30,
+      "sample_values": [
+        "5",
+        "5",
+        "4",
+        "3",
+        "2"
+      ],
+      "top_values": [
+        {
+          "value": "2",
+          "count": 73,
+          "pct": 15.5
+        },
+        {
+          "value": "3",
+          "count": 56,
+          "pct": 11.9
+        },
+        {
+          "value": "20",
+          "count": 50,
+          "pct": 10.6
+        },
+        {
+          "value": "4",
+          "count": 43,
+          "pct": 9.1
+        },
+        {
+          "value": "5",
+          "count": 40,
+          "pct": 8.5
+        }
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 267.0,
+        "mean": 9.2246,
+        "median": 6.0,
+        "p25": 3.0,
+        "p75": 13.0
+      }
+    },
+    {
+      "name": "presumed_bbl",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 445,
+      "sample_values": [
+        "4009100029",
+        "4009100029",
+        "2046530022",
+        "3051720051",
+        "3034690030"
+      ],
+      "stats": {
+        "min": 1002090021.0,
+        "max": 4161880021.0,
+        "mean": 2669279068.5318,
+        "median": 3001670019.0,
+        "p25": 2031130053.75,
+        "p75": 3046630017.0
+      }
+    },
+    {
+      "name": "postcode",
+      "dtype": "float64",
+      "missing": 7,
+      "missing_pct": 1.48,
+      "nunique": 91,
+      "sample_values": [
+        "11102.0",
+        "11102.0",
+        "10467.0",
+        "11226.0",
+        "11207.0"
+      ],
+      "stats": {
+        "min": 10002.0,
+        "max": 11694.0,
+        "mean": 10848.2559,
+        "median": 10475.0,
+        "p25": 10458.0,
+        "p75": 11217.0
+      }
+    },
+    {
+      "name": "latitude",
+      "dtype": "float64",
+      "missing": 7,
+      "missing_pct": 1.48,
+      "nunique": 444,
+      "sample_values": [
+        "40.77576",
+        "40.77576",
+        "40.884943",
+        "40.644042",
+        "40.682785"
+      ],
+      "stats": {
+        "min": 40.5794,
+        "max": 40.9009,
+        "mean": 40.7665,
+        "median": 40.7712,
+        "p25": 40.6834,
+        "p75": 40.8514
+      }
+    },
+    {
+      "name": "longitude",
+      "dtype": "float64",
+      "missing": 7,
+      "missing_pct": 1.48,
+      "nunique": 442,
+      "sample_values": [
+        "-73.93284",
+        "-73.93284",
+        "-73.865423",
+        "-73.950752",
+        "-73.904075"
+      ],
+      "stats": {
+        "min": -74.0096,
+        "max": -73.7506,
+        "mean": -73.9028,
+        "median": -73.9049,
+        "p25": -73.9325,
+        "p75": -73.8828
+      }
+    },
+    {
+      "name": "council_district",
+      "dtype": "float64",
+      "missing": 7,
+      "missing_pct": 1.48,
+      "nunique": 46,
+      "sample_values": [
+        "22.0",
+        "22.0",
+        "12.0",
+        "40.0",
+        "37.0"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 48.0,
+        "mean": 23.8559,
+        "median": 18.0,
+        "p25": 14.0,
+        "p75": 35.0
+      }
+    },
+    {
+      "name": "ct2020",
+      "dtype": "float64",
+      "missing": 7,
+      "missing_pct": 1.48,
+      "nunique": 257,
+      "sample_values": [
+        "87.0",
+        "87.0",
+        "394.0",
+        "826.0",
+        "405.0"
+      ],
+      "stats": {
+        "min": 11.0,
+        "max": 3086400.0,
+        "mean": 17030.0258,
+        "median": 434.0,
+        "p25": 269.0,
+        "p75": 6902.0
+      }
+    },
+    {
+      "name": "nta2020",
+      "dtype": "object",
+      "missing": 7,
+      "missing_pct": 1.48,
+      "nunique": 111,
+      "sample_values": [
+        "QN0102",
+        "QN0102",
+        "BX1201",
+        "BK1701",
+        "BK0402"
+      ]
+    }
+  ]
+}

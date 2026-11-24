@@ -1,0 +1,192 @@
+{
+  "id": "7btz-mnc8",
+  "name": "NYC REACH Members",
+  "description": "The location and facility information for doctors who participate in NYC Regional Electronic Adoption Center for Health (REACH), which assists providers in adopting technology and methods for electronic health records.",
+  "category": "Health",
+  "permalink": "https://data.cityofnewyork.us/d/7btz-mnc8",
+  "sampled_rows": 5000,
+  "n_rows": 2376,
+  "n_cols": 9,
+  "columns": [
+    {
+      "name": "provider_first_name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1663,
+      "sample_values": [
+        "James",
+        "Ronald",
+        "Igal",
+        "Tina",
+        "Misha"
+      ]
+    },
+    {
+      "name": "provider_last_name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1902,
+      "sample_values": [
+        "Li",
+        "Rao",
+        "Khorshidi",
+        "He",
+        "Sivia"
+      ]
+    },
+    {
+      "name": "practice_name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1159,
+      "sample_values": [
+        "James Li MD PC",
+        "Wyckoff Family Dentistry",
+        "Igal Khorshidi MD PC",
+        "Tina He MD",
+        "Max medical health care pc"
+      ]
+    },
+    {
+      "name": "primary_speciality",
+      "dtype": "object",
+      "missing": 743,
+      "missing_pct": 31.27,
+      "nunique": 44,
+      "sample_values": [
+        "Otolaryngology",
+        "Internal Medicine",
+        "Internal Medicine",
+        "Internal Medicine",
+        "Infectious Disease"
+      ]
+    },
+    {
+      "name": "site_name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1159,
+      "sample_values": [
+        "James Li MD PC",
+        "Wyckoff Family Dentistry",
+        "Igal Khorshidi MD PC",
+        "Tina He MD",
+        "Max medical health care pc"
+      ]
+    },
+    {
+      "name": "practice_borough",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5,
+      "sample_values": [
+        "Manhattan",
+        "Brooklyn",
+        "Manhattan",
+        "Manhattan",
+        "Brooklyn"
+      ],
+      "top_values": [
+        {
+          "value": "Queens",
+          "count": 684,
+          "pct": 28.8
+        },
+        {
+          "value": "Brooklyn",
+          "count": 653,
+          "pct": 27.5
+        },
+        {
+          "value": "Manhattan",
+          "count": 570,
+          "pct": 24.0
+        },
+        {
+          "value": "Bronx",
+          "count": 380,
+          "pct": 16.0
+        },
+        {
+          "value": "Staten Island",
+          "count": 89,
+          "pct": 3.7
+        }
+      ]
+    },
+    {
+      "name": "practice_mailing_address",
+      "dtype": "object",
+      "missing": 2,
+      "missing_pct": 0.08,
+      "nunique": 1140,
+      "sample_values": [
+        "128-138 MOTT ST STE 608",
+        "106 Wycoff Avenue",
+        "40 Park Ave Suite 1A",
+        "128-138 Mott St.",
+        "3049 Ocean Parkway"
+      ]
+    },
+    {
+      "name": "organization_type",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5,
+      "sample_values": [
+        "Small Practice",
+        "Small Practice",
+        "Small Practice",
+        "Small Practice",
+        "Small Practice"
+      ],
+      "top_values": [
+        {
+          "value": "Small Practice",
+          "count": 2094,
+          "pct": 88.1
+        },
+        {
+          "value": "Pharmacy",
+          "count": 175,
+          "pct": 7.4
+        },
+        {
+          "value": "Community Based Organization",
+          "count": 60,
+          "pct": 2.5
+        },
+        {
+          "value": "Urgent Care",
+          "count": 36,
+          "pct": 1.5
+        },
+        {
+          "value": "MISCELLANEOUS",
+          "count": 11,
+          "pct": 0.5
+        }
+      ]
+    },
+    {
+      "name": "practice_zip_code",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 163,
+      "sample_values": [
+        "10013",
+        "11237",
+        "10016",
+        "10013",
+        "11235"
+      ]
+    }
+  ]
+}

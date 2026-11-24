@@ -1,0 +1,318 @@
+{
+  "id": "6fi9-q3ta",
+  "name": "Brooklyn Bridge Automated Pedestrian Counts Demonstration Project (Historic)",
+  "description": "DOT is testing automated technology to count pedestrians. The counter is located on the Manhattan approach of the Brooklyn Bridge.",
+  "category": "Transportation",
+  "permalink": "https://data.cityofnewyork.us/d/6fi9-q3ta",
+  "sampled_rows": 5000,
+  "n_rows": 5000,
+  "n_cols": 12,
+  "columns": [
+    {
+      "name": "hour_beginning",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4999,
+      "sample_values": [
+        "2019-04-30T00:00:00.000",
+        "2019-12-31T22:00:00.000",
+        "2019-12-31T23:00:00.000",
+        "2019-12-31T21:00:00.000",
+        "2019-04-01T03:00:00.000"
+      ]
+    },
+    {
+      "name": "location",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "Brooklyn Bridge",
+        "Brooklyn Bridge",
+        "Brooklyn Bridge",
+        "Brooklyn Bridge",
+        "Brooklyn Bridge"
+      ],
+      "top_values": [
+        {
+          "value": "Brooklyn Bridge",
+          "count": 5000,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "pedestrians",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1766,
+      "sample_values": [
+        "3",
+        "10",
+        "2",
+        "12",
+        "1"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 4286.0,
+        "mean": 676.554,
+        "median": 158.5,
+        "p25": 5.0,
+        "p75": 1280.0
+      }
+    },
+    {
+      "name": "towards_manhattan",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1191,
+      "sample_values": [
+        "3",
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 2555.0,
+        "mean": 326.1042,
+        "median": 82.0,
+        "p25": 2.0,
+        "p75": 621.0
+      }
+    },
+    {
+      "name": "towards_brooklyn",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1289,
+      "sample_values": [
+        "0",
+        "1",
+        "2",
+        "12",
+        "1"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 2290.0,
+        "mean": 350.4498,
+        "median": 77.5,
+        "p25": 2.0,
+        "p75": 642.0
+      }
+    },
+    {
+      "name": "weather_summary",
+      "dtype": "object",
+      "missing": 8,
+      "missing_pct": 0.16,
+      "nunique": 10,
+      "sample_values": [
+        "cloudy",
+        "cloudy",
+        "cloudy",
+        "clear-night",
+        "clear-day"
+      ],
+      "top_values": [
+        {
+          "value": "clear-night",
+          "count": 1050,
+          "pct": 21.0
+        },
+        {
+          "value": "cloudy",
+          "count": 1028,
+          "pct": 20.6
+        },
+        {
+          "value": "partly-cloudy-day",
+          "count": 1005,
+          "pct": 20.1
+        },
+        {
+          "value": "clear-day",
+          "count": 815,
+          "pct": 16.3
+        },
+        {
+          "value": "partly-cloudy-night",
+          "count": 705,
+          "pct": 14.1
+        }
+      ]
+    },
+    {
+      "name": "temperature",
+      "dtype": "float64",
+      "missing": 8,
+      "missing_pct": 0.16,
+      "nunique": 96,
+      "sample_values": [
+        "42.0",
+        "42.0",
+        "42.0",
+        "36.0",
+        "44.0"
+      ],
+      "stats": {
+        "min": 2.0,
+        "max": 97.0,
+        "mean": 54.9744,
+        "median": 56.0,
+        "p25": 40.0,
+        "p75": 70.0
+      }
+    },
+    {
+      "name": "precipitation",
+      "dtype": "float64",
+      "missing": 8,
+      "missing_pct": 0.16,
+      "nunique": 381,
+      "sample_values": [
+        "0.0005",
+        "0.0004",
+        "0.0036",
+        "0.0",
+        "0.0"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 0.6804,
+        "mean": 0.0042,
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 0.0
+      }
+    },
+    {
+      "name": "lat",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "40.7081639691088",
+        "40.7081639691088",
+        "40.7081639691088",
+        "40.7081639691088",
+        "40.7081639691088"
+      ],
+      "top_values": [
+        {
+          "value": "40.7081639691088",
+          "count": 5000,
+          "pct": 100.0
+        }
+      ],
+      "stats": {
+        "min": 40.7082,
+        "max": 40.7082,
+        "mean": 40.7082,
+        "median": 40.7082,
+        "p25": 40.7082,
+        "p75": 40.7082
+      }
+    },
+    {
+      "name": "long",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "-73.9995087014816",
+        "-73.9995087014816",
+        "-73.9995087014816",
+        "-73.9995087014816",
+        "-73.9995087014816"
+      ],
+      "top_values": [
+        {
+          "value": "-73.9995087014816",
+          "count": 5000,
+          "pct": 100.0
+        }
+      ],
+      "stats": {
+        "min": -73.9995,
+        "max": -73.9995,
+        "mean": -73.9995,
+        "median": -73.9995,
+        "p25": -73.9995,
+        "p75": -73.9995
+      }
+    },
+    {
+      "name": "events",
+      "dtype": "object",
+      "missing": 4666,
+      "missing_pct": 93.32,
+      "nunique": 24,
+      "sample_values": [
+        "Christmas Day",
+        "Halloween",
+        "St. Patrick's Day",
+        "Presidents' Day (regional holiday)",
+        "Labor Day"
+      ],
+      "top_values": [
+        {
+          "value": "New Year's Eve",
+          "count": 16,
+          "pct": 4.8
+        },
+        {
+          "value": "Daylight Saving Time starts",
+          "count": 15,
+          "pct": 4.5
+        },
+        {
+          "value": "Labor Day",
+          "count": 15,
+          "pct": 4.5
+        },
+        {
+          "value": "Tax Day",
+          "count": 15,
+          "pct": 4.5
+        },
+        {
+          "value": "Valentine's Day",
+          "count": 15,
+          "pct": 4.5
+        }
+      ]
+    },
+    {
+      "name": "geocoded_column",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "(40.7081639691088, -73.9995087014816)",
+        "(40.7081639691088, -73.9995087014816)",
+        "(40.7081639691088, -73.9995087014816)",
+        "(40.7081639691088, -73.9995087014816)",
+        "(40.7081639691088, -73.9995087014816)"
+      ],
+      "top_values": [
+        {
+          "value": "(40.7081639691088, -73.9995087014816)",
+          "count": 5000,
+          "pct": 100.0
+        }
+      ]
+    }
+  ]
+}

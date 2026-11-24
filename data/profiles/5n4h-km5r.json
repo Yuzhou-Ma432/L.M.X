@@ -1,0 +1,292 @@
+{
+  "id": "5n4h-km5r",
+  "name": "Medical Non-production for Clinic Appointments",
+  "description": "This dataset lists the reasons for medical non-production by each Dept of Correction facility each month. The columns in the dataset are reasons why a person in custody is not produced for a medical appointment. The dataset also includes the total number of scheduled appointments for each facility and each month.",
+  "category": "Public Safety",
+  "permalink": "https://data.cityofnewyork.us/d/5n4h-km5r",
+  "sampled_rows": 5000,
+  "n_rows": 277,
+  "n_cols": 11,
+  "columns": [
+    {
+      "name": "year",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 37,
+      "sample_values": [
+        "2022-01-01T00:00:00.000",
+        "2022-01-01T00:00:00.000",
+        "2022-01-01T00:00:00.000",
+        "2022-01-01T00:00:00.000",
+        "2022-01-01T00:00:00.000"
+      ]
+    },
+    {
+      "name": "facility",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 10,
+      "sample_values": [
+        "AMKC",
+        "EMTC",
+        "GRVC",
+        "NIC",
+        "OBCC"
+      ],
+      "top_values": [
+        {
+          "value": "EMTC",
+          "count": 37,
+          "pct": 13.4
+        },
+        {
+          "value": "GRVC",
+          "count": 37,
+          "pct": 13.4
+        },
+        {
+          "value": "RMSC",
+          "count": 37,
+          "pct": 13.4
+        },
+        {
+          "value": "NIC",
+          "count": 37,
+          "pct": 13.4
+        },
+        {
+          "value": "RNDC",
+          "count": 37,
+          "pct": 13.4
+        }
+      ]
+    },
+    {
+      "name": "court",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 179,
+      "sample_values": [
+        "40",
+        "20",
+        "97",
+        "94",
+        "26"
+      ],
+      "stats": {
+        "min": 7.0,
+        "max": 638.0,
+        "mean": 171.6029,
+        "median": 158.0,
+        "p25": 94.0,
+        "p75": 224.0
+      }
+    },
+    {
+      "name": "visits",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 37,
+      "sample_values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 65.0,
+        "mean": 6.1697,
+        "median": 2.0,
+        "p25": 0.0,
+        "p75": 7.0
+      }
+    },
+    {
+      "name": "refusal",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 249,
+      "sample_values": [
+        "2209",
+        "1111",
+        "974",
+        "28",
+        "255"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 3814.0,
+        "mean": 929.6282,
+        "median": 789.0,
+        "p25": 346.0,
+        "p75": 1115.0
+      }
+    },
+    {
+      "name": "walkout",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 85,
+      "sample_values": [
+        "8",
+        "1",
+        "32",
+        "0",
+        "26"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 682.0,
+        "mean": 32.2094,
+        "median": 14.0,
+        "p25": 4.0,
+        "p75": 30.0
+      }
+    },
+    {
+      "name": "programming",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 43,
+      "sample_values": [
+        "0",
+        "0",
+        "0",
+        "6",
+        "1"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 148.0,
+        "mean": 8.8051,
+        "median": 3.0,
+        "p25": 0.0,
+        "p75": 9.0
+      }
+    },
+    {
+      "name": "barbershop",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 27,
+      "sample_values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "top_values": [
+        {
+          "value": "0",
+          "count": 137,
+          "pct": 49.5
+        },
+        {
+          "value": "1",
+          "count": 31,
+          "pct": 11.2
+        },
+        {
+          "value": "2",
+          "count": 20,
+          "pct": 7.2
+        },
+        {
+          "value": "3",
+          "count": 18,
+          "pct": 6.5
+        },
+        {
+          "value": "5",
+          "count": 12,
+          "pct": 4.3
+        }
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 41.0,
+        "mean": 3.5162,
+        "median": 1.0,
+        "p25": 0.0,
+        "p75": 4.0
+      }
+    },
+    {
+      "name": "recreation",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 69,
+      "sample_values": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 365.0,
+        "mean": 27.6245,
+        "median": 4.0,
+        "p25": 0.0,
+        "p75": 14.0
+      }
+    },
+    {
+      "name": "other",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 191,
+      "sample_values": [
+        "178",
+        "27",
+        "0",
+        "461",
+        "503"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 2709.0,
+        "mean": 367.3105,
+        "median": 84.0,
+        "p25": 28.0,
+        "p75": 495.0
+      }
+    },
+    {
+      "name": "total_scheduled",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 271,
+      "sample_values": [
+        "13004",
+        "1797",
+        "7514",
+        "3686",
+        "2346"
+      ],
+      "stats": {
+        "min": 939.0,
+        "max": 18505.0,
+        "mean": 6845.5487,
+        "median": 5754.0,
+        "p25": 4168.0,
+        "p75": 9297.0
+      }
+    }
+  ]
+}

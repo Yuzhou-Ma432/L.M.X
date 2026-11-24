@@ -1,0 +1,15 @@
+{
+  "id": "cmni-fvnx",
+  "name": "Restrictive Declaration Sites",
+  "strategy": "baseline",
+  "description": "This dataset lists 28 sites subject to restrictive declarations, with each row representing one site and its associated geographic, administrative, and property details. Fields include identifiers such as objectid and gispropnum, location information such as address, ZIP code, borough, community board, council district, police precinct, and park district, plus acreage and waterfront status. It also records legislative and jurisdictional context, including commission, acquisition, jurisdiction, property name, type category, and the state assembly, state senate, and U.S. congressional districts, along with comments, a pipratable value, and developer information. The data could support recreation and land-use planning, mapping and analysis of restricted sites by district or borough, and research into how restrictive declarations relate to property characteristics and political boundaries.",
+  "prompt": "Title: Restrictive Declaration Sites\nCategory: Recreation\nRows (sampled): 28\nColumns: 23\nColumn names: objectid, gispropnum, parkdistri, ampsparent, location, communityb, councildis, precinct, zipcode, borough, acres, comments, pipratable, commission, acquisitio, jurisdicti, propertyna, typecatego, waterfront, nysassembl, nyssenate, uscongress, developer\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 176,
+    "completion_tokens": 157,
+    "total_tokens": 333
+  },
+  "elapsed_seconds": 1.64
+}

@@ -1,0 +1,15 @@
+{
+  "id": "dsg6-ifza",
+  "name": "DOHMH Childcare Center Inspections (Historical)",
+  "strategy": "baseline",
+  "description": "This dataset contains historical inspection records for childcare centers regulated by the New York City Department of Health and Mental Hygiene. Each row represents a violation or inspection finding tied to a specific center, identified by name, legal name, address, borough, ZIP code, phone, and permit details including permit number, expiration, and permit date. Center characteristics such as age range served, maximum capacity, program type, facility type, and childcare type are included, along with counts of educational workers.\n\nInspection-level fields cover the inspection date, regulation summary, violation category, health code subsection, violation status, and the overall inspection result. The data also includes computed performance metrics: violation rates, average violation rates, public health hazard violation rates, and critical violation rates, each paired with a center or citywide average for comparison. Geographic identifiers such as BIN and a URL for the center are provided.\n\nThe dataset can be used to track inspection outcomes and violation patterns across centers and boroughs, compare individual centers against average rates",
+  "prompt": "Title: DOHMH Childcare Center Inspections (Historical)\nCategory: Health\nRows (sampled): 5000\nColumns: 34\nColumn names: centername, legalname, building, street, borough, zipcode, phone, permitnumber, permitexp, status, agerange, maximumcapacity, dc_id, programtype, facilitytype, childcaretype, bin, url, datepermitted, actual, violationratepercent, violationavgratepercent, totaleducationalworkers, averagetotaleducationalworkers, publichealthhazardviolationrate, averagepublichealthhazardiolationrate, criticalviolationrate, avgcriticalviolationrate, inspectiondate, regulationsummary, violationcategory, healthcodesubsection, violationstatus, inspectionsummaryresult\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "length",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 200,
+    "total_tokens": 432
+  },
+  "elapsed_seconds": 2.18
+}

@@ -1,0 +1,251 @@
+{
+  "id": "qnv7-p7a2",
+  "name": "NYC Parks Drinking Fountains",
+  "description": "Each record is either an individual drinking fountain or multiple drinking fountains that are attached to each other. NYC Parks created the dataset using collector for arcgis. All outdoor drinking fountains in parks were collected and a rigorous QA/QC process followed. In addition to the GPS coordinates the dataset includes descriptions of its physical environment and attributes about the drinking fountain itself.\n\nUser guide: https://drive.google.com/open?id=1whu6gzwBbinNuoBx6FLpaaGOy4cdecOrjRdJEsHwJn8\n\nData Dictionary: https://drive.google.com/open?id=1s7VSUHDJsGcHNghzllmdFgdwEMX2Zps_ygqSMMzfVgo",
+  "category": "Recreation",
+  "permalink": "https://data.cityofnewyork.us/d/qnv7-p7a2",
+  "sampled_rows": 5000,
+  "n_rows": 3849,
+  "n_cols": 12,
+  "columns": [
+    {
+      "name": "system",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3849,
+      "sample_values": [
+        "M076-DF0014",
+        "R011-DF0108",
+        "Q094-DF0496",
+        "M120B-DF0615",
+        "B109-DF1073"
+      ]
+    },
+    {
+      "name": "fountainty",
+      "dtype": "object",
+      "missing": 1,
+      "missing_pct": 0.03,
+      "nunique": 38,
+      "sample_values": [
+        "D",
+        "B",
+        "H",
+        "A",
+        "Indoor Drinking Fountain"
+      ]
+    },
+    {
+      "name": "position",
+      "dtype": "object",
+      "missing": 235,
+      "missing_pct": 6.11,
+      "nunique": 133,
+      "sample_values": [
+        "In Playground",
+        "In Shade",
+        "Under Tree",
+        "Under Tree, In Playground",
+        "Indoor"
+      ]
+    },
+    {
+      "name": "painted",
+      "dtype": "object",
+      "missing": 970,
+      "missing_pct": 25.2,
+      "nunique": 2,
+      "sample_values": [
+        "NO",
+        "YES",
+        "YES",
+        "YES",
+        "NO"
+      ],
+      "top_values": [
+        {
+          "value": "NO",
+          "count": 1676,
+          "pct": 58.2
+        },
+        {
+          "value": "YES",
+          "count": 1203,
+          "pct": 41.8
+        }
+      ]
+    },
+    {
+      "name": "gispropnum",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 988,
+      "sample_values": [
+        "M076",
+        "R011",
+        "Q094",
+        "M120B",
+        "B109"
+      ]
+    },
+    {
+      "name": "propertyna",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 965,
+      "sample_values": [
+        "St. Vartan Park",
+        "Hero Park",
+        "Tudor Park",
+        "Playground of the Americas",
+        "Bill Brown Playground"
+      ]
+    },
+    {
+      "name": "parentid",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1655,
+      "sample_values": [
+        "M076",
+        "R011",
+        "Q094-01",
+        "M120B",
+        "B109-BLG1168"
+      ]
+    },
+    {
+      "name": "borough",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5,
+      "sample_values": [
+        "M",
+        "R",
+        "Q",
+        "M",
+        "B"
+      ],
+      "top_values": [
+        {
+          "value": "B",
+          "count": 1118,
+          "pct": 29.0
+        },
+        {
+          "value": "Q",
+          "count": 978,
+          "pct": 25.4
+        },
+        {
+          "value": "M",
+          "count": 909,
+          "pct": 23.6
+        },
+        {
+          "value": "X",
+          "count": 590,
+          "pct": 15.3
+        },
+        {
+          "value": "R",
+          "count": 254,
+          "pct": 6.6
+        }
+      ]
+    },
+    {
+      "name": "fountainco",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "top_values": [
+        {
+          "value": "1",
+          "count": 3386,
+          "pct": 88.0
+        },
+        {
+          "value": "2",
+          "count": 338,
+          "pct": 8.8
+        },
+        {
+          "value": "3",
+          "count": 125,
+          "pct": 3.2
+        }
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 3.0,
+        "mean": 1.1528,
+        "median": 1.0,
+        "p25": 1.0,
+        "p75": 1.0
+      }
+    },
+    {
+      "name": "department",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 76,
+      "sample_values": [
+        "M-06",
+        "R-01",
+        "Q-10",
+        "M-02",
+        "B-15"
+      ]
+    },
+    {
+      "name": "decription",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2505,
+      "sample_values": [
+        "D-St. Vartan Park",
+        "B-Hero Park",
+        "H-Tudor Park-Addabbo Playground",
+        "A-Playground of the Americas",
+        "Indoor Drinking Fountain-Bill Brown Play…"
+      ]
+    },
+    {
+      "name": "featuresta",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active"
+      ],
+      "top_values": [
+        {
+          "value": "Active",
+          "count": 3849,
+          "pct": 100.0
+        }
+      ]
+    }
+  ]
+}

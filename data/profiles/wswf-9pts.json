@@ -1,0 +1,320 @@
+{
+  "id": "wswf-9pts",
+  "name": "Parks Closure Status Due to COVID-19: Dog Runs",
+  "description": "In response to the COVID-19 pandemic, NYC Parks temporarily closed several amenities, including Dog Runs. This data collection contains the status of each Dog Run, and is subject to change. Although the data feed is refreshed daily, it may not reflect current conditions.\r\n\r\nData Dictionary:\r\n\r\nhttps://docs.google.com/spreadsheets/d/1aaYE82BS-SYh-xjI-t_oyJcNEPFWJNPfdI7T220-rv4/edit#gid=1499621902",
+  "category": "Uncategorized",
+  "permalink": "https://data.cityofnewyork.us/d/wswf-9pts",
+  "sampled_rows": 5000,
+  "n_rows": 85,
+  "n_cols": 16,
+  "columns": [
+    {
+      "name": "borough",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5,
+      "sample_values": [
+        "M",
+        "M",
+        "M",
+        "M",
+        "M"
+      ],
+      "top_values": [
+        {
+          "value": "M",
+          "count": 34,
+          "pct": 40.0
+        },
+        {
+          "value": "B",
+          "count": 18,
+          "pct": 21.2
+        },
+        {
+          "value": "Q",
+          "count": 14,
+          "pct": 16.5
+        },
+        {
+          "value": "X",
+          "count": 14,
+          "pct": 16.5
+        },
+        {
+          "value": "R",
+          "count": 5,
+          "pct": 5.9
+        }
+      ]
+    },
+    {
+      "name": "closuretype",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "Completely Locked",
+        "Completely Locked",
+        "Completely Locked",
+        "Completely Locked",
+        "Completely Locked"
+      ],
+      "top_values": [
+        {
+          "value": "Completely Locked",
+          "count": 85,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "editdate",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 71,
+      "sample_values": [
+        "2020-07-07T13:06:13.000",
+        "2020-07-07T12:09:00.000",
+        "2020-07-08T11:59:33.000",
+        "2020-07-07T12:33:03.000",
+        "2020-07-07T12:32:36.000"
+      ]
+    },
+    {
+      "name": "gispropnum",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 75,
+      "sample_values": [
+        "M089",
+        "M088",
+        "M047",
+        "M053",
+        "M077"
+      ]
+    },
+    {
+      "name": "name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 85,
+      "sample_values": [
+        "Union Square Park Dog Run",
+        "Tompkins Square Park Dog Run",
+        "Thomas Jefferson Park Dog Run",
+        "Theodore Roosevelt Park Dog Run",
+        "St. Nicholas Park Dog Run"
+      ]
+    },
+    {
+      "name": "omppropid",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 82,
+      "sample_values": [
+        "M089",
+        "M088",
+        "M047",
+        "M053",
+        "M077-ZN02"
+      ]
+    },
+    {
+      "name": "parkdistrict",
+      "dtype": "object",
+      "missing": 1,
+      "missing_pct": 1.18,
+      "nunique": 42,
+      "sample_values": [
+        "M-05",
+        "M-03",
+        "M-11",
+        "M-07",
+        "M-09"
+      ]
+    },
+    {
+      "name": "propertyname",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 73,
+      "sample_values": [
+        "Union Square Park",
+        "Tompkins Square Park",
+        "Thomas Jefferson Park",
+        "Theodore Roosevelt Park",
+        "St. Nicholas Park"
+      ]
+    },
+    {
+      "name": "red_sign_installed",
+      "dtype": "object",
+      "missing": 37,
+      "missing_pct": 43.53,
+      "nunique": 2,
+      "sample_values": [
+        "True",
+        "True",
+        "True",
+        "True",
+        "True"
+      ],
+      "top_values": [
+        {
+          "value": "True",
+          "count": 47,
+          "pct": 97.9
+        },
+        {
+          "value": "False",
+          "count": 1,
+          "pct": 2.1
+        }
+      ]
+    },
+    {
+      "name": "status",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "Reopened",
+        "Reopened",
+        "Reopened",
+        "UnderConstruction",
+        "Reopened"
+      ],
+      "top_values": [
+        {
+          "value": "Reopened",
+          "count": 79,
+          "pct": 92.9
+        },
+        {
+          "value": "UnderConstruction",
+          "count": 5,
+          "pct": 5.9
+        },
+        {
+          "value": "COVID-19 Closure",
+          "count": 1,
+          "pct": 1.2
+        }
+      ]
+    },
+    {
+      "name": "subpropertyname",
+      "dtype": "object",
+      "missing": 47,
+      "missing_pct": 55.29,
+      "nunique": 37,
+      "sample_values": [
+        "St Nicholas Park Zone 02",
+        "South Lawn",
+        "Serpentine Promenade",
+        "Morningside Park Zone 1",
+        "Cunningham Park Zone 1"
+      ]
+    },
+    {
+      "name": "system",
+      "dtype": "object",
+      "missing": 1,
+      "missing_pct": 1.18,
+      "nunique": 84,
+      "sample_values": [
+        "M089-DOGAREA0027",
+        "M088-DOGAREA0026",
+        "M047-DOGAREA0012",
+        "M053-DOGAREA0014",
+        "M077-DOGAREA0022"
+      ]
+    },
+    {
+      "name": "yellow_sign_removed",
+      "dtype": "float64",
+      "missing": 85,
+      "missing_pct": 100.0,
+      "nunique": 0,
+      "sample_values": []
+    },
+    {
+      "name": "polygon",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 85,
+      "sample_values": [
+        "POLYGON ((-73.99095698122969 40.73539246…",
+        "POLYGON ((-73.98141327542263 40.72645335…",
+        "POLYGON ((-73.93528895439641 40.79201479…",
+        "POLYGON ((-73.97356522953291 40.78197268…",
+        "POLYGON ((-73.94928819447615 40.81779472…"
+      ]
+    },
+    {
+      "name": "approx_date_closed",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 45,
+      "sample_values": [
+        "2020-04-06T00:00:00.000",
+        "2020-04-06T00:00:00.000",
+        "2020-04-06T00:00:00.000",
+        "2020-04-09T15:55:28.000",
+        "2020-04-06T00:00:00.000"
+      ]
+    },
+    {
+      "name": "approx_date_reopened",
+      "dtype": "object",
+      "missing": 6,
+      "missing_pct": 7.06,
+      "nunique": 11,
+      "sample_values": [
+        "2020-07-06T00:00:00.000",
+        "2020-07-06T00:00:00.000",
+        "2020-07-06T00:00:00.000",
+        "2020-07-06T00:00:00.000",
+        "2020-07-06T00:00:00.000"
+      ],
+      "top_values": [
+        {
+          "value": "2020-07-06T00:00:00.000",
+          "count": 56,
+          "pct": 70.9
+        },
+        {
+          "value": "2020-07-07T00:00:00.000",
+          "count": 10,
+          "pct": 12.7
+        },
+        {
+          "value": "2020-07-06T08:45:00.000",
+          "count": 3,
+          "pct": 3.8
+        },
+        {
+          "value": "2020-07-06T15:40:45.000",
+          "count": 2,
+          "pct": 2.5
+        },
+        {
+          "value": "2020-06-21T00:00:00.000",
+          "count": 2,
+          "pct": 2.5
+        }
+      ]
+    }
+  ]
+}

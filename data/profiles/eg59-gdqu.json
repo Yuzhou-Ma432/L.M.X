@@ -1,0 +1,95 @@
+{
+  "id": "eg59-gdqu",
+  "name": "2017 Diversity Report Admissions Methods",
+  "description": "",
+  "category": "Education",
+  "permalink": "https://data.cityofnewyork.us/d/eg59-gdqu",
+  "sampled_rows": 5000,
+  "n_rows": 1542,
+  "n_cols": 4,
+  "columns": [
+    {
+      "name": "dbn",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1542,
+      "sample_values": [
+        "01M015",
+        "01M019",
+        "01M020",
+        "01M034",
+        "01M063"
+      ]
+    },
+    {
+      "name": "school_name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1539,
+      "sample_values": [
+        "P.S. 015 Roberto Clemente",
+        "P.S. 019 Asher Levy",
+        "P.S. 020 Anna Silver",
+        "P.S. 034 Franklin D. Roosevelt",
+        "The STAR Academy - P.S.63"
+      ]
+    },
+    {
+      "name": "admissions_methods",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 124,
+      "sample_values": [
+        "K: Choice District",
+        "K: Choice District",
+        "K: Choice District",
+        "K: Choice District, MS: Limited Unscreen…",
+        "K: Choice District"
+      ]
+    },
+    {
+      "name": "fully_screened",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 17,
+      "sample_values": [
+        "K: No",
+        "K: No",
+        "K: No",
+        "K: No, MS: No",
+        "K: No"
+      ],
+      "top_values": [
+        {
+          "value": "K: No",
+          "count": 646,
+          "pct": 41.9
+        },
+        {
+          "value": "HS: No",
+          "count": 292,
+          "pct": 18.9
+        },
+        {
+          "value": "MS: No",
+          "count": 213,
+          "pct": 13.8
+        },
+        {
+          "value": "K: No, MS: No",
+          "count": 104,
+          "pct": 6.7
+        },
+        {
+          "value": "Yes",
+          "count": 56,
+          "pct": 3.6
+        }
+      ]
+    }
+  ]
+}

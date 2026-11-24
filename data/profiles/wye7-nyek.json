@@ -1,0 +1,1155 @@
+{
+  "id": "wye7-nyek",
+  "name": "Interagency Coordination and Construction Permits Data (MOSYS)",
+  "description": "NYC Parks' database of external capital projects affecting parkland.\n\nData Dictionary and User Guide: https://docs.google.com/spreadsheets/d/1Xx4yDs00L2ab8M4HH9GLTF47Fkt8oXDvr8WtSpTFsm8/edit?usp=sharing",
+  "category": "City Government",
+  "permalink": "https://data.cityofnewyork.us/d/wye7-nyek",
+  "sampled_rows": 5000,
+  "n_rows": 952,
+  "n_cols": 56,
+  "columns": [
+    {
+      "name": "project_name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 936,
+      "sample_values": [
+        "Filling of Five Bridges over Abandoned C…",
+        "Red flag repairs at the Passerelle bridg…",
+        "Rehabilitation of East 169th Street, Eas…",
+        "Mobility Improvement on Northbound Bruck…",
+        "Groundwater Sustainability of the Long I…"
+      ]
+    },
+    {
+      "name": "project_received_date",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 743,
+      "sample_values": [
+        "2018-09-25T00:00:00.000",
+        "2021-03-08T00:00:00.000",
+        "2016-04-08T00:00:00.000",
+        "2015-08-19T00:00:00.000",
+        "2019-02-01T00:00:00.000"
+      ]
+    },
+    {
+      "name": "project_id_number_op",
+      "dtype": "object",
+      "missing": 379,
+      "missing_pct": 39.81,
+      "nunique": 546,
+      "sample_values": [
+        "HBX163",
+        "LGA-124.431 WO14A",
+        "HBX1670; HBX1215; HBX180",
+        "X731.27",
+        "LK00GHP"
+      ]
+    },
+    {
+      "name": "project_description_type",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 922,
+      "sample_values": [
+        "Project to fill-in bridges passing over …",
+        "Red flag repairs at the Passerelle bridg…",
+        "Rehabilitation of three bridges. No park…",
+        "Reconfiguration of expressway and parkwa…",
+        "Installation of five deep monitoring wel…"
+      ]
+    },
+    {
+      "name": "impacted_park_id_s",
+      "dtype": "object",
+      "missing": 159,
+      "missing_pct": 16.7,
+      "nunique": 486,
+      "sample_values": [
+        "XZ79;X052;X053;",
+        "Q099;",
+        "X039;X101;",
+        "Q220C;B247;B057;B058;B052;Q107;B372;Q084…",
+        "Q221;"
+      ]
+    },
+    {
+      "name": "impacted_park_name_s",
+      "dtype": "object",
+      "missing": 162,
+      "missing_pct": 17.02,
+      "nunique": 455,
+      "sample_values": [
+        "GREENSTREET;Triangle;O'Neill Triangle;",
+        "Flushing Meadows Corona Park;",
+        "Pelham Bay Park;Hutchinson River Parkway…",
+        "Dr. Charles R. Drew Park;Breukelen Ballf…",
+        "Farm Playground;"
+      ]
+    },
+    {
+      "name": "address_intersection",
+      "dtype": "object",
+      "missing": 380,
+      "missing_pct": 39.92,
+      "nunique": 553,
+      "sample_values": [
+        "Passerelle Bridge",
+        "Bruckner Expressway & Pelham Parkway",
+        "Bronx Shore Road",
+        "Cabrini Blvd at Washington Ave",
+        "Clove Road and Cheshire Place"
+      ]
+    },
+    {
+      "name": "borough",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 39,
+      "sample_values": [
+        "Bronx",
+        "Queens",
+        "Bronx",
+        "Bronx",
+        "Queens;#Brooklyn"
+      ]
+    },
+    {
+      "name": "multisite_project",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "Single Site",
+        "Single Site",
+        "Single Site",
+        "Multi Site",
+        "Multi Borough"
+      ],
+      "top_values": [
+        {
+          "value": "Single Site",
+          "count": 747,
+          "pct": 78.5
+        },
+        {
+          "value": "Multi Site",
+          "count": 120,
+          "pct": 12.6
+        },
+        {
+          "value": "Multi Borough",
+          "count": 85,
+          "pct": 8.9
+        }
+      ]
+    },
+    {
+      "name": "sponsoring_agency_entity",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 38,
+      "sample_values": [
+        "CDOT",
+        "PANYNJ",
+        "CDOT",
+        "SDOT",
+        "USGS"
+      ]
+    },
+    {
+      "name": "primary_scope_of_work",
+      "dtype": "object",
+      "missing": 208,
+      "missing_pct": 21.85,
+      "nunique": 20,
+      "sample_values": [
+        "Bridge Reconstruction (Major)",
+        "Bridge Component Rehabilitation",
+        "Bridge Component Rehabilitation",
+        "Parkway/Arterial Improvement",
+        "Resiliency"
+      ],
+      "top_values": [
+        {
+          "value": "Sewer/Water Main",
+          "count": 122,
+          "pct": 16.4
+        },
+        {
+          "value": "Park Improvement/New Park",
+          "count": 111,
+          "pct": 14.9
+        },
+        {
+          "value": "Bridge Component Rehabilitation",
+          "count": 77,
+          "pct": 10.3
+        },
+        {
+          "value": "Utility (gas, electric, telephone)",
+          "count": 74,
+          "pct": 9.9
+        },
+        {
+          "value": "Public Building",
+          "count": 58,
+          "pct": 7.8
+        }
+      ]
+    },
+    {
+      "name": "impacted_parks_division_s",
+      "dtype": "object",
+      "missing": 165,
+      "missing_pct": 17.33,
+      "nunique": 221,
+      "sample_values": [
+        "Borough Forestry;#Borough Operations;#Bo…",
+        "Borough Operations;#Capital Projects;#Le…",
+        "Borough Operations;#Borough Forestry;#Ce…",
+        "Borough Operations;#Other;#Borough Fores…",
+        "Borough Operations;#Borough Forestry"
+      ]
+    },
+    {
+      "name": "park_impact_type",
+      "dtype": "object",
+      "missing": 142,
+      "missing_pct": 14.92,
+      "nunique": 139,
+      "sample_values": [
+        "Staging;#Partial Park Closure;#Excavatio…",
+        "Park Improvement;#Access-Only",
+        "No Parkland Impact",
+        "Staging;#Excavation;#Partial Park Closur…",
+        "Excavation;#Other;#Partial Park Closure"
+      ]
+    },
+    {
+      "name": "contract_value_op",
+      "dtype": "float64",
+      "missing": 791,
+      "missing_pct": 83.09,
+      "nunique": 151,
+      "sample_values": [
+        "16362738.08",
+        "37000000.0",
+        "28345000.0",
+        "4213500.0",
+        "204107000.0"
+      ],
+      "stats": {
+        "min": 2000.0,
+        "max": 600000000.0,
+        "mean": 36337265.7907,
+        "median": 6067341.0,
+        "p25": 500000.0,
+        "p75": 28345000.0
+      }
+    },
+    {
+      "name": "current_phase",
+      "dtype": "object",
+      "missing": 9,
+      "missing_pct": 0.95,
+      "nunique": 5,
+      "sample_values": [
+        "Conditional-Accepted (Subst. Compl.)",
+        "Permitting",
+        "Construction",
+        "Permitting",
+        "Construction"
+      ],
+      "top_values": [
+        {
+          "value": "Construction",
+          "count": 330,
+          "pct": 35.0
+        },
+        {
+          "value": "Presumed Complete",
+          "count": 326,
+          "pct": 34.6
+        },
+        {
+          "value": "Final-Accepted (Closed Out)",
+          "count": 193,
+          "pct": 20.5
+        },
+        {
+          "value": "Permitting",
+          "count": 61,
+          "pct": 6.5
+        },
+        {
+          "value": "Conditional-Accepted (Subst. Compl.)",
+          "count": 33,
+          "pct": 3.5
+        }
+      ]
+    },
+    {
+      "name": "scoping_initiated_kick_off_op",
+      "dtype": "object",
+      "missing": 945,
+      "missing_pct": 99.26,
+      "nunique": 7,
+      "sample_values": [
+        "2017-06-27T00:00:00.000",
+        "2018-02-26T00:00:00.000",
+        "2017-07-24T00:00:00.000",
+        "2017-02-15T00:00:00.000",
+        "2016-06-09T00:00:00.000"
+      ],
+      "top_values": [
+        {
+          "value": "2017-06-27T00:00:00.000",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "value": "2018-02-26T00:00:00.000",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "value": "2017-07-24T00:00:00.000",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "value": "2017-02-15T00:00:00.000",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "value": "2016-06-09T00:00:00.000",
+          "count": 1,
+          "pct": 14.3
+        }
+      ]
+    },
+    {
+      "name": "scoping_response_due_date_op",
+      "dtype": "object",
+      "missing": 951,
+      "missing_pct": 99.89,
+      "nunique": 1,
+      "sample_values": [
+        "2017-10-13T00:00:00.000"
+      ],
+      "top_values": [
+        {
+          "value": "2017-10-13T00:00:00.000",
+          "count": 1,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "design_consultant_op",
+      "dtype": "object",
+      "missing": 915,
+      "missing_pct": 96.11,
+      "nunique": 27,
+      "sample_values": [
+        "HNTB",
+        "AECOM; Dewberry; MNLA",
+        "Dewberry",
+        "AECOM",
+        "Dewberry"
+      ],
+      "top_values": [
+        {
+          "value": "Dewberry",
+          "count": 5,
+          "pct": 13.5
+        },
+        {
+          "value": "AECOM",
+          "count": 3,
+          "pct": 8.1
+        },
+        {
+          "value": "AKRF",
+          "count": 3,
+          "pct": 8.1
+        },
+        {
+          "value": "STV Inc.",
+          "count": 2,
+          "pct": 5.4
+        },
+        {
+          "value": "NV5",
+          "count": 2,
+          "pct": 5.4
+        }
+      ]
+    },
+    {
+      "name": "public_design_commission_approval_required",
+      "dtype": "object",
+      "missing": 843,
+      "missing_pct": 88.55,
+      "nunique": 2,
+      "sample_values": [
+        "No",
+        "No",
+        "No",
+        "No",
+        "No"
+      ],
+      "top_values": [
+        {
+          "value": "No",
+          "count": 91,
+          "pct": 83.5
+        },
+        {
+          "value": "Yes",
+          "count": 18,
+          "pct": 16.5
+        }
+      ]
+    },
+    {
+      "name": "preliminary_public_design_commission_approval",
+      "dtype": "object",
+      "missing": 942,
+      "missing_pct": 98.95,
+      "nunique": 10,
+      "sample_values": [
+        "2020-04-20T00:00:00.000",
+        "2018-04-01T00:00:00.000",
+        "2019-11-18T00:00:00.000",
+        "2020-05-18T00:00:00.000",
+        "2017-05-22T00:00:00.000"
+      ],
+      "top_values": [
+        {
+          "value": "2020-04-20T00:00:00.000",
+          "count": 1,
+          "pct": 10.0
+        },
+        {
+          "value": "2018-04-01T00:00:00.000",
+          "count": 1,
+          "pct": 10.0
+        },
+        {
+          "value": "2019-11-18T00:00:00.000",
+          "count": 1,
+          "pct": 10.0
+        },
+        {
+          "value": "2020-05-18T00:00:00.000",
+          "count": 1,
+          "pct": 10.0
+        },
+        {
+          "value": "2017-05-22T00:00:00.000",
+          "count": 1,
+          "pct": 10.0
+        }
+      ]
+    },
+    {
+      "name": "final_public_design_commission_approval",
+      "dtype": "object",
+      "missing": 940,
+      "missing_pct": 98.74,
+      "nunique": 12,
+      "sample_values": [
+        "2020-04-20T00:00:00.000",
+        "2019-01-03T00:00:00.000",
+        "2019-10-21T00:00:00.000",
+        "2019-11-18T00:00:00.000",
+        "2019-01-23T00:00:00.000"
+      ],
+      "top_values": [
+        {
+          "value": "2020-04-20T00:00:00.000",
+          "count": 1,
+          "pct": 8.3
+        },
+        {
+          "value": "2019-01-03T00:00:00.000",
+          "count": 1,
+          "pct": 8.3
+        },
+        {
+          "value": "2019-10-21T00:00:00.000",
+          "count": 1,
+          "pct": 8.3
+        },
+        {
+          "value": "2019-11-18T00:00:00.000",
+          "count": 1,
+          "pct": 8.3
+        },
+        {
+          "value": "2019-01-23T00:00:00.000",
+          "count": 1,
+          "pct": 8.3
+        }
+      ]
+    },
+    {
+      "name": "mass_mailing_1_received_date",
+      "dtype": "object",
+      "missing": 923,
+      "missing_pct": 96.95,
+      "nunique": 29,
+      "sample_values": [
+        "2020-09-17T00:00:00.000",
+        "2018-07-16T00:00:00.000",
+        "2020-08-18T00:00:00.000",
+        "2019-09-10T00:00:00.000",
+        "2015-09-09T00:00:00.000"
+      ],
+      "top_values": [
+        {
+          "value": "2020-09-17T00:00:00.000",
+          "count": 1,
+          "pct": 3.4
+        },
+        {
+          "value": "2018-07-16T00:00:00.000",
+          "count": 1,
+          "pct": 3.4
+        },
+        {
+          "value": "2020-08-18T00:00:00.000",
+          "count": 1,
+          "pct": 3.4
+        },
+        {
+          "value": "2019-09-10T00:00:00.000",
+          "count": 1,
+          "pct": 3.4
+        },
+        {
+          "value": "2015-09-09T00:00:00.000",
+          "count": 1,
+          "pct": 3.4
+        }
+      ]
+    },
+    {
+      "name": "mass_mailing_2_received_date",
+      "dtype": "object",
+      "missing": 927,
+      "missing_pct": 97.37,
+      "nunique": 25,
+      "sample_values": [
+        "2017-12-12T00:00:00.000",
+        "2021-01-26T00:00:00.000",
+        "2018-12-19T00:00:00.000",
+        "2019-10-03T00:00:00.000",
+        "2017-09-11T00:00:00.000"
+      ],
+      "top_values": [
+        {
+          "value": "2017-12-12T00:00:00.000",
+          "count": 1,
+          "pct": 4.0
+        },
+        {
+          "value": "2021-01-26T00:00:00.000",
+          "count": 1,
+          "pct": 4.0
+        },
+        {
+          "value": "2018-12-19T00:00:00.000",
+          "count": 1,
+          "pct": 4.0
+        },
+        {
+          "value": "2019-10-03T00:00:00.000",
+          "count": 1,
+          "pct": 4.0
+        },
+        {
+          "value": "2017-09-11T00:00:00.000",
+          "count": 1,
+          "pct": 4.0
+        }
+      ]
+    },
+    {
+      "name": "mass_mailing_3_received_date",
+      "dtype": "object",
+      "missing": 930,
+      "missing_pct": 97.69,
+      "nunique": 22,
+      "sample_values": [
+        "2018-07-12T00:00:00.000",
+        "2021-04-22T00:00:00.000",
+        "2018-06-05T00:00:00.000",
+        "2019-05-06T00:00:00.000",
+        "2019-12-10T00:00:00.000"
+      ],
+      "top_values": [
+        {
+          "value": "2018-07-12T00:00:00.000",
+          "count": 1,
+          "pct": 4.5
+        },
+        {
+          "value": "2021-04-22T00:00:00.000",
+          "count": 1,
+          "pct": 4.5
+        },
+        {
+          "value": "2018-06-05T00:00:00.000",
+          "count": 1,
+          "pct": 4.5
+        },
+        {
+          "value": "2019-05-06T00:00:00.000",
+          "count": 1,
+          "pct": 4.5
+        },
+        {
+          "value": "2019-12-10T00:00:00.000",
+          "count": 1,
+          "pct": 4.5
+        }
+      ]
+    },
+    {
+      "name": "design_completion_date_op",
+      "dtype": "object",
+      "missing": 929,
+      "missing_pct": 97.58,
+      "nunique": 23,
+      "sample_values": [
+        "2019-11-27T00:00:00.000",
+        "2019-08-01T00:00:00.000",
+        "2020-11-05T00:00:00.000",
+        "2020-12-01T00:00:00.000",
+        "2019-12-18T00:00:00.000"
+      ],
+      "top_values": [
+        {
+          "value": "2019-11-27T00:00:00.000",
+          "count": 1,
+          "pct": 4.3
+        },
+        {
+          "value": "2019-08-01T00:00:00.000",
+          "count": 1,
+          "pct": 4.3
+        },
+        {
+          "value": "2020-11-05T00:00:00.000",
+          "count": 1,
+          "pct": 4.3
+        },
+        {
+          "value": "2020-12-01T00:00:00.000",
+          "count": 1,
+          "pct": 4.3
+        },
+        {
+          "value": "2019-12-18T00:00:00.000",
+          "count": 1,
+          "pct": 4.3
+        }
+      ]
+    },
+    {
+      "name": "construction_manager_op",
+      "dtype": "object",
+      "missing": 850,
+      "missing_pct": 89.29,
+      "nunique": 36,
+      "sample_values": [
+        "EIC",
+        "RE",
+        "Project Manager, Pedestrian Ramp Program",
+        "RE",
+        "Project Engineer"
+      ]
+    },
+    {
+      "name": "construction_manager_company_op",
+      "dtype": "object",
+      "missing": 864,
+      "missing_pct": 90.76,
+      "nunique": 48,
+      "sample_values": [
+        "Parsons",
+        "DOT",
+        "Hardesty & Hanover",
+        "Posillico",
+        "Liro Group"
+      ]
+    },
+    {
+      "name": "construction_kickoff_op",
+      "dtype": "object",
+      "missing": 890,
+      "missing_pct": 93.49,
+      "nunique": 62,
+      "sample_values": [
+        "2018-11-29T00:00:00.000",
+        "2018-01-30T00:00:00.000",
+        "2020-08-28T00:00:00.000",
+        "2021-05-04T00:00:00.000",
+        "2019-06-25T00:00:00.000"
+      ]
+    },
+    {
+      "name": "expected_construction_end_date_op",
+      "dtype": "object",
+      "missing": 883,
+      "missing_pct": 92.75,
+      "nunique": 68,
+      "sample_values": [
+        "2021-01-05T00:00:00.000",
+        "2023-12-19T00:00:00.000",
+        "2020-06-30T00:00:00.000",
+        "2020-04-15T00:00:00.000",
+        "2022-07-19T00:00:00.000"
+      ]
+    },
+    {
+      "name": "actual_construction_end_date_op",
+      "dtype": "object",
+      "missing": 932,
+      "missing_pct": 97.9,
+      "nunique": 20,
+      "sample_values": [
+        "2020-05-04T00:00:00.000",
+        "2020-08-18T00:00:00.000",
+        "2020-03-31T00:00:00.000",
+        "2024-06-15T00:00:00.000",
+        "2019-11-04T00:00:00.000"
+      ],
+      "top_values": [
+        {
+          "value": "2020-05-04T00:00:00.000",
+          "count": 1,
+          "pct": 5.0
+        },
+        {
+          "value": "2020-08-18T00:00:00.000",
+          "count": 1,
+          "pct": 5.0
+        },
+        {
+          "value": "2020-03-31T00:00:00.000",
+          "count": 1,
+          "pct": 5.0
+        },
+        {
+          "value": "2024-06-15T00:00:00.000",
+          "count": 1,
+          "pct": 5.0
+        },
+        {
+          "value": "2019-11-04T00:00:00.000",
+          "count": 1,
+          "pct": 5.0
+        }
+      ]
+    },
+    {
+      "name": "contractor_for_construction_permit_firm_name",
+      "dtype": "object",
+      "missing": 261,
+      "missing_pct": 27.42,
+      "nunique": 528,
+      "sample_values": [
+        "Perfetto Contracting Co. Inc.",
+        "The Morganti Group. Inc.",
+        "Beaver Concrete Construction Co., Inc.",
+        "Delta Well & Pump Co",
+        "Municipal Testing Laboratory, Inc"
+      ]
+    },
+    {
+      "name": "construction_permit_request_received_date",
+      "dtype": "object",
+      "missing": 448,
+      "missing_pct": 47.06,
+      "nunique": 404,
+      "sample_values": [
+        "2019-01-14T00:00:00.000",
+        "2021-05-03T00:00:00.000",
+        "2020-08-28T00:00:00.000",
+        "2020-12-04T00:00:00.000",
+        "2021-02-23T00:00:00.000"
+      ]
+    },
+    {
+      "name": "construction_permit_id",
+      "dtype": "object",
+      "missing": 293,
+      "missing_pct": 30.78,
+      "nunique": 659,
+      "sample_values": [
+        "X053.20190211",
+        "Q099.20210503",
+        "XG.20210426",
+        "CNYG.20200828",
+        "X126.20201114"
+      ]
+    },
+    {
+      "name": "latest_site_visit",
+      "dtype": "object",
+      "missing": 697,
+      "missing_pct": 73.21,
+      "nunique": 221,
+      "sample_values": [
+        "2020-02-28T00:00:00.000",
+        "2021-04-28T00:00:00.000",
+        "2020-11-17T00:00:00.000",
+        "2019-04-22T00:00:00.000",
+        "2021-03-16T00:00:00.000"
+      ]
+    },
+    {
+      "name": "forestry_permit_status",
+      "dtype": "object",
+      "missing": 554,
+      "missing_pct": 58.19,
+      "nunique": 4,
+      "sample_values": [
+        "Approved",
+        "Not Received",
+        "Approved",
+        "Approved",
+        "Approved"
+      ],
+      "top_values": [
+        {
+          "value": "Approved",
+          "count": 222,
+          "pct": 55.8
+        },
+        {
+          "value": "Not Required",
+          "count": 151,
+          "pct": 37.9
+        },
+        {
+          "value": "Pending",
+          "count": 18,
+          "pct": 4.5
+        },
+        {
+          "value": "Not Received",
+          "count": 7,
+          "pct": 1.8
+        }
+      ]
+    },
+    {
+      "name": "forestry_permit_id_number",
+      "dtype": "object",
+      "missing": 769,
+      "missing_pct": 80.78,
+      "nunique": 179,
+      "sample_values": [
+        "BX-105",
+        "QP21-060; QP21-061",
+        "WSU13MF19",
+        "QP21-028",
+        "BX-234"
+      ]
+    },
+    {
+      "name": "construction_permit_special_conditions",
+      "dtype": "object",
+      "missing": 713,
+      "missing_pct": 74.89,
+      "nunique": 231,
+      "sample_values": [
+        "i.\tContractor to restore/replace the ful…",
+        "i.\tMcCarren Park: Work within this park,…",
+        "Permittee shall perform the asphalt pavi…",
+        "i. Coordinate with Parks on Parks’ work …",
+        "Upon issuance, this permit is valid only…"
+      ]
+    },
+    {
+      "name": "borough_approval_date",
+      "dtype": "object",
+      "missing": 571,
+      "missing_pct": 59.98,
+      "nunique": 325,
+      "sample_values": [
+        "2019-04-12T00:00:00.000",
+        "2020-12-03T00:00:00.000",
+        "2019-04-18T00:00:00.000",
+        "2020-09-01T00:00:00.000",
+        "2017-07-24T00:00:00.000"
+      ]
+    },
+    {
+      "name": "permit_issuance_date",
+      "dtype": "object",
+      "missing": 802,
+      "missing_pct": 84.24,
+      "nunique": 121,
+      "sample_values": [
+        "2017-10-20T00:00:00.000",
+        "2017-06-07T00:00:00.000",
+        "2017-01-07T00:00:00.000",
+        "2016-12-19T00:00:00.000",
+        "2017-01-10T00:00:00.000"
+      ]
+    },
+    {
+      "name": "permit_start_date",
+      "dtype": "object",
+      "missing": 322,
+      "missing_pct": 33.82,
+      "nunique": 440,
+      "sample_values": [
+        "2019-04-15T00:00:00.000",
+        "2021-10-18T00:00:00.000",
+        "2020-09-14T00:00:00.000",
+        "2020-11-05T00:00:00.000",
+        "2019-07-31T00:00:00.000"
+      ]
+    },
+    {
+      "name": "original_permit_expiration_date",
+      "dtype": "object",
+      "missing": 312,
+      "missing_pct": 32.77,
+      "nunique": 365,
+      "sample_values": [
+        "2020-06-30T00:00:00.000",
+        "2023-10-17T00:00:00.000",
+        "2021-02-26T00:00:00.000",
+        "2020-12-04T00:00:00.000",
+        "2021-07-31T00:00:00.000"
+      ]
+    },
+    {
+      "name": "latest_permit_extension_amendment_request_date",
+      "dtype": "object",
+      "missing": 780,
+      "missing_pct": 81.93,
+      "nunique": 158,
+      "sample_values": [
+        "2021-03-25T00:00:00.000",
+        "2020-12-04T00:00:00.000",
+        "2021-04-16T00:00:00.000",
+        "2021-04-22T00:00:00.000",
+        "2021-01-04T00:00:00.000"
+      ]
+    },
+    {
+      "name": "latest_permit_extension_amendment_issuance_date",
+      "dtype": "object",
+      "missing": 774,
+      "missing_pct": 81.3,
+      "nunique": 153,
+      "sample_values": [
+        "2021-04-12T00:00:00.000",
+        "2021-04-28T00:00:00.000",
+        "2021-04-27T00:00:00.000",
+        "2021-04-23T00:00:00.000",
+        "2021-04-01T00:00:00.000"
+      ]
+    },
+    {
+      "name": "latest_permit_expiration_date",
+      "dtype": "object",
+      "missing": 668,
+      "missing_pct": 70.17,
+      "nunique": 162,
+      "sample_values": [
+        "2021-11-30T00:00:00.000",
+        "2021-05-28T00:00:00.000",
+        "2021-06-30T00:00:00.000",
+        "2021-04-30T00:00:00.000",
+        "2019-08-12T00:00:00.000"
+      ]
+    },
+    {
+      "name": "permit_amendment_content",
+      "dtype": "object",
+      "missing": 848,
+      "missing_pct": 89.08,
+      "nunique": 104,
+      "sample_values": [
+        "1) Two sites in two Queens parks – Dr Ch…",
+        "Permit activated.",
+        "Cable demolition scope above new operati…",
+        "Permittee is authorized to construct a t…",
+        "Phase 2 of work at 16 Sycamores Authoriz…"
+      ]
+    },
+    {
+      "name": "exploratory_permit_id",
+      "dtype": "object",
+      "missing": 902,
+      "missing_pct": 94.75,
+      "nunique": 49,
+      "sample_values": [
+        "XG.E.20190507; XG.E.20200724",
+        "Q221.E.20201229",
+        "R149.E.20210419",
+        "M196.E.20190724",
+        "Q099.E.20190124"
+      ]
+    },
+    {
+      "name": "substantial_completion_date_op",
+      "dtype": "object",
+      "missing": 896,
+      "missing_pct": 94.12,
+      "nunique": 56,
+      "sample_values": [
+        "2019-06-01T00:00:00.000",
+        "2019-07-03T00:00:00.000",
+        "2019-11-13T00:00:00.000",
+        "2017-09-30T00:00:00.000",
+        "2020-06-05T00:00:00.000"
+      ]
+    },
+    {
+      "name": "final_inspection_date",
+      "dtype": "object",
+      "missing": 895,
+      "missing_pct": 94.01,
+      "nunique": 57,
+      "sample_values": [
+        "2020-09-09T00:00:00.000",
+        "2020-08-11T00:00:00.000",
+        "2020-08-07T00:00:00.000",
+        "2020-07-18T00:00:00.000",
+        "2019-10-22T00:00:00.000"
+      ]
+    },
+    {
+      "name": "latest_inspection_site_visit",
+      "dtype": "object",
+      "missing": 889,
+      "missing_pct": 93.38,
+      "nunique": 59,
+      "sample_values": [
+        "2020-05-08T00:00:00.000",
+        "2021-01-12T00:00:00.000",
+        "2021-03-10T00:00:00.000",
+        "2020-03-03T00:00:00.000",
+        "2020-09-09T00:00:00.000"
+      ]
+    },
+    {
+      "name": "punchlist_generated",
+      "dtype": "object",
+      "missing": 911,
+      "missing_pct": 95.69,
+      "nunique": 40,
+      "sample_values": [
+        "2020-05-04T00:00:00.000",
+        "2021-01-12T00:00:00.000",
+        "2021-03-10T00:00:00.000",
+        "2019-07-03T00:00:00.000",
+        "2020-08-25T00:00:00.000"
+      ]
+    },
+    {
+      "name": "conditional_letter_issued",
+      "dtype": "object",
+      "missing": 918,
+      "missing_pct": 96.43,
+      "nunique": 32,
+      "sample_values": [
+        "2020-05-18T00:00:00.000",
+        "2019-07-03T00:00:00.000",
+        "2019-05-23T00:00:00.000",
+        "2018-10-25T00:00:00.000",
+        "2019-10-22T00:00:00.000"
+      ]
+    },
+    {
+      "name": "final_acceptance_of_park_by_borough",
+      "dtype": "object",
+      "missing": 901,
+      "missing_pct": 94.64,
+      "nunique": 50,
+      "sample_values": [
+        "2021-04-05T00:00:00.000",
+        "2021-03-02T00:00:00.000",
+        "2020-10-20T00:00:00.000",
+        "2020-09-09T00:00:00.000",
+        "2020-01-06T00:00:00.000"
+      ]
+    },
+    {
+      "name": "final_acceptance_letter_date",
+      "dtype": "object",
+      "missing": 895,
+      "missing_pct": 94.01,
+      "nunique": 57,
+      "sample_values": [
+        "2021-04-16T00:00:00.000",
+        "2020-09-09T00:00:00.000",
+        "2020-01-09T00:00:00.000",
+        "2020-08-07T00:00:00.000",
+        "2020-07-31T00:00:00.000"
+      ]
+    },
+    {
+      "name": "created",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 907,
+      "sample_values": [
+        "2018-12-07T13:22:00.000",
+        "2021-05-03T16:02:00.000",
+        "2021-05-03T12:27:00.000",
+        "2016-11-29T09:26:00.000",
+        "2019-02-01T13:06:00.000"
+      ]
+    },
+    {
+      "name": "modified",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 553,
+      "sample_values": [
+        "2021-05-04T11:16:00.000",
+        "2021-05-03T16:54:00.000",
+        "2021-05-03T12:31:00.000",
+        "2021-04-30T14:19:00.000",
+        "2021-04-28T09:57:00.000"
+      ]
+    },
+    {
+      "name": "coordinates",
+      "dtype": "object",
+      "missing": 280,
+      "missing_pct": 29.41,
+      "nunique": 667,
+      "sample_values": [
+        "40.823690, -73.911201",
+        "40.753287, -73.844672",
+        "40.857479, -73.825591",
+        "40.719018, -73.951823",
+        "40.735643, -73.777609"
+      ]
+    }
+  ]
+}

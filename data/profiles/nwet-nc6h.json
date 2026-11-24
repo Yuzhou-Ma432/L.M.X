@@ -1,0 +1,151 @@
+{
+  "id": "nwet-nc6h",
+  "name": "Tax Credits By Agi Range",
+  "description": "Number of tax filers/payers using various tax credits and amount of credit, by income ranges",
+  "category": "Uncategorized",
+  "permalink": "https://data.cityofnewyork.us/d/nwet-nc6h",
+  "sampled_rows": 5000,
+  "n_rows": 8,
+  "n_cols": 3,
+  "columns": [
+    {
+      "name": "income_group",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 8,
+      "sample_values": [
+        "1st Decile ",
+        "2nd Decile",
+        "3rd Decile",
+        "4th Decile ",
+        "5th Decile "
+      ],
+      "top_values": [
+        {
+          "value": "1st Decile ",
+          "count": 1,
+          "pct": 12.5
+        },
+        {
+          "value": "2nd Decile",
+          "count": 1,
+          "pct": 12.5
+        },
+        {
+          "value": "3rd Decile",
+          "count": 1,
+          "pct": 12.5
+        },
+        {
+          "value": "4th Decile ",
+          "count": 1,
+          "pct": 12.5
+        },
+        {
+          "value": "5th Decile ",
+          "count": 1,
+          "pct": 12.5
+        }
+      ]
+    },
+    {
+      "name": "total_eitc_dollars_in_millions",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 8,
+      "sample_values": [
+        "1.5",
+        "11.7",
+        "27.4",
+        "27.0",
+        "18.9"
+      ],
+      "top_values": [
+        {
+          "value": "1.5",
+          "count": 1,
+          "pct": 12.5
+        },
+        {
+          "value": "11.7",
+          "count": 1,
+          "pct": 12.5
+        },
+        {
+          "value": "27.4",
+          "count": 1,
+          "pct": 12.5
+        },
+        {
+          "value": "27.0",
+          "count": 1,
+          "pct": 12.5
+        },
+        {
+          "value": "18.9",
+          "count": 1,
+          "pct": 12.5
+        }
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 27.4,
+        "mean": 11.8625,
+        "median": 9.65,
+        "p25": 1.325,
+        "p75": 20.925
+      }
+    },
+    {
+      "name": "number_of_eitc_recipients",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 8,
+      "sample_values": [
+        "58511",
+        "198405",
+        "216446",
+        "147528",
+        "135940"
+      ],
+      "top_values": [
+        {
+          "value": "58511",
+          "count": 1,
+          "pct": 12.5
+        },
+        {
+          "value": "198405",
+          "count": 1,
+          "pct": 12.5
+        },
+        {
+          "value": "216446",
+          "count": 1,
+          "pct": 12.5
+        },
+        {
+          "value": "147528",
+          "count": 1,
+          "pct": 12.5
+        },
+        {
+          "value": "135940",
+          "count": 1,
+          "pct": 12.5
+        }
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 216446.0,
+        "mean": 110607.75,
+        "median": 120498.5,
+        "p25": 49627.0,
+        "p75": 160247.25
+      }
+    }
+  ]
+}

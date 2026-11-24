@@ -1,0 +1,867 @@
+{
+  "id": "vy5i-a666",
+  "name": "Advertised Lotteries on Housing Connect by Lottery",
+  "description": "This dataset contains information about housing lotteries that have been advertised on Housing Connect (https://housingconnect.nyc.gov/PublicWeb/) since July 2020 at the lottery level. A Housing Connect lottery is a one-time advertising effort to solicit applications for a set of units or places on a waiting list for immediate occupancy, typically in a single building/development. Sometimes, a lottery may be for units spread across two or more buildings. You can find the number of buildings included in a lottery under the 'Building Count' column. You can connect the 'Advertised Lotteries on Housing Connect by Lottery' dataset and the '<a href =\"https://data.cityofnewyork.us/d/nibs-na6y/about_data\">Advertised Lotteries on Housing Connect By Building</a>' dataset by using the 'Lottery ID'. These datasets do not include 'mini lotteries', which are newly vacant re-rental or resale units that may be filled directly with eligible Housing Connect users who have opted to be considered for those. In the current version of the dataset, it also does not include lotteries advertised for the Mitchell-Lama developments since these are to replenish the waiting list for future vacancies. More information is available in the 'FAQ' (Frequently Asked Questions) tab. Note: We will be publishing a dataset on Housing Connect applicants (household size, income, demographics, etc.) in the future.",
+  "category": "Housing & Development",
+  "permalink": "https://data.cityofnewyork.us/d/vy5i-a666",
+  "sampled_rows": 5000,
+  "n_rows": 1789,
+  "n_cols": 30,
+  "columns": [
+    {
+      "name": "lottery_id",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1789,
+      "sample_values": [
+        "3249",
+        "4646",
+        "3722",
+        "2150",
+        "3600"
+      ],
+      "stats": {
+        "min": 1665.0,
+        "max": 7729.0,
+        "mean": 4492.5075,
+        "median": 4181.0,
+        "p25": 2682.0,
+        "p75": 6892.0
+      }
+    },
+    {
+      "name": "lottery_name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1789,
+      "sample_values": [
+        "Melrose North Apartments",
+        "NME 3 Coops",
+        "134-16 36 Road Apartments",
+        "545 St. Marks Avenue Apartments",
+        "422 East 31 Street"
+      ]
+    },
+    {
+      "name": "lottery_status",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "All Units Filled",
+        "Tenant Selection",
+        "Tenant Selection",
+        "All Units Filled",
+        "All Units Filled"
+      ],
+      "top_values": [
+        {
+          "value": "Tenant Selection",
+          "count": 846,
+          "pct": 47.3
+        },
+        {
+          "value": "All Units Filled",
+          "count": 841,
+          "pct": 47.0
+        },
+        {
+          "value": "Closed",
+          "count": 55,
+          "pct": 3.1
+        },
+        {
+          "value": "Active",
+          "count": 47,
+          "pct": 2.6
+        }
+      ]
+    },
+    {
+      "name": "development_type",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Rental",
+        "Owner",
+        "Rental",
+        "Rental",
+        "Rental"
+      ],
+      "top_values": [
+        {
+          "value": "Rental",
+          "count": 1737,
+          "pct": 97.1
+        },
+        {
+          "value": "Owner",
+          "count": 52,
+          "pct": 2.9
+        }
+      ]
+    },
+    {
+      "name": "lottery_start_date",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 979,
+      "sample_values": [
+        "2022-12-01T00:00:00.000",
+        "2024-04-19T00:00:00.000",
+        "2023-05-05T00:00:00.000",
+        "2021-05-03T00:00:00.000",
+        "2023-04-03T00:00:00.000"
+      ]
+    },
+    {
+      "name": "lottery_end_date",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1000,
+      "sample_values": [
+        "2023-01-30T00:00:00.000",
+        "2024-06-18T00:00:00.000",
+        "2023-06-01T00:00:00.000",
+        "2021-05-24T00:00:00.000",
+        "2023-05-24T00:00:00.000"
+      ]
+    },
+    {
+      "name": "building_count",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 19,
+      "sample_values": [
+        "1",
+        "2",
+        "1",
+        "1",
+        "1"
+      ],
+      "top_values": [
+        {
+          "value": "1",
+          "count": 1645,
+          "pct": 92.0
+        },
+        {
+          "value": "2",
+          "count": 95,
+          "pct": 5.3
+        },
+        {
+          "value": "3",
+          "count": 21,
+          "pct": 1.2
+        },
+        {
+          "value": "5",
+          "count": 7,
+          "pct": 0.4
+        },
+        {
+          "value": "4",
+          "count": 6,
+          "pct": 0.3
+        }
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 40.0,
+        "mean": 1.2264,
+        "median": 1.0,
+        "p25": 1.0,
+        "p75": 1.0
+      }
+    },
+    {
+      "name": "unit_count",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 212,
+      "sample_values": [
+        "67",
+        "52",
+        "8",
+        "3",
+        "3"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 747.0,
+        "mean": 36.5668,
+        "median": 12.0,
+        "p25": 4.0,
+        "p75": 38.0
+      }
+    },
+    {
+      "name": "unit_distribution_studio",
+      "dtype": "float64",
+      "missing": 832,
+      "missing_pct": 46.51,
+      "nunique": 93,
+      "sample_values": [
+        "1.0",
+        "1.0",
+        "3.0",
+        "41.0",
+        "22.0"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 238.0,
+        "mean": 15.3302,
+        "median": 6.0,
+        "p25": 2.0,
+        "p75": 18.0
+      }
+    },
+    {
+      "name": "unit_distribution_1bed",
+      "dtype": "float64",
+      "missing": 240,
+      "missing_pct": 13.42,
+      "nunique": 125,
+      "sample_values": [
+        "36.0",
+        "20.0",
+        "5.0",
+        "3.0",
+        "1.0"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 381.0,
+        "mean": 18.4977,
+        "median": 7.0,
+        "p25": 3.0,
+        "p75": 20.0
+      }
+    },
+    {
+      "name": "unit_distribution_2bed",
+      "dtype": "float64",
+      "missing": 466,
+      "missing_pct": 26.05,
+      "nunique": 102,
+      "sample_values": [
+        "25.0",
+        "19.0",
+        "2.0",
+        "2.0",
+        "7.0"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 239.0,
+        "mean": 14.0899,
+        "median": 5.0,
+        "p25": 2.0,
+        "p75": 14.0
+      }
+    },
+    {
+      "name": "unit_distribution_3bed",
+      "dtype": "float64",
+      "missing": 1469,
+      "missing_pct": 82.11,
+      "nunique": 47,
+      "sample_values": [
+        "6.0",
+        "12.0",
+        "2.0",
+        "14.0",
+        "4.0"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 91.0,
+        "mean": 10.3688,
+        "median": 5.0,
+        "p25": 2.0,
+        "p75": 14.0
+      }
+    },
+    {
+      "name": "unit_distribution_4bed",
+      "dtype": "float64",
+      "missing": 1766,
+      "missing_pct": 98.71,
+      "nunique": 11,
+      "sample_values": [
+        "2.0",
+        "10.0",
+        "24.0",
+        "5.0",
+        "11.0"
+      ],
+      "top_values": [
+        {
+          "value": "1.0",
+          "count": 7,
+          "pct": 30.4
+        },
+        {
+          "value": "4.0",
+          "count": 3,
+          "pct": 13.0
+        },
+        {
+          "value": "10.0",
+          "count": 3,
+          "pct": 13.0
+        },
+        {
+          "value": "9.0",
+          "count": 2,
+          "pct": 8.7
+        },
+        {
+          "value": "2.0",
+          "count": 2,
+          "pct": 8.7
+        }
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 24.0,
+        "mean": 5.8696,
+        "median": 4.0,
+        "p25": 1.0,
+        "p75": 9.5
+      }
+    },
+    {
+      "name": "applied_income_ami_ext_low",
+      "dtype": "float64",
+      "missing": 1694,
+      "missing_pct": 94.69,
+      "nunique": 45,
+      "sample_values": [
+        "21.0",
+        "6.0",
+        "10.0",
+        "9.0",
+        "72.0"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 81.0,
+        "mean": 22.1158,
+        "median": 18.0,
+        "p25": 9.0,
+        "p75": 33.0
+      }
+    },
+    {
+      "name": "applied_income_ami_very_low",
+      "dtype": "float64",
+      "missing": 1483,
+      "missing_pct": 82.9,
+      "nunique": 100,
+      "sample_values": [
+        "26.0",
+        "38.0",
+        "31.0",
+        "72.0",
+        "24.0"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 194.0,
+        "mean": 39.2941,
+        "median": 26.5,
+        "p25": 12.0,
+        "p75": 55.75
+      }
+    },
+    {
+      "name": "applied_income_ami_low",
+      "dtype": "float64",
+      "missing": 1158,
+      "missing_pct": 64.73,
+      "nunique": 124,
+      "sample_values": [
+        "41.0",
+        "50.0",
+        "26.0",
+        "5.0",
+        "101.0"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 251.0,
+        "mean": 32.9937,
+        "median": 18.0,
+        "p25": 7.0,
+        "p75": 42.5
+      }
+    },
+    {
+      "name": "applied_income_ami_moderate",
+      "dtype": "float64",
+      "missing": 1607,
+      "missing_pct": 89.83,
+      "nunique": 70,
+      "sample_values": [
+        "23.0",
+        "14.0",
+        "14.0",
+        "36.0",
+        "22.0"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 339.0,
+        "mean": 30.8791,
+        "median": 16.0,
+        "p25": 5.0,
+        "p75": 36.0
+      }
+    },
+    {
+      "name": "applied_income_ami_middle",
+      "dtype": "float64",
+      "missing": 510,
+      "missing_pct": 28.51,
+      "nunique": 121,
+      "sample_values": [
+        "29.0",
+        "8.0",
+        "3.0",
+        "3.0",
+        "14.0"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 421.0,
+        "mean": 19.3769,
+        "median": 7.0,
+        "p25": 3.0,
+        "p75": 16.0
+      }
+    },
+    {
+      "name": "applied_income_ami_above",
+      "dtype": "float64",
+      "missing": 1788,
+      "missing_pct": 99.94,
+      "nunique": 1,
+      "sample_values": [
+        "60.0"
+      ],
+      "top_values": [
+        {
+          "value": "60.0",
+          "count": 1,
+          "pct": 100.0
+        }
+      ],
+      "stats": {
+        "min": 60.0,
+        "max": 60.0,
+        "mean": 60.0,
+        "median": 60.0,
+        "p25": 60.0,
+        "p75": 60.0
+      }
+    },
+    {
+      "name": "lottery_mobility_percent",
+      "dtype": "float64",
+      "missing": 1318,
+      "missing_pct": 73.67,
+      "nunique": 6,
+      "sample_values": [
+        "5.0",
+        "5.0",
+        "5.0",
+        "5.0",
+        "5.0"
+      ],
+      "top_values": [
+        {
+          "value": "5.0",
+          "count": 462,
+          "pct": 98.1
+        },
+        {
+          "value": "2.0",
+          "count": 5,
+          "pct": 1.1
+        },
+        {
+          "value": "100.0",
+          "count": 1,
+          "pct": 0.2
+        },
+        {
+          "value": "12.0",
+          "count": 1,
+          "pct": 0.2
+        },
+        {
+          "value": "15.0",
+          "count": 1,
+          "pct": 0.2
+        }
+      ],
+      "stats": {
+        "min": 2.0,
+        "max": 100.0,
+        "mean": 5.2166,
+        "median": 5.0,
+        "p25": 5.0,
+        "p75": 5.0
+      }
+    },
+    {
+      "name": "lottery_vision_hearing_percent",
+      "dtype": "float64",
+      "missing": 1324,
+      "missing_pct": 74.01,
+      "nunique": 5,
+      "sample_values": [
+        "2.0",
+        "2.0",
+        "2.0",
+        "2.0",
+        "2.0"
+      ],
+      "top_values": [
+        {
+          "value": "2.0",
+          "count": 456,
+          "pct": 98.1
+        },
+        {
+          "value": "5.0",
+          "count": 5,
+          "pct": 1.1
+        },
+        {
+          "value": "8.0",
+          "count": 2,
+          "pct": 0.4
+        },
+        {
+          "value": "100.0",
+          "count": 1,
+          "pct": 0.2
+        },
+        {
+          "value": "3.0",
+          "count": 1,
+          "pct": 0.2
+        }
+      ],
+      "stats": {
+        "min": 2.0,
+        "max": 100.0,
+        "mean": 2.271,
+        "median": 2.0,
+        "p25": 2.0,
+        "p75": 2.0
+      }
+    },
+    {
+      "name": "lottery_community_board_percent",
+      "dtype": "float64",
+      "missing": 1365,
+      "missing_pct": 76.3,
+      "nunique": 4,
+      "sample_values": [
+        "50.0",
+        "50.0",
+        "50.0",
+        "20.0",
+        "50.0"
+      ],
+      "top_values": [
+        {
+          "value": "20.0",
+          "count": 213,
+          "pct": 50.2
+        },
+        {
+          "value": "50.0",
+          "count": 209,
+          "pct": 49.3
+        },
+        {
+          "value": "100.0",
+          "count": 1,
+          "pct": 0.2
+        },
+        {
+          "value": "40.0",
+          "count": 1,
+          "pct": 0.2
+        }
+      ],
+      "stats": {
+        "min": 20.0,
+        "max": 100.0,
+        "mean": 35.0236,
+        "median": 20.0,
+        "p25": 20.0,
+        "p75": 50.0
+      }
+    },
+    {
+      "name": "lottery_municipal_employee_percent",
+      "dtype": "float64",
+      "missing": 1367,
+      "missing_pct": 76.41,
+      "nunique": 5,
+      "sample_values": [
+        "5.0",
+        "5.0",
+        "5.0",
+        "5.0",
+        "5.0"
+      ],
+      "top_values": [
+        {
+          "value": "5.0",
+          "count": 343,
+          "pct": 81.3
+        },
+        {
+          "value": "10.0",
+          "count": 75,
+          "pct": 17.8
+        },
+        {
+          "value": "2.0",
+          "count": 2,
+          "pct": 0.5
+        },
+        {
+          "value": "100.0",
+          "count": 1,
+          "pct": 0.2
+        },
+        {
+          "value": "6.0",
+          "count": 1,
+          "pct": 0.2
+        }
+      ],
+      "stats": {
+        "min": 2.0,
+        "max": 100.0,
+        "mean": 6.1019,
+        "median": 5.0,
+        "p25": 5.0,
+        "p75": 5.0
+      }
+    },
+    {
+      "name": "lottery_nycha_percent",
+      "dtype": "float64",
+      "missing": 1773,
+      "missing_pct": 99.11,
+      "nunique": 5,
+      "sample_values": [
+        "25.0",
+        "25.0",
+        "25.0",
+        "25.0",
+        "33.0"
+      ],
+      "top_values": [
+        {
+          "value": "25.0",
+          "count": 10,
+          "pct": 62.5
+        },
+        {
+          "value": "33.0",
+          "count": 3,
+          "pct": 18.8
+        },
+        {
+          "value": "21.0",
+          "count": 1,
+          "pct": 6.2
+        },
+        {
+          "value": "34.0",
+          "count": 1,
+          "pct": 6.2
+        },
+        {
+          "value": "50.0",
+          "count": 1,
+          "pct": 6.2
+        }
+      ],
+      "stats": {
+        "min": 21.0,
+        "max": 50.0,
+        "mean": 28.375,
+        "median": 25.0,
+        "p25": 25.0,
+        "p75": 33.0
+      }
+    },
+    {
+      "name": "lottery_62_percent",
+      "dtype": "float64",
+      "missing": 1723,
+      "missing_pct": 96.31,
+      "nunique": 19,
+      "sample_values": [
+        "100.0",
+        "90.0",
+        "56.0",
+        "100.0",
+        "100.0"
+      ],
+      "top_values": [
+        {
+          "value": "100.0",
+          "count": 45,
+          "pct": 68.2
+        },
+        {
+          "value": "90.0",
+          "count": 2,
+          "pct": 3.0
+        },
+        {
+          "value": "20.0",
+          "count": 2,
+          "pct": 3.0
+        },
+        {
+          "value": "70.0",
+          "count": 2,
+          "pct": 3.0
+        },
+        {
+          "value": "56.0",
+          "count": 1,
+          "pct": 1.5
+        }
+      ],
+      "stats": {
+        "min": 2.0,
+        "max": 100.0,
+        "mean": 84.2879,
+        "median": 100.0,
+        "p25": 84.75,
+        "p75": 100.0
+      }
+    },
+    {
+      "name": "borough",
+      "dtype": "object",
+      "missing": 2,
+      "missing_pct": 0.11,
+      "nunique": 6,
+      "sample_values": [
+        "BX",
+        "MN",
+        "QN",
+        "BK",
+        "BK"
+      ],
+      "top_values": [
+        {
+          "value": "BK",
+          "count": 809,
+          "pct": 45.3
+        },
+        {
+          "value": "BX",
+          "count": 416,
+          "pct": 23.3
+        },
+        {
+          "value": "QN",
+          "count": 339,
+          "pct": 19.0
+        },
+        {
+          "value": "MN",
+          "count": 210,
+          "pct": 11.8
+        },
+        {
+          "value": "SI",
+          "count": 12,
+          "pct": 0.7
+        }
+      ]
+    },
+    {
+      "name": "postcode",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 145,
+      "sample_values": [
+        "10451",
+        "Multiple",
+        "11354",
+        "11216",
+        "11226"
+      ]
+    },
+    {
+      "name": "community_board",
+      "dtype": "object",
+      "missing": 9,
+      "missing_pct": 0.5,
+      "nunique": 59,
+      "sample_values": [
+        "203",
+        "110",
+        "407",
+        "308",
+        "317"
+      ]
+    },
+    {
+      "name": "latitude",
+      "dtype": "object",
+      "missing": 2,
+      "missing_pct": 0.11,
+      "nunique": 1589,
+      "sample_values": [
+        "40.8252485992528",
+        "Multiple",
+        "40.7616531718064",
+        "40.6761082327392",
+        "40.6404502680504"
+      ]
+    },
+    {
+      "name": "longitude",
+      "dtype": "object",
+      "missing": 2,
+      "missing_pct": 0.11,
+      "nunique": 1589,
+      "sample_values": [
+        "-73.9147961678595",
+        "Multiple",
+        "-73.8341697443512",
+        "-73.9555447697458",
+        "-73.9477783337579"
+      ]
+    }
+  ]
+}

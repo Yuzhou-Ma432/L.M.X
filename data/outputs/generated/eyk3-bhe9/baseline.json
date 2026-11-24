@@ -1,0 +1,15 @@
+{
+  "id": "eyk3-bhe9",
+  "name": "2015-16 Local Law 15 Health Data - K-12 Health Instructors",
+  "strategy": "baseline",
+  "description": "This dataset lists New York City K-12 schools and the number of teachers assigned to teach health at each school, based on reporting under Local Law 15 for the 2015-16 school year. Each row represents one school, identified by its school DBN (District Borough Number) and name, along with its community school district and city council district. The final column gives the count of teachers assigned to health instruction at that school. With about 1,600 school records, the data can be used to compare health teaching staffing across schools, districts, and council districts; to identify schools with few or no assigned health instructors; and to support analyses of health education capacity and resource allocation in city schools.",
+  "prompt": "Title: 2015-16 Local Law 15 Health Data - K-12 Health Instructors\nCategory: Education\nRows (sampled): 1627\nColumns: 5\nColumn names: school_dbn, community_school_district, city_council_district, school_name, of_teachers_assigned_to_teach_health\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 147,
+    "completion_tokens": 142,
+    "total_tokens": 289
+  },
+  "elapsed_seconds": 1.89
+}

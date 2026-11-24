@@ -1,0 +1,138 @@
+{
+  "id": "mpw3-7xyh",
+  "name": "Adult Protective Services - Refer to Close by Referral Source",
+  "description": "",
+  "category": "Social Services",
+  "permalink": "https://data.cityofnewyork.us/d/mpw3-7xyh",
+  "sampled_rows": 5000,
+  "n_rows": 96,
+  "n_cols": 4,
+  "columns": [
+    {
+      "name": "report_date",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 16,
+      "sample_values": [
+        "2026-06-30T00:00:00.000",
+        "2026-06-30T00:00:00.000",
+        "2026-06-30T00:00:00.000",
+        "2026-06-30T00:00:00.000",
+        "2026-06-30T00:00:00.000"
+      ],
+      "top_values": [
+        {
+          "value": "2026-06-30T00:00:00.000",
+          "count": 6,
+          "pct": 6.2
+        },
+        {
+          "value": "2025-12-31T00:00:00.000",
+          "count": 6,
+          "pct": 6.2
+        },
+        {
+          "value": "2025-06-30T00:00:00.000",
+          "count": 6,
+          "pct": 6.2
+        },
+        {
+          "value": "2024-12-31T00:00:00.000",
+          "count": 6,
+          "pct": 6.2
+        },
+        {
+          "value": "2024-06-30T00:00:00.000",
+          "count": 6,
+          "pct": 6.2
+        }
+      ]
+    },
+    {
+      "name": "referral_source_type",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 6,
+      "sample_values": [
+        "Anonymous",
+        "Family Member/Friend/Neighbor",
+        "Marshal",
+        "Organization",
+        "Self"
+      ],
+      "top_values": [
+        {
+          "value": "Anonymous",
+          "count": 16,
+          "pct": 16.7
+        },
+        {
+          "value": "Family Member/Friend/Neighbor",
+          "count": 16,
+          "pct": 16.7
+        },
+        {
+          "value": "Marshal",
+          "count": 16,
+          "pct": 16.7
+        },
+        {
+          "value": "Organization",
+          "count": 16,
+          "pct": 16.7
+        },
+        {
+          "value": "Self",
+          "count": 16,
+          "pct": 16.7
+        }
+      ]
+    },
+    {
+      "name": "total_referred",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 90,
+      "sample_values": [
+        "1318",
+        "1593",
+        "3459",
+        "12378",
+        "559"
+      ],
+      "stats": {
+        "min": 15.0,
+        "max": 19307.0,
+        "mean": 4583.4167,
+        "median": 1388.0,
+        "p25": 594.5,
+        "p75": 9220.5
+      }
+    },
+    {
+      "name": "total_ineligible",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 88,
+      "sample_values": [
+        "761",
+        "895",
+        "2542",
+        "7170",
+        "319"
+      ],
+      "stats": {
+        "min": 4.0,
+        "max": 11703.0,
+        "mean": 2818.3125,
+        "median": 852.0,
+        "p25": 360.5,
+        "p75": 5335.0
+      }
+    }
+  ]
+}

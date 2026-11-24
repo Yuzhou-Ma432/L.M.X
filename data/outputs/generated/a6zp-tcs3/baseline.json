@@ -1,0 +1,15 @@
+{
+  "id": "a6zp-tcs3",
+  "name": "FY 2017 PMMR Data Extract",
+  "strategy": "baseline",
+  "description": "This dataset is an extract from the FY 2017 Performance Management and Measurement Report (PMMR), which tracks how city agencies perform against their stated goals. Each of the 2,284 rows represents a single performance indicator tied to an agency and a broader goal, with a flag indicating whether the indicator is considered critical. For each indicator, the data provides actual results for fiscal years 2014, 2015, and 2016, targets for fiscal years 2017 and 2018, and four-month actual figures for fiscal years 2016 and 2017, allowing year-over-year comparison of early-year progress.\n\nThe data can be used to monitor agency performance over time, compare actual outcomes against targets, identify indicators that are falling short or improving, and assess how critical measures are trending. It is useful for budget and policy analysis, performance reporting, and building dashboards or visualizations that show how city services are meeting their goals.",
+  "prompt": "Title: FY 2017 PMMR Data Extract\nCategory: City Government\nRows (sampled): 2284\nColumns: 11\nColumn names: agency, pmmr_goal, critical, performance_indicator, actual_fy14, actual_fy15, actual_fy16, target_fy17, target_fy18, _4_month_actual_fy16, _4_month_actual_fy17\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 164,
+    "completion_tokens": 192,
+    "total_tokens": 356
+  },
+  "elapsed_seconds": 1.66
+}

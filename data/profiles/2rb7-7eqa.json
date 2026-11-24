@@ -1,0 +1,475 @@
+{
+  "id": "2rb7-7eqa",
+  "name": "ENDGBV: The Intersection of Domestic Violence, Race/Ethnicity and Sex",
+  "description": "This data set contains New York City Police Department provided incident level data for domestic violence related offenses felony assaults, felony rapes and domestic incident reports) for calendar years 2020 and 2021. The data includes: date of incident, precinct of incident, borough of incident, suspect victim relationship, victim stated relationship description, victims race, victims sex, victims reported age, suspect race, suspect sex, suspect reported age, community district of incident, community district has high poverty rate, community district has low median household income, and high rate of unemployment. The following defines domestic violence incident report, domestic violence related felony assault and felony rapes: Domestic Violence Incident Report (DIR) is a form that police must complete every time they respond to a domestic incident, whether or not an arrest is made. A DIR would be filed for any domestic violence offense, including felony assault and felony rape.",
+  "category": "Public Safety",
+  "permalink": "https://data.cityofnewyork.us/d/2rb7-7eqa",
+  "sampled_rows": 5000,
+  "n_rows": 5000,
+  "n_cols": 15,
+  "columns": [
+    {
+      "name": "offense_type",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "DIR",
+        "DIR",
+        "DIR",
+        "DIR",
+        "DIR"
+      ],
+      "top_values": [
+        {
+          "value": "DIR",
+          "count": 4806,
+          "pct": 96.1
+        },
+        {
+          "value": "FELONY ASSAULT",
+          "count": 188,
+          "pct": 3.8
+        },
+        {
+          "value": "RAPE",
+          "count": 6,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "report_date",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 8,
+      "sample_values": [
+        "2021-12-31T00:00:00.000",
+        "2021-12-31T00:00:00.000",
+        "2021-12-31T00:00:00.000",
+        "2021-12-31T00:00:00.000",
+        "2021-12-31T00:00:00.000"
+      ],
+      "top_values": [
+        {
+          "value": "2021-12-25T00:00:00.000",
+          "count": 779,
+          "pct": 15.6
+        },
+        {
+          "value": "2021-12-31T00:00:00.000",
+          "count": 753,
+          "pct": 15.1
+        },
+        {
+          "value": "2021-12-26T00:00:00.000",
+          "count": 730,
+          "pct": 14.6
+        },
+        {
+          "value": "2021-12-27T00:00:00.000",
+          "count": 689,
+          "pct": 13.8
+        },
+        {
+          "value": "2021-12-29T00:00:00.000",
+          "count": 610,
+          "pct": 12.2
+        }
+      ]
+    },
+    {
+      "name": "incident_precinct_code",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 77,
+      "sample_values": [
+        "40",
+        "40",
+        "40",
+        "40",
+        "40"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 123.0,
+        "mean": 66.875,
+        "median": 63.0,
+        "p25": 43.0,
+        "p75": 101.0
+      }
+    },
+    {
+      "name": "borough_name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5,
+      "sample_values": [
+        "BRONX",
+        "BRONX",
+        "BRONX",
+        "BRONX",
+        "BRONX"
+      ],
+      "top_values": [
+        {
+          "value": "BRONX",
+          "count": 1572,
+          "pct": 31.4
+        },
+        {
+          "value": "BROOKLYN",
+          "count": 1436,
+          "pct": 28.7
+        },
+        {
+          "value": "QUEENS",
+          "count": 1046,
+          "pct": 20.9
+        },
+        {
+          "value": "MANHATTAN",
+          "count": 700,
+          "pct": 14.0
+        },
+        {
+          "value": "STATEN ISLAND",
+          "count": 246,
+          "pct": 4.9
+        }
+      ]
+    },
+    {
+      "name": "intimate_relationship_flag",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5,
+      "sample_values": [
+        "MISSING",
+        "MISSING",
+        "YES",
+        "YES",
+        "NO"
+      ],
+      "top_values": [
+        {
+          "value": "YES",
+          "count": 2457,
+          "pct": 49.1
+        },
+        {
+          "value": "NO",
+          "count": 1631,
+          "pct": 32.6
+        },
+        {
+          "value": "MISSING",
+          "count": 718,
+          "pct": 14.4
+        },
+        {
+          "value": "Yes",
+          "count": 136,
+          "pct": 2.7
+        },
+        {
+          "value": "No",
+          "count": 58,
+          "pct": 1.2
+        }
+      ]
+    },
+    {
+      "name": "victim_race_dir",
+      "dtype": "object",
+      "missing": 683,
+      "missing_pct": 13.66,
+      "nunique": 7,
+      "sample_values": [
+        "OTHER",
+        "OTHER",
+        "BLACK",
+        "WHITE",
+        "WHITE"
+      ],
+      "top_values": [
+        {
+          "value": "BLACK",
+          "count": 2187,
+          "pct": 50.7
+        },
+        {
+          "value": "WHITE",
+          "count": 1381,
+          "pct": 32.0
+        },
+        {
+          "value": "OTHER",
+          "count": 435,
+          "pct": 10.1
+        },
+        {
+          "value": "ASIAN / PACIFIC ISLANDER",
+          "count": 239,
+          "pct": 5.5
+        },
+        {
+          "value": "WHITE HISPANIC",
+          "count": 46,
+          "pct": 1.1
+        }
+      ]
+    },
+    {
+      "name": "victim_sex",
+      "dtype": "object",
+      "missing": 585,
+      "missing_pct": 11.7,
+      "nunique": 2,
+      "sample_values": [
+        "MALE",
+        "MALE",
+        "FEMALE",
+        "FEMALE",
+        "MALE"
+      ],
+      "top_values": [
+        {
+          "value": "FEMALE",
+          "count": 3163,
+          "pct": 71.6
+        },
+        {
+          "value": "MALE",
+          "count": 1252,
+          "pct": 28.4
+        }
+      ]
+    },
+    {
+      "name": "victim_reported_age",
+      "dtype": "float64",
+      "missing": 1041,
+      "missing_pct": 20.82,
+      "nunique": 92,
+      "sample_values": [
+        "34.0",
+        "31.0",
+        "31.0",
+        "19.0",
+        "30.0"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 96.0,
+        "mean": 38.3887,
+        "median": 36.0,
+        "p25": 28.0,
+        "p75": 47.0
+      }
+    },
+    {
+      "name": "suspect_race",
+      "dtype": "object",
+      "missing": 970,
+      "missing_pct": 19.4,
+      "nunique": 7,
+      "sample_values": [
+        "OTHER",
+        "OTHER",
+        "BLACK",
+        "WHITE",
+        "WHITE"
+      ],
+      "top_values": [
+        {
+          "value": "BLACK",
+          "count": 2111,
+          "pct": 52.4
+        },
+        {
+          "value": "WHITE",
+          "count": 1173,
+          "pct": 29.1
+        },
+        {
+          "value": "OTHER",
+          "count": 454,
+          "pct": 11.3
+        },
+        {
+          "value": "ASIAN / PACIFIC ISLANDER",
+          "count": 222,
+          "pct": 5.5
+        },
+        {
+          "value": "WHITE HISPANIC",
+          "count": 34,
+          "pct": 0.8
+        }
+      ]
+    },
+    {
+      "name": "suspect_sex",
+      "dtype": "object",
+      "missing": 873,
+      "missing_pct": 17.46,
+      "nunique": 2,
+      "sample_values": [
+        "MALE",
+        "FEMALE",
+        "MALE",
+        "MALE",
+        "MALE"
+      ],
+      "top_values": [
+        {
+          "value": "MALE",
+          "count": 2760,
+          "pct": 66.9
+        },
+        {
+          "value": "FEMALE",
+          "count": 1367,
+          "pct": 33.1
+        }
+      ]
+    },
+    {
+      "name": "suspect_reported_age",
+      "dtype": "float64",
+      "missing": 1569,
+      "missing_pct": 31.38,
+      "nunique": 80,
+      "sample_values": [
+        "33.0",
+        "36.0",
+        "36.0",
+        "50.0",
+        "27.0"
+      ],
+      "stats": {
+        "min": 7.0,
+        "max": 89.0,
+        "mean": 35.3553,
+        "median": 33.0,
+        "p25": 26.0,
+        "p75": 43.0
+      }
+    },
+    {
+      "name": "commdist",
+      "dtype": "float64",
+      "missing": 2,
+      "missing_pct": 0.04,
+      "nunique": 62,
+      "sample_values": [
+        "201.0",
+        "201.0",
+        "201.0",
+        "201.0",
+        "201.0"
+      ],
+      "stats": {
+        "min": 101.0,
+        "max": 503.0,
+        "mean": 278.7703,
+        "median": 303.0,
+        "p25": 204.0,
+        "p75": 401.0
+      }
+    },
+    {
+      "name": "poverty",
+      "dtype": "float64",
+      "missing": 2857,
+      "missing_pct": 57.14,
+      "nunique": 1,
+      "sample_values": [
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0"
+      ],
+      "top_values": [
+        {
+          "value": "1.0",
+          "count": 2143,
+          "pct": 100.0
+        }
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "p25": 1.0,
+        "p75": 1.0
+      }
+    },
+    {
+      "name": "median_income",
+      "dtype": "float64",
+      "missing": 2768,
+      "missing_pct": 55.36,
+      "nunique": 1,
+      "sample_values": [
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0"
+      ],
+      "top_values": [
+        {
+          "value": "1.0",
+          "count": 2232,
+          "pct": 100.0
+        }
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "p25": 1.0,
+        "p75": 1.0
+      }
+    },
+    {
+      "name": "unemployment",
+      "dtype": "float64",
+      "missing": 2858,
+      "missing_pct": 57.16,
+      "nunique": 1,
+      "sample_values": [
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0"
+      ],
+      "top_values": [
+        {
+          "value": "1.0",
+          "count": 2142,
+          "pct": 100.0
+        }
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "p25": 1.0,
+        "p75": 1.0
+      }
+    }
+  ]
+}

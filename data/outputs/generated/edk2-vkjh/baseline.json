@@ -1,0 +1,15 @@
+{
+  "id": "edk2-vkjh",
+  "name": "Pharmaceutical and Syringe Drop-Off Locations in NYC",
+  "strategy": "baseline",
+  "description": "This dataset lists locations in New York City where residents can drop off pharmaceuticals and syringes for safe disposal. Each of the 339 sampled rows describes one site, including its name, type, street address, ZIP code, phone number, operating days and hours, and any notes. Records also include the borough and neighborhood name, along with geographic identifiers such as census tract, community district, council, senate, congressional and assembly districts, police precinct, DSNY zone and district, BBL, BIN, latitude, longitude, and a point geometry. The data can be used to find nearby disposal sites, map access to safe medication and sharps disposal across neighborhoods, compare availability by borough or district, and support public health or environmental planning around proper waste disposal.",
+  "prompt": "Title: Pharmaceutical and Syringe Drop-Off Locations in NYC\nCategory: Environment\nRows (sampled): 339\nColumns: 25\nColumn names: borough, ntaname, site_type, sitename, zipcode, phonenum, days_hours, address, borocd, notes, dsny_zone, _dsny_district, dsny_section, censustract, community_district, councildist, senate_district, _congress_district, assembly_district, police_precints, bbl, bin, latitude, longitude, point\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 195,
+    "completion_tokens": 153,
+    "total_tokens": 348
+  },
+  "elapsed_seconds": 1.5
+}

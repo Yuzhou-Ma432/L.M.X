@@ -1,0 +1,15 @@
+{
+  "id": "qrb4-aqtx",
+  "name": "Manhattan Community Garden Sites Data",
+  "strategy": "baseline",
+  "description": "This dataset lists community garden sites in Manhattan, with 151 sampled records and 14 fields per record. Each row describes a single garden, including its type, name, street location, contact information, postcode, borough, latitude and longitude coordinates, community board, city council district, census tract, building identification number (BIN), borough-block-lot number (BBL), and neighborhood tabulation area (NTA). The data combines site details with geographic identifiers, making it useful for mapping garden locations, analyzing their distribution across neighborhoods and council districts, linking them to census and property records, or supporting community planning, outreach, and urban agriculture research.",
+  "prompt": "Title: Manhattan Community Garden Sites Data\nCategory: City Government\nRows (sampled): 151\nColumns: 14\nColumn names: type, name, location, contact_information, postcode, borough, latitude, longitude, community_board, council_district, census_tract, bin, bbl, nta\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 141,
+    "completion_tokens": 131,
+    "total_tokens": 272
+  },
+  "elapsed_seconds": 1.34
+}

@@ -1,0 +1,15 @@
+{
+  "id": "2rb7-7eqa",
+  "name": "ENDGBV: The Intersection of Domestic Violence, Race/Ethnicity and Sex",
+  "strategy": "baseline",
+  "description": "This dataset contains 5,000 sampled records on domestic violence incidents, focusing on how victim and suspect race/ethnicity and sex intersect with offense characteristics and neighborhood economic conditions. Each row represents a single reported incident and includes the offense type, report date, police precinct code, borough name, and a flag indicating whether the parties were in an intimate relationship. Victim and suspect details cover race, sex, and reported age. Neighborhood context is captured through community district identifiers and socioeconomic measures: poverty rate, median income, and unemployment.\n\nBecause the data combine incident-level demographics with area-level economic indicators, the dataset supports analyses of disparities in domestic violence reporting and offense patterns across racial, ethnic, and gender groups, and how those patterns vary with neighborhood poverty and income. It could be used for public safety research, resource allocation, policy evaluation, or exploratory dashboards. Users should note that the file is a 5,000-row sample rather than a complete incident record, and that ages are self-reported.",
+  "prompt": "Title: ENDGBV: The Intersection of Domestic Violence, Race/Ethnicity and Sex\nCategory: Public Safety\nRows (sampled): 5000\nColumns: 15\nColumn names: offense_type, report_date, incident_precinct_code, borough_name, intimate_relationship_flag, victim_race_dir, victim_sex, victim_reported_age, suspect_race, suspect_sex, suspect_reported_age, commdist, poverty, median_income, unemployment\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "length",
+  "usage": {
+    "prompt_tokens": 175,
+    "completion_tokens": 200,
+    "total_tokens": 375
+  },
+  "elapsed_seconds": 1.86
+}

@@ -1,0 +1,362 @@
+{
+  "id": "5brf-q9de",
+  "name": "2015-16 Guidance Counselor Reporting - Guidance Counselor Data",
+  "description": "",
+  "category": "Education",
+  "permalink": "https://data.cityofnewyork.us/d/5brf-q9de",
+  "sampled_rows": 5000,
+  "n_rows": 1644,
+  "n_cols": 13,
+  "columns": [
+    {
+      "name": "dbn",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1644,
+      "sample_values": [
+        "01M015",
+        "01M019",
+        "01M020",
+        "01M034",
+        "01M063"
+      ]
+    },
+    {
+      "name": "location_name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1644,
+      "sample_values": [
+        "01M015 - P.S. 015 ROBERTO CLEMENTE",
+        "01M019 - P.S. 019 ASHER LEVY",
+        "01M020 - P.S. 020 ANNA SILVER",
+        "01M034 - P.S. 034 FRANKLIN D. ROOSEVELT",
+        "01M063 - THE STAR ACADEMY - P.S.63"
+      ]
+    },
+    {
+      "name": "location_type",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 15,
+      "sample_values": [
+        "ELEMENTARY                         ",
+        "ELEMENTARY                         ",
+        "ELEMENTARY                         ",
+        "K-8                                ",
+        "ELEMENTARY                         "
+      ],
+      "top_values": [
+        {
+          "value": "ELEMENTARY                         ",
+          "count": 618,
+          "pct": 37.6
+        },
+        {
+          "value": "HIGH SCHOOL                        ",
+          "count": 421,
+          "pct": 25.6
+        },
+        {
+          "value": "JUNIOR HIGH-INTERMEDIATE-MIDDLE    ",
+          "count": 287,
+          "pct": 17.5
+        },
+        {
+          "value": "K-8                                ",
+          "count": 146,
+          "pct": 8.9
+        },
+        {
+          "value": "SECONDARY SCHOOL                   ",
+          "count": 76,
+          "pct": 4.6
+        }
+      ]
+    },
+    {
+      "name": "total_sw_gc",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 72,
+      "sample_values": [
+        "2.0",
+        "2.0",
+        "2.0",
+        "1.0",
+        "3.0"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 58.2,
+        "mean": 2.4584,
+        "median": 2.0,
+        "p25": 1.0,
+        "p75": 3.0
+      }
+    },
+    {
+      "name": "total_gc",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 54,
+      "sample_values": [
+        "2.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "2.0"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 38.0,
+        "mean": 1.7333,
+        "median": 1.0,
+        "p25": 1.0,
+        "p75": 2.0
+      }
+    },
+    {
+      "name": "full_time",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 20,
+      "sample_values": [
+        "2",
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      "top_values": [
+        {
+          "value": "1",
+          "count": 744,
+          "pct": 45.3
+        },
+        {
+          "value": "2",
+          "count": 368,
+          "pct": 22.4
+        },
+        {
+          "value": "No Data",
+          "count": 270,
+          "pct": 16.4
+        },
+        {
+          "value": "3",
+          "count": 150,
+          "pct": 9.1
+        },
+        {
+          "value": "4",
+          "count": 43,
+          "pct": 2.6
+        }
+      ]
+    },
+    {
+      "name": "part_time",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 20,
+      "sample_values": [
+        "No Data",
+        "No Data",
+        "No Data",
+        "No Data",
+        "No Data"
+      ],
+      "top_values": [
+        {
+          "value": "No Data",
+          "count": 1432,
+          "pct": 87.1
+        },
+        {
+          "value": "0.4",
+          "count": 75,
+          "pct": 4.6
+        },
+        {
+          "value": "0.6",
+          "count": 71,
+          "pct": 4.3
+        },
+        {
+          "value": "0.2",
+          "count": 19,
+          "pct": 1.2
+        },
+        {
+          "value": "0.8",
+          "count": 18,
+          "pct": 1.1
+        }
+      ]
+    },
+    {
+      "name": "bilingual",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 7,
+      "sample_values": [
+        "No Data",
+        "No Data",
+        "No Data",
+        "No Data",
+        "No Data"
+      ],
+      "top_values": [
+        {
+          "value": "No Data",
+          "count": 1379,
+          "pct": 83.9
+        },
+        {
+          "value": "1",
+          "count": 213,
+          "pct": 13.0
+        },
+        {
+          "value": "2",
+          "count": 35,
+          "pct": 2.1
+        },
+        {
+          "value": "3",
+          "count": 10,
+          "pct": 0.6
+        },
+        {
+          "value": "4",
+          "count": 3,
+          "pct": 0.2
+        }
+      ]
+    },
+    {
+      "name": "serving_more_than_one_location",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 17,
+      "sample_values": [
+        "No Data",
+        "No Data",
+        "No Data",
+        "No Data",
+        "No Data"
+      ],
+      "top_values": [
+        {
+          "value": "No Data",
+          "count": 1517,
+          "pct": 92.3
+        },
+        {
+          "value": "0.4",
+          "count": 50,
+          "pct": 3.0
+        },
+        {
+          "value": "0.6",
+          "count": 43,
+          "pct": 2.6
+        },
+        {
+          "value": "0.2",
+          "count": 12,
+          "pct": 0.7
+        },
+        {
+          "value": "0.5",
+          "count": 5,
+          "pct": 0.3
+        }
+      ]
+    },
+    {
+      "name": "atr",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "No Data",
+        "No Data",
+        "No Data",
+        "No Data",
+        "No Data"
+      ],
+      "top_values": [
+        {
+          "value": "No Data",
+          "count": 1615,
+          "pct": 98.2
+        },
+        {
+          "value": "1",
+          "count": 28,
+          "pct": 1.7
+        },
+        {
+          "value": "2",
+          "count": 1,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "sy2014_15_enrollment",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 873,
+      "sample_values": [
+        "183",
+        "270",
+        "633",
+        "395",
+        "199"
+      ]
+    },
+    {
+      "name": "ratio_gc_sw",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 555,
+      "sample_values": [
+        "92",
+        "135",
+        "317",
+        "395",
+        "67"
+      ]
+    },
+    {
+      "name": "ratio_gc_only",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 676,
+      "sample_values": [
+        "92",
+        "270",
+        "633",
+        "395",
+        "100"
+      ]
+    }
+  ]
+}

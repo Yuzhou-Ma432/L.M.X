@@ -1,0 +1,15 @@
+{
+  "id": "9tnu-6rdi",
+  "name": "High School Equivalency (HSE) Diplomas Awarded to NYCHA Residents by NYCHA Development – Local Law 163",
+  "strategy": "content",
+  "description": "This dataset records the number of High School Equivalency (HSE) diplomas awarded to New York City Housing Authority (NYCHA) residents, broken down by NYCHA development and year. It covers years 2018 through 2024 and includes 765 rows across three columns: the year, the development name (500 distinct developments, such as Adams, Armstrong II, and Audubon), and the number of diplomas awarded. Counts are often reported as \"< 5\" or \"<5\" rather than exact figures, reflecting small numbers that are suppressed for privacy; most rows fall into this category, while a small share show exact counts of 5, 6, or 8.\n\nThe data supports tracking HSE attainment among public housing residents over time and comparing outcomes across developments. It could be used by city agencies, researchers, and community organizations to identify developments with low or high diploma counts, monitor year-over-year trends, and target educational and workforce programs. Because many values",
+  "prompt": "Title: High School Equivalency (HSE) Diplomas Awarded to NYCHA Residents by NYCHA Development – Local Law 163\nCategory: Social Services\nRows (sampled): 765\nColumns: 3\n\nColumn details:\n- year (type int64) 7 distinct values 0.0% missing min=2018.0 max=2024.0 mean=2019.7882 p25=2018.0 p75=2021.0 common values: 2018 (44.3%), 2019 (11.9%), 2022 (10.8%), 2021 (10.8%), 2020 (8.6%) samples: 2024, 2024, 2024, 2024, 2024\n- development (type object) 500 distinct values 0.0% missing samples: ADAMS, ARMSTRONG II, AUDUBON, BARUCH, BELMONT-SUTTER AREA\n- number_of_public_housing (type object) 5 distinct values 0.0% missing common values: < 5 (76.9%), <5 (21.8%), 5 (0.7%), 6 (0.5%), 8 (0.1%) samples: <5, <5, <5, <5, <5\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "length",
+  "usage": {
+    "prompt_tokens": 359,
+    "completion_tokens": 200,
+    "total_tokens": 559
+  },
+  "elapsed_seconds": 2.09
+}

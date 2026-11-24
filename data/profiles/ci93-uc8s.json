@@ -1,0 +1,1048 @@
+{
+  "id": "ci93-uc8s",
+  "name": "SBS Certified Business List",
+  "description": "The City’s certification programs, including the Minority and Women-owned Business Enterprise (M/WBE) Program, the Emerging Business Enterprise (EBE) Program and the Locally-based Business Enterprise (LBE) Program certify, promote, and foster the growth of the City’s minority and women-owned businesses and eligible small construction and construction-related businesses. Companies that become certified obtain greater access to and information about contracting opportunities, receive technical assistance to better compete for those opportunities, and benefit from inclusion in the City’s Online Directory of Certified Firms. This list contains detailed information on certified companies, including a brief description of their work history, contact information, and detailed information about what the companies sell. This data is up to date as of the date reflected in the \"About\" tab of this dataset.",
+  "category": "Business",
+  "permalink": "https://data.cityofnewyork.us/d/ci93-uc8s",
+  "sampled_rows": 5000,
+  "n_rows": 5000,
+  "n_cols": 56,
+  "columns": [
+    {
+      "name": "account_number",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5000,
+      "sample_values": [
+        "357418",
+        "373634",
+        "377031",
+        "315255",
+        "342721"
+      ],
+      "stats": {
+        "min": 8.0,
+        "max": 408102.0,
+        "mean": 201754.8566,
+        "median": 308315.0,
+        "p25": 11401.75,
+        "p75": 366782.0
+      }
+    },
+    {
+      "name": "vendor_formal_name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5000,
+      "sample_values": [
+        "ERROR: #NAME?",
+        "“I AM” EHS Management LLC",
+        "000 Architecture PLLC",
+        "1 Oak Tasty Deli Inc.",
+        "1 Of A Kind Home Health Care L.L.C."
+      ]
+    },
+    {
+      "name": "vendor_dba",
+      "dtype": "object",
+      "missing": 4290,
+      "missing_pct": 85.8,
+      "nunique": 710,
+      "sample_values": [
+        "Kilduff Underground Engineering, Inc.",
+        "“I AM” EHS Management LLC",
+        "Venus Fire Protection and Safety Service",
+        "WBE NYC",
+        "7 Leaf Clover"
+      ]
+    },
+    {
+      "name": "first_name",
+      "dtype": "object",
+      "missing": 9,
+      "missing_pct": 0.18,
+      "nunique": 2807,
+      "sample_values": [
+        "Todd",
+        "Kirt",
+        "Jedy",
+        "Santiago",
+        "Andrea"
+      ]
+    },
+    {
+      "name": "last_name",
+      "dtype": "object",
+      "missing": 9,
+      "missing_pct": 0.18,
+      "nunique": 3614,
+      "sample_values": [
+        "Kilduff",
+        "Asson",
+        "Lau",
+        "Francisco",
+        "David"
+      ]
+    },
+    {
+      "name": "telephone",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4968,
+      "sample_values": [
+        "2019939696",
+        "9147712515",
+        "2012561092",
+        "2129230700",
+        "7183008023"
+      ]
+    },
+    {
+      "name": "business_description",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4984,
+      "sample_values": [
+        "T.M. Kilduff Consulting, Inc. DBA Kilduf…",
+        "In 2006, I had the opportunity to join N…",
+        "000 Architecture PLLC is an architectura…",
+        "1 Oak Tasty Deli supplies food for event…",
+        "NYS Licensed Home Health Agency"
+      ]
+    },
+    {
+      "name": "certification",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5,
+      "sample_values": [
+        "MBE",
+        "MBE",
+        "MBE",
+        "MBE",
+        "MBE,WBE"
+      ],
+      "top_values": [
+        {
+          "value": "MBE",
+          "count": 2273,
+          "pct": 45.5
+        },
+        {
+          "value": "MBE,WBE",
+          "count": 1413,
+          "pct": 28.3
+        },
+        {
+          "value": "WBE",
+          "count": 1307,
+          "pct": 26.1
+        },
+        {
+          "value": "MBE,EBE",
+          "count": 4,
+          "pct": 0.1
+        },
+        {
+          "value": "MBE,WBE,EBE",
+          "count": 3,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "cert_renewal_date",
+      "dtype": "object",
+      "missing": 1307,
+      "missing_pct": 26.14,
+      "nunique": 162,
+      "sample_values": [
+        "2031-10-31T00:00:00.000",
+        "2029-03-31T00:00:00.000",
+        "2030-03-31T00:00:00.000",
+        "2029-04-30T00:00:00.000",
+        "03/31/2027;03/31/2027"
+      ]
+    },
+    {
+      "name": "ethnicity",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 6,
+      "sample_values": [
+        "HISPANIC",
+        "BLACK",
+        "ASIAN",
+        "HISPANIC",
+        "BLACK"
+      ],
+      "top_values": [
+        {
+          "value": "BLACK",
+          "count": 1646,
+          "pct": 32.9
+        },
+        {
+          "value": "NON-MINORITY",
+          "count": 1299,
+          "pct": 26.0
+        },
+        {
+          "value": "ASIAN",
+          "count": 1086,
+          "pct": 21.7
+        },
+        {
+          "value": "HISPANIC",
+          "count": 959,
+          "pct": 19.2
+        },
+        {
+          "value": "NATIVE AMERICAN",
+          "count": 9,
+          "pct": 0.2
+        }
+      ]
+    },
+    {
+      "name": "address1",
+      "dtype": "object",
+      "missing": 46,
+      "missing_pct": 0.92,
+      "nunique": 4791,
+      "sample_values": [
+        "106 Apple St",
+        "54 Pyngyp Rd",
+        "616 E9th Street",
+        "4020 Broadway Avenue",
+        "148 George Street"
+      ]
+    },
+    {
+      "name": "address2",
+      "dtype": "object",
+      "missing": 3066,
+      "missing_pct": 61.32,
+      "nunique": 1292,
+      "sample_values": [
+        "Ste 101A",
+        "Storefront East",
+        "apt 11D",
+        "2nd Floor",
+        "Suite 5"
+      ]
+    },
+    {
+      "name": "city",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 923,
+      "sample_values": [
+        "Tinton Falls",
+        "Stony point",
+        "New York",
+        "New York",
+        "Brooklyn"
+      ]
+    },
+    {
+      "name": "state",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 35,
+      "sample_values": [
+        "NJ",
+        "NY",
+        "NY",
+        "NY",
+        "NY"
+      ]
+    },
+    {
+      "name": "zip",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 984,
+      "sample_values": [
+        "7724",
+        "10980",
+        "10009",
+        "10032",
+        "11237"
+      ],
+      "stats": {
+        "min": 1069.0,
+        "max": 97212.0,
+        "mean": 12057.6118,
+        "median": 11105.0,
+        "p25": 10033.0,
+        "p75": 11416.0
+      }
+    },
+    {
+      "name": "mailingaddress1",
+      "dtype": "object",
+      "missing": 5,
+      "missing_pct": 0.1,
+      "nunique": 4843,
+      "sample_values": [
+        "106 Apple St",
+        "54 Pyngyp Rd",
+        "200 East 16th Street",
+        "4020 Broadway Avenue",
+        "148 George Street"
+      ]
+    },
+    {
+      "name": "mailingaddress2",
+      "dtype": "object",
+      "missing": 3017,
+      "missing_pct": 60.34,
+      "nunique": 1361,
+      "sample_values": [
+        "Ste 101A",
+        "Apt 7A",
+        "apt 11D",
+        "2nd Floor",
+        "Suite 5"
+      ]
+    },
+    {
+      "name": "mailingcity",
+      "dtype": "object",
+      "missing": 5,
+      "missing_pct": 0.1,
+      "nunique": 953,
+      "sample_values": [
+        "Tinton Falls",
+        "Stony Point",
+        "New York",
+        "New York",
+        "Brooklyn"
+      ]
+    },
+    {
+      "name": "mailingstate",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 35,
+      "sample_values": [
+        "New Jersey",
+        "New York",
+        "New York",
+        "New York",
+        "New York"
+      ]
+    },
+    {
+      "name": "mailingzip",
+      "dtype": "float64",
+      "missing": 5,
+      "missing_pct": 0.1,
+      "nunique": 1038,
+      "sample_values": [
+        "7724.0",
+        "10980.0",
+        "10003.0",
+        "10032.0",
+        "11237.0"
+      ],
+      "stats": {
+        "min": 1069.0,
+        "max": 97212.0,
+        "mean": 12217.6056,
+        "median": 11105.0,
+        "p25": 10033.0,
+        "p75": 11418.0
+      }
+    },
+    {
+      "name": "website",
+      "dtype": "object",
+      "missing": 1456,
+      "missing_pct": 29.12,
+      "nunique": 3537,
+      "sample_values": [
+        "https://kilduffunderground.com",
+        "http://www.IAMEHS.com",
+        "http://www.VenusFP.net",
+        "http://www.wbe.nyc",
+        "http://www.1800mrrubbish.com"
+      ]
+    },
+    {
+      "name": "date_of_establishment",
+      "dtype": "object",
+      "missing": 278,
+      "missing_pct": 5.56,
+      "nunique": 3479,
+      "sample_values": [
+        "2014-12-16T00:00:00.000",
+        "2023-07-05T00:00:00.000",
+        "2012-03-31T00:00:00.000",
+        "2018-08-23T00:00:00.000",
+        "2013-08-08T00:00:00.000"
+      ]
+    },
+    {
+      "name": "aggregate_bonding_limit",
+      "dtype": "float64",
+      "missing": 4570,
+      "missing_pct": 91.4,
+      "nunique": 81,
+      "sample_values": [
+        "40000000.0",
+        "7000000.0",
+        "100000.0",
+        "750000.0",
+        "2500000.0"
+      ],
+      "stats": {
+        "min": -15000.0,
+        "max": 6000000000.0,
+        "mean": 42260842.8186,
+        "median": 2000000.0,
+        "p25": 400000.0,
+        "p75": 10000000.0
+      }
+    },
+    {
+      "name": "signatory_to_union_contracts",
+      "dtype": "object",
+      "missing": 4716,
+      "missing_pct": 94.32,
+      "nunique": 268,
+      "sample_values": [
+        "Union Local 78 78, Union Local 12A 12A",
+        "Mason Tender 79, Laborer Union 20",
+        "Plumbers 1, Construction & General Build…",
+        "International Brotherhood of Electrical …",
+        "Local Union 1010, CONSTRUCTION COUNCIL 1…"
+      ]
+    },
+    {
+      "name": "id6_digit_naics_code",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 444,
+      "sample_values": [
+        "541330",
+        "237310",
+        "541310",
+        "722511",
+        "621610"
+      ],
+      "stats": {
+        "min": 111219.0,
+        "max": 926150.0,
+        "mean": 482992.087,
+        "median": 541410.0,
+        "p25": 323113.0,
+        "p75": 561612.0
+      }
+    },
+    {
+      "name": "naics_sector",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 19,
+      "sample_values": [
+        "Professional, Scientific, and Technical …",
+        "Construction",
+        "Professional, Scientific, and Technical …",
+        "Accommodation and Food Services",
+        "Health Care and Social Assistance"
+      ],
+      "top_values": [
+        {
+          "value": "Professional, Scientific, and Technical …",
+          "count": 1563,
+          "pct": 31.3
+        },
+        {
+          "value": "Construction",
+          "count": 1146,
+          "pct": 22.9
+        },
+        {
+          "value": "Educational Services",
+          "count": 379,
+          "pct": 7.6
+        },
+        {
+          "value": "Administrative and Support and Waste Man…",
+          "count": 361,
+          "pct": 7.2
+        },
+        {
+          "value": "Manufacturing",
+          "count": 203,
+          "pct": 4.1
+        }
+      ]
+    },
+    {
+      "name": "naics_subsector",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 211,
+      "sample_values": [
+        "Architectural, Engineering, and Related …",
+        "Highway, Street, and Bridge Construction",
+        "Architectural, Engineering, and Related …",
+        "Restaurants and Other Eating Places",
+        "Home Health Care Services"
+      ]
+    },
+    {
+      "name": "naics_title",
+      "dtype": "object",
+      "missing": 3,
+      "missing_pct": 0.06,
+      "nunique": 440,
+      "sample_values": [
+        "Engineering Services",
+        "Highway, Street, and Bridge Construction",
+        "Architectural Services",
+        "Full-Service Restaurants",
+        "Home Health Care Services"
+      ]
+    },
+    {
+      "name": "types_of_construction_projects_performed",
+      "dtype": "float64",
+      "missing": 5000,
+      "missing_pct": 100.0,
+      "nunique": 0,
+      "sample_values": []
+    },
+    {
+      "name": "nigp_codes",
+      "dtype": "object",
+      "missing": 13,
+      "missing_pct": 0.26,
+      "nunique": 3933,
+      "sample_values": [
+        "91800 | 92500",
+        "99077 | 91300",
+        "90600 | 90700",
+        "38565",
+        "94845"
+      ]
+    },
+    {
+      "name": "name_of_client_job_exp_1",
+      "dtype": "object",
+      "missing": 363,
+      "missing_pct": 7.26,
+      "nunique": 4132,
+      "sample_values": [
+        "Walsh Construction",
+        "JJM Construction Services LLC",
+        "One Nest LLC",
+        "Catholic Charity Community Service",
+        "Jan Jaskot"
+      ]
+    },
+    {
+      "name": "largest_value_of_contract",
+      "dtype": "float64",
+      "missing": 367,
+      "missing_pct": 7.34,
+      "nunique": 2565,
+      "sample_values": [
+        "516970.6",
+        "475.0",
+        "140000.0",
+        "2056.25",
+        "150.0"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 1800000000.0,
+        "mean": 3666951.5238,
+        "median": 85000.0,
+        "p25": 11000.0,
+        "p75": 570375.0
+      }
+    },
+    {
+      "name": "percent_self_performed_job_exp_1",
+      "dtype": "float64",
+      "missing": 466,
+      "missing_pct": 9.32,
+      "nunique": 66,
+      "sample_values": [
+        "100.0",
+        "100.0",
+        "100.0",
+        "100.0",
+        "100.0"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 90.8807,
+        "median": 100.0,
+        "p25": 100.0,
+        "p75": 100.0
+      }
+    },
+    {
+      "name": "date_of_work_job_exp_1",
+      "dtype": "object",
+      "missing": 354,
+      "missing_pct": 7.08,
+      "nunique": 2148,
+      "sample_values": [
+        "2023-11-06T00:00:00.000",
+        "2023-10-01T00:00:00.000",
+        "2023-08-02T00:00:00.000",
+        "2023-05-26T00:00:00.000",
+        "2021-05-28T00:00:00.000"
+      ]
+    },
+    {
+      "name": "description_of_work_job_exp_1",
+      "dtype": "object",
+      "missing": 365,
+      "missing_pct": 7.3,
+      "nunique": 4557,
+      "sample_values": [
+        "Instrumentation & Monitoring.",
+        "Development of safety construction work …",
+        "Provided architectural services for an i…",
+        "Sold sandwiches and wraps.",
+        "Home Health Care"
+      ]
+    },
+    {
+      "name": "name_of_client_job_exp_2",
+      "dtype": "object",
+      "missing": 1206,
+      "missing_pct": 24.12,
+      "nunique": 3537,
+      "sample_values": [
+        "COWI North America, Inc.",
+        "Puppy Playground LLC",
+        "Linda Goode Bryant",
+        "Catholic Charities at the High School fo…",
+        "Helena Zak"
+      ]
+    },
+    {
+      "name": "value_of_contract_job_exp_2",
+      "dtype": "float64",
+      "missing": 1236,
+      "missing_pct": 24.72,
+      "nunique": 2092,
+      "sample_values": [
+        "229204.0",
+        "250.0",
+        "12000.0",
+        "266.25",
+        "100.0"
+      ],
+      "stats": {
+        "min": -37000.0,
+        "max": 226202700.0,
+        "mean": 569945.0839,
+        "median": 24741.5,
+        "p25": 4327.5875,
+        "p75": 150000.0
+      }
+    },
+    {
+      "name": "percent_self_performed_job_exp_2",
+      "dtype": "float64",
+      "missing": 1299,
+      "missing_pct": 25.98,
+      "nunique": 53,
+      "sample_values": [
+        "90.0",
+        "100.0",
+        "100.0",
+        "100.0",
+        "100.0"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 92.4261,
+        "median": 100.0,
+        "p25": 100.0,
+        "p75": 100.0
+      }
+    },
+    {
+      "name": "date_of_work_job_exp_2",
+      "dtype": "object",
+      "missing": 1204,
+      "missing_pct": 24.08,
+      "nunique": 1876,
+      "sample_values": [
+        "2025-08-29T00:00:00.000",
+        "2023-09-01T00:00:00.000",
+        "2024-05-21T00:00:00.000",
+        "2023-05-03T00:00:00.000",
+        "2021-06-08T00:00:00.000"
+      ]
+    },
+    {
+      "name": "description_of_work_job_exp_2",
+      "dtype": "object",
+      "missing": 1218,
+      "missing_pct": 24.36,
+      "nunique": 3716,
+      "sample_values": [
+        "Structural condition assessment and reha…",
+        "Safety analysis",
+        "Provided architectural services for an i…",
+        "Sold breakfast sandwiches.",
+        "Home Health Care"
+      ]
+    },
+    {
+      "name": "name_of_client_job_exp_3",
+      "dtype": "object",
+      "missing": 1817,
+      "missing_pct": 36.34,
+      "nunique": 2947,
+      "sample_values": [
+        "Walsh Construction",
+        "Puppy Playground LLC",
+        "One Nest LLC",
+        "IS 143",
+        "Rhea King"
+      ]
+    },
+    {
+      "name": "value_of_contract_job_exp_3",
+      "dtype": "float64",
+      "missing": 1846,
+      "missing_pct": 36.92,
+      "nunique": 1801,
+      "sample_values": [
+        "273350.0",
+        "250.0",
+        "40000.0",
+        "710.0",
+        "100.0"
+      ],
+      "stats": {
+        "min": -27665.1,
+        "max": 197000000.0,
+        "mean": 682888.3816,
+        "median": 27000.0,
+        "p25": 4978.5,
+        "p75": 189942.5
+      }
+    },
+    {
+      "name": "percent_self_performed_job_exp_3",
+      "dtype": "float64",
+      "missing": 1922,
+      "missing_pct": 38.44,
+      "nunique": 54,
+      "sample_values": [
+        "100.0",
+        "100.0",
+        "100.0",
+        "100.0",
+        "100.0"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 92.5539,
+        "median": 100.0,
+        "p25": 100.0,
+        "p75": 100.0
+      }
+    },
+    {
+      "name": "date_of_work_job_exp_3",
+      "dtype": "object",
+      "missing": 1816,
+      "missing_pct": 36.32,
+      "nunique": 1774,
+      "sample_values": [
+        "2020-12-08T00:00:00.000",
+        "2023-07-01T00:00:00.000",
+        "2024-04-24T00:00:00.000",
+        "2022-05-21T00:00:00.000",
+        "2021-06-01T00:00:00.000"
+      ]
+    },
+    {
+      "name": "description_of_work_job_exp_3",
+      "dtype": "object",
+      "missing": 1824,
+      "missing_pct": 36.48,
+      "nunique": 3133,
+      "sample_values": [
+        "design of initial support design of geot…",
+        "Development of safety checklist",
+        "Provided architectural services for a ve…",
+        "Sold bagels, cream cheese, muffins, wate…",
+        "Home Health Care"
+      ]
+    },
+    {
+      "name": "capacity_building_programs",
+      "dtype": "float64",
+      "missing": 5000,
+      "missing_pct": 100.0,
+      "nunique": 0,
+      "sample_values": []
+    },
+    {
+      "name": "enrolled_in_passport",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 4972,
+          "pct": 99.4
+        },
+        {
+          "value": "No",
+          "count": 28,
+          "pct": 0.6
+        }
+      ]
+    },
+    {
+      "name": "borough",
+      "dtype": "object",
+      "missing": 1968,
+      "missing_pct": 39.36,
+      "nunique": 5,
+      "sample_values": [
+        "MANHATTAN",
+        "MANHATTAN",
+        "BROOKLYN",
+        "BROOKLYN",
+        "MANHATTAN"
+      ],
+      "top_values": [
+        {
+          "value": "MANHATTAN",
+          "count": 887,
+          "pct": 29.3
+        },
+        {
+          "value": "BROOKLYN",
+          "count": 845,
+          "pct": 27.9
+        },
+        {
+          "value": "QUEENS",
+          "count": 789,
+          "pct": 26.0
+        },
+        {
+          "value": "BRONX",
+          "count": 365,
+          "pct": 12.0
+        },
+        {
+          "value": "STATEN IS",
+          "count": 146,
+          "pct": 4.8
+        }
+      ]
+    },
+    {
+      "name": "latitude",
+      "dtype": "float64",
+      "missing": 1968,
+      "missing_pct": 39.36,
+      "nunique": 2728,
+      "sample_values": [
+        "40.725914",
+        "40.841823",
+        "40.703905",
+        "40.663077",
+        "40.857442"
+      ],
+      "stats": {
+        "min": 40.5133,
+        "max": 40.9129,
+        "mean": 40.726,
+        "median": 40.7244,
+        "p25": 40.6761,
+        "p75": 40.7656
+      }
+    },
+    {
+      "name": "longitude",
+      "dtype": "float64",
+      "missing": 1968,
+      "missing_pct": 39.36,
+      "nunique": 2728,
+      "sample_values": [
+        "-73.979486",
+        "-73.939134",
+        "-73.928988",
+        "-73.996298",
+        "-73.92782"
+      ],
+      "stats": {
+        "min": -74.2444,
+        "max": -73.7041,
+        "mean": -73.9292,
+        "median": -73.9424,
+        "p25": -73.984,
+        "p75": -73.8797
+      }
+    },
+    {
+      "name": "community_board",
+      "dtype": "float64",
+      "missing": 1968,
+      "missing_pct": 39.36,
+      "nunique": 60,
+      "sample_values": [
+        "103.0",
+        "112.0",
+        "304.0",
+        "307.0",
+        "112.0"
+      ],
+      "stats": {
+        "min": 101.0,
+        "max": 503.0,
+        "mean": 272.0491,
+        "median": 304.0,
+        "p25": 110.0,
+        "p75": 403.0
+      }
+    },
+    {
+      "name": "council_district",
+      "dtype": "float64",
+      "missing": 1968,
+      "missing_pct": 39.36,
+      "nunique": 51,
+      "sample_values": [
+        "2.0",
+        "10.0",
+        "34.0",
+        "38.0",
+        "10.0"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 51.0,
+        "mean": 22.9218,
+        "median": 24.0,
+        "p25": 8.0,
+        "p75": 35.0
+      }
+    },
+    {
+      "name": "bin",
+      "dtype": "float64",
+      "missing": 1988,
+      "missing_pct": 39.76,
+      "nunique": 2686,
+      "sample_values": [
+        "1077482.0",
+        "1063014.0",
+        "3258681.0",
+        "3009243.0",
+        "1064066.0"
+      ],
+      "stats": {
+        "min": 1000000.0,
+        "max": 5168823.0,
+        "mean": 2768244.3868,
+        "median": 3058260.0,
+        "p25": 1082548.25,
+        "p75": 4047575.0
+      }
+    },
+    {
+      "name": "bbl",
+      "dtype": "float64",
+      "missing": 1988,
+      "missing_pct": 39.76,
+      "nunique": 2676,
+      "sample_values": [
+        "1003910014.0",
+        "1021260001.0",
+        "3031580123.0",
+        "3006390047.0",
+        "1021700129.0"
+      ],
+      "stats": {
+        "min": 1000090014.0,
+        "max": 5080230084.0,
+        "mean": 2679712138.1414,
+        "median": 3016060065.0,
+        "p25": 1018815626.0,
+        "p75": 4012622525.75
+      }
+    },
+    {
+      "name": "census_tract_2020_",
+      "dtype": "float64",
+      "missing": 1968,
+      "missing_pct": 39.36,
+      "nunique": 978,
+      "sample_values": [
+        "2602.0",
+        "253.0",
+        "427.0",
+        "145.0",
+        "283.0"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 157903.0,
+        "mean": 8437.6372,
+        "median": 329.0,
+        "p25": 113.0,
+        "p75": 1122.0
+      }
+    },
+    {
+      "name": "neighborhood_tabulation_area_nta_2020_",
+      "dtype": "object",
+      "missing": 1968,
+      "missing_pct": 39.36,
+      "nunique": 200,
+      "sample_values": [
+        "MN0303",
+        "MN1201",
+        "BK0401",
+        "BK0702",
+        "MN1202"
+      ]
+    }
+  ]
+}

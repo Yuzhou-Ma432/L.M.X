@@ -1,0 +1,21 @@
+{
+  "id": "hcv3-zacv",
+  "name": "Street Construction Permits - Cranes",
+  "strategy": "semantic",
+  "description": "This dataset contains 5,000 records of street construction permits that involve cranes. Each row represents a single crane associated with a permit and includes the permit number, a short description of the crane type (such as Main - Mobile, Main, Assist, or Crawler), the crane's serial number, and timestamps for when the record was created and last modified. All five columns are complete with no missing values, and the records span permit activity from roughly 2015 through 2018.\n\nThe data can be used to study how often different crane types are deployed for street construction, track permit and equipment activity over time, and cross-check crane serial numbers against permit records. It may also support urban planning and infrastructure management work, such as identifying periods of heavy construction activity or understanding the mix of equipment used on public streets.",
+  "prompt": "Title: Street Construction Permits - Cranes\nCategory: Transportation\nRows (sampled): 5000\nColumns: 5\n\nColumn details:\n- permitnumber (type object) 5000 distinct values 0.0% missing samples: M022018096B36, Q022015142A31, M022015091B43, M022016057C94, M022015121B07\n- cranetypeshortdesc (type object) 8 distinct values 0.0% missing common values: Main - Mobile (48.1%), Main (46.1%), Assist (1.9%), Crawler (1.8%), Assist - Mobile (0.9%) samples: Main - Mobile, Main, Main, Main, Main\n- craneserialnumber (type object) 2257 distinct values 0.0% missing samples: 3866,3527,4126,4715,4957,4932, 4481, 4025, 4711, 4126\n- createdon (type object) 4859 distinct values 0.0% missing samples: 2018-04-06T11:18:21.000, 2015-05-22T13:09:25.000, 2015-04-01T09:29:58.000, 2016-02-26T16:13:31.000, 2015-05-01T12:54:27.000\n- modifiedon (type object) 2120 distinct values 0.0% missing samples: 2018-05-01T00:05:06.000, 2015-05-28T00:05:16.000, 2015-06-23T00:05:16.000, 2016-03-07T00:05:16.000, 2015-06-02T00:05:18.000\n\nSemantic summary (topic and possible uses):\nThis dataset contains records of street construction permits involving cranes, listing permit numbers, crane type descriptions, crane serial numbers, and the dates records were created and modified. It belongs to the transportation and municipal permitting domain, likely drawn from a city's open data portal tracking construction activity on public streets. Possible uses include analyzing the frequency and types of cranes deployed for street construction, monitoring permit activity over time, verifying crane equipment records, and supporting urban planning or infrastructure management research.\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 593,
+    "completion_tokens": 166,
+    "total_tokens": 759
+  },
+  "elapsed_seconds": 2.86,
+  "semantic_summary": "This dataset contains records of street construction permits involving cranes, listing permit numbers, crane type descriptions, crane serial numbers, and the dates records were created and modified. It belongs to the transportation and municipal permitting domain, likely drawn from a city's open data portal tracking construction activity on public streets. Possible uses include analyzing the frequency and types of cranes deployed for street construction, monitoring permit activity over time, verifying crane equipment records, and supporting urban planning or infrastructure management research.",
+  "semantic_usage": {
+    "prompt_tokens": 150,
+    "completion_tokens": 95,
+    "total_tokens": 245
+  }
+}

@@ -1,0 +1,745 @@
+{
+  "id": "9ycp-w8r6",
+  "name": "DOB NOW: Safety - Parking Structure Compliance Filings",
+  "description": "This data set includes parking structure compliance report filings through the New York City Department of Buildings' DOB NOW: Safety - Parking Structures module. The data is collected because the Department of Buildings tracks these submissions and related parking structure information.This data include items such as parking structure ID, BIN, report status, current cycle last inspection date, and GIS census tract. Additional resources and information are available via https://www.nyc.gov/site/buildings/industry/dob-now-safety-ps-resources.page",
+  "category": "Uncategorized",
+  "permalink": "https://data.cityofnewyork.us/d/9ycp-w8r6",
+  "sampled_rows": 5000,
+  "n_rows": 3966,
+  "n_cols": 33,
+  "columns": [
+    {
+      "name": "parking_structure_id",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2916,
+      "sample_values": [
+        "B0004706",
+        "B0004772",
+        "X0002219",
+        "Q0004476",
+        "B0006939"
+      ]
+    },
+    {
+      "name": "bin",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2907,
+      "sample_values": [
+        "3245694",
+        "3348705",
+        "2057311",
+        "4005574",
+        "3329709"
+      ],
+      "stats": {
+        "min": 1000005.0,
+        "max": 5170188.0,
+        "mean": 2194699.2539,
+        "median": 2002798.5,
+        "p25": 1045833.75,
+        "p75": 3336730.75
+      }
+    },
+    {
+      "name": "filing_name",
+      "dtype": "object",
+      "missing": 2355,
+      "missing_pct": 59.38,
+      "nunique": 1254,
+      "sample_values": [
+        "PSID001457",
+        "PSID001523",
+        "PSID003989",
+        "PSID001211",
+        "PSID003793"
+      ]
+    },
+    {
+      "name": "filing_status",
+      "dtype": "object",
+      "missing": 65,
+      "missing_pct": 1.64,
+      "nunique": 4,
+      "sample_values": [
+        "Safe",
+        "Safe",
+        "Unsafe",
+        "SREM",
+        "SREM"
+      ],
+      "top_values": [
+        {
+          "value": "Safe",
+          "count": 1529,
+          "pct": 39.2
+        },
+        {
+          "value": "SREM",
+          "count": 1398,
+          "pct": 35.8
+        },
+        {
+          "value": "Unsafe",
+          "count": 704,
+          "pct": 18.0
+        },
+        {
+          "value": "No Report Filed",
+          "count": 270,
+          "pct": 6.9
+        }
+      ]
+    },
+    {
+      "name": "filing_type",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5,
+      "sample_values": [
+        "Amended",
+        "Initial",
+        "Initial",
+        "Initial",
+        "Initial"
+      ],
+      "top_values": [
+        {
+          "value": "Initial",
+          "count": 2925,
+          "pct": 73.8
+        },
+        {
+          "value": "Subsequent to Change Repair Timeframe",
+          "count": 402,
+          "pct": 10.1
+        },
+        {
+          "value": "Amended",
+          "count": 366,
+          "pct": 9.2
+        },
+        {
+          "value": "Auto-Generated",
+          "count": 270,
+          "pct": 6.8
+        },
+        {
+          "value": "Subsequent to Change Status",
+          "count": 3,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "borough",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5,
+      "sample_values": [
+        "Brooklyn",
+        "Brooklyn",
+        "Bronx",
+        "Queens",
+        "Brooklyn"
+      ],
+      "top_values": [
+        {
+          "value": "Manhattan",
+          "count": 1977,
+          "pct": 49.8
+        },
+        {
+          "value": "Brooklyn",
+          "count": 1522,
+          "pct": 38.4
+        },
+        {
+          "value": "Queens",
+          "count": 298,
+          "pct": 7.5
+        },
+        {
+          "value": "Bronx",
+          "count": 156,
+          "pct": 3.9
+        },
+        {
+          "value": "Staten Island",
+          "count": 13,
+          "pct": 0.3
+        }
+      ]
+    },
+    {
+      "name": "block",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1889,
+      "sample_values": [
+        "8719",
+        "8720",
+        "4643",
+        "510",
+        "1862"
+      ],
+      "stats": {
+        "min": 4.0,
+        "max": 16234.0,
+        "mean": 2728.7037,
+        "median": 1543.0,
+        "p25": 1028.0,
+        "p75": 4452.0
+      }
+    },
+    {
+      "name": "lot",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 210,
+      "sample_values": [
+        "20",
+        "7505",
+        "37",
+        "20",
+        "1"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 9080.0,
+        "mean": 2245.791,
+        "median": 40.0,
+        "p25": 14.0,
+        "p75": 7501.0
+      }
+    },
+    {
+      "name": "house_number",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1503,
+      "sample_values": [
+        "150",
+        "75",
+        "3561",
+        "27-15",
+        "1360"
+      ]
+    },
+    {
+      "name": "street_name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 995,
+      "sample_values": [
+        "WEST END AVENUE",
+        "OCEANA DRIVE EAST",
+        "WHITE PLAINS ROAD",
+        "8 STREET",
+        "FULTON STREET"
+      ]
+    },
+    {
+      "name": "zip",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 165,
+      "sample_values": [
+        "11235",
+        "11235",
+        "10467",
+        "11102",
+        "11216"
+      ],
+      "stats": {
+        "min": 10001.0,
+        "max": 11694.0,
+        "mean": 10605.5121,
+        "median": 10302.5,
+        "p25": 10022.0,
+        "p75": 11223.0
+      }
+    },
+    {
+      "name": "community_board",
+      "dtype": "float64",
+      "missing": 2,
+      "missing_pct": 0.05,
+      "nunique": 59,
+      "sample_values": [
+        "315.0",
+        "313.0",
+        "212.0",
+        "401.0",
+        "303.0"
+      ],
+      "stats": {
+        "min": 101.0,
+        "max": 502.0,
+        "mean": 211.7447,
+        "median": 201.5,
+        "p25": 106.0,
+        "p75": 311.0
+      }
+    },
+    {
+      "name": "dof_bldg_classification",
+      "dtype": "object",
+      "missing": 6,
+      "missing_pct": 0.15,
+      "nunique": 81,
+      "sample_values": [
+        "ELEVATOR APT",
+        "CONDOMINIUMS",
+        "STORE BUILDING: TWO STORY OR STORE/OFFIC…",
+        "ELEVATOR APTS:SEMI-FIREPROOF(W/O STORES)",
+        "STORE BUILDING"
+      ]
+    },
+    {
+      "name": "dof_owner_name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2726,
+      "sample_values": [
+        "150 WEST END AVE OWNERS CORP",
+        "PROPERTY OWNER OF 75 OCEANA DRIVE EAST B…",
+        "THE JANE H. GOLDMAN 2008 Y-1 T",
+        "BRIDGEVIEW III HOUSING CORP",
+        "RDC COMM CENTER INC"
+      ]
+    },
+    {
+      "name": "parking_structure_other",
+      "dtype": "object",
+      "missing": 3428,
+      "missing_pct": 86.43,
+      "nunique": 319,
+      "sample_values": [
+        "Steel Frame Encased in Concrete & Steel …",
+        "Steel frame with concrete on metal deck.…",
+        "Reinforced Concrete",
+        "Reinforced concrete",
+        "Masonry, steel, reinforced concrete"
+      ]
+    },
+    {
+      "name": "number_of_vehicle_parking",
+      "dtype": "object",
+      "missing": 2358,
+      "missing_pct": 59.46,
+      "nunique": 181,
+      "sample_values": [
+        "40",
+        "24",
+        "83",
+        "20",
+        "62"
+      ]
+    },
+    {
+      "name": "number_of_spaces_with_ev",
+      "dtype": "object",
+      "missing": 2358,
+      "missing_pct": 59.46,
+      "nunique": 34,
+      "sample_values": [
+        "0",
+        "0",
+        "0",
+        "1",
+        "0"
+      ]
+    },
+    {
+      "name": "number_of_spaces_ev_ready",
+      "dtype": "object",
+      "missing": 2358,
+      "missing_pct": 59.46,
+      "nunique": 37,
+      "sample_values": [
+        "0",
+        "0",
+        "0",
+        "1",
+        "0"
+      ]
+    },
+    {
+      "name": "less_than_50_building",
+      "dtype": "object",
+      "missing": 2356,
+      "missing_pct": 59.4,
+      "nunique": 2,
+      "sample_values": [
+        "Yes",
+        "No",
+        "Yes",
+        "Yes",
+        "No"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 1327,
+          "pct": 82.4
+        },
+        {
+          "value": "No",
+          "count": 283,
+          "pct": 17.6
+        }
+      ]
+    },
+    {
+      "name": "unsafe_srem_completion_date",
+      "dtype": "object",
+      "missing": 1795,
+      "missing_pct": 45.26,
+      "nunique": 754,
+      "sample_values": [
+        "2025-12-31T05:00:00.000",
+        "2028-02-03T05:00:00.000",
+        "2027-12-31T05:00:00.000",
+        "2028-08-01T04:00:00.000",
+        "2024-11-01T04:00:00.000"
+      ]
+    },
+    {
+      "name": "complience_report_created",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3837,
+      "sample_values": [
+        "2026-02-18T16:09:52.000",
+        "2024-06-11T19:41:01.000",
+        "2024-11-13T21:37:21.000",
+        "2026-02-09T16:48:15.000",
+        "2025-12-27T08:59:37.000"
+      ]
+    },
+    {
+      "name": "pips_cycle",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "top_values": [
+        {
+          "value": "1",
+          "count": 3742,
+          "pct": 94.4
+        },
+        {
+          "value": "0",
+          "count": 224,
+          "pct": 5.6
+        }
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.9435,
+        "median": 1.0,
+        "p25": 1.0,
+        "p75": 1.0
+      }
+    },
+    {
+      "name": "pips_sub_cycle",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 6,
+      "sample_values": [
+        "1B",
+        "1B",
+        "1C",
+        "1C",
+        "1B"
+      ],
+      "top_values": [
+        {
+          "value": "1B",
+          "count": 2054,
+          "pct": 51.8
+        },
+        {
+          "value": "1A",
+          "count": 1302,
+          "pct": 32.8
+        },
+        {
+          "value": "1C",
+          "count": 386,
+          "pct": 9.7
+        },
+        {
+          "value": "0B",
+          "count": 135,
+          "pct": 3.4
+        },
+        {
+          "value": "0C",
+          "count": 81,
+          "pct": 2.0
+        }
+      ]
+    },
+    {
+      "name": "current_cycle_last_inspection",
+      "dtype": "object",
+      "missing": 358,
+      "missing_pct": 9.03,
+      "nunique": 826,
+      "sample_values": [
+        "2026-02-20T05:00:00.000",
+        "2025-03-10T04:00:00.000",
+        "2024-10-29T04:00:00.000",
+        "2026-02-04T05:00:00.000",
+        "2025-12-04T05:00:00.000"
+      ]
+    },
+    {
+      "name": "report_status",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 9,
+      "sample_values": [
+        "Accepted",
+        "Accepted",
+        "Accepted",
+        "Pre-filing",
+        "Rejected"
+      ],
+      "top_values": [
+        {
+          "value": "Accepted",
+          "count": 3064,
+          "pct": 77.3
+        },
+        {
+          "value": "Pre-filing",
+          "count": 490,
+          "pct": 12.4
+        },
+        {
+          "value": "Rejected",
+          "count": 310,
+          "pct": 7.8
+        },
+        {
+          "value": "Plan Examiner Review",
+          "count": 67,
+          "pct": 1.7
+        },
+        {
+          "value": "Inspection",
+          "count": 15,
+          "pct": 0.4
+        }
+      ]
+    },
+    {
+      "name": "status",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active"
+      ],
+      "top_values": [
+        {
+          "value": "Active",
+          "count": 3937,
+          "pct": 99.3
+        },
+        {
+          "value": "Inactive",
+          "count": 29,
+          "pct": 0.7
+        }
+      ]
+    },
+    {
+      "name": "city_owned",
+      "dtype": "object",
+      "missing": 528,
+      "missing_pct": 13.31,
+      "nunique": 3,
+      "sample_values": [
+        "N",
+        "N",
+        "N",
+        "0",
+        "N"
+      ],
+      "top_values": [
+        {
+          "value": "N",
+          "count": 3367,
+          "pct": 97.9
+        },
+        {
+          "value": "Y",
+          "count": 44,
+          "pct": 1.3
+        },
+        {
+          "value": "0",
+          "count": 27,
+          "pct": 0.8
+        }
+      ]
+    },
+    {
+      "name": "gis_latitude",
+      "dtype": "float64",
+      "missing": 10,
+      "missing_pct": 0.25,
+      "nunique": 2868,
+      "sample_values": [
+        "40.57822",
+        "40.576885",
+        "40.878806",
+        "40.773948",
+        "40.680186"
+      ],
+      "stats": {
+        "min": 40.5726,
+        "max": 40.9052,
+        "mean": 40.7214,
+        "median": 40.7346,
+        "p25": 40.6743,
+        "p75": 40.7676
+      }
+    },
+    {
+      "name": "gis_longitude",
+      "dtype": "float64",
+      "missing": 10,
+      "missing_pct": 0.25,
+      "nunique": 2853,
+      "sample_values": [
+        "-73.953155",
+        "-73.95763",
+        "-73.865627",
+        "-73.931954",
+        "-73.94593"
+      ],
+      "stats": {
+        "min": -74.1807,
+        "max": -73.7135,
+        "mean": -73.9581,
+        "median": -73.9642,
+        "p25": -73.9841,
+        "p75": -73.9485
+      }
+    },
+    {
+      "name": "gis_council_district",
+      "dtype": "float64",
+      "missing": 10,
+      "missing_pct": 0.25,
+      "nunique": 50,
+      "sample_values": [
+        "48.0",
+        "48.0",
+        "12.0",
+        "22.0",
+        "36.0"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 50.0,
+        "mean": 20.3827,
+        "median": 10.5,
+        "p25": 4.0,
+        "p75": 38.0
+      }
+    },
+    {
+      "name": "gis_census_tract",
+      "dtype": "float64",
+      "missing": 10,
+      "missing_pct": 0.25,
+      "nunique": 754,
+      "sample_values": [
+        "61004.0",
+        "61002.0",
+        "378.0",
+        "83.0",
+        "247.0"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 155104.0,
+        "mean": 7645.4939,
+        "median": 331.0,
+        "p25": 123.5,
+        "p75": 1502.0
+      }
+    },
+    {
+      "name": "gis_nta_name",
+      "dtype": "object",
+      "missing": 10,
+      "missing_pct": 0.25,
+      "nunique": 171,
+      "sample_values": [
+        "Brighton Beach",
+        "Brighton Beach",
+        "Williamsbridge-Olinville",
+        "Old Astoria-Hallets Point",
+        "Bedford-Stuyvesant (West)"
+      ]
+    },
+    {
+      "name": "gis_bbl",
+      "dtype": "float64",
+      "missing": 16,
+      "missing_pct": 0.4,
+      "nunique": 2828,
+      "sample_values": [
+        "3087190020.0",
+        "3087207505.0",
+        "2046430037.0",
+        "4005100020.0",
+        "3018620001.0"
+      ],
+      "stats": {
+        "min": 1000047501.0,
+        "max": 5028730034.0,
+        "mean": 2070493530.6289,
+        "median": 2023345024.5,
+        "p25": 1012202522.0,
+        "p75": 3052170018.0
+      }
+    }
+  ]
+}

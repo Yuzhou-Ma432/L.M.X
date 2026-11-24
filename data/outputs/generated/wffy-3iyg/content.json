@@ -1,0 +1,15 @@
+{
+  "id": "wffy-3iyg",
+  "name": "Percent Live Births by Infant Sex and Mother’s Race/Ethnicity",
+  "strategy": "content",
+  "description": "This dataset reports live births by infant sex and the mother’s race/ethnicity for each year from 2007 to 2023. Each row gives a birth year, whether the infant was male or female, the mother’s race/ethnicity group (including Non-Hispanic White, Non-Hispanic Black, Hispanic, Asian/Pacific Islander, and Other), the number of births in that group, and the percentage that count represents. The sample covers 184 rows across 17 years and seven race/ethnicity categories.\n\nThe data can be used to compare birth counts and sex proportions across racial and ethnic groups over time, to track year-to-year trends, and to examine whether the share of male versus female births differs by group or period. It is useful for demographic analysis, public health reporting, and exploratory charts or dashboards on birth patterns. Because counts vary widely between groups, users should consider both the number of births and the percentage when making comparisons.",
+  "prompt": "Title: Percent Live Births by Infant Sex and Mother’s Race/Ethnicity\nCategory: Health\nRows (sampled): 184\nColumns: 5\n\nColumn details:\n- birth_year (type int64) 17 distinct values 0.0% missing min=2007.0 max=2023.0 mean=2015.2391 p25=2011.0 p75=2019.0 common values: 2015 (6.5%), 2019 (6.5%), 2018 (6.5%), 2022 (6.5%), 2020 (6.5%) samples: 2007, 2007, 2007, 2007, 2007\n- sex_of_infant (type object) 2 distinct values 0.0% missing common values: Male (50.0%), Female (50.0%) samples: Male, Male, Female, Male, Female\n- race_or_ethnicity_of_mother (type object) 7 distinct values 0.0% missing common values: Non-Hispanic White (18.5%), Other (18.5%), Hispanic (18.5%), Non-Hispanic Black (18.5%), Asian/ Pacific Islander (18.5%) samples: Non-Hispanic White, Other, Hispanic, Non-Hispanic Black, Non-Hispanic White\n- births (type int64) 183 distinct values 0.0% missing min=35.0 max=21002.0 mean=10734.413 p25=1356.0 p75=17616.5 samples: 20186, 108, 20044, 14881, 19165\n- percentage (type float64) 115 distinct values 0.0% missing min=0.0038 max=36.5 mean=17.4067 p25=1.7 p75=29.725 samples: 30.7, 0.2, 31.8, 22.6, 30.4\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 503,
+    "completion_tokens": 195,
+    "total_tokens": 698
+  },
+  "elapsed_seconds": 2.08
+}

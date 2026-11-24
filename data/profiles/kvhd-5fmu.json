@@ -1,0 +1,809 @@
+{
+  "id": "kvhd-5fmu",
+  "name": "NYC Benefits Platform: Benefits and Programs Dataset",
+  "description": "<p>This dataset provides benefit, program, and resource information for over 80 health and human services available to NYC residents in all eleven local law languages. The data is kept up-to-date, including the most recent applications, eligibility requirements, and application dates. Information in this dataset is used on ACCESS NYC, Generation NYC, and Growing Up NYC.\r\n</br>\r\nReach out to products@nycopportunity.nyc.gov if you have any questions about this dataset.\r\n</p>\r\n\r\nThis data makes it easier for NYC residents to discover and be aware of multiple benefits they may be eligible for. NYC Opportunity Product team works with 15+ government agencies to collect and update this data. Each record in the dataset represents a benefit or program. \r\n</br></p>\r\n<li>Blank fields are NULL values in this dataset.</li></p>\r\nThe data can be used to develop new websites or directory resources to help residents to discover benefits they need. For access to the multilingual version of this dataset, please follow this link: <a href=\"https://data.cityofnewyork.us/City-Government/Benefits-and-Programs-Multilingual-Dataset/yjpx-srhp\">https://data.cityofnewyork.us/City-Government/Benefits-and-Programs-Multilingual-Dataset/yjpx-srhp</a>",
+  "category": "Social Services",
+  "permalink": "https://data.cityofnewyork.us/d/kvhd-5fmu",
+  "sampled_rows": 5000,
+  "n_rows": 97,
+  "n_cols": 34,
+  "columns": [
+    {
+      "name": "unique_id_number",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 97,
+      "sample_values": [
+        "P001en",
+        "P003en",
+        "P004en",
+        "P005en",
+        "P006en"
+      ]
+    },
+    {
+      "name": "program_code",
+      "dtype": "object",
+      "missing": 47,
+      "missing_pct": 48.45,
+      "nunique": 50,
+      "sample_values": [
+        "S2R001",
+        "S2R003",
+        "S2R004",
+        "S2R005",
+        "S2R006"
+      ]
+    },
+    {
+      "name": "language",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "English",
+        "English",
+        "English",
+        "English",
+        "English"
+      ],
+      "top_values": [
+        {
+          "value": "English",
+          "count": 97,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "program_name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 97,
+      "sample_values": [
+        "Child and Dependent Care Tax Credit",
+        "Extended Day/Year Infant and Toddler Pro…",
+        "Child Tax Credit",
+        "Disability Rent Increase Exemption",
+        "Earned Income Tax Credit"
+      ]
+    },
+    {
+      "name": "program_acronym",
+      "dtype": "object",
+      "missing": 49,
+      "missing_pct": 50.52,
+      "nunique": 48,
+      "sample_values": [
+        "CTC",
+        "DRIE",
+        "EITC",
+        "SNAP",
+        "COMPASS NYC"
+      ]
+    },
+    {
+      "name": "page_type",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "Benefit",
+        "Program",
+        "Benefit",
+        "Program",
+        "Benefit"
+      ],
+      "top_values": [
+        {
+          "value": "Program",
+          "count": 54,
+          "pct": 55.7
+        },
+        {
+          "value": "Service",
+          "count": 19,
+          "pct": 19.6
+        },
+        {
+          "value": "Benefit",
+          "count": 17,
+          "pct": 17.5
+        },
+        {
+          "value": "Resource",
+          "count": 7,
+          "pct": 7.2
+        }
+      ]
+    },
+    {
+      "name": "program_category",
+      "dtype": "object",
+      "missing": 1,
+      "missing_pct": 1.03,
+      "nunique": 10,
+      "sample_values": [
+        "Cash & expenses",
+        "Child Care",
+        "Cash & expenses",
+        "Housing",
+        "Cash & expenses"
+      ],
+      "top_values": [
+        {
+          "value": "Cash & expenses",
+          "count": 21,
+          "pct": 21.9
+        },
+        {
+          "value": "Housing",
+          "count": 15,
+          "pct": 15.6
+        },
+        {
+          "value": "Health",
+          "count": 13,
+          "pct": 13.5
+        },
+        {
+          "value": "Work",
+          "count": 11,
+          "pct": 11.5
+        },
+        {
+          "value": "Family Services",
+          "count": 10,
+          "pct": 10.4
+        }
+      ]
+    },
+    {
+      "name": "government_agency",
+      "dtype": "object",
+      "missing": 3,
+      "missing_pct": 3.09,
+      "nunique": 50,
+      "sample_values": [
+        "NYC Department of Consumer and Worker Pr…",
+        "NYC Public Schools",
+        "NYC Department of Consumer and Worker Pr…",
+        "NYC Department of Finance (DOF)",
+        "NYC Department of Consumer and Worker Pr…"
+      ]
+    },
+    {
+      "name": "population_served",
+      "dtype": "object",
+      "missing": 16,
+      "missing_pct": 16.49,
+      "nunique": 28,
+      "sample_values": [
+        "Families with children,Pregnant & new pa…",
+        "Families with children,Pregnant & new pa…",
+        "Families with children,Pregnant & new pa…",
+        "People with disabilities",
+        "Families with children"
+      ],
+      "top_values": [
+        {
+          "value": "All New Yorkers, regardless of immigrati…",
+          "count": 17,
+          "pct": 21.0
+        },
+        {
+          "value": "Students",
+          "count": 9,
+          "pct": 11.1
+        },
+        {
+          "value": "People with disabilities",
+          "count": 5,
+          "pct": 6.2
+        },
+        {
+          "value": "Families with children,Pregnant & new pa…",
+          "count": 5,
+          "pct": 6.2
+        },
+        {
+          "value": "All New Yorkers, regardless of immigrati…",
+          "count": 4,
+          "pct": 4.9
+        }
+      ]
+    },
+    {
+      "name": "age_group",
+      "dtype": "object",
+      "missing": 13,
+      "missing_pct": 13.4,
+      "nunique": 17,
+      "sample_values": [
+        "Everyone",
+        "Baby,Toddler",
+        "Everyone",
+        "Caregiver",
+        "Caregiver"
+      ],
+      "top_values": [
+        {
+          "value": "Everyone",
+          "count": 27,
+          "pct": 32.1
+        },
+        {
+          "value": "Caregiver",
+          "count": 13,
+          "pct": 15.5
+        },
+        {
+          "value": "Caregiver,Young Adult",
+          "count": 13,
+          "pct": 15.5
+        },
+        {
+          "value": "Teen,Young Adult",
+          "count": 8,
+          "pct": 9.5
+        },
+        {
+          "value": "Grade-Schooler,Pre-Teen,Teen",
+          "count": 4,
+          "pct": 4.8
+        }
+      ]
+    },
+    {
+      "name": "plain_language_program_name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 97,
+      "sample_values": [
+        "Tax credit to help pay for childcare or …",
+        "Free or low-cost child care for infants …",
+        "Tax credit for families with children",
+        "Rent freeze for people with disabilities",
+        "Tax credit for working individuals and f…"
+      ]
+    },
+    {
+      "name": "program_description",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 97,
+      "sample_values": [
+        "<p>The federal <strong>Child and Depende…",
+        "<p>Extended Day and Year (EDY) Birth to …",
+        "<p>You can get money back when you file …",
+        "<p>DRIE helps keep your rent the same if…",
+        "<p>The Earned Income Tax Credit (EITC) i…"
+      ]
+    },
+    {
+      "name": "brief_excerpt",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 97,
+      "sample_values": [
+        "<p>Get money back if you paid for childc…",
+        "<p>Year-round early care and education f…",
+        "<p>Claim the federal Child Tax Credit an…",
+        "<p>A rent freeze program to help eligibl…",
+        "<p>Tax credit worth up to $11,000 for qu…"
+      ]
+    },
+    {
+      "name": "heads_up",
+      "dtype": "object",
+      "missing": 1,
+      "missing_pct": 1.03,
+      "nunique": 96,
+      "sample_values": [
+        "<ul><li>The federal credit is worth up t…",
+        "<p>Extended Day/Year Infant and Toddler …",
+        "<ul><li>The federal Child Tax Credit is …",
+        "<p>Even if your landlord raises the rent…",
+        "<ul><li>On average, eligible New Yorkers…"
+      ]
+    },
+    {
+      "name": "plain_language_eligibility",
+      "dtype": "object",
+      "missing": 5,
+      "missing_pct": 5.15,
+      "nunique": 92,
+      "sample_values": [
+        "<p>To claim the <strong>federal Child Ta…",
+        "<p><strong>Residency requirements for in…",
+        "<p>To claim the federal <strong>Child Ta…",
+        "<p>To qualify for DRIE, you'll need to m…",
+        "<p><strong>Income requirements for the f…"
+      ]
+    },
+    {
+      "name": "how_to_apply_summary",
+      "dtype": "object",
+      "missing": 19,
+      "missing_pct": 19.59,
+      "nunique": 78,
+      "sample_values": [
+        "<p>Here are your options to apply:</p><u…",
+        "<p>You must file your federal and New Yo…",
+        "<p><strong>Online</strong></p><p>Applyin…",
+        "<p>You must file your federal and New Yo…",
+        "<p>To find and apply to a Head Start or …"
+      ]
+    },
+    {
+      "name": "how_to_apply_or_enroll_online",
+      "dtype": "object",
+      "missing": 35,
+      "missing_pct": 36.08,
+      "nunique": 62,
+      "sample_values": [
+        "<p>You must file your federal and New Yo…",
+        "<p>Apply using the <a href=\"https://myci…",
+        "<p>You must file your federal and New Yo…",
+        "<p>Applying for the first time? The fast…",
+        "<p>You must file your federal and New Yo…"
+      ]
+    },
+    {
+      "name": "apply_online_call_to_action",
+      "dtype": "object",
+      "missing": 51,
+      "missing_pct": 52.58,
+      "nunique": 27,
+      "sample_values": [
+        "Get started",
+        "Apply online",
+        "Apply online",
+        "Get started",
+        "Apply online"
+      ],
+      "top_values": [
+        {
+          "value": "Apply online",
+          "count": 13,
+          "pct": 28.3
+        },
+        {
+          "value": "Get started",
+          "count": 5,
+          "pct": 10.9
+        },
+        {
+          "value": "Find a program",
+          "count": 3,
+          "pct": 6.5
+        },
+        {
+          "value": "Apply",
+          "count": 2,
+          "pct": 4.3
+        },
+        {
+          "value": "Find an afterschool program",
+          "count": 1,
+          "pct": 2.2
+        }
+      ]
+    },
+    {
+      "name": "url_of_online_application",
+      "dtype": "object",
+      "missing": 44,
+      "missing_pct": 45.36,
+      "nunique": 43,
+      "sample_values": [
+        "https://www.nyc.gov/site/dca/talk-money/…",
+        "https://mycity.nyc.gov/s/childcarelandin…",
+        "https://www.nyc.gov/site/dca/talk-money/…",
+        "https://www.nyc.gov/assets/finance/jump/…",
+        "https://www.nyc.gov/site/dca/talk-money/…"
+      ]
+    },
+    {
+      "name": "how_to_apply_or_enroll_by_mail",
+      "dtype": "object",
+      "missing": 81,
+      "missing_pct": 83.51,
+      "nunique": 16,
+      "sample_values": [
+        "<p>Applying for the first time? <a href=…",
+        "<p>Print a <a href=\"http://otda.ny.gov/p…",
+        "<ol><li><a href=\"https://otda.ny.gov/pro…",
+        "<p>Applications must be postmarked by Ma…",
+        "<ol><li>Print and complete the <a href=\"…"
+      ],
+      "top_values": [
+        {
+          "value": "<p>Applying for the first time? <a href=…",
+          "count": 1,
+          "pct": 6.2
+        },
+        {
+          "value": "<p>Print a <a href=\"http://otda.ny.gov/p…",
+          "count": 1,
+          "pct": 6.2
+        },
+        {
+          "value": "<ol><li><a href=\"https://otda.ny.gov/pro…",
+          "count": 1,
+          "pct": 6.2
+        },
+        {
+          "value": "<p>Applications must be postmarked by Ma…",
+          "count": 1,
+          "pct": 6.2
+        },
+        {
+          "value": "<ol><li>Print and complete the <a href=\"…",
+          "count": 1,
+          "pct": 6.2
+        }
+      ]
+    },
+    {
+      "name": "apply_by_mail_call_to_action",
+      "dtype": "object",
+      "missing": 87,
+      "missing_pct": 89.69,
+      "nunique": 4,
+      "sample_values": [
+        "Download application",
+        "Download the form",
+        "Download the form",
+        "Download the form",
+        "Download the form"
+      ],
+      "top_values": [
+        {
+          "value": "Download the form",
+          "count": 5,
+          "pct": 50.0
+        },
+        {
+          "value": "Download application",
+          "count": 2,
+          "pct": 20.0
+        },
+        {
+          "value": "Download the application",
+          "count": 2,
+          "pct": 20.0
+        },
+        {
+          "value": "Download referral form",
+          "count": 1,
+          "pct": 10.0
+        }
+      ]
+    },
+    {
+      "name": "url_of_pdf_application_forms",
+      "dtype": "object",
+      "missing": 87,
+      "missing_pct": 89.69,
+      "nunique": 10,
+      "sample_values": [
+        "https://www.nyc.gov/assets/rentfreeze/do…",
+        "http://otda.ny.gov/programs/applications…",
+        "https://otda.ny.gov/programs/application…",
+        "https://www1.nyc.gov/assets/finance/down…",
+        "https://www1.nyc.gov/assets/finance/down…"
+      ],
+      "top_values": [
+        {
+          "value": "https://www.nyc.gov/assets/rentfreeze/do…",
+          "count": 1,
+          "pct": 10.0
+        },
+        {
+          "value": "http://otda.ny.gov/programs/applications…",
+          "count": 1,
+          "pct": 10.0
+        },
+        {
+          "value": "https://otda.ny.gov/programs/application…",
+          "count": 1,
+          "pct": 10.0
+        },
+        {
+          "value": "https://www1.nyc.gov/assets/finance/down…",
+          "count": 1,
+          "pct": 10.0
+        },
+        {
+          "value": "https://www1.nyc.gov/assets/finance/down…",
+          "count": 1,
+          "pct": 10.0
+        }
+      ]
+    },
+    {
+      "name": "how_to_apply_or_enroll_in_person",
+      "dtype": "object",
+      "missing": 57,
+      "missing_pct": 58.76,
+      "nunique": 35,
+      "sample_values": [
+        "<p>Find your nearest NYC Free Tax Prep s…",
+        "<p>Find your nearest NYC Free Tax Prep s…",
+        "<p>Apply at a <a href=\"https://www1.nyc.…",
+        "<p>Find your nearest NYC Free Tax Prep s…",
+        "<p>Visit an <a href=\"https://www1.nyc.go…"
+      ]
+    },
+    {
+      "name": "apply_in_person_call_to_action",
+      "dtype": "object",
+      "missing": 76,
+      "missing_pct": 78.35,
+      "nunique": 12,
+      "sample_values": [
+        "Find a tax prep location",
+        "Find a tax prep location",
+        "Find a center",
+        "Find a tax prep location",
+        "Find a location"
+      ],
+      "top_values": [
+        {
+          "value": "Find a center",
+          "count": 6,
+          "pct": 28.6
+        },
+        {
+          "value": "Find a tax prep location",
+          "count": 4,
+          "pct": 19.0
+        },
+        {
+          "value": "Find a location",
+          "count": 2,
+          "pct": 9.5
+        },
+        {
+          "value": "Find an open HRA Benefits Access Center",
+          "count": 1,
+          "pct": 4.8
+        },
+        {
+          "value": "Find an office",
+          "count": 1,
+          "pct": 4.8
+        }
+      ]
+    },
+    {
+      "name": "office_locations_url",
+      "dtype": "object",
+      "missing": 74,
+      "missing_pct": 76.29,
+      "nunique": 17,
+      "sample_values": [
+        "https://a866-dcwpwb.nyc.gov/ftps_map/#/?…",
+        "https://a866-dcwpwb.nyc.gov/ftps_map/#/?…",
+        "https://www1.nyc.gov/site/rentfreeze/hel…",
+        "https://a866-dcwpwb.nyc.gov/ftps_map/#/?…",
+        "https://www1.nyc.gov/site/hra/locations/…"
+      ],
+      "top_values": [
+        {
+          "value": "https://a866-dcwpwb.nyc.gov/ftps_map/#/?…",
+          "count": 4,
+          "pct": 17.4
+        },
+        {
+          "value": "http://www1.nyc.gov/site/finance/pay-now…",
+          "count": 3,
+          "pct": 13.0
+        },
+        {
+          "value": "https://www.nyc.gov/site/hra/locations/h…",
+          "count": 2,
+          "pct": 8.7
+        },
+        {
+          "value": "https://www1.nyc.gov/site/hra/locations/…",
+          "count": 1,
+          "pct": 4.3
+        },
+        {
+          "value": "https://www1.nyc.gov/site/rentfreeze/hel…",
+          "count": 1,
+          "pct": 4.3
+        }
+      ]
+    },
+    {
+      "name": "how_to_apply_or_enroll_by_phone",
+      "dtype": "object",
+      "missing": 63,
+      "missing_pct": 64.95,
+      "nunique": 34,
+      "sample_values": [
+        "<p>Call NY State of Health at</p><p><a h…",
+        "<p>Call <a href=\"tel:518- 457-2036\"  tar…",
+        "<p>Call <a href=\"call: 718-935-2009\"  ta…",
+        "<p>Applications for the 2024-25 Emergenc…",
+        "<p>Call<a href=\"tel:888-209-8124\"  targe…"
+      ]
+    },
+    {
+      "name": "required_documents_summary",
+      "dtype": "object",
+      "missing": 59,
+      "missing_pct": 60.82,
+      "nunique": 37,
+      "sample_values": [
+        "<p>You'll need <a href=\"https://www.nyc.…",
+        "<p>Youll need <a href=\"https://www.nyc.g…",
+        "<p>When you apply, have copies of these …",
+        "<p>Youll need <a href=\"https://www.nyc.g…",
+        "<p>To apply, you will need to provide on…"
+      ]
+    },
+    {
+      "name": "get_help_summary",
+      "dtype": "object",
+      "missing": 15,
+      "missing_pct": 15.46,
+      "nunique": 82,
+      "sample_values": [
+        "<p>Get more information about early chil…",
+        "<p>Get additional information at <a href…",
+        "<p>Visit <a href=\"https://headstart.gov/…",
+        "<p><strong>Online</strong></p><p>Learn m…",
+        "<ul><li>Visit the <a href=\"http://www1.n…"
+      ]
+    },
+    {
+      "name": "get_help_in_person",
+      "dtype": "object",
+      "missing": 81,
+      "missing_pct": 83.51,
+      "nunique": 16,
+      "sample_values": [
+        "<p><strong>Find an HRA partner</strong><…",
+        "<p><strong>Visit your child's school</st…",
+        "<p><strong>Attend an in-person event</st…",
+        "<p><strong>Visit a location</strong></p>…",
+        "<p> </p>"
+      ],
+      "top_values": [
+        {
+          "value": "<p><strong>Find an HRA partner</strong><…",
+          "count": 1,
+          "pct": 6.2
+        },
+        {
+          "value": "<p><strong>Visit your child's school</st…",
+          "count": 1,
+          "pct": 6.2
+        },
+        {
+          "value": "<p><strong>Attend an in-person event</st…",
+          "count": 1,
+          "pct": 6.2
+        },
+        {
+          "value": "<p><strong>Visit a location</strong></p>…",
+          "count": 1,
+          "pct": 6.2
+        },
+        {
+          "value": "<p> </p>",
+          "count": 1,
+          "pct": 6.2
+        }
+      ]
+    },
+    {
+      "name": "get_help_online",
+      "dtype": "object",
+      "missing": 14,
+      "missing_pct": 14.43,
+      "nunique": 82,
+      "sample_values": [
+        "<p><strong>Visit </strong><a href=\"https…",
+        "<p><strong>Visit the website</strong></p…",
+        "<p><strong>Visit </strong><a href=\"https…",
+        "<p><strong>Learn more online<br/></stron…",
+        "<p><strong>Visit </strong><a href=\"nyc.g…"
+      ]
+    },
+    {
+      "name": "get_help_by_email",
+      "dtype": "object",
+      "missing": 68,
+      "missing_pct": 70.1,
+      "nunique": 29,
+      "sample_values": [
+        "<p><strong>Email STAR</strong></p><p>Ema…",
+        "<p><strong>Email DOF</strong> Send a mes…",
+        "<p><strong>Contact SCRIE</strong> </p><p…",
+        "<p><strong>Email Pre-K admissions</stron…",
+        "<p><strong>Email DHE</strong> Send a mes…"
+      ],
+      "top_values": [
+        {
+          "value": "<p><strong>Email STAR</strong></p><p>Ema…",
+          "count": 1,
+          "pct": 3.4
+        },
+        {
+          "value": "<p><strong>Email DOF</strong> Send a mes…",
+          "count": 1,
+          "pct": 3.4
+        },
+        {
+          "value": "<p><strong>Contact SCRIE</strong> </p><p…",
+          "count": 1,
+          "pct": 3.4
+        },
+        {
+          "value": "<p><strong>Email Pre-K admissions</stron…",
+          "count": 1,
+          "pct": 3.4
+        },
+        {
+          "value": "<p><strong>Email DHE</strong> Send a mes…",
+          "count": 1,
+          "pct": 3.4
+        }
+      ]
+    },
+    {
+      "name": "get_help_by_calling_other_than_311",
+      "dtype": "object",
+      "missing": 45,
+      "missing_pct": 46.39,
+      "nunique": 52,
+      "sample_values": [
+        "<p><strong>Email NYC Public Schools</str…",
+        "<p><strong>Get application assistance</s…",
+        "<p><strong>Call HRA</strong> </p><p><a h…",
+        "<p><strong>Call</strong> </p><p>Call DYC…",
+        "<p><strong>Call the HRA Infoline</strong…"
+      ]
+    },
+    {
+      "name": "get_help_by_calling_311",
+      "dtype": "object",
+      "missing": 54,
+      "missing_pct": 55.67,
+      "nunique": 41,
+      "sample_values": [
+        "<p><strong>Call 311</strong></p><p>Ask f…",
+        "<p><strong>Call 311</strong></p><p>Ask a…",
+        "<p><strong>Call 311</strong></p><p>Ask f…",
+        "<p><strong>Call 311</strong> </p><p>Ask …",
+        "<p><strong>Call 311</strong></p><p>Ask f…"
+      ]
+    },
+    {
+      "name": "updated_at",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 97,
+      "sample_values": [
+        "2026-03-21T11:00:43.000",
+        "2026-06-18T11:00:52.000",
+        "2026-03-21T11:00:44.000",
+        "2026-05-12T11:00:55.000",
+        "2026-03-21T11:00:53.000"
+      ]
+    }
+  ]
+}

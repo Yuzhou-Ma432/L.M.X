@@ -1,0 +1,15 @@
+{
+  "id": "ipu4-2q9a",
+  "name": "DOB Permit Issuance",
+  "strategy": "baseline",
+  "description": "This dataset contains records of building permits issued by the New York City Department of Buildings, based on a 5,000-row sample with 60 columns. Each row represents a single permit and includes details such as the borough, block and lot, building identification number, street address, job and permit numbers, job type, work type, permit status and subtype, and key dates (filing, issuance, expiration, and job start). It also captures information about the permittee (name, business, phone, license type and number), the site safety manager, the superintendent, and the property owner, along with building type, residential flag, special districts, and community board. Geographic fields include ZIP code, latitude and longitude, council district, census tract, neighborhood tabulation area, and BBL.\n\nThe data can be used to analyze construction and renovation activity across the city, track permit volumes and processing times, examine the types of work being permitted, and identify geographic concentrations of development. It may also",
+  "prompt": "Title: DOB Permit Issuance\nCategory: Housing & Development\nRows (sampled): 5000\nColumns: 60\nColumn names: borough, bin__, house__, street_name, job__, job_doc___, job_type, self_cert, block, lot, community_board, zip_code, bldg_type, residential, special_district_1, special_district_2, work_type, permit_status, filing_status, permit_type, permit_sequence__, permit_subtype, oil_gas, site_fill, filing_date, issuance_date, expiration_date, job_start_date, permittee_s_first_name, permittee_s_last_name, permittee_s_business_name, permittee_s_phone__, permittee_s_license_type, permittee_s_license__, act_as_superintendent, permittee_s_other_title, hic_license, site_safety_mgr_s_first_name, site_safety_mgr_s_last_name, site_safety_mgr_business_name, superintendent_first___last_name, superintendent_business_name, owner_s_business_type, non_profit, owner_s_business_name, owner_s_first_name, owner_s_last_name, owner_s_house__, owner_s_house_street_name, city, state, owner_s_zip_code, permit_si_no, gis_latitude, gis_longitude, gis_council_district, gis_census_tract, bbl, gis_nta_name, dobrundate\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "length",
+  "usage": {
+    "prompt_tokens": 385,
+    "completion_tokens": 200,
+    "total_tokens": 585
+  },
+  "elapsed_seconds": 1.86
+}

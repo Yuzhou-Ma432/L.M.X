@@ -1,0 +1,187 @@
+{
+  "id": "pztn-9bne",
+  "name": "Shooting Victims (2006-Present)",
+  "description": "This dataset is part of a data collection that includes three related datasets covering shootings, shooting victims, and shooting offenders. For the complete data collection, please follow <a href=\"https://data.cityofnewyork.us/browse?q=&sortBy=relevance&utf8=%E2%9C%93&pageSize=20&Data-Collection_Data-Collection=NYPD+Shootings&page=1\">this link</a>.\n\nThis dataset identifies every shooting victim that occurred in NYC since 2006.",
+  "category": "Public Safety",
+  "permalink": "https://data.cityofnewyork.us/d/pztn-9bne",
+  "sampled_rows": 5000,
+  "n_rows": 5000,
+  "n_cols": 6,
+  "columns": [
+    {
+      "name": "incident_key",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4176,
+      "sample_values": [
+        "299453927",
+        "212336415",
+        "280768895",
+        "141824677",
+        "270079203"
+      ],
+      "stats": {
+        "min": 9953246.0,
+        "max": 319009737.0,
+        "mean": 47935771.6862,
+        "median": 39560235.5,
+        "p25": 26297683.25,
+        "p75": 59725892.0
+      }
+    },
+    {
+      "name": "victim_id",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5000,
+      "sample_values": [
+        "299453927-1",
+        "212336415-1",
+        "280768895-1",
+        "141824677-27687",
+        "270079203-1"
+      ]
+    },
+    {
+      "name": "victim_age_group",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 6,
+      "sample_values": [
+        "25-44",
+        "18-24",
+        "25-44",
+        "25-44",
+        "45-64"
+      ],
+      "top_values": [
+        {
+          "value": "18-24",
+          "count": 2070,
+          "pct": 41.4
+        },
+        {
+          "value": "25-44",
+          "count": 2019,
+          "pct": 40.4
+        },
+        {
+          "value": "<18",
+          "count": 614,
+          "pct": 12.3
+        },
+        {
+          "value": "45-64",
+          "count": 261,
+          "pct": 5.2
+        },
+        {
+          "value": "65+",
+          "count": 27,
+          "pct": 0.5
+        }
+      ]
+    },
+    {
+      "name": "victim_sex",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "MALE",
+        "MALE",
+        "MALE",
+        "MALE",
+        "MALE"
+      ],
+      "top_values": [
+        {
+          "value": "MALE",
+          "count": 4569,
+          "pct": 91.4
+        },
+        {
+          "value": "FEMALE",
+          "count": 429,
+          "pct": 8.6
+        },
+        {
+          "value": "UNKNOWN",
+          "count": 2,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "victim_race",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 7,
+      "sample_values": [
+        "BLACK",
+        "BLACK",
+        "BLACK",
+        "BLACK HISPANIC",
+        "BLACK"
+      ],
+      "top_values": [
+        {
+          "value": "BLACK",
+          "count": 3636,
+          "pct": 72.7
+        },
+        {
+          "value": "WHITE HISPANIC",
+          "count": 766,
+          "pct": 15.3
+        },
+        {
+          "value": "BLACK HISPANIC",
+          "count": 400,
+          "pct": 8.0
+        },
+        {
+          "value": "WHITE",
+          "count": 130,
+          "pct": 2.6
+        },
+        {
+          "value": "ASIAN / PACIFIC ISLANDER",
+          "count": 53,
+          "pct": 1.1
+        }
+      ]
+    },
+    {
+      "name": "stat_murder_flg",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "Y"
+      ],
+      "top_values": [
+        {
+          "value": "N",
+          "count": 4120,
+          "pct": 82.4
+        },
+        {
+          "value": "Y",
+          "count": 880,
+          "pct": 17.6
+        }
+      ]
+    }
+  ]
+}

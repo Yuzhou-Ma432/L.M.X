@@ -1,0 +1,15 @@
+{
+  "id": "p2vv-pesb",
+  "name": "Services for NYCHA Residents Local Law 163",
+  "strategy": "baseline",
+  "description": "This dataset lists services available to New York City Housing Authority (NYCHA) residents under Local Law 163. Each of the 26 records describes a program, its service category, the agency that provides it, a short description of the service, and the geographic area it covers. The data can be used to find what assistance is offered to NYCHA residents, identify which agencies run which programs, and compare services by category or coverage area. It is useful for residents, social service providers, and researchers looking for an overview of public services targeted to public housing residents.",
+  "prompt": "Title: Services for NYCHA Residents Local Law 163\nCategory: Social Services\nRows (sampled): 26\nColumns: 5\nColumn names: program, category, agency_that_provides_service, description, geographical_unit_covered\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 126,
+    "completion_tokens": 113,
+    "total_tokens": 239
+  },
+  "elapsed_seconds": 1.29
+}

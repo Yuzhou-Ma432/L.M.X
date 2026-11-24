@@ -1,0 +1,15 @@
+{
+  "id": "y6fv-k6p7",
+  "name": "DCLA Programs Funding",
+  "strategy": "baseline",
+  "description": "This dataset lists funding awards made to organizations through DCLA programs. Each row records an application identifier, the name of the organization receiving funds, and the total final award amount. With 5,000 rows and three columns, it provides a straightforward view of which organizations received funding and how much they were awarded. It can be used to analyze the distribution of awards across organizations, identify the largest or most frequent recipients, compare funding patterns, or support transparency and reporting on program spending.",
+  "prompt": "Title: DCLA Programs Funding\nCategory: Recreation\nRows (sampled): 5000\nColumns: 3\nColumn names: application, organization, total_final_award\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 112,
+    "completion_tokens": 96,
+    "total_tokens": 208
+  },
+  "elapsed_seconds": 1.12
+}

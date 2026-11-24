@@ -1,0 +1,21 @@
+{
+  "id": "4bae-3jps",
+  "name": "MTNYC_PlantedBlocks_20150930",
+  "strategy": "semantic",
+  "description": "This dataset contains records of planted blocks or street segments in New York City, likely tied to street trees or urban planting sites. Each of the 5,000 sampled rows represents a single planting location, identified by physical and object IDs, a street name label, a borough code, the length of the street segment, and the planting season in which it was recorded. Planting seasons span 17 values such as Spring12, Fall08, and Spring14, indicating records collected across multiple years. Borough codes show that most records fall in one borough (code 4, about 68%), followed by code 1 (about 25%), with smaller shares in codes 5 and 2. Street segment lengths range widely, from roughly 10 to 2,030 units, with a typical segment around 345 units.\n\nThe data could support mapping and analysis of where planting sites are concentrated across boroughs, comparing planting activity by season, and estimating the street length associated with plantings. It may be",
+  "prompt": "Title: MTNYC_PlantedBlocks_20150930\nCategory: Environment\nRows (sampled): 5000\nColumns: 8\n\nColumn details:\n- physicalid (type int64) 5000 distinct values 0.0% missing min=48.0 max=35404.0 mean=18419.1884 p25=10392.75 p75=26430.25 samples: 48, 114, 121, 136, 159\n- objectid (type int64) 5000 distinct values 0.0% missing min=24.0 max=34368.0 mean=17792.6004 p25=10025.75 p75=25534.25 samples: 24, 86, 93, 108, 131\n- stname_lab (type object) 694 distinct values 0.0% missing samples: BROAD ST, WATER ST, WATER ST, RECTOR ST, CHURCH ST\n- boroughcod (type int64) 4 distinct values 0.0% missing min=1.0 max=5.0 mean=3.269 p25=1.0 p75=4.0 common values: 4 (67.7%), 1 (25.3%), 5 (5.6%), 2 (1.4%) samples: 1, 1, 1, 1, 1\n- segmentlen (type float64) 5000 distinct values 0.0% missing min=10.5325 max=2030.5131 mean=344.6584 p25=246.3213 p75=440.1688 samples: 439.18633052, 152.06586871, 275.84645111, 242.51978384, 219.08015774\n- b5_sc (type int64) 692 distinct values 0.0% missing min=110010.0 max=557720.0 mean=355970.96 p25=137630.0 p75=445890.0 samples: 113590, 133490, 133490, 129440, 115350\n- bphys_id (type int64) 5000 distinct values 0.0% missing min=148.0 max=535230.0 mean=291085.0084 p25=119166.0 p75=425661.25 samples: 148, 1114, 1121, 1136, 1159\n- plnt_seas (type object) 17 distinct values 0.0% missing common values: Spring12 (14.4%), Fall08 (10.7%), Spring14 (9.7%), Spring09 (9.0%), Spring13 (7.7%) samples: Fall11, Fall13, Fall13, Fall11, Fall11\n\nSemantic summary (topic and possible uses):\nThis dataset appears to catalog planted blocks or street segments in New York City, likely related to street trees or urban planting sites. The column names suggest it includes physical and object identifiers, street name labels, borough codes, segment lengths, and a planting season field, placing it in the urban environment and municipal forestry domain. It could be used to map and analyze the distribution of planting sites across boroughs, estimate street segment lengths associated with plantings, track planting seasons, and support urban greening, tree inventory, or infrastructure planning efforts.\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "length",
+  "usage": {
+    "prompt_tokens": 803,
+    "completion_tokens": 200,
+    "total_tokens": 1003
+  },
+  "elapsed_seconds": 2.89,
+  "semantic_summary": "This dataset appears to catalog planted blocks or street segments in New York City, likely related to street trees or urban planting sites. The column names suggest it includes physical and object identifiers, street name labels, borough codes, segment lengths, and a planting season field, placing it in the urban environment and municipal forestry domain. It could be used to map and analyze the distribution of planting sites across boroughs, estimate street segment lengths associated with plantings, track planting seasons, and support urban greening, tree inventory, or infrastructure planning efforts.",
+  "semantic_usage": {
+    "prompt_tokens": 164,
+    "completion_tokens": 107,
+    "total_tokens": 271
+  }
+}

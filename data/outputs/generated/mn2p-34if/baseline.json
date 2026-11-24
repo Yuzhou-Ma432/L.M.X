@@ -1,0 +1,15 @@
+{
+  "id": "mn2p-34if",
+  "name": "Real-World Fuel Efficiency",
+  "strategy": "baseline",
+  "description": "This dataset compares real-world fuel efficiency against EPA estimates for 106 vehicle records spanning multiple model years, makes, and models. Each row identifies a vehicle by year, make, and model, and notes whether it is hybrid or non-hybrid along with its standard type. It includes EPA city fuel economy ratings alongside telematics-derived actual driving data: vehicle count, total actual miles driven, total actual fuel consumed, and EPA-expected fuel, from which actual fuel economy and the percent difference between actual and expected performance are calculated. Estimated fuel costs per unit and fuel costs per mile are also provided. The data can be used to assess how closely real-world fuel economy matches EPA ratings across vehicle types, to compare hybrid and conventional vehicles, to identify models with the largest efficiency gaps, and to estimate per-mile fuel expenses for consumers, fleet managers, or environmental analysts studying fuel consumption and emissions.",
+  "prompt": "Title: Real-World Fuel Efficiency\nCategory: Environment\nRows (sampled): 106\nColumns: 14\nColumn names: year, make, model, hybrid_non_hybrid, standard_type, epa_rating_city, vehicle_count, total_actual_miles, total_actual_fuel, epa_expected_fuel, actual_fuel_economy_geotab, percent_difference_actual, estimated_fuel_costs_per, fuel_costs_per_mile\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 176,
+    "completion_tokens": 178,
+    "total_tokens": 354
+  },
+  "elapsed_seconds": 1.77
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b5bf-t8kd",
+  "name": "CONDO_AREA",
+  "strategy": "baseline",
+  "description": "This dataset contains 1,263 sampled records describing condominium units and their associated spatial and structural attributes. Each row represents a condo unit, identified through fields such as base_bbl, unit_bbl, unit_lot, unit_designation, and condo_key, with a building identification number (bin) linking units to their parent structures. The data includes elevation and height measurements (elevation, base_height, top_height, room_height), floor information (floor_text, floor_num), and room descriptions (room_desc), along with geometry-derived values (shape_area, shape_length). Metadata fields capture the model used, notes, and audit information such as created and last-edited users and dates.\n\nThe dataset could support analyses of building composition and unit-level characteristics, such as comparing unit sizes, floor placement, and room heights across condominiums, or linking units to their base buildings via BBL and BIN identifiers. It may be useful for urban planning, real estate research, property",
+  "prompt": "Title: CONDO_AREA\nCategory: Uncategorized\nRows (sampled): 1263\nColumns: 22\nColumn names: objectid, elevation, model, notes, created_user, created_date, last_edited_user, last_edited_date, shape_area, shape_length, base_bbl, unit_lot, unit_bbl, unit_designation, bin, condo_key, floor_text, floor_num, room_height, room_desc, base_height, top_height\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "length",
+  "usage": {
+    "prompt_tokens": 174,
+    "completion_tokens": 200,
+    "total_tokens": 374
+  },
+  "elapsed_seconds": 1.76
+}

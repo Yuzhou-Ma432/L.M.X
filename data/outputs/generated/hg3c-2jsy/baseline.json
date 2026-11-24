@@ -1,0 +1,15 @@
+{
+  "id": "hg3c-2jsy",
+  "name": "Transportation Sites",
+  "strategy": "baseline",
+  "description": "This dataset lists transportation service sites, likely schools and related programs, with one row per site per school year. Each record includes an option code, site name, affiliation, and site type, along with a full street address (street, city, state, ZIP) and geographic coordinates (longitude and latitude). Several columns indicate which transportation services are offered at each site: door-to-door service, stop-to-school service, common carrier service with MetroCards, site reimbursement, mid-day service, and late-day programs for both door-to-door and stop-to-school service. The data can be used to map site locations, compare service availability across sites and school years, identify gaps in transportation options, and support planning or analysis of student transportation coverage by geography or program type.",
+  "prompt": "Title: Transportation Sites\nCategory: Transportation\nRows (sampled): 5000\nColumns: 18\nColumn names: school_year, opt_code, name, affiliation, site_type, street_address, city, state, zip, longitude, latitude, door_to_door_service, stop_to_school_service, common_carrier_svc_metrocards, site_reimbursement, mid_day_service, d2d_late_day_programs, s2s_late_day_programs\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 176,
+    "completion_tokens": 153,
+    "total_tokens": 329
+  },
+  "elapsed_seconds": 1.96
+}

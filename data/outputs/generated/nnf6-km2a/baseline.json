@@ -1,0 +1,15 @@
+{
+  "id": "nnf6-km2a",
+  "name": "Research Permits",
+  "strategy": "baseline",
+  "description": "This dataset lists research permits issued for projects conducted in parks, with 65 sampled records and seven fields. Each row identifies the permit year, project title, and the institution conducting the research, along with the borough and park name where the work took place. It also records the specific location within the park and the taxa or subject area being studied. The data can be used to explore which institutions are active in park research, how research activity varies by year, borough, or park, and which organisms or topics attract the most study. It may be useful for park managers, researchers, educators, and anyone interested in the scope and distribution of scientific work happening in these green spaces.",
+  "prompt": "Title: Research Permits\nCategory: Environment\nRows (sampled): 65\nColumns: 7\nColumn names: permit_year, project_title, institution, borough, park_name, location_within_park, taxa_or_area_of_study\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 126,
+    "completion_tokens": 135,
+    "total_tokens": 261
+  },
+  "elapsed_seconds": 1.43
+}

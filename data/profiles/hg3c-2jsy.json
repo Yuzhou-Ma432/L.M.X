@@ -1,0 +1,487 @@
+{
+  "id": "hg3c-2jsy",
+  "name": "Transportation Sites",
+  "description": "OPT provides transportation service to many different kinds of locations. Many of these locations are schools but they also include offices or other sites that may be part of certain students’ educational plans. The schools may be public, private or religious. OPT provides busing to some Pre-K sites for students who have an IEP for curb-to-curb busing because of medical condition. Transportation service is not limited to school bus service; it includes distribution of MetroCards and approved reimbursement services. Bus service can be conducted on a yellow school bus, an ambulance, or even a coach bus. Yellow school buses are available in a number of sizes and seating configurations. This dataset includes schools, offices or Pre-K/EI sites that currently receive any transportation services from OPT. These sites may be within the New York City limits or up to fifty miles from the city limits in the states of New York, New Jersey or Connecticut. This dataset does not include field trip destinations.",
+  "category": "Transportation",
+  "permalink": "https://data.cityofnewyork.us/d/hg3c-2jsy",
+  "sampled_rows": 5000,
+  "n_rows": 5000,
+  "n_cols": 18,
+  "columns": [
+    {
+      "name": "school_year",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5,
+      "sample_values": [
+        "2016-2017",
+        "2016-2017",
+        "2016-2017",
+        "2016-2017",
+        "2016-2017"
+      ],
+      "top_values": [
+        {
+          "value": "2016-2017",
+          "count": 4481,
+          "pct": 89.6
+        },
+        {
+          "value": "2017-2018",
+          "count": 295,
+          "pct": 5.9
+        },
+        {
+          "value": "2018-2019",
+          "count": 168,
+          "pct": 3.4
+        },
+        {
+          "value": "2015-2016",
+          "count": 55,
+          "pct": 1.1
+        },
+        {
+          "value": "2025-2026",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "opt_code",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4518,
+      "sample_values": [
+        "01001",
+        "01569",
+        "01600",
+        "01616",
+        "01657"
+      ]
+    },
+    {
+      "name": "name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4133,
+      "sample_values": [
+        "Comprehensive Kids Devel. Scho",
+        "BARD HS EARLY COLLEGE",
+        "SATELLITE ACADEMY",
+        "COOK CTR GRAMMAR SCHOOL",
+        "MANHATTAN CHARTER SCHOOL"
+      ]
+    },
+    {
+      "name": "affiliation",
+      "dtype": "object",
+      "missing": 454,
+      "missing_pct": 9.08,
+      "nunique": 8,
+      "sample_values": [
+        "Other Religion",
+        "Public",
+        "Public",
+        "Nonsectarian",
+        "Charter"
+      ],
+      "top_values": [
+        {
+          "value": "Public",
+          "count": 2909,
+          "pct": 64.0
+        },
+        {
+          "value": "Nonsectarian",
+          "count": 471,
+          "pct": 10.4
+        },
+        {
+          "value": "Yeshiva",
+          "count": 351,
+          "pct": 7.7
+        },
+        {
+          "value": "Charter",
+          "count": 332,
+          "pct": 7.3
+        },
+        {
+          "value": "Parochial",
+          "count": 301,
+          "pct": 6.6
+        }
+      ]
+    },
+    {
+      "name": "site_type",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "School",
+        "School",
+        "School",
+        "School",
+        "School"
+      ],
+      "top_values": [
+        {
+          "value": "School",
+          "count": 4245,
+          "pct": 84.9
+        },
+        {
+          "value": "Pre-K/EI Site",
+          "count": 454,
+          "pct": 9.1
+        },
+        {
+          "value": "Office",
+          "count": 301,
+          "pct": 6.0
+        }
+      ]
+    },
+    {
+      "name": "street_address",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3642,
+      "sample_values": [
+        "101 Norfolk Street",
+        "525 EAST HOUSTON STREET",
+        "198 FORSYTH STREET",
+        "219 STANTON STREET",
+        "100 ATTORNEY STREET"
+      ]
+    },
+    {
+      "name": "city",
+      "dtype": "object",
+      "missing": 1,
+      "missing_pct": 0.02,
+      "nunique": 9,
+      "sample_values": [
+        "Manhattan",
+        "Manhattan",
+        "Manhattan",
+        "Manhattan",
+        "Manhattan"
+      ],
+      "top_values": [
+        {
+          "value": "Brooklyn",
+          "count": 1432,
+          "pct": 28.6
+        },
+        {
+          "value": "Manhattan",
+          "count": 1178,
+          "pct": 23.6
+        },
+        {
+          "value": "Queens",
+          "count": 923,
+          "pct": 18.5
+        },
+        {
+          "value": "Bronx",
+          "count": 906,
+          "pct": 18.1
+        },
+        {
+          "value": "Staten Island",
+          "count": 239,
+          "pct": 4.8
+        }
+      ]
+    },
+    {
+      "name": "state",
+      "dtype": "object",
+      "missing": 2,
+      "missing_pct": 0.04,
+      "nunique": 3,
+      "sample_values": [
+        "NY",
+        "NY",
+        "NY",
+        "NY",
+        "NY"
+      ],
+      "top_values": [
+        {
+          "value": "NY",
+          "count": 4930,
+          "pct": 98.6
+        },
+        {
+          "value": "NJ",
+          "count": 62,
+          "pct": 1.2
+        },
+        {
+          "value": "CT",
+          "count": 6,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "zip",
+      "dtype": "float64",
+      "missing": 2,
+      "missing_pct": 0.04,
+      "nunique": 337,
+      "sample_values": [
+        "10002.0",
+        "10002.0",
+        "10002.0",
+        "10002.0",
+        "10002.0"
+      ],
+      "stats": {
+        "min": 6460.0,
+        "max": 11803.0,
+        "mean": 10726.9952,
+        "median": 10802.5,
+        "p25": 10301.0,
+        "p75": 11229.0
+      }
+    },
+    {
+      "name": "longitude",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3153,
+      "sample_values": [
+        "-73.987271",
+        "-73.975438",
+        "-73.990635",
+        "-73.982171",
+        "-73.984365"
+      ],
+      "stats": {
+        "min": -74.7124,
+        "max": -73.0087,
+        "mean": -73.9215,
+        "median": -73.935,
+        "p25": -73.9812,
+        "p75": -73.8754
+      }
+    },
+    {
+      "name": "latitude",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3150,
+      "sample_values": [
+        "40.718791",
+        "40.718761",
+        "40.722491",
+        "40.719442",
+        "40.718346"
+      ],
+      "stats": {
+        "min": 40.0644,
+        "max": 41.4579,
+        "mean": 40.7389,
+        "median": 40.7282,
+        "p25": 40.6726,
+        "p75": 40.8095
+      }
+    },
+    {
+      "name": "door_to_door_service",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Yes",
+        "Yes",
+        "No",
+        "Yes",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 3149,
+          "pct": 63.0
+        },
+        {
+          "value": "No",
+          "count": 1851,
+          "pct": 37.0
+        }
+      ]
+    },
+    {
+      "name": "stop_to_school_service",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "No",
+        "No",
+        "No",
+        "No",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "No",
+          "count": 3127,
+          "pct": 62.5
+        },
+        {
+          "value": "Yes",
+          "count": 1873,
+          "pct": 37.5
+        }
+      ]
+    },
+    {
+      "name": "common_carrier_svc_metrocards",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "No",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 3728,
+          "pct": 74.6
+        },
+        {
+          "value": "No",
+          "count": 1272,
+          "pct": 25.4
+        }
+      ]
+    },
+    {
+      "name": "site_reimbursement",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "No",
+        "No",
+        "No",
+        "No",
+        "No"
+      ],
+      "top_values": [
+        {
+          "value": "No",
+          "count": 4867,
+          "pct": 97.3
+        },
+        {
+          "value": "Yes",
+          "count": 133,
+          "pct": 2.7
+        }
+      ]
+    },
+    {
+      "name": "mid_day_service",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "No",
+        "No",
+        "No",
+        "Yes",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "No",
+          "count": 2778,
+          "pct": 55.6
+        },
+        {
+          "value": "Yes",
+          "count": 2222,
+          "pct": 44.4
+        }
+      ]
+    },
+    {
+      "name": "d2d_late_day_programs",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "No",
+        "No",
+        "No",
+        "No",
+        "No"
+      ],
+      "top_values": [
+        {
+          "value": "No",
+          "count": 4912,
+          "pct": 98.2
+        },
+        {
+          "value": "Yes",
+          "count": 88,
+          "pct": 1.8
+        }
+      ]
+    },
+    {
+      "name": "s2s_late_day_programs",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "No",
+        "No",
+        "No",
+        "No",
+        "No"
+      ],
+      "top_values": [
+        {
+          "value": "No",
+          "count": 4935,
+          "pct": 98.7
+        },
+        {
+          "value": "Yes",
+          "count": 65,
+          "pct": 1.3
+        }
+      ]
+    }
+  ]
+}

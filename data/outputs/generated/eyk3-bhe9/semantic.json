@@ -1,0 +1,21 @@
+{
+  "id": "eyk3-bhe9",
+  "name": "2015-16 Local Law 15 Health Data - K-12 Health Instructors",
+  "strategy": "semantic",
+  "description": "This dataset reports the number of teachers assigned to teach health at individual New York City public schools during the 2015-16 school year, as required under Local Law 15. Each row represents one school, identified by its school DBN (a unique school code), school name, community school district, and city council district, along with the count of health instructors assigned there. The file covers 1,627 schools across 33 community school districts and 51 city council districts, with staffing counts ranging from zero to 82 teachers per school.\n\nThe data can be used to examine how health instruction staffing is distributed across the city, compare capacity between districts or council districts, and flag schools with few or no assigned health teachers. It supports policy and budget analysis of health education resources, geographic mapping of staffing patterns, and research on whether health instruction capacity varies by district or neighborhood.",
+  "prompt": "Title: 2015-16 Local Law 15 Health Data - K-12 Health Instructors\nCategory: Education\nRows (sampled): 1627\nColumns: 5\n\nColumn details:\n- school_dbn (type object) 1627 distinct values 0.0% missing samples: 01M015, 01M019, 01M020, 01M034, 01M063\n- community_school_district (type int64) 33 distinct values 0.0% missing min=1.0 max=75.0 mean=17.9183 p25=8.0 p75=25.0 samples: 1, 1, 1, 1, 1\n- city_council_district (type int64) 51 distinct values 0.0% missing min=1.0 max=51.0 mean=24.4856 p25=12.0 p75=37.0 samples: 2, 2, 1, 2, 2\n- school_name (type object) 1624 distinct values 0.0% missing samples: P.S. 015 Roberto Clemente, P.S. 019 Asher Levy, P.S. 020 Anna Silver, P.S. 034 Franklin D. Roosevelt, The STAR Academy - P.S.63\n- of_teachers_assigned_to_teach_health (type int64) 68 distinct values 0.0% missing min=0.0 max=82.0 mean=9.4634 p25=1.0 p75=12.0 samples: 1, 28, 1, 18, 1\n\nSemantic summary (topic and possible uses):\nThis dataset lists K-12 health instructors assigned to individual New York City public schools for the 2015-16 school year, identified by school DBN, school name, community school district, and city council district, along with the number of teachers assigned to teach health at each school. It belongs to the education domain, specifically school staffing and health education reporting under Local Law 15. It could be used to map the distribution of health teachers across districts and council districts, identify schools or districts with low staffing, compare health instruction capacity geographically, and support policy or budget analysis on health education resources.\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 560,
+    "completion_tokens": 176,
+    "total_tokens": 736
+  },
+  "elapsed_seconds": 2.84,
+  "semantic_summary": "This dataset lists K-12 health instructors assigned to individual New York City public schools for the 2015-16 school year, identified by school DBN, school name, community school district, and city council district, along with the number of teachers assigned to teach health at each school. It belongs to the education domain, specifically school staffing and health education reporting under Local Law 15. It could be used to map the distribution of health teachers across districts and council districts, identify schools or districts with low staffing, compare health instruction capacity geographically, and support policy or budget analysis on health education resources.",
+  "semantic_usage": {
+    "prompt_tokens": 172,
+    "completion_tokens": 120,
+    "total_tokens": 292
+  }
+}

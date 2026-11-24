@@ -1,0 +1,21 @@
+{
+  "id": "mfz4-pj9t",
+  "name": "RFP Summary by Agency and Fiscal Year",
+  "strategy": "semantic",
+  "description": "This dataset summarizes Requests for Proposals (RFPs) released by New York City agencies during fiscal year 2020. Each row represents one agency and reports the number of RFPs it released that year, along with a citywide median value of 130 shown on every row for comparison. The sample contains 14 agencies, including ACS, DCA, DCAS, DFTA, and DHS, with RFP counts ranging from 1 to 211 and a mean of about 43.5 per agency.\n\nThe data can be used to compare procurement activity across agencies, highlight which agencies released unusually high or low numbers of RFPs, and benchmark individual agencies against the citywide median. It also supports transparency and oversight of government contracting, budget analysis, and reporting on public procurement trends. Because the sample covers only fiscal year 2020, its usefulness for tracking trends over time would depend on additional years of data.",
+  "prompt": "Title: RFP Summary by Agency and Fiscal Year\nCategory: City Government\nRows (sampled): 14\nColumns: 4\n\nColumn details:\n- fiscal_year (type int64) 1 distinct values 0.0% missing min=2020.0 max=2020.0 mean=2020.0 p25=2020.0 p75=2020.0 common values: 2020 (100.0%) samples: 2020, 2020, 2020, 2020, 2020\n- agency (type object) 14 distinct values 0.0% missing common values: ACS (7.1%), DCA (7.1%), DCAS (7.1%), DFTA (7.1%), DHS (7.1%) samples: ACS, DCA, DCAS, DFTA, DHS\n- rfps_released_in_fiscal_year (type int64) 13 distinct values 0.0% missing min=1.0 max=211.0 mean=43.5 p25=11.5 p75=51.75 common values: 1 (14.3%), 10 (7.1%), 22 (7.1%), 13 (7.1%), 52 (7.1%) samples: 52, 10, 22, 13, 72\n- citywide_median_calendar (type int64) 1 distinct values 0.0% missing min=130.0 max=130.0 mean=130.0 p25=130.0 p75=130.0 common values: 130 (100.0%) samples: 130, 130, 130, 130, 130\n\nSemantic summary (topic and possible uses):\nThis dataset summarizes the number of Requests for Proposals (RFPs) released by each city agency in a given fiscal year, alongside a citywide median figure for comparison. It belongs to the city government and public procurement domain, tracking agency-level contracting activity over time. It could be used to compare RFP volume across agencies, identify trends in procurement activity by fiscal year, benchmark agencies against the citywide median, and support transparency or budget and contracting oversight.\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 541,
+    "completion_tokens": 185,
+    "total_tokens": 726
+  },
+  "elapsed_seconds": 2.55,
+  "semantic_summary": "This dataset summarizes the number of Requests for Proposals (RFPs) released by each city agency in a given fiscal year, alongside a citywide median figure for comparison. It belongs to the city government and public procurement domain, tracking agency-level contracting activity over time. It could be used to compare RFP volume across agencies, identify trends in procurement activity by fiscal year, benchmark agencies against the citywide median, and support transparency or budget and contracting oversight.",
+  "semantic_usage": {
+    "prompt_tokens": 153,
+    "completion_tokens": 91,
+    "total_tokens": 244
+  }
+}

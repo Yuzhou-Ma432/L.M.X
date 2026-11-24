@@ -1,0 +1,90 @@
+{
+  "id": "m64p-r9hk",
+  "name": "Certified Asbestos Investigators",
+  "description": "List of Certified Asbestos Investigators (CAI)",
+  "category": "Environment",
+  "permalink": "https://data.cityofnewyork.us/d/m64p-r9hk",
+  "sampled_rows": 5000,
+  "n_rows": 611,
+  "n_cols": 5,
+  "columns": [
+    {
+      "name": "last_name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 557,
+      "sample_values": [
+        "ABBAS",
+        "ABDEL-SHAHID",
+        "ABDULLA",
+        "ABRAHAM",
+        "ABRAMOV"
+      ]
+    },
+    {
+      "name": "first_name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 435,
+      "sample_values": [
+        "AZEEM",
+        "WAGDI",
+        "WALID",
+        "MAHER",
+        "LEONID"
+      ]
+    },
+    {
+      "name": "certification_number",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 593,
+      "sample_values": [
+        "163361",
+        "116934",
+        "142213",
+        "117356",
+        "149529"
+      ],
+      "stats": {
+        "min": 2.0,
+        "max": 400010.0,
+        "mean": 140847.2144,
+        "median": 136177.0,
+        "p25": 117923.5,
+        "p75": 160151.5
+      }
+    },
+    {
+      "name": "expiration_date",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 400,
+      "sample_values": [
+        "2026-04-20T00:00:00.000",
+        "2025-11-09T00:00:00.000",
+        "2026-08-23T00:00:00.000",
+        "2026-02-28T00:00:00.000",
+        "2026-09-06T00:00:00.000"
+      ]
+    },
+    {
+      "name": "telephone",
+      "dtype": "object",
+      "missing": 96,
+      "missing_pct": 15.71,
+      "nunique": 433,
+      "sample_values": [
+        "(513) 477-4228",
+        "(917) 578-0732",
+        "(917) 251-0319",
+        "(516) 595-2900",
+        "(347) 450-7770"
+      ]
+    }
+  ]
+}

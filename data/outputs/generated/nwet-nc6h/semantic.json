@@ -1,0 +1,21 @@
+{
+  "id": "nwet-nc6h",
+  "name": "Tax Credits By Agi Range",
+  "strategy": "semantic",
+  "description": "This dataset summarizes Earned Income Tax Credit (EITC) activity across eight income groups, labeled by decile from the 1st Decile through the 8th Decile. For each income group it reports two measures: the total EITC dollars claimed, expressed in millions, and the number of EITC recipients. The table is small, with one row per income group and no missing values.\n\nThe data can be used to examine how EITC benefits are distributed across the income spectrum, for example by comparing dollar amounts with recipient counts to see where credit amounts are largest relative to the number of people receiving them. It supports analysis, reporting, and research on tax credit policy and low-income assistance programs, and could serve as a compact reference table or input for simple charts and comparisons.",
+  "prompt": "Title: Tax Credits By Agi Range\nCategory: Uncategorized\nRows (sampled): 8\nColumns: 3\n\nColumn details:\n- income_group (type object) 8 distinct values 0.0% missing common values: 1st Decile  (12.5%), 2nd Decile (12.5%), 3rd Decile (12.5%), 4th Decile  (12.5%), 5th Decile  (12.5%) samples: 1st Decile , 2nd Decile, 3rd Decile, 4th Decile , 5th Decile \n- total_eitc_dollars_in_millions (type float64) 8 distinct values 0.0% missing min=0.0 max=27.4 mean=11.8625 p25=1.325 p75=20.925 common values: 1.5 (12.5%), 11.7 (12.5%), 27.4 (12.5%), 27.0 (12.5%), 18.9 (12.5%) samples: 1.5, 11.7, 27.4, 27.0, 18.9\n- number_of_eitc_recipients (type int64) 8 distinct values 0.0% missing min=0.0 max=216446.0 mean=110607.75 p25=49627.0 p75=160247.25 common values: 58511 (12.5%), 198405 (12.5%), 216446 (12.5%), 147528 (12.5%), 135940 (12.5%) samples: 58511, 198405, 216446, 147528, 135940\n\nSemantic summary (topic and possible uses):\nThis dataset reports Earned Income Tax Credit (EITC) statistics broken down by adjusted gross income (AGI) range. It contains three columns: an income group, the total EITC dollars claimed in millions, and the number of EITC recipients within each group. With only eight rows, it is a small summary table belonging to the public finance and taxation domain, likely drawn from government or tax policy sources. It could be used to analyze how EITC benefits are distributed across income levels, compare dollar amounts against recipient counts, or support research and reporting on tax credit policy and low-income assistance programs.\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 593,
+    "completion_tokens": 162,
+    "total_tokens": 755
+  },
+  "elapsed_seconds": 2.77,
+  "semantic_summary": "This dataset reports Earned Income Tax Credit (EITC) statistics broken down by adjusted gross income (AGI) range. It contains three columns: an income group, the total EITC dollars claimed in millions, and the number of EITC recipients within each group. With only eight rows, it is a small summary table belonging to the public finance and taxation domain, likely drawn from government or tax policy sources. It could be used to analyze how EITC benefits are distributed across income levels, compare dollar amounts against recipient counts, or support research and reporting on tax credit policy and low-income assistance programs.",
+  "semantic_usage": {
+    "prompt_tokens": 153,
+    "completion_tokens": 125,
+    "total_tokens": 278
+  }
+}

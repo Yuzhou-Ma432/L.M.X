@@ -1,0 +1,174 @@
+{
+  "id": "g2dh-zf5t",
+  "name": "Child Support Caseload and Collections",
+  "description": "This dataset reports the performance of the Office of Child Support Services regarding caseload and collections.",
+  "category": "Social Services",
+  "permalink": "https://data.cityofnewyork.us/d/g2dh-zf5t",
+  "sampled_rows": 5000,
+  "n_rows": 1189,
+  "n_cols": 6,
+  "columns": [
+    {
+      "name": "indicator",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 7,
+      "sample_values": [
+        "Total Cases with Orders",
+        "Total Cases with Orders",
+        "Total Cases with Orders",
+        "Total Cases with Orders",
+        "Support Establishment Percent (SEP) % of…"
+      ],
+      "top_values": [
+        {
+          "value": "Support Establishment Percent (SEP) % of…",
+          "count": 205,
+          "pct": 17.2
+        },
+        {
+          "value": "% Cases w/Collection (1)",
+          "count": 205,
+          "pct": 17.2
+        },
+        {
+          "value": "Calendar Year Collections",
+          "count": 205,
+          "pct": 17.2
+        },
+        {
+          "value": "% Current Distributed",
+          "count": 164,
+          "pct": 13.8
+        },
+        {
+          "value": "Total Cases with Orders",
+          "count": 164,
+          "pct": 13.8
+        }
+      ]
+    },
+    {
+      "name": "case_type",
+      "dtype": "object",
+      "missing": 1,
+      "missing_pct": 0.08,
+      "nunique": 6,
+      "sample_values": [
+        "Total",
+        "Current",
+        "Former",
+        "Never",
+        "Current"
+      ],
+      "top_values": [
+        {
+          "value": "Total",
+          "count": 287,
+          "pct": 24.2
+        },
+        {
+          "value": "Current",
+          "count": 246,
+          "pct": 20.7
+        },
+        {
+          "value": "Never",
+          "count": 246,
+          "pct": 20.7
+        },
+        {
+          "value": "Former",
+          "count": 245,
+          "pct": 20.6
+        },
+        {
+          "value": "Yearly Goal",
+          "count": 123,
+          "pct": 10.4
+        }
+      ]
+    },
+    {
+      "name": "date",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 41,
+      "sample_values": [
+        "2026-09-30T00:00:00.000",
+        "2026-09-30T00:00:00.000",
+        "2026-09-30T00:00:00.000",
+        "2026-09-30T00:00:00.000",
+        "2026-09-30T00:00:00.000"
+      ]
+    },
+    {
+      "name": "caseload",
+      "dtype": "float64",
+      "missing": 861,
+      "missing_pct": 72.41,
+      "nunique": 300,
+      "sample_values": [
+        "174663.0",
+        "16937.0",
+        "74612.0",
+        "83114.0",
+        "464.0"
+      ],
+      "stats": {
+        "min": 23.0,
+        "max": 201857.0,
+        "mean": 46717.6098,
+        "median": 8935.0,
+        "p25": 243.75,
+        "p75": 84151.5
+      }
+    },
+    {
+      "name": "percentage",
+      "dtype": "float64",
+      "missing": 533,
+      "missing_pct": 44.83,
+      "nunique": 48,
+      "sample_values": [
+        "0.55",
+        "0.75",
+        "0.73",
+        "0.83",
+        "0.76"
+      ],
+      "stats": {
+        "min": 0.32,
+        "max": 0.89,
+        "mean": 0.6019,
+        "median": 0.59,
+        "p25": 0.43,
+        "p75": 0.7625
+      }
+    },
+    {
+      "name": "dollars",
+      "dtype": "float64",
+      "missing": 984,
+      "missing_pct": 82.76,
+      "nunique": 169,
+      "sample_values": [
+        "51494771.0",
+        "17912413.0",
+        "31687227.0",
+        "1895131.0",
+        "672900000.0"
+      ],
+      "stats": {
+        "min": 1533089.0,
+        "max": 717000000.0,
+        "mean": 159483705.0683,
+        "median": 33572575.0,
+        "p25": 18300563.0,
+        "p75": 60596966.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "a6zp-tcs3",
+  "name": "FY 2017 PMMR Data Extract",
+  "strategy": "content",
+  "description": "This dataset is an extract from New York City's Fiscal Year 2017 Preliminary Mayor's Management Report (PMMR), which tracks the performance of city agencies against specific goals. Each row represents a single performance indicator for an agency, such as call volumes, website visits, or service outcomes, along with historical actuals and forward-looking targets.\n\nThe data includes the reporting agency (45 distinct agencies, including 3-1-1), a PMMR goal code (e.g., 1a, 2a), and a binary flag marking whether the indicator is critical. The performance_indicator column holds nearly 2,000 distinct metric names. Historical results are provided for FY2014, FY2015, and FY2016, and targets are given for FY2017 and FY2018. Two additional columns compare four-month actuals for FY2016 and FY2017, enabling year-over-year progress checks. Values are stored as text and mix numbers, percentages, times, and",
+  "prompt": "Title: FY 2017 PMMR Data Extract\nCategory: City Government\nRows (sampled): 2284\nColumns: 11\n\nColumn details:\n- agency (type object) 45 distinct values 0.0% missing samples: 3-1-1, 3-1-1, 3-1-1, 3-1-1, 3-1-1\n- pmmr_goal (type object) 24 distinct values 0.0% missing common values: 1a (25.3%), 2a (13.0%), 1b (12.2%), 3a (10.1%), 4a (7.2%) samples: 1a, 1a, 1a, 1a, 1a\n- critical (type int64) 2 distinct values 0.0% missing min=0.0 max=1.0 mean=0.2334 p25=0.0 p75=0.0 common values: 0 (76.7%), 1 (23.3%) samples: 1, 1, 0, 0, 0\n- performance_indicator (type object) 1943 distinct values 0.0% missing samples: 311 calls (000), 311 Online site visits (000), 311 mobile app contacts (000), 311-NYC (text) contacts (000), Calls handled in languages other than En…\n- actual_fy14 (type object) 1623 distinct values 6.74% missing samples: 21,346, 5,248, 234, 1.8%, 0:23\n- actual_fy15 (type object) 1677 distinct values 3.63% missing samples: 21,079, 9,656, 705, 175, 2.5%\n- actual_fy16 (type object) 1710 distinct values 2.58% missing samples: 18,799, 13,018, 1,010, 156, 3.0%\n- target_fy17 (type object) 335 distinct values 0.0% missing samples: *, ↑, *, *, *\n- target_fy18 (type object) 335 distinct values 0.0% missing samples: *, ↑, *, *, *\n- _4_month_actual_fy16 (type object) 1342 distinct values 20.23% missing samples: 6,089, 3,985, 302, 46, 3.2%\n- _4_month_actual_fy17 (type object) 1343 distinct values 19.22% missing samples: 6,199, 5,449, 357, 42, 3.0%\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "length",
+  "usage": {
+    "prompt_tokens": 667,
+    "completion_tokens": 200,
+    "total_tokens": 867
+  },
+  "elapsed_seconds": 1.75
+}

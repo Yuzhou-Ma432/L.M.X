@@ -1,0 +1,488 @@
+{
+  "id": "d3ge-anaz",
+  "name": "2009 - 2010 Class Size - School-level Detail",
+  "description": "This file shows average class sizes, pupil-teacher ratio, and size of largest and smallest classes for each school, broken out by grade and program type (General Education, Self-Contained Special Education, Collaborative Team Teaching (CTT)) for grades K-9 (where grade 9 is not reported by subject area), and for grades 5-9 (where available) and 9-12, aggregated by program type (General Education, CTT, and Self-Contained Special Education) and core course (e.g. English 9, Math A, US History, etc.)\r\n\r\nBased on January 27, 2010 data.\r\n* Grade 9 Official Class data is included for 0K-09 schools. Core Course information for these sections is not reported.",
+  "category": "Education",
+  "permalink": "https://data.cityofnewyork.us/d/d3ge-anaz",
+  "sampled_rows": 5000,
+  "n_rows": 5000,
+  "n_cols": 16,
+  "columns": [
+    {
+      "name": "boro",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5,
+      "sample_values": [
+        "M",
+        "M",
+        "M",
+        "M",
+        "M"
+      ],
+      "top_values": [
+        {
+          "value": "M",
+          "count": 4904,
+          "pct": 98.1
+        },
+        {
+          "value": "X",
+          "count": 86,
+          "pct": 1.7
+        },
+        {
+          "value": "K",
+          "count": 5,
+          "pct": 0.1
+        },
+        {
+          "value": "Q",
+          "count": 4,
+          "pct": 0.1
+        },
+        {
+          "value": "R",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "csd",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 18,
+      "sample_values": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "top_values": [
+        {
+          "value": "2",
+          "count": 1840,
+          "pct": 36.8
+        },
+        {
+          "value": "3",
+          "count": 719,
+          "pct": 14.4
+        },
+        {
+          "value": "6",
+          "count": 691,
+          "pct": 13.8
+        },
+        {
+          "value": "4",
+          "count": 611,
+          "pct": 12.2
+        },
+        {
+          "value": "5",
+          "count": 533,
+          "pct": 10.7
+        }
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 31.0,
+        "mean": 3.2884,
+        "median": 3.0,
+        "p25": 2.0,
+        "p75": 5.0
+      }
+    },
+    {
+      "name": "school_code",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 314,
+      "sample_values": [
+        "M015",
+        "M015",
+        "M015",
+        "M015",
+        "M015"
+      ]
+    },
+    {
+      "name": "school_name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 314,
+      "sample_values": [
+        "P.S. 015 ROBERTO CLEMENTE",
+        "P.S. 015 ROBERTO CLEMENTE",
+        "P.S. 015 ROBERTO CLEMENTE",
+        "P.S. 015 ROBERTO CLEMENTE",
+        "P.S. 015 ROBERTO CLEMENTE"
+      ]
+    },
+    {
+      "name": "grade_",
+      "dtype": "object",
+      "missing": 310,
+      "missing_pct": 6.2,
+      "nunique": 13,
+      "sample_values": [
+        "0K",
+        "0K",
+        "01",
+        "01",
+        "02"
+      ],
+      "top_values": [
+        {
+          "value": "09-12",
+          "count": 2194,
+          "pct": 46.8
+        },
+        {
+          "value": "MS Core",
+          "count": 690,
+          "pct": 14.7
+        },
+        {
+          "value": "0K",
+          "count": 205,
+          "pct": 4.4
+        },
+        {
+          "value": "0K-09",
+          "count": 204,
+          "pct": 4.3
+        },
+        {
+          "value": "01",
+          "count": 194,
+          "pct": 4.1
+        }
+      ]
+    },
+    {
+      "name": "program_type",
+      "dtype": "object",
+      "missing": 310,
+      "missing_pct": 6.2,
+      "nunique": 4,
+      "sample_values": [
+        "GEN ED",
+        "CTT",
+        "GEN ED",
+        "CTT",
+        "GEN ED"
+      ],
+      "top_values": [
+        {
+          "value": "GEN ED",
+          "count": 2763,
+          "pct": 58.9
+        },
+        {
+          "value": "CTT",
+          "count": 1330,
+          "pct": 28.4
+        },
+        {
+          "value": "SPEC ED",
+          "count": 487,
+          "pct": 10.4
+        },
+        {
+          "value": "G&T",
+          "count": 110,
+          "pct": 2.3
+        }
+      ]
+    },
+    {
+      "name": "core_subject_ms_core_and_9_12_only_",
+      "dtype": "object",
+      "missing": 310,
+      "missing_pct": 6.2,
+      "nunique": 5,
+      "sample_values": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "top_values": [
+        {
+          "value": "-",
+          "count": 1806,
+          "pct": 38.5
+        },
+        {
+          "value": "SOCIAL STUDIES",
+          "count": 805,
+          "pct": 17.2
+        },
+        {
+          "value": "ENGLISH",
+          "count": 793,
+          "pct": 16.9
+        },
+        {
+          "value": "SCIENCE",
+          "count": 692,
+          "pct": 14.8
+        },
+        {
+          "value": "MATH",
+          "count": 594,
+          "pct": 12.7
+        }
+      ]
+    },
+    {
+      "name": "core_course_ms_core_and_9_12_only_",
+      "dtype": "object",
+      "missing": 310,
+      "missing_pct": 6.2,
+      "nunique": 20,
+      "sample_values": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "top_values": [
+        {
+          "value": "-",
+          "count": 2496,
+          "pct": 53.2
+        },
+        {
+          "value": "OTHER",
+          "count": 219,
+          "pct": 4.7
+        },
+        {
+          "value": "ALGEBRA",
+          "count": 185,
+          "pct": 3.9
+        },
+        {
+          "value": "LIVING ENVIRONMENT",
+          "count": 164,
+          "pct": 3.5
+        },
+        {
+          "value": "GLOBAL HISTORY 10",
+          "count": 151,
+          "pct": 3.2
+        }
+      ]
+    },
+    {
+      "name": "service_category_k_9_only_",
+      "dtype": "object",
+      "missing": 310,
+      "missing_pct": 6.2,
+      "nunique": 5,
+      "sample_values": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "top_values": [
+        {
+          "value": "-",
+          "count": 4484,
+          "pct": 95.6
+        },
+        {
+          "value": "12:1:1",
+          "count": 132,
+          "pct": 2.8
+        },
+        {
+          "value": "12:1",
+          "count": 70,
+          "pct": 1.5
+        },
+        {
+          "value": "6:1:1",
+          "count": 3,
+          "pct": 0.1
+        },
+        {
+          "value": "15:1",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "number_of_classes",
+      "dtype": "float64",
+      "missing": 310,
+      "missing_pct": 6.2,
+      "nunique": 45,
+      "sample_values": [
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 57.0,
+        "mean": 3.6635,
+        "median": 2.0,
+        "p25": 1.0,
+        "p75": 4.0
+      }
+    },
+    {
+      "name": "total_register",
+      "dtype": "float64",
+      "missing": 310,
+      "missing_pct": 6.2,
+      "nunique": 451,
+      "sample_values": [
+        "21.0",
+        "21.0",
+        "11.0",
+        "17.0",
+        "16.0"
+      ],
+      "stats": {
+        "min": 2.0,
+        "max": 1750.0,
+        "mean": 89.1719,
+        "median": 51.0,
+        "p25": 25.0,
+        "p75": 95.0
+      }
+    },
+    {
+      "name": "average_class_size",
+      "dtype": "float64",
+      "missing": 310,
+      "missing_pct": 6.2,
+      "nunique": 263,
+      "sample_values": [
+        "21.0",
+        "21.0",
+        "11.0",
+        "17.0",
+        "16.0"
+      ],
+      "stats": {
+        "min": 2.0,
+        "max": 80.5,
+        "mean": 22.5218,
+        "median": 23.0,
+        "p25": 18.8,
+        "p75": 27.0
+      }
+    },
+    {
+      "name": "size_of_smallest_class",
+      "dtype": "float64",
+      "missing": 310,
+      "missing_pct": 6.2,
+      "nunique": 39,
+      "sample_values": [
+        "21.0",
+        "21.0",
+        "11.0",
+        "17.0",
+        "16.0"
+      ],
+      "stats": {
+        "min": 2.0,
+        "max": 78.0,
+        "mean": 20.2183,
+        "median": 20.0,
+        "p25": 15.0,
+        "p75": 25.0
+      }
+    },
+    {
+      "name": "size_of_largest_class",
+      "dtype": "float64",
+      "missing": 310,
+      "missing_pct": 6.2,
+      "nunique": 48,
+      "sample_values": [
+        "21.0",
+        "21.0",
+        "11.0",
+        "17.0",
+        "16.0"
+      ],
+      "stats": {
+        "min": 2.0,
+        "max": 86.0,
+        "mean": 24.4778,
+        "median": 25.0,
+        "p25": 20.0,
+        "p75": 30.0
+      }
+    },
+    {
+      "name": "data_source",
+      "dtype": "object",
+      "missing": 310,
+      "missing_pct": 6.2,
+      "nunique": 2,
+      "sample_values": [
+        "ATS",
+        "ATS",
+        "ATS",
+        "ATS",
+        "ATS"
+      ],
+      "top_values": [
+        {
+          "value": "STARS",
+          "count": 2884,
+          "pct": 61.5
+        },
+        {
+          "value": "ATS",
+          "count": 1806,
+          "pct": 38.5
+        }
+      ]
+    },
+    {
+      "name": "schoolwide_pupil_teacher_ratio",
+      "dtype": "float64",
+      "missing": 4690,
+      "missing_pct": 93.8,
+      "nunique": 110,
+      "sample_values": [
+        "8.9",
+        "10.5",
+        "12.7",
+        "11.7",
+        "9.6"
+      ],
+      "stats": {
+        "min": 5.9,
+        "max": 24.1,
+        "mean": 13.7216,
+        "median": 13.3,
+        "p25": 11.9,
+        "p75": 15.6
+      }
+    }
+  ]
+}

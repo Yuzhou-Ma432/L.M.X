@@ -1,0 +1,15 @@
+{
+  "id": "jr24-e7cr",
+  "name": "Electric Consumption And Cost (2010 - Sep 2025)",
+  "strategy": "baseline",
+  "description": "This dataset contains electricity billing and consumption records for New York City Housing Authority developments from 2010 through September 2025. Each row represents a utility bill for a specific account and meter, identified by development name, borough, account name, and location, along with meter details such as AMR status, meter scope, meter number, and amperage. Billing fields include revenue month, service start and end dates, number of days in the billing period, whether usage was estimated, current charges, rate class, and bill analysis status. Consumption data covers both energy (kWh) and demand (kW), with separate charge amounts for kWh, kW, and other charges, plus administrative fields like TDS, EDP, RC code, funding source, vendor name, and UMIS bill ID.\n\nThe data can be used to analyze electricity usage and costs across developments and boroughs over time, compare estimated versus actual bills, examine rate classes and charge components, track demand patterns, and support budgeting",
+  "prompt": "Title: Electric Consumption And Cost (2010 - Sep 2025)\nCategory: Housing & Development\nRows (sampled): 5000\nColumns: 27\nColumn names: development_name, borough, account_name, location, meter_amr, meter_scope, tds, edp, rc_code, funding_source, amp, vendor_name, umis_bill_id, revenue_month, service_start_date, service_end_date, days, meter_number, estimated, current_charges, rate_class, bill_analyzed, consumption_kwh, kwh_charges, consumption_kw, kw_charges, other_charges\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "length",
+  "usage": {
+    "prompt_tokens": 209,
+    "completion_tokens": 200,
+    "total_tokens": 409
+  },
+  "elapsed_seconds": 1.83
+}

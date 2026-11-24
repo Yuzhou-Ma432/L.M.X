@@ -1,0 +1,15 @@
+{
+  "id": "jb7j-dtam",
+  "name": "New York City Leading Causes of Death",
+  "strategy": "baseline",
+  "description": "This dataset records the leading causes of death in New York City, broken down by year, cause, sex, and race/ethnicity. Each row reports the number of deaths, the crude death rate, and the age-adjusted death rate for a given combination of these categories. With roughly 2,100 rows and seven columns, it supports analysis of mortality trends over time, comparisons of leading causes across demographic groups, and identification of disparities in death rates by sex and race/ethnicity. It can be used for public health research, epidemiological study, policy planning, and data visualization of health outcomes in New York City.",
+  "prompt": "Title: New York City Leading Causes of Death\nCategory: Health\nRows (sampled): 2102\nColumns: 7\nColumn names: year, leading_cause, sex, race_ethnicity, deaths, death_rate, age_adjusted_death_rate\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 130,
+    "completion_tokens": 124,
+    "total_tokens": 254
+  },
+  "elapsed_seconds": 1.59
+}

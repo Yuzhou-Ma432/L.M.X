@@ -1,0 +1,15 @@
+{
+  "id": "f64t-5yiv",
+  "name": "Inmate Deaths",
+  "strategy": "content",
+  "description": "This dataset records individual inmate death incidents classified as suicides, with 22 sampled rows and four columns. Each row is identified by a unique incident_id and includes the date and time the death was reported (reported_dt), the incident type (in this sample, all entries are \"Suicide\"), and the facility where it occurred. Facility codes include AMKC, GRVC, OBCC, EMTC, RMSC, and MDC, though the facility field is missing for roughly 23% of rows. Reported dates span from 2015 onward.\n\nThe data could support analyses of suicide deaths in custody over time, comparisons of incident counts across facilities, and identification of reporting patterns or seasonal trends. Because the sample is small and limited to a single incident type, it is best suited for exploratory review or as a starting point for broader public safety and corrections oversight work rather than for drawing statistically robust conclusions.",
+  "prompt": "Title: Inmate Deaths\nCategory: Public Safety\nRows (sampled): 22\nColumns: 4\n\nColumn details:\n- incident_id (type int64) 22 distinct values 0.0% missing min=64622.0 max=203689.0 mean=139693.1364 p25=100191.5 p75=174079.0 common values: 64622 (4.5%), 68923 (4.5%), 77047 (4.5%), 77355 (4.5%), 90911 (4.5%) samples: 64622, 68923, 77047, 77355, 90911\n- reported_dt (type object) 22 distinct values 0.0% missing common values: 2015-01-01T17:20:00.000 (4.5%), 2015-06-10T12:28:00.000 (4.5%), 2016-01-29T14:20:00.000 (4.5%), 2016-03-14T22:11:00.000 (4.5%), 2017-04-16T14:06:00.000 (4.5%) samples: 2015-01-01T17:20:00.000, 2015-06-10T12:28:00.000, 2016-01-29T14:20:00.000, 2016-03-14T22:11:00.000, 2017-04-16T14:06:00.000\n- incident_type (type object) 1 distinct values 0.0% missing common values: Suicide (100.0%) samples: Suicide, Suicide, Suicide, Suicide, Suicide\n- facility (type object) 7 distinct values 22.73% missing common values: AMKC (29.4%), GRVC (23.5%), OBCC (17.6%), EMTC (11.8%), RMSC (5.9%) samples: RMSC, AMKC, AMKC, MDC, OBCC\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 530,
+    "completion_tokens": 183,
+    "total_tokens": 713
+  },
+  "elapsed_seconds": 1.6
+}

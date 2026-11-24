@@ -40,6 +40,9 @@ NUM_DATASETS = int(os.getenv("NUM_DATASETS", "150"))
 # --- Profiling -------------------------------------------------------------
 PROFILE_ROWS = int(os.getenv("PROFILE_ROWS", "5000"))  # max rows fetched per dataset
 SAMPLE_ROWS = int(os.getenv("SAMPLE_ROWS", "5"))       # sample values shown in prompts
+TOP_VALUES_N = int(os.getenv("TOP_VALUES_N", "5"))     # top-N frequent values recorded
+TOP_VALUES_MAX_CARDINALITY = int(os.getenv("TOP_VALUES_MAX_CARDINALITY", "30"))  # only for low-cardinality columns
+MAX_VALUE_LEN = int(os.getenv("MAX_VALUE_LEN", "40"))   # max chars per sample/top value (bounds prompt size)
 
 # --- Generation ------------------------------------------------------------
 MAX_DESCRIPTION_TOKENS = int(os.getenv("MAX_DESCRIPTION_TOKENS", "200"))
@@ -52,3 +55,7 @@ TEMPERATURE = float(os.getenv("TEMPERATURE", "0.2"))
 # ignored for simplicity.
 COST_PER_1M_INPUT = float(os.getenv("COST_PER_1M_INPUT", "0.27"))
 COST_PER_1M_OUTPUT = float(os.getenv("COST_PER_1M_OUTPUT", "1.10"))
+
+# --- Evaluation: semantic similarity via embeddings ------------------------
+# sentence-transformers model for embedding cosine similarity (vs TF-IDF).
+EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "all-MiniLM-L6-v2")

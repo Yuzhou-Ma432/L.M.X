@@ -1,0 +1,21 @@
+{
+  "id": "6teu-xtgp",
+  "name": "Inmate Admissions",
+  "strategy": "semantic",
+  "description": "This dataset contains individual records of inmate admissions to a correctional facility, with 5,000 sampled rows and seven columns. Each row represents an admission event and includes an inmate identifier, the date and time of admission, the date and time of discharge (missing for about 55% of records, likely indicating inmates still in custody or not yet released), race, gender, an inmate status code, and the top charge associated with the admission. Race is recorded as BLACK (about 56%), UNKNOWN (about 42%), or ASIAN (about 2%). Gender is mostly male (about 92%) with a small share female and a few missing values. Status codes include DE (about 75%), DPV, CS, DEP, and SSR, among others. The top charge field is missing for roughly half the records and otherwise contains codes such as VTL 1192.3 and 120.05.\n\nThe data can support analyses of jail population trends, length of stay (",
+  "prompt": "Title: Inmate Admissions\nCategory: Public Safety\nRows (sampled): 5000\nColumns: 7\n\nColumn details:\n- inmateid (type int64) 4811 distinct values 0.0% missing min=476.0 max=20198727.0 mean=13484900.1976 p25=126321.0 p75=20193675.0 samples: 10008773, 20037818, 20197484, 20150289, 20122449\n- admitted_dt (type object) 4923 distinct values 0.0% missing samples: 2018-08-23T10:15:28.000, 2018-08-05T19:13:46.000, 2018-08-14T02:08:36.000, 2018-08-02T00:05:22.000, 2018-08-23T18:34:24.000\n- discharged_dt (type object) 2262 distinct values 54.52% missing samples: 2018-08-23T11:14:00.000, 2018-08-10T16:46:05.000, 2018-08-13T21:07:02.000, 2018-08-20T00:36:02.000, 2018-08-28T17:26:02.000\n- race (type object) 3 distinct values 0.0% missing common values: BLACK (55.9%), UNKNOWN (42.0%), ASIAN (2.1%) samples: UNKNOWN, UNKNOWN, BLACK, UNKNOWN, UNKNOWN\n- gender (type object) 2 distinct values 0.32% missing common values: M  (91.6%), F  (8.4%) samples: M , M , F , M , M \n- inmate_status_code (type object) 8 distinct values 0.0% missing common values: DE (75.0%), DPV (8.2%), CS (7.4%), DEP (6.0%), SSR (1.5%) samples: DE, DE, DE, DPV, DE\n- top_charge (type object) 211 distinct values 49.78% missing samples: VTL 1192.3, 120.05, 120.05, 120.13, 140.25\n\nSemantic summary (topic and possible uses):\nThis dataset contains records of inmate admissions to a correctional facility, including each inmate's identifier, admission and discharge dates, race, gender, status code, and top charge. It belongs to the public safety and criminal justice domain, capturing individual-level booking and release information. The data could be used to analyze jail population trends, length of stay, demographic disparities in admissions, charge distributions, and recidivism patterns, or to support capacity planning and policy research.\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "length",
+  "usage": {
+    "prompt_tokens": 699,
+    "completion_tokens": 200,
+    "total_tokens": 899
+  },
+  "elapsed_seconds": 2.89,
+  "semantic_summary": "This dataset contains records of inmate admissions to a correctional facility, including each inmate's identifier, admission and discharge dates, race, gender, status code, and top charge. It belongs to the public safety and criminal justice domain, capturing individual-level booking and release information. The data could be used to analyze jail population trends, length of stay, demographic disparities in admissions, charge distributions, and recidivism patterns, or to support capacity planning and policy research.",
+  "semantic_usage": {
+    "prompt_tokens": 150,
+    "completion_tokens": 92,
+    "total_tokens": 242
+  }
+}

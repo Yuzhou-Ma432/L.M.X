@@ -1,0 +1,21 @@
+{
+  "id": "27x4-cbi6",
+  "name": "Pregnancy-Associated Mortality",
+  "strategy": "semantic",
+  "description": "This dataset records pregnancy-associated deaths in New York City across multiple years, with counts broken down by year, pregnancy-relatedness, underlying cause of death, race and ethnicity, and borough of residence. Each row represents a death count for a specific combination of these attributes, and many rows use an \"All\" category to provide aggregate totals alongside subgroup breakdowns. The data span years from 2016 through 2022, with death counts ranging from 0 to 26 per row.\n\nThe dataset supports analysis of maternal mortality trends over time, disparities in outcomes by race and ethnicity, leading causes of pregnancy-associated death such as mental health conditions, cardiovascular conditions, and infection, and geographic variation across the five boroughs. It could be used for epidemiological research, health equity assessment, and planning or evaluating maternal health programs and policy. Users should note that rows mix aggregate and subgroup records, so filtering on the \"All\" categories is necessary to avoid double-counting.",
+  "prompt": "Title: Pregnancy-Associated Mortality\nCategory: Health\nRows (sampled): 236\nColumns: 6\n\nColumn details:\n- year (type object) 7 distinct values 0.0% missing common values: 2019 (18.6%), 2017 (18.2%), 2018 (16.9%), 2020 (16.1%), 2021 (15.7%) samples: 2016, 2016, 2016, 2016, 2016\n- related (type object) 6 distinct values 0.0% missing common values: Pregnancy-related (37.3%), All (26.3%), Pregnancy-associated but not related (15.3%), Unable to Determine (12.7%), Pregnancy-Related (8.1%) samples: All, All, All, All, All\n- underlying_cause (type object) 15 distinct values 0.0% missing common values: All (51.3%), Mental Health Conditions (Overdose relat… (5.9%), Cardiovascular Conditions (5.9%), Other (5.1%), Infection/Sepsis (5.1%) samples: All, All, All, All, All\n- race_ethnicity (type object) 7 distinct values 0.0% missing common values: All (78.4%), Black non-Latina (5.1%), Latina (5.1%), White non-Latina (5.1%), Asian/Pacific Islander (4.2%) samples: All, All, All, All, All\n- borough (type object) 8 distinct values 0.0% missing common values: All (69.5%), Bronx (5.1%), Manhattan (5.1%), Brooklyn (5.1%), Queens (5.1%) samples: Bronx, Brooklyn, Manhattan, Queens, Staten Island\n- deaths (type float64) 21 distinct values 0.42% missing min=0.0 max=26.0 mean=5.017 p25=2.0 p75=6.5 common values: 1.0 (22.6%), 2.0 (14.9%), 3.0 (13.6%), 4.0 (8.5%), 5.0 (8.1%) samples: 5.0, 12.0, 4.0, 8.0, 4.0\n\nSemantic summary (topic and possible uses):\nThis dataset covers pregnancy-associated mortality, recording deaths by year, pregnancy-relatedness, underlying cause of death, race/ethnicity, and borough of residence. It belongs to the public health and maternal health domain, with a geographic focus on New York City boroughs. With 236 rows, it supports analysis of maternal death trends over time, disparities by race and ethnicity, leading causes of death, and geographic variation across boroughs, making it useful for epidemiological research, health equity assessment, and informing maternal health policy or program planning.\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 698,
+    "completion_tokens": 192,
+    "total_tokens": 890
+  },
+  "elapsed_seconds": 4.19,
+  "semantic_summary": "This dataset covers pregnancy-associated mortality, recording deaths by year, pregnancy-relatedness, underlying cause of death, race/ethnicity, and borough of residence. It belongs to the public health and maternal health domain, with a geographic focus on New York City boroughs. With 236 rows, it supports analysis of maternal death trends over time, disparities by race and ethnicity, leading causes of death, and geographic variation across boroughs, making it useful for epidemiological research, health equity assessment, and informing maternal health policy or program planning.",
+  "semantic_usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 106,
+    "total_tokens": 249
+  }
+}

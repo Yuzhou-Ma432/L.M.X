@@ -1,0 +1,341 @@
+{
+  "id": "39qw-754y",
+  "name": "Constituent Services",
+  "description": "",
+  "category": "City Government",
+  "permalink": "https://data.cityofnewyork.us/d/39qw-754y",
+  "sampled_rows": 5000,
+  "n_rows": 1274,
+  "n_cols": 13,
+  "columns": [
+    {
+      "name": "contact_id",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 985,
+      "sample_values": [
+        "54.0",
+        "61.0",
+        "99.0",
+        "100.0",
+        "108.0"
+      ],
+      "stats": {
+        "min": 2.0,
+        "max": 2860.0,
+        "mean": 797.1625,
+        "median": 595.5,
+        "p25": 277.5,
+        "p75": 954.75
+      }
+    },
+    {
+      "name": "city",
+      "dtype": "object",
+      "missing": 229,
+      "missing_pct": 17.97,
+      "nunique": 35,
+      "sample_values": [
+        "New York",
+        "New York",
+        "New York",
+        "New York",
+        "New York"
+      ]
+    },
+    {
+      "name": "state",
+      "dtype": "object",
+      "missing": 21,
+      "missing_pct": 1.65,
+      "nunique": 3,
+      "sample_values": [
+        "NY",
+        "NY",
+        "NY",
+        "NY",
+        "NY"
+      ],
+      "top_values": [
+        {
+          "value": "NY",
+          "count": 1251,
+          "pct": 99.8
+        },
+        {
+          "value": "NJ",
+          "count": 1,
+          "pct": 0.1
+        },
+        {
+          "value": "CT",
+          "count": 1,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "postal_code",
+      "dtype": "float64",
+      "missing": 241,
+      "missing_pct": 18.92,
+      "nunique": 93,
+      "sample_values": [
+        "10027.0",
+        "10031.0",
+        "10027.0",
+        "10023.0",
+        "10027.0"
+      ],
+      "stats": {
+        "min": 6901.0,
+        "max": 18452.0,
+        "mean": 10087.9613,
+        "median": 10027.0,
+        "p25": 10025.0,
+        "p75": 10032.0
+      }
+    },
+    {
+      "name": "council_member",
+      "dtype": "object",
+      "missing": 353,
+      "missing_pct": 27.71,
+      "nunique": 12,
+      "sample_values": [
+        "Mark Levine [7]",
+        "Mark Levine [7]",
+        "Helen Rosenthal [6]",
+        "Helen Rosenthal [6]",
+        "Bill Perkins [9]"
+      ],
+      "top_values": [
+        {
+          "value": "Bill Perkins [9]",
+          "count": 260,
+          "pct": 28.2
+        },
+        {
+          "value": "Mark Levine [7]",
+          "count": 226,
+          "pct": 24.5
+        },
+        {
+          "value": "Helen Rosenthal [6]",
+          "count": 164,
+          "pct": 17.8
+        },
+        {
+          "value": "Melissa Mark-Viverito [8]",
+          "count": 66,
+          "pct": 7.2
+        },
+        {
+          "value": "Ydanis Rodriguez [10]",
+          "count": 53,
+          "pct": 5.8
+        }
+      ]
+    },
+    {
+      "name": "community_board",
+      "dtype": "float64",
+      "missing": 324,
+      "missing_pct": 25.43,
+      "nunique": 13,
+      "sample_values": [
+        "10.0",
+        "9.0",
+        "9.0",
+        "7.0",
+        "9.0"
+      ],
+      "top_values": [
+        {
+          "value": "9.0",
+          "count": 227,
+          "pct": 23.9
+        },
+        {
+          "value": "10.0",
+          "count": 212,
+          "pct": 22.3
+        },
+        {
+          "value": "7.0",
+          "count": 192,
+          "pct": 20.2
+        },
+        {
+          "value": "11.0",
+          "count": 97,
+          "pct": 10.2
+        },
+        {
+          "value": "12.0",
+          "count": 65,
+          "pct": 6.8
+        }
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 24.0,
+        "mean": 8.4937,
+        "median": 9.0,
+        "p25": 7.0,
+        "p75": 10.0
+      }
+    },
+    {
+      "name": "case_id",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1274,
+      "sample_values": [
+        "3.0",
+        "4.0",
+        "5.0",
+        "6.0",
+        "7.0"
+      ],
+      "stats": {
+        "min": 3.0,
+        "max": 1520.0,
+        "mean": 696.1868,
+        "median": 680.5,
+        "p25": 344.25,
+        "p75": 1019.75
+      }
+    },
+    {
+      "name": "case_type",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 27,
+      "sample_values": [
+        "Housing",
+        "Housing",
+        "NYCHA",
+        "NYCHA",
+        "Housing"
+      ],
+      "top_values": [
+        {
+          "value": "Housing",
+          "count": 503,
+          "pct": 39.5
+        },
+        {
+          "value": "NYCHA",
+          "count": 298,
+          "pct": 23.4
+        },
+        {
+          "value": "Other",
+          "count": 154,
+          "pct": 12.1
+        },
+        {
+          "value": "Social Services",
+          "count": 75,
+          "pct": 5.9
+        },
+        {
+          "value": "Quality of Life",
+          "count": 33,
+          "pct": 2.6
+        }
+      ]
+    },
+    {
+      "name": "sub_types",
+      "dtype": "object",
+      "missing": 488,
+      "missing_pct": 38.3,
+      "nunique": 124,
+      "sample_values": [
+        "DHS",
+        "Application",
+        "Application",
+        "DHS",
+        "Rats"
+      ]
+    },
+    {
+      "name": "case_subject",
+      "dtype": "object",
+      "missing": 1,
+      "missing_pct": 0.08,
+      "nunique": 501,
+      "sample_values": [
+        "Rent Arrears",
+        "Housing Information",
+        "Repairs",
+        "Quality of Life",
+        "Security Deposit"
+      ]
+    },
+    {
+      "name": "case_start_date",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 248,
+      "sample_values": [
+        "2017-06-26T00:00:00.000",
+        "2017-06-27T00:00:00.000",
+        "2017-07-03T00:00:00.000",
+        "2017-07-03T00:00:00.000",
+        "2017-07-05T00:00:00.000"
+      ]
+    },
+    {
+      "name": "case_end_date",
+      "dtype": "object",
+      "missing": 860,
+      "missing_pct": 67.5,
+      "nunique": 79,
+      "sample_values": [
+        "2017-06-27T00:00:00.000",
+        "2017-07-06T00:00:00.000",
+        "2017-07-06T00:00:00.000",
+        "2017-07-06T00:00:00.000",
+        "2017-07-07T00:00:00.000"
+      ]
+    },
+    {
+      "name": "case_status",
+      "dtype": "object",
+      "missing": 74,
+      "missing_pct": 5.81,
+      "nunique": 3,
+      "sample_values": [
+        "Pending",
+        "Closed",
+        "Pending",
+        "Pending",
+        "Pending"
+      ],
+      "top_values": [
+        {
+          "value": "Closed",
+          "count": 785,
+          "pct": 65.4
+        },
+        {
+          "value": "Pending",
+          "count": 413,
+          "pct": 34.4
+        },
+        {
+          "value": "Urgent",
+          "count": 2,
+          "pct": 0.2
+        }
+      ]
+    }
+  ]
+}

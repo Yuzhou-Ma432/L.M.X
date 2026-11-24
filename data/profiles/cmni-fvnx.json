@@ -1,0 +1,885 @@
+{
+  "id": "cmni-fvnx",
+  "name": "Restrictive Declaration Sites",
+  "description": "Publically accessible open-space constructed and maintained by a private entity pursuant to an agreement with NYC Parks. Underlying jurisdiction of the land and the terms of each agreement vary by site. \n\nData Dictionary: https://docs.google.com/spreadsheets/d/1kGQ-tRYAXONPBY9kHi1qik2SRf0wMslHGj-xLflOT_A/edit?usp=sharing",
+  "category": "Recreation",
+  "permalink": "https://data.cityofnewyork.us/d/cmni-fvnx",
+  "sampled_rows": 5000,
+  "n_rows": 28,
+  "n_cols": 23,
+  "columns": [
+    {
+      "name": "objectid",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 28,
+      "sample_values": [
+        "17266",
+        "16863",
+        "16862",
+        "16467",
+        "16461"
+      ],
+      "top_values": [
+        {
+          "value": "17266",
+          "count": 1,
+          "pct": 3.6
+        },
+        {
+          "value": "16863",
+          "count": 1,
+          "pct": 3.6
+        },
+        {
+          "value": "16862",
+          "count": 1,
+          "pct": 3.6
+        },
+        {
+          "value": "16467",
+          "count": 1,
+          "pct": 3.6
+        },
+        {
+          "value": "16461",
+          "count": 1,
+          "pct": 3.6
+        }
+      ],
+      "stats": {
+        "min": 51.0,
+        "max": 17266.0,
+        "mean": 10037.5357,
+        "median": 12225.5,
+        "p25": 3680.25,
+        "p75": 15339.25
+      }
+    },
+    {
+      "name": "gispropnum",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 28,
+      "sample_values": [
+        "MT14",
+        "BT31",
+        "BT30",
+        "QT27",
+        "BT29"
+      ],
+      "top_values": [
+        {
+          "value": "MT14",
+          "count": 1,
+          "pct": 3.6
+        },
+        {
+          "value": "BT31",
+          "count": 1,
+          "pct": 3.6
+        },
+        {
+          "value": "BT30",
+          "count": 1,
+          "pct": 3.6
+        },
+        {
+          "value": "QT27",
+          "count": 1,
+          "pct": 3.6
+        },
+        {
+          "value": "BT29",
+          "count": 1,
+          "pct": 3.6
+        }
+      ]
+    },
+    {
+      "name": "parkdistri",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 12,
+      "sample_values": [
+        "M-12",
+        "B-01",
+        "B-06",
+        "Q-01",
+        "B-06"
+      ],
+      "top_values": [
+        {
+          "value": "B-01",
+          "count": 7,
+          "pct": 25.0
+        },
+        {
+          "value": "B-06",
+          "count": 6,
+          "pct": 21.4
+        },
+        {
+          "value": "Q-01",
+          "count": 3,
+          "pct": 10.7
+        },
+        {
+          "value": "X-01",
+          "count": 2,
+          "pct": 7.1
+        },
+        {
+          "value": "x-04",
+          "count": 2,
+          "pct": 7.1
+        }
+      ]
+    },
+    {
+      "name": "ampsparent",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 12,
+      "sample_values": [
+        "M-12",
+        "B-01",
+        "B-06",
+        "Q-01",
+        "B-06"
+      ],
+      "top_values": [
+        {
+          "value": "B-01",
+          "count": 7,
+          "pct": 25.0
+        },
+        {
+          "value": "B-06",
+          "count": 6,
+          "pct": 21.4
+        },
+        {
+          "value": "Q-01",
+          "count": 3,
+          "pct": 10.7
+        },
+        {
+          "value": "X-01",
+          "count": 2,
+          "pct": 7.1
+        },
+        {
+          "value": "X-04",
+          "count": 2,
+          "pct": 7.1
+        }
+      ]
+    },
+    {
+      "name": "location",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 27,
+      "sample_values": [
+        "W 207 St., W 208 St.  bet. 9 Ave. and th…",
+        "East River, Kent Ave. bet. S 10 St. and …",
+        "Gowanus Canal bet. Sackett St. and Degra…",
+        "1 St. bet. 26 Ave. and 27 Ave.",
+        "Gowanus Canal bet. Union St. and Sackett…"
+      ],
+      "top_values": [
+        {
+          "value": "Exterior St. bet. E 150 St. and 145 St.",
+          "count": 2,
+          "pct": 7.1
+        },
+        {
+          "value": "East River, Kent Ave. bet. S 10 St. and …",
+          "count": 1,
+          "pct": 3.6
+        },
+        {
+          "value": "W 207 St., W 208 St.  bet. 9 Ave. and th…",
+          "count": 1,
+          "pct": 3.6
+        },
+        {
+          "value": "1 St. bet. 26 Ave. and 27 Ave.",
+          "count": 1,
+          "pct": 3.6
+        },
+        {
+          "value": "Gowanus Canal bet. Union St. and Sackett…",
+          "count": 1,
+          "pct": 3.6
+        }
+      ]
+    },
+    {
+      "name": "communityb",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 12,
+      "sample_values": [
+        "112",
+        "301",
+        "306",
+        "401",
+        "306"
+      ],
+      "top_values": [
+        {
+          "value": "301",
+          "count": 7,
+          "pct": 25.0
+        },
+        {
+          "value": "306",
+          "count": 6,
+          "pct": 21.4
+        },
+        {
+          "value": "401",
+          "count": 3,
+          "pct": 10.7
+        },
+        {
+          "value": "201",
+          "count": 2,
+          "pct": 7.1
+        },
+        {
+          "value": "204",
+          "count": 2,
+          "pct": 7.1
+        }
+      ],
+      "stats": {
+        "min": 107.0,
+        "max": 407.0,
+        "mean": 293.75,
+        "median": 303.5,
+        "p25": 278.25,
+        "p75": 311.5
+      }
+    },
+    {
+      "name": "councildis",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 12,
+      "sample_values": [
+        "10",
+        "33",
+        "39",
+        "22",
+        "39"
+      ],
+      "top_values": [
+        {
+          "value": "33",
+          "count": 6,
+          "pct": 21.4
+        },
+        {
+          "value": "39",
+          "count": 6,
+          "pct": 21.4
+        },
+        {
+          "value": "8",
+          "count": 4,
+          "pct": 14.3
+        },
+        {
+          "value": "22",
+          "count": 3,
+          "pct": 10.7
+        },
+        {
+          "value": "47",
+          "count": 2,
+          "pct": 7.1
+        }
+      ],
+      "stats": {
+        "min": 4.0,
+        "max": 47.0,
+        "mean": 25.7857,
+        "median": 29.5,
+        "p25": 12.25,
+        "p75": 39.0
+      }
+    },
+    {
+      "name": "precinct",
+      "dtype": "object",
+      "missing": 3,
+      "missing_pct": 10.71,
+      "nunique": 12,
+      "sample_values": [
+        "34",
+        "90",
+        "76",
+        "114",
+        "76"
+      ],
+      "top_values": [
+        {
+          "value": "94",
+          "count": 4,
+          "pct": 16.0
+        },
+        {
+          "value": "114",
+          "count": 3,
+          "pct": 12.0
+        },
+        {
+          "value": "78",
+          "count": 3,
+          "pct": 12.0
+        },
+        {
+          "value": "76",
+          "count": 3,
+          "pct": 12.0
+        },
+        {
+          "value": "44",
+          "count": 2,
+          "pct": 8.0
+        }
+      ]
+    },
+    {
+      "name": "zipcode",
+      "dtype": "float64",
+      "missing": 1,
+      "missing_pct": 3.57,
+      "nunique": 16,
+      "sample_values": [
+        "10034.0",
+        "112111.0",
+        "11231.0",
+        "11102.0",
+        "11231.0"
+      ],
+      "top_values": [
+        {
+          "value": "11231.0",
+          "count": 5,
+          "pct": 18.5
+        },
+        {
+          "value": "10451.0",
+          "count": 4,
+          "pct": 14.8
+        },
+        {
+          "value": "11249.0",
+          "count": 4,
+          "pct": 14.8
+        },
+        {
+          "value": "11222.0",
+          "count": 2,
+          "pct": 7.4
+        },
+        {
+          "value": "11102.0",
+          "count": 1,
+          "pct": 3.7
+        }
+      ],
+      "stats": {
+        "min": 10023.0,
+        "max": 112111.0,
+        "mean": 14725.6667,
+        "median": 11222.0,
+        "p25": 10782.5,
+        "p75": 11240.0
+      }
+    },
+    {
+      "name": "borough",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "M",
+        "B",
+        "B",
+        "Q",
+        "B"
+      ],
+      "top_values": [
+        {
+          "value": "B",
+          "count": 14,
+          "pct": 50.0
+        },
+        {
+          "value": "Q",
+          "count": 6,
+          "pct": 21.4
+        },
+        {
+          "value": "X",
+          "count": 6,
+          "pct": 21.4
+        },
+        {
+          "value": "M",
+          "count": 2,
+          "pct": 7.1
+        }
+      ]
+    },
+    {
+      "name": "acres",
+      "dtype": "float64",
+      "missing": 1,
+      "missing_pct": 3.57,
+      "nunique": 27,
+      "sample_values": [
+        "0.16684983",
+        "1.01395481",
+        "0.23980867",
+        "1.46177173",
+        "0.21330762"
+      ],
+      "top_values": [
+        {
+          "value": "0.16684983",
+          "count": 1,
+          "pct": 3.7
+        },
+        {
+          "value": "1.01395481",
+          "count": 1,
+          "pct": 3.7
+        },
+        {
+          "value": "0.23980867",
+          "count": 1,
+          "pct": 3.7
+        },
+        {
+          "value": "1.46177173",
+          "count": 1,
+          "pct": 3.7
+        },
+        {
+          "value": "0.21330762",
+          "count": 1,
+          "pct": 3.7
+        }
+      ],
+      "stats": {
+        "min": 0.0555,
+        "max": 2.937,
+        "mean": 0.8226,
+        "median": 0.7314,
+        "p25": 0.258,
+        "p75": 1.2067
+      }
+    },
+    {
+      "name": "comments",
+      "dtype": "object",
+      "missing": 9,
+      "missing_pct": 32.14,
+      "nunique": 8,
+      "sample_values": [
+        "Restrictive Declaration Site",
+        "Restrictive Declaration Site",
+        "Restrictive Declaration Site",
+        "Restrictive Declaration Site. Not rated …",
+        "Restrictive Declaration Site"
+      ],
+      "top_values": [
+        {
+          "value": "Restrictive Declaration Site",
+          "count": 12,
+          "pct": 63.2
+        },
+        {
+          "value": "Restrictive Declaration Site. Not rated …",
+          "count": 1,
+          "pct": 5.3
+        },
+        {
+          "value": "Size unknown",
+          "count": 1,
+          "pct": 5.3
+        },
+        {
+          "value": "Need to confirm boundaries",
+          "count": 1,
+          "pct": 5.3
+        },
+        {
+          "value": "Rated against Boro Ops",
+          "count": 1,
+          "pct": 5.3
+        }
+      ]
+    },
+    {
+      "name": "pipratable",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "NO",
+        "YES",
+        "NO",
+        "YES",
+        "NO"
+      ],
+      "top_values": [
+        {
+          "value": "NO",
+          "count": 15,
+          "pct": 53.6
+        },
+        {
+          "value": "YES",
+          "count": 13,
+          "pct": 46.4
+        }
+      ]
+    },
+    {
+      "name": "commission",
+      "dtype": "float64",
+      "missing": 28,
+      "missing_pct": 100.0,
+      "nunique": 0,
+      "sample_values": []
+    },
+    {
+      "name": "acquisitio",
+      "dtype": "float64",
+      "missing": 28,
+      "missing_pct": 100.0,
+      "nunique": 0,
+      "sample_values": []
+    },
+    {
+      "name": "jurisdicti",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "Private",
+        "Private",
+        "Private",
+        "Private",
+        "Private"
+      ],
+      "top_values": [
+        {
+          "value": "Private",
+          "count": 28,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "propertyna",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 27,
+      "sample_values": [
+        "J. 207th LLC",
+        "470 Kent Avenue",
+        "Society Brooklyn - North",
+        "Halletts Point North WPAA",
+        "Sackett Place - South"
+      ],
+      "top_values": [
+        {
+          "value": "Bronx Point Waterfront Public Access Are…",
+          "count": 2,
+          "pct": 7.1
+        },
+        {
+          "value": "470 Kent Avenue",
+          "count": 1,
+          "pct": 3.6
+        },
+        {
+          "value": "J. 207th LLC",
+          "count": 1,
+          "pct": 3.6
+        },
+        {
+          "value": "Halletts Point North WPAA",
+          "count": 1,
+          "pct": 3.6
+        },
+        {
+          "value": "Sackett Place - South",
+          "count": 1,
+          "pct": 3.6
+        }
+      ]
+    },
+    {
+      "name": "typecatego",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "Restrictive Declaration",
+        "Restrictive Decleration",
+        "Restrictive Declaration",
+        "Restrictive Decleration",
+        "Restrictive Declaration"
+      ],
+      "top_values": [
+        {
+          "value": "Restrictive Declaration",
+          "count": 23,
+          "pct": 82.1
+        },
+        {
+          "value": "Restrictive Decleration",
+          "count": 2,
+          "pct": 7.1
+        },
+        {
+          "value": "Restrictive Declerartion",
+          "count": 2,
+          "pct": 7.1
+        },
+        {
+          "value": "Restrictive Delaration",
+          "count": 1,
+          "pct": 3.6
+        }
+      ]
+    },
+    {
+      "name": "waterfront",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 26,
+          "pct": 92.9
+        },
+        {
+          "value": "No",
+          "count": 2,
+          "pct": 7.1
+        }
+      ]
+    },
+    {
+      "name": "nysassembl",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 13,
+      "sample_values": [
+        "72",
+        "50",
+        "52",
+        "36",
+        "52"
+      ],
+      "top_values": [
+        {
+          "value": "50",
+          "count": 7,
+          "pct": 25.0
+        },
+        {
+          "value": "52",
+          "count": 6,
+          "pct": 21.4
+        },
+        {
+          "value": "36",
+          "count": 2,
+          "pct": 7.1
+        },
+        {
+          "value": "84",
+          "count": 2,
+          "pct": 7.1
+        },
+        {
+          "value": "77",
+          "count": 2,
+          "pct": 7.1
+        }
+      ],
+      "stats": {
+        "min": 27.0,
+        "max": 84.0,
+        "mean": 53.8214,
+        "median": 50.0,
+        "p25": 46.0,
+        "p75": 55.75
+      }
+    },
+    {
+      "name": "nyssenate",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 10,
+      "sample_values": [
+        "31",
+        "18",
+        "26",
+        "59",
+        "26"
+      ],
+      "top_values": [
+        {
+          "value": "59",
+          "count": 8,
+          "pct": 28.6
+        },
+        {
+          "value": "26",
+          "count": 6,
+          "pct": 21.4
+        },
+        {
+          "value": "29",
+          "count": 4,
+          "pct": 14.3
+        },
+        {
+          "value": "18",
+          "count": 2,
+          "pct": 7.1
+        },
+        {
+          "value": "23",
+          "count": 2,
+          "pct": 7.1
+        }
+      ],
+      "stats": {
+        "min": 11.0,
+        "max": 59.0,
+        "mean": 34.8571,
+        "median": 29.0,
+        "p25": 25.25,
+        "p75": 59.0
+      }
+    },
+    {
+      "name": "uscongress",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 10,
+      "sample_values": [
+        "13",
+        "7",
+        "10",
+        "14",
+        "10"
+      ],
+      "top_values": [
+        {
+          "value": "7",
+          "count": 8,
+          "pct": 28.6
+        },
+        {
+          "value": "10",
+          "count": 6,
+          "pct": 21.4
+        },
+        {
+          "value": "15",
+          "count": 4,
+          "pct": 14.3
+        },
+        {
+          "value": "14",
+          "count": 4,
+          "pct": 14.3
+        },
+        {
+          "value": "13",
+          "count": 1,
+          "pct": 3.6
+        }
+      ]
+    },
+    {
+      "name": "developer",
+      "dtype": "object",
+      "missing": 1,
+      "missing_pct": 3.57,
+      "nunique": 25,
+      "sample_values": [
+        "J. 207th LLC",
+        "NAFTALI Group",
+        "Property Markets Group",
+        "The Durst Organization",
+        "Property Markets Group"
+      ],
+      "top_values": [
+        {
+          "value": "Property Markets Group",
+          "count": 2,
+          "pct": 7.4
+        },
+        {
+          "value": "Bronx Point",
+          "count": 2,
+          "pct": 7.4
+        },
+        {
+          "value": "J. 207th LLC",
+          "count": 1,
+          "pct": 3.7
+        },
+        {
+          "value": "The Durst Organization",
+          "count": 1,
+          "pct": 3.7
+        },
+        {
+          "value": "NAFTALI Group",
+          "count": 1,
+          "pct": 3.7
+        }
+      ]
+    }
+  ]
+}

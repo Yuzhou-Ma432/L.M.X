@@ -1,0 +1,357 @@
+{
+  "id": "af2s-4k4p",
+  "name": "DVS Resource Map",
+  "description": "Assistance requests for services, care, or resources supported via phone, in-person, postal mail or electronic mail. Assistance and support involve connecting City veterans and their families to a coordinated network of public, private and non-profit organizations.",
+  "category": "Social Services",
+  "permalink": "https://data.cityofnewyork.us/d/af2s-4k4p",
+  "sampled_rows": 5000,
+  "n_rows": 253,
+  "n_cols": 15,
+  "columns": [
+    {
+      "name": "dvs_res_id",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 253,
+      "sample_values": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 253.0,
+        "mean": 127.0,
+        "median": 127.0,
+        "p25": 64.0,
+        "p75": 190.0
+      }
+    },
+    {
+      "name": "name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 234,
+      "sample_values": [
+        "Bronx Employment Works",
+        "East New York Workforce1 Career Center",
+        "Bronx Workforce1 Industrial & Transporta…",
+        "Brooklyn Employment Works",
+        "Brooklyn Workforce1 Career Center"
+      ]
+    },
+    {
+      "name": "service",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 8,
+      "sample_values": [
+        "Employment",
+        "Employment",
+        "Employment",
+        "Employment",
+        "Employment"
+      ],
+      "top_values": [
+        {
+          "value": "Supportive Services",
+          "count": 49,
+          "pct": 19.4
+        },
+        {
+          "value": "Homelessness",
+          "count": 45,
+          "pct": 17.8
+        },
+        {
+          "value": "Advocacy and Assistance",
+          "count": 43,
+          "pct": 17.0
+        },
+        {
+          "value": "Employment",
+          "count": 37,
+          "pct": 14.6
+        },
+        {
+          "value": "Financial Assistance",
+          "count": 30,
+          "pct": 11.9
+        }
+      ]
+    },
+    {
+      "name": "hours",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 61,
+      "sample_values": [
+        "Mon - Wed: 9:00 AM - 5:00 PM; Thu - Fri:…",
+        "Mon - Fri: 8:30 AM - 5:00 PM",
+        "Mon - Fri: 8:30 AM - 5:00 PM",
+        "Mon: 8:30 AM - 5:00 PM; Tue: 8:30 AM - 7…",
+        "Mon - Fri: 9:00 AM - 5:00 PM"
+      ]
+    },
+    {
+      "name": "phone_number",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 168,
+      "sample_values": [
+        "Please call 311 to contact this location…",
+        "Please call 311 to contact this location…",
+        "Please call 311 to contact this location…",
+        "Please call 311 to contact this location…",
+        "Please call 311 to contact this location…"
+      ]
+    },
+    {
+      "name": "address",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 213,
+      "sample_values": [
+        "369 East 148th Street",
+        "400 East Fordham Road",
+        "14 Bruckner Boulevard",
+        "9 Bond Street",
+        "9 Bond Street"
+      ]
+    },
+    {
+      "name": "city",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 18,
+      "sample_values": [
+        "Bronx",
+        "Bronx",
+        "Bronx",
+        "Brooklyn",
+        "Brooklyn"
+      ],
+      "top_values": [
+        {
+          "value": "New York",
+          "count": 77,
+          "pct": 30.4
+        },
+        {
+          "value": "Brooklyn",
+          "count": 57,
+          "pct": 22.5
+        },
+        {
+          "value": "Bronx",
+          "count": 48,
+          "pct": 19.0
+        },
+        {
+          "value": "Staten Island",
+          "count": 21,
+          "pct": 8.3
+        },
+        {
+          "value": "Jamaica",
+          "count": 11,
+          "pct": 4.3
+        }
+      ]
+    },
+    {
+      "name": "state",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "NY",
+        "NY",
+        "NY",
+        "NY",
+        "NY"
+      ],
+      "top_values": [
+        {
+          "value": "NY",
+          "count": 253,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "zip",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 89,
+      "sample_values": [
+        "10455",
+        "10458",
+        "10454",
+        "11201",
+        "11201"
+      ]
+    },
+    {
+      "name": "building_details",
+      "dtype": "object",
+      "missing": 111,
+      "missing_pct": 43.87,
+      "nunique": 55,
+      "sample_values": [
+        "1st Floor",
+        "Entrance on Webster Avenue",
+        "3rd Floor",
+        "5th Floor",
+        "5th Floor"
+      ]
+    },
+    {
+      "name": "borough",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 7,
+      "sample_values": [
+        "Bronx",
+        "Bronx",
+        "Bronx",
+        "Brooklyn",
+        "Brooklyn"
+      ],
+      "top_values": [
+        {
+          "value": "Manhattan",
+          "count": 87,
+          "pct": 34.4
+        },
+        {
+          "value": "Brooklyn",
+          "count": 57,
+          "pct": 22.5
+        },
+        {
+          "value": "Bronx",
+          "count": 48,
+          "pct": 19.0
+        },
+        {
+          "value": "Queens",
+          "count": 38,
+          "pct": 15.0
+        },
+        {
+          "value": "Staten Island",
+          "count": 21,
+          "pct": 8.3
+        }
+      ]
+    },
+    {
+      "name": "walk_in",
+      "dtype": "object",
+      "missing": 1,
+      "missing_pct": 0.4,
+      "nunique": 2,
+      "sample_values": [
+        "True",
+        "True",
+        "True",
+        "True",
+        "True"
+      ],
+      "top_values": [
+        {
+          "value": "True",
+          "count": 236,
+          "pct": 93.7
+        },
+        {
+          "value": "False",
+          "count": 16,
+          "pct": 6.3
+        }
+      ]
+    },
+    {
+      "name": "email_address",
+      "dtype": "object",
+      "missing": 216,
+      "missing_pct": 85.38,
+      "nunique": 18,
+      "sample_values": [
+        "connect@veterans.nyc.gov",
+        "connect@veterans.nyc.gov",
+        "connect@veterans.nyc.gov",
+        "connect@veterans.nyc.gov",
+        "connect@veterans.nyc.gov"
+      ],
+      "top_values": [
+        {
+          "value": "info@americaworks.com",
+          "count": 7,
+          "pct": 18.9
+        },
+        {
+          "value": "connect@veterans.nyc.gov",
+          "count": 6,
+          "pct": 16.2
+        },
+        {
+          "value": "�info@jerichoproject.org",
+          "count": 5,
+          "pct": 13.5
+        },
+        {
+          "value": "ProblemSolving@nycourts.gov",
+          "count": 5,
+          "pct": 13.5
+        },
+        {
+          "value": "DVAInfo@veterans.ny.gov",
+          "count": 1,
+          "pct": 2.7
+        }
+      ]
+    },
+    {
+      "name": "website",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 77,
+      "sample_values": [
+        "https://www1.nyc.gov/site/sbs/careers/ca…",
+        "http://www.nyc.gov/html/sbs/wf1/html/abo…",
+        "http://www.nyc.gov/html/sbs/wf1/html/abo…",
+        "https://www1.nyc.gov/site/sbs/careers/ca…",
+        "http://www.nyc.gov/html/sbs/wf1/html/abo…"
+      ]
+    },
+    {
+      "name": "service_details",
+      "dtype": "object",
+      "missing": 1,
+      "missing_pct": 0.4,
+      "nunique": 95,
+      "sample_values": [
+        "This center provides career advisement a…",
+        "Dedicated Veteran Specialist available t…",
+        "The center offers comprehensive career s…",
+        "This center provides career advisement a…",
+        "Dedicated Veteran Specialist available t…"
+      ]
+    }
+  ]
+}

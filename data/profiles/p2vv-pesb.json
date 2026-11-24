@@ -1,0 +1,207 @@
+{
+  "id": "p2vv-pesb",
+  "name": "Services for NYCHA Residents Local Law 163",
+  "description": "This dataset contains information about 15 services available to NYCHA residents. The datasets for services listed form part of the annual report compiled by the Mayor’s Office of Operations as mandated by the <a href=\"https://legistar.council.nyc.gov/LegislationDetail.aspx?ID=2745761&GUID=2A9FB1D2-A1A8-4484-9D49-6F8332171B66\">Local Law 163 of 2016</a>. The datasets in this report can be searched by using the keyword “Services available to NYCHA Residents - Local Law 163 (2016)” on the Open Data Portal. \r\nEach row in the dataset represents information about a unique service.",
+  "category": "Social Services",
+  "permalink": "https://data.cityofnewyork.us/d/p2vv-pesb",
+  "sampled_rows": 5000,
+  "n_rows": 26,
+  "n_cols": 5,
+  "columns": [
+    {
+      "name": "program",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 26,
+      "sample_values": [
+        "Jobs-Plus",
+        "Workforce 1",
+        "Workforce 1 (by Council Districts)",
+        "Workforce 1 (by NYCHA Development)",
+        "Parks Opportunity Program (POP)"
+      ],
+      "top_values": [
+        {
+          "value": "Jobs-Plus",
+          "count": 1,
+          "pct": 3.8
+        },
+        {
+          "value": "Workforce 1",
+          "count": 1,
+          "pct": 3.8
+        },
+        {
+          "value": "Workforce 1 (by Council Districts)",
+          "count": 1,
+          "pct": 3.8
+        },
+        {
+          "value": "Workforce 1 (by NYCHA Development)",
+          "count": 1,
+          "pct": 3.8
+        },
+        {
+          "value": "Parks Opportunity Program (POP)",
+          "count": 1,
+          "pct": 3.8
+        }
+      ]
+    },
+    {
+      "name": "category",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 6,
+      "sample_values": [
+        "Employment Related Programs",
+        "Employment Related Programs",
+        "Employment Related Programs",
+        "Employment Related Programs",
+        "Employment Related Programs"
+      ],
+      "top_values": [
+        {
+          "value": "Employment Related Programs",
+          "count": 11,
+          "pct": 42.3
+        },
+        {
+          "value": "Financial Counseling or Banking Services",
+          "count": 4,
+          "pct": 15.4
+        },
+        {
+          "value": "Civil Service Commission Exam",
+          "count": 3,
+          "pct": 11.5
+        },
+        {
+          "value": "Public Housing Residents who passed TASC",
+          "count": 3,
+          "pct": 11.5
+        },
+        {
+          "value": "Assistance for Developing Business",
+          "count": 3,
+          "pct": 11.5
+        }
+      ]
+    },
+    {
+      "name": "agency_that_provides_service",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 9,
+      "sample_values": [
+        "Department of Social Services (DSS)",
+        "Small Business Services (SBS)",
+        "Small Business Services (SBS)",
+        "Small Business Services (SBS)",
+        "Department of Parks and Recreation (DPR)"
+      ],
+      "top_values": [
+        {
+          "value": "Small Business Services (SBS)",
+          "count": 6,
+          "pct": 23.1
+        },
+        {
+          "value": "Department of Consumer Affairs (DCA)",
+          "count": 4,
+          "pct": 15.4
+        },
+        {
+          "value": "Department of Social Services (DSS)",
+          "count": 3,
+          "pct": 11.5
+        },
+        {
+          "value": "New York City Housing Authority (NYCHA)",
+          "count": 3,
+          "pct": 11.5
+        },
+        {
+          "value": "Department of Citywide Administrative Se…",
+          "count": 3,
+          "pct": 11.5
+        }
+      ]
+    },
+    {
+      "name": "description",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 15,
+      "sample_values": [
+        "A place-based employment program designe…",
+        "A service offered by the Department of S…",
+        "A service offered by the Department of S…",
+        "A service offered by the Department of S…",
+        "A service offered by the Department of P…"
+      ],
+      "top_values": [
+        {
+          "value": "A service offered by the Department of S…",
+          "count": 3,
+          "pct": 11.5
+        },
+        {
+          "value": "A service offered by the New York City H…",
+          "count": 3,
+          "pct": 11.5
+        },
+        {
+          "value": "The exam assesses a candidate’s qualific…",
+          "count": 3,
+          "pct": 11.5
+        },
+        {
+          "value": "The exam assesses if an exam-taker has t…",
+          "count": 3,
+          "pct": 11.5
+        },
+        {
+          "value": "A service offered by the Department of Y…",
+          "count": 2,
+          "pct": 7.7
+        }
+      ]
+    },
+    {
+      "name": "geographical_unit_covered",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "Borough",
+        "Borough",
+        "Council District",
+        "NYCHA Development",
+        "Borough"
+      ],
+      "top_values": [
+        {
+          "value": "Borough",
+          "count": 15,
+          "pct": 57.7
+        },
+        {
+          "value": "NYCHA Development",
+          "count": 6,
+          "pct": 23.1
+        },
+        {
+          "value": "Council District",
+          "count": 5,
+          "pct": 19.2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "id": "jb7j-dtam",
+  "name": "New York City Leading Causes of Death",
+  "description": "The leading causes of death by sex and ethnicity in New York City in since 2007. Cause of death is derived from the NYC death certificate which is issued for every death that occurs in New York City.\n\n</p>\nReport last ran: 09/24/2019</br>\nRates based on small numbers (RSE > 30) as well as aggregate counts less than 5 have been suppressed in downloaded data</p>\nSource: Bureau of Vital Statistics and  New York City Department of Health and Mental Hygiene",
+  "category": "Health",
+  "permalink": "https://data.cityofnewyork.us/d/jb7j-dtam",
+  "sampled_rows": 5000,
+  "n_rows": 2102,
+  "n_cols": 7,
+  "columns": [
+    {
+      "name": "year",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 15,
+      "sample_values": [
+        "2021",
+        "2021",
+        "2021",
+        "2021",
+        "2021"
+      ],
+      "top_values": [
+        {
+          "value": "2019",
+          "count": 178,
+          "pct": 8.5
+        },
+        {
+          "value": "2016",
+          "count": 145,
+          "pct": 6.9
+        },
+        {
+          "value": "2015",
+          "count": 141,
+          "pct": 6.7
+        },
+        {
+          "value": "2007",
+          "count": 141,
+          "pct": 6.7
+        },
+        {
+          "value": "2011",
+          "count": 141,
+          "pct": 6.7
+        }
+      ],
+      "stats": {
+        "min": 2007.0,
+        "max": 2021.0,
+        "mean": 2014.0894,
+        "median": 2014.0,
+        "p25": 2010.0,
+        "p75": 2018.0
+      }
+    },
+    {
+      "name": "leading_cause",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 42,
+      "sample_values": [
+        "Mental and Behavioral Disorders due to A…",
+        "All Other Causes",
+        "Chronic Liver Diseases and Cirrhosis",
+        "Diseases of Heart (I00-I09, I11, I13, I2…",
+        "Influenza (Flu) and Pneumonia (J09-J18)"
+      ]
+    },
+    {
+      "name": "sex",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "Male",
+        "Female",
+        "Male",
+        "Female",
+        "Male"
+      ],
+      "top_values": [
+        {
+          "value": "F",
+          "count": 622,
+          "pct": 29.6
+        },
+        {
+          "value": "M",
+          "count": 609,
+          "pct": 29.0
+        },
+        {
+          "value": "Female",
+          "count": 438,
+          "pct": 20.8
+        },
+        {
+          "value": "Male",
+          "count": 433,
+          "pct": 20.6
+        }
+      ]
+    },
+    {
+      "name": "race_ethnicity",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 8,
+      "sample_values": [
+        "Other Race/ Ethnicity",
+        "Not Stated/Unknown",
+        "Not Stated/Unknown",
+        "Hispanic",
+        "Not Stated/Unknown"
+      ],
+      "top_values": [
+        {
+          "value": "Other Race/ Ethnicity",
+          "count": 413,
+          "pct": 19.6
+        },
+        {
+          "value": "Not Stated/Unknown",
+          "count": 362,
+          "pct": 17.2
+        },
+        {
+          "value": "Asian and Pacific Islander",
+          "count": 333,
+          "pct": 15.8
+        },
+        {
+          "value": "Hispanic",
+          "count": 331,
+          "pct": 15.7
+        },
+        {
+          "value": "Black Non-Hispanic",
+          "count": 178,
+          "pct": 8.5
+        }
+      ]
+    },
+    {
+      "name": "deaths",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 720,
+      "sample_values": [
+        "9",
+        "102",
+        "16",
+        "1409",
+        "16"
+      ]
+    },
+    {
+      "name": "death_rate",
+      "dtype": "object",
+      "missing": 343,
+      "missing_pct": 16.32,
+      "nunique": 1008,
+      "sample_values": [
+        "111",
+        "91.2",
+        "76.1",
+        "20.9",
+        "18.4"
+      ]
+    },
+    {
+      "name": "age_adjusted_death_rate",
+      "dtype": "object",
+      "missing": 343,
+      "missing_pct": 16.32,
+      "nunique": 999,
+      "sample_values": [
+        "95.5",
+        "80.8",
+        "66.8",
+        "18",
+        "17.8"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "wnhd-n675",
+  "name": "Swim for Life: 2022 to current",
+  "strategy": "baseline",
+  "description": "This dataset records participation in Swim for Life swimming classes from 2022 onward, with one row per recorded enrollment or class entry. It includes counts of participants by gender category (male, female, and not designated), along with the training entity and training site where the class took place, the borough, whether the class was adaptive, the class start time, and the class name. With 5,000 sampled rows and nine columns, the data supports analyses of program reach and participation trends across sites, boroughs, and time, comparisons of enrollment by gender category, and examination of adaptive class availability. It could be useful for recreation planning, equity and access reporting, and tracking demand for swimming instruction.",
+  "prompt": "Title: Swim for Life: 2022 to current\nCategory: Recreation\nRows (sampled): 5000\nColumns: 9\nColumn names: male, female, not_designated, trainingentity, trainingsite, borough, adaptive_class, starttime, classname\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 133,
+    "completion_tokens": 140,
+    "total_tokens": 273
+  },
+  "elapsed_seconds": 1.49
+}

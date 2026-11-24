@@ -1,0 +1,15 @@
+{
+  "id": "af2s-4k4p",
+  "name": "DVS Resource Map",
+  "strategy": "baseline",
+  "description": "This dataset lists 253 social service resources for veterans, with each row representing one location or program. Fields include a resource ID, the organization or site name, the type of service offered, operating hours, phone number, street address, city, state, ZIP code, building details, borough, whether walk-ins are accepted, email address, website, and a free-text description of service details. The data supports finding nearby services, comparing hours and contact options, filtering by borough or walk-in availability, and building referral directories or maps for veterans seeking assistance.",
+  "prompt": "Title: DVS Resource Map\nCategory: Social Services\nRows (sampled): 253\nColumns: 15\nColumn names: dvs_res_id, name, service, hours, phone_number, address, city, state, zip, building_details, borough, walk_in, email_address, website, service_details\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 140,
+    "completion_tokens": 111,
+    "total_tokens": 251
+  },
+  "elapsed_seconds": 1.48
+}

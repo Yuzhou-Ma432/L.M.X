@@ -1,0 +1,15 @@
+{
+  "id": "d83i-6us7",
+  "name": "Street Seats (2014 - 2019)",
+  "strategy": "baseline",
+  "description": "This dataset records Street Seats installations in New York City from 2014 to 2019. Street Seats are small public seating areas, typically built in parking spaces, that are sponsored by local businesses or organizations. Each row represents one application or installation and includes the applicant name, borough, street location, the business the seat is in front of, the year, and the dates the seat was in place (from and to). It also notes whether a site visit occurred and describes the structure type, establishment details, and parking-space requirements.\n\nThe data includes administrative fields such as application status, community board, council district, and 2019 installation and removal flags, along with geographic identifiers: latitude and longitude, postcode, census tract, BIN, BBL, neighborhood tabulation area (NTA), and a geocoded location field. With 27 columns and a small sample of 24 rows, it supports mapping and spatial analysis of where Street Seats were placed, comparisons across",
+  "prompt": "Title: Street Seats (2014 - 2019)\nCategory: Transportation\nRows (sampled): 24\nColumns: 27\nColumn names: f1, borough, ifo_busine, applicant, year, location, from_, to, site_visit, structure, structur_1, structur_2, establishm, parking_re, applicatio, community_board, _2019_insta, _2019_remov, latitude, longitude, postcode, council_district, census_tract, bin, bbl, nta, geocoded_column\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "length",
+  "usage": {
+    "prompt_tokens": 198,
+    "completion_tokens": 200,
+    "total_tokens": 398
+  },
+  "elapsed_seconds": 2.04
+}

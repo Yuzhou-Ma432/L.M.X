@@ -1,0 +1,160 @@
+{
+  "id": "mfz4-pj9t",
+  "name": "RFP Summary by Agency and Fiscal Year",
+  "description": "",
+  "category": "City Government",
+  "permalink": "https://data.cityofnewyork.us/d/mfz4-pj9t",
+  "sampled_rows": 5000,
+  "n_rows": 14,
+  "n_cols": 4,
+  "columns": [
+    {
+      "name": "fiscal_year",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "2020",
+        "2020",
+        "2020",
+        "2020",
+        "2020"
+      ],
+      "top_values": [
+        {
+          "value": "2020",
+          "count": 14,
+          "pct": 100.0
+        }
+      ],
+      "stats": {
+        "min": 2020.0,
+        "max": 2020.0,
+        "mean": 2020.0,
+        "median": 2020.0,
+        "p25": 2020.0,
+        "p75": 2020.0
+      }
+    },
+    {
+      "name": "agency",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 14,
+      "sample_values": [
+        "ACS",
+        "DCA",
+        "DCAS",
+        "DFTA",
+        "DHS"
+      ],
+      "top_values": [
+        {
+          "value": "ACS",
+          "count": 1,
+          "pct": 7.1
+        },
+        {
+          "value": "DCA",
+          "count": 1,
+          "pct": 7.1
+        },
+        {
+          "value": "DCAS",
+          "count": 1,
+          "pct": 7.1
+        },
+        {
+          "value": "DFTA",
+          "count": 1,
+          "pct": 7.1
+        },
+        {
+          "value": "DHS",
+          "count": 1,
+          "pct": 7.1
+        }
+      ]
+    },
+    {
+      "name": "rfps_released_in_fiscal_year",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 13,
+      "sample_values": [
+        "52",
+        "10",
+        "22",
+        "13",
+        "72"
+      ],
+      "top_values": [
+        {
+          "value": "1",
+          "count": 2,
+          "pct": 14.3
+        },
+        {
+          "value": "10",
+          "count": 1,
+          "pct": 7.1
+        },
+        {
+          "value": "22",
+          "count": 1,
+          "pct": 7.1
+        },
+        {
+          "value": "13",
+          "count": 1,
+          "pct": 7.1
+        },
+        {
+          "value": "52",
+          "count": 1,
+          "pct": 7.1
+        }
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 211.0,
+        "mean": 43.5,
+        "median": 24.5,
+        "p25": 11.5,
+        "p75": 51.75
+      }
+    },
+    {
+      "name": "citywide_median_calendar",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "130",
+        "130",
+        "130",
+        "130",
+        "130"
+      ],
+      "top_values": [
+        {
+          "value": "130",
+          "count": 14,
+          "pct": 100.0
+        }
+      ],
+      "stats": {
+        "min": 130.0,
+        "max": 130.0,
+        "mean": 130.0,
+        "median": 130.0,
+        "p25": 130.0,
+        "p75": 130.0
+      }
+    }
+  ]
+}

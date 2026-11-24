@@ -1,0 +1,15 @@
+{
+  "id": "xjur-zbxw",
+  "name": "Home Care Caseload (Historical)",
+  "strategy": "content",
+  "description": "This dataset tracks monthly home care caseloads from 1995 through 2019, with 291 sampled rows covering 25 years and all 12 months. Each record includes the year and month, the number of active home care cases, the month-over-month percent change, and the year-over-year percent change. Caseloads range from roughly 61,000 to 192,000, with an average of about 88,600, and a small share of values (around 1%) are missing for the case count and change metrics.\n\nThe data supports trend analysis of demand for home care services over more than two decades, including seasonal patterns by month, long-term growth trajectories, and periods of rapid change. It could be used by social service planners and policy analysts to forecast caseloads, compare year-over-year growth, identify months with unusual spikes or declines, or build visualizations of program demand over time.",
+  "prompt": "Title: Home Care Caseload (Historical)\nCategory: Social Services\nRows (sampled): 291\nColumns: 5\n\nColumn details:\n- year (type int64) 25 distinct values 0.0% missing min=1995.0 max=2019.0 mean=2006.6289 p25=2001.0 p75=2013.0 common values: 1995 (4.1%), 1996 (4.1%), 1997 (4.1%), 1998 (4.1%), 1999 (4.1%) samples: 1995, 1995, 1995, 1995, 1995\n- month (type int64) 12 distinct values 0.0% missing min=1.0 max=12.0 mean=6.4536 p25=3.0 p75=9.0 common values: 1 (8.6%), 2 (8.6%), 3 (8.6%), 4 (8.2%), 5 (8.2%) samples: 1, 2, 3, 4, 5\n- cases (type float64) 285 distinct values 1.03% missing min=61432.0 max=191875.0 mean=88591.7535 p25=65284.75 p75=105694.5 samples: 63500.0, 63346.0, 62665.0, 62677.0, 62961.0\n- monthly_percent_change (type float64) 172 distinct values 1.37% missing min=-4.02 max=19.72 mean=0.3583 p25=-0.115 p75=0.83 samples: -0.5, -0.24, -1.09, 0.02, 0.45\n- yearly_percent_change (type float64) 256 distinct values 1.37% missing min=-3.12 max=21.78 mean=4.065 p25=0.48 p75=6.05 samples: 5.2, 5.4, 3.8, 1.8, 2.8\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 551,
+    "completion_tokens": 189,
+    "total_tokens": 740
+  },
+  "elapsed_seconds": 1.59
+}

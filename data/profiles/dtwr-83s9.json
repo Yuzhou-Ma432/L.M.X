@@ -1,0 +1,519 @@
+{
+  "id": "dtwr-83s9",
+  "name": "AIR_LOT_3D",
+  "description": "",
+  "category": "Uncategorized",
+  "permalink": "https://data.cityofnewyork.us/d/dtwr-83s9",
+  "sampled_rows": 5000,
+  "n_rows": 7,
+  "n_cols": 16,
+  "columns": [
+    {
+      "name": "objectid",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 7,
+      "sample_values": [
+        "4",
+        "3",
+        "2",
+        "1",
+        "7"
+      ],
+      "top_values": [
+        {
+          "value": "4",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "value": "3",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "value": "2",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "value": "1",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "value": "7",
+          "count": 1,
+          "pct": 14.3
+        }
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 7.0,
+        "mean": 4.0,
+        "median": 4.0,
+        "p25": 2.5,
+        "p75": 5.5
+      }
+    },
+    {
+      "name": "parent_boro",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ],
+      "top_values": [
+        {
+          "value": "3",
+          "count": 7,
+          "pct": 100.0
+        }
+      ],
+      "stats": {
+        "min": 3.0,
+        "max": 3.0,
+        "mean": 3.0,
+        "median": 3.0,
+        "p25": 3.0,
+        "p75": 3.0
+      }
+    },
+    {
+      "name": "parent_block",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "4271",
+        "4271",
+        "4271",
+        "4271",
+        "4271"
+      ],
+      "top_values": [
+        {
+          "value": "4271",
+          "count": 7,
+          "pct": 100.0
+        }
+      ],
+      "stats": {
+        "min": 4271.0,
+        "max": 4271.0,
+        "mean": 4271.0,
+        "median": 4271.0,
+        "p25": 4271.0,
+        "p75": 4271.0
+      }
+    },
+    {
+      "name": "parent_lot",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "top_values": [
+        {
+          "value": "1",
+          "count": 7,
+          "pct": 100.0
+        }
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "p25": 1.0,
+        "p75": 1.0
+      }
+    },
+    {
+      "name": "parent_bbl",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "3042710001",
+        "3042710001",
+        "3042710001",
+        "3042710001",
+        "3042710001"
+      ],
+      "top_values": [
+        {
+          "value": "3042710001",
+          "count": 7,
+          "pct": 100.0
+        }
+      ],
+      "stats": {
+        "min": 3042710001.0,
+        "max": 3042710001.0,
+        "mean": 3042710001.0,
+        "median": 3042710001.0,
+        "p25": 3042710001.0,
+        "p75": 3042710001.0
+      }
+    },
+    {
+      "name": "air_lot_number",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 7,
+      "sample_values": [
+        "9007",
+        "9006",
+        "9004",
+        "9002",
+        "9001"
+      ],
+      "top_values": [
+        {
+          "value": "9007",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "value": "9006",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "value": "9004",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "value": "9002",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "value": "9001",
+          "count": 1,
+          "pct": 14.3
+        }
+      ],
+      "stats": {
+        "min": 9001.0,
+        "max": 9008.0,
+        "mean": 9004.4286,
+        "median": 9004.0,
+        "p25": 9002.5,
+        "p75": 9006.5
+      }
+    },
+    {
+      "name": "air_lot_bbl",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 7,
+      "sample_values": [
+        "3042719007",
+        "3042719006",
+        "3042719004",
+        "3042719002",
+        "3042719001"
+      ],
+      "top_values": [
+        {
+          "value": "3042719007",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "value": "3042719006",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "value": "3042719004",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "value": "3042719002",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "value": "3042719001",
+          "count": 1,
+          "pct": 14.3
+        }
+      ],
+      "stats": {
+        "min": 3042719001.0,
+        "max": 3042719008.0,
+        "mean": 3042719004.4286,
+        "median": 3042719004.0,
+        "p25": 3042719002.5,
+        "p75": 3042719006.5
+      }
+    },
+    {
+      "name": "elevation",
+      "dtype": "float64",
+      "missing": 7,
+      "missing_pct": 100.0,
+      "nunique": 0,
+      "sample_values": []
+    },
+    {
+      "name": "model",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "top_values": [
+        {
+          "value": "D",
+          "count": 7,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "notes",
+      "dtype": "float64",
+      "missing": 7,
+      "missing_pct": 100.0,
+      "nunique": 0,
+      "sample_values": []
+    },
+    {
+      "name": "created_user",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "SikkL@finance.nyc.gov",
+        "SikkL@finance.nyc.gov",
+        "SikkL@finance.nyc.gov",
+        "SikkL@finance.nyc.gov",
+        "SikkL@finance.nyc.gov"
+      ],
+      "top_values": [
+        {
+          "value": "SikkL@finance.nyc.gov",
+          "count": 7,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "created_date",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "2025-08-06T16:14:00.000Z",
+        "2025-08-06T16:14:00.000Z",
+        "2025-08-06T16:14:00.000Z",
+        "2025-08-06T16:14:00.000Z",
+        "2025-08-06T16:39:16.000Z"
+      ],
+      "top_values": [
+        {
+          "value": "2025-08-06T16:14:00.000Z",
+          "count": 6,
+          "pct": 85.7
+        },
+        {
+          "value": "2025-08-06T16:39:16.000Z",
+          "count": 1,
+          "pct": 14.3
+        }
+      ]
+    },
+    {
+      "name": "last_edited_user",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "SikkL@finance.nyc.gov",
+        "SikkL@finance.nyc.gov",
+        "SikkL@finance.nyc.gov",
+        "SikkL@finance.nyc.gov",
+        "SikkL@finance.nyc.gov"
+      ],
+      "top_values": [
+        {
+          "value": "SikkL@finance.nyc.gov",
+          "count": 7,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "last_edited_date",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 7,
+      "sample_values": [
+        "2025-08-13T15:44:41.000Z",
+        "2025-08-13T15:44:13.000Z",
+        "2025-08-13T15:43:00.000Z",
+        "2025-08-13T15:41:38.000Z",
+        "2025-08-06T16:42:31.000Z"
+      ],
+      "top_values": [
+        {
+          "value": "2025-08-13T15:44:41.000Z",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "value": "2025-08-13T15:44:13.000Z",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "value": "2025-08-13T15:43:00.000Z",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "value": "2025-08-13T15:41:38.000Z",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "value": "2025-08-06T16:42:31.000Z",
+          "count": 1,
+          "pct": 14.3
+        }
+      ]
+    },
+    {
+      "name": "shape_area",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 7,
+      "sample_values": [
+        "6943.28515625",
+        "4107.9140625",
+        "4107.90234375",
+        "7889.671875",
+        "55590.7265625"
+      ],
+      "top_values": [
+        {
+          "value": "6943.28515625",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "value": "4107.9140625",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "value": "4107.90234375",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "value": "7889.671875",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "value": "55590.7265625",
+          "count": 1,
+          "pct": 14.3
+        }
+      ],
+      "stats": {
+        "min": 2766.9883,
+        "max": 55590.7266,
+        "mean": 12721.053,
+        "median": 6943.2852,
+        "p25": 4107.9082,
+        "p75": 7765.2773
+      }
+    },
+    {
+      "name": "shape_length",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 7,
+      "sample_values": [
+        "421.12807973309174",
+        "254.69734965084604",
+        "254.6932980491572",
+        "439.9147519411489",
+        "2605.261581304246"
+      ],
+      "top_values": [
+        {
+          "value": "421.12807973309174",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "value": "254.69734965084604",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "value": "254.6932980491572",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "value": "439.9147519411489",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "value": "2605.261581304246",
+          "count": 1,
+          "pct": 14.3
+        }
+      ],
+      "stats": {
+        "min": 207.4586,
+        "max": 2605.2616,
+        "mean": 658.8918,
+        "median": 421.1281,
+        "p25": 254.6953,
+        "p75": 434.5017
+      }
+    }
+  ]
+}

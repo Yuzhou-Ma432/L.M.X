@@ -1,0 +1,174 @@
+{
+  "id": "6teu-xtgp",
+  "name": "Inmate Admissions",
+  "description": "Inmate admissions with attributes (race, gender, legal status, top charge). This data set excludes Sealed Cases. Resulting summaries may differ slightly from other published statistics.",
+  "category": "Public Safety",
+  "permalink": "https://data.cityofnewyork.us/d/6teu-xtgp",
+  "sampled_rows": 5000,
+  "n_rows": 5000,
+  "n_cols": 7,
+  "columns": [
+    {
+      "name": "inmateid",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4811,
+      "sample_values": [
+        "10008773",
+        "20037818",
+        "20197484",
+        "20150289",
+        "20122449"
+      ],
+      "stats": {
+        "min": 476.0,
+        "max": 20198727.0,
+        "mean": 13484900.1976,
+        "median": 20096783.5,
+        "p25": 126321.0,
+        "p75": 20193675.0
+      }
+    },
+    {
+      "name": "admitted_dt",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4923,
+      "sample_values": [
+        "2018-08-23T10:15:28.000",
+        "2018-08-05T19:13:46.000",
+        "2018-08-14T02:08:36.000",
+        "2018-08-02T00:05:22.000",
+        "2018-08-23T18:34:24.000"
+      ]
+    },
+    {
+      "name": "discharged_dt",
+      "dtype": "object",
+      "missing": 2726,
+      "missing_pct": 54.52,
+      "nunique": 2262,
+      "sample_values": [
+        "2018-08-23T11:14:00.000",
+        "2018-08-10T16:46:05.000",
+        "2018-08-13T21:07:02.000",
+        "2018-08-20T00:36:02.000",
+        "2018-08-28T17:26:02.000"
+      ]
+    },
+    {
+      "name": "race",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "UNKNOWN",
+        "UNKNOWN",
+        "BLACK",
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "top_values": [
+        {
+          "value": "BLACK",
+          "count": 2794,
+          "pct": 55.9
+        },
+        {
+          "value": "UNKNOWN",
+          "count": 2102,
+          "pct": 42.0
+        },
+        {
+          "value": "ASIAN",
+          "count": 104,
+          "pct": 2.1
+        }
+      ]
+    },
+    {
+      "name": "gender",
+      "dtype": "object",
+      "missing": 16,
+      "missing_pct": 0.32,
+      "nunique": 2,
+      "sample_values": [
+        "M ",
+        "M ",
+        "F ",
+        "M ",
+        "M "
+      ],
+      "top_values": [
+        {
+          "value": "M ",
+          "count": 4564,
+          "pct": 91.6
+        },
+        {
+          "value": "F ",
+          "count": 420,
+          "pct": 8.4
+        }
+      ]
+    },
+    {
+      "name": "inmate_status_code",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 8,
+      "sample_values": [
+        "DE",
+        "DE",
+        "DE",
+        "DPV",
+        "DE"
+      ],
+      "top_values": [
+        {
+          "value": "DE",
+          "count": 3752,
+          "pct": 75.0
+        },
+        {
+          "value": "DPV",
+          "count": 411,
+          "pct": 8.2
+        },
+        {
+          "value": "CS",
+          "count": 372,
+          "pct": 7.4
+        },
+        {
+          "value": "DEP",
+          "count": 302,
+          "pct": 6.0
+        },
+        {
+          "value": "SSR",
+          "count": 77,
+          "pct": 1.5
+        }
+      ]
+    },
+    {
+      "name": "top_charge",
+      "dtype": "object",
+      "missing": 2489,
+      "missing_pct": 49.78,
+      "nunique": 211,
+      "sample_values": [
+        "VTL 1192.3",
+        "120.05",
+        "120.05",
+        "120.13",
+        "140.25"
+      ]
+    }
+  ]
+}

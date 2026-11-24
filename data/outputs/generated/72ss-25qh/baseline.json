@@ -1,0 +1,15 @@
+{
+  "id": "72ss-25qh",
+  "name": "HIV Testing Locations",
+  "strategy": "baseline",
+  "description": "This dataset lists 599 HIV testing locations, with details on each site's agency name, street address, borough, and ZIP code. It includes daily operating hours for Monday through Sunday, along with a website and phone number for contact. Additional fields describe the ages served, any special populations served, payment and cost information, whether free self-tests are available, and other notes about the location.\n\nThe data could be used to build a searchable directory or map of testing sites, help people find nearby locations with convenient hours, or identify gaps in service coverage by borough or ZIP code. Public health analysts and community organizations could also use it to compare availability of free testing and services for specific populations across neighborhoods.",
+  "prompt": "Title: HIV Testing Locations\nCategory: Health\nRows (sampled): 599\nColumns: 18\nColumn names: agency_name, address, hours_monday, hours_tuesday, hours_wednesday, hours_thursday, hours_friday, hours_saturday, hours_sunday, website, phone_number, borough, zip_code, ages_served, special_populations_served, payment_cost, free_self_tests, additional_information\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 169,
+    "completion_tokens": 141,
+    "total_tokens": 310
+  },
+  "elapsed_seconds": 1.86
+}

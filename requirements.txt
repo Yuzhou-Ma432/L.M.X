@@ -5,3 +5,8 @@ openai>=1.30
 python-dotenv>=1.0
 tqdm>=4.66
 scikit-learn>=1.3
+sentence-transformers>=3.0,<4.0
+transformers>=4.41,<5.0
+# torch is required by sentence-transformers. Install the build matching your
+# platform (CPU/CUDA) separately, e.g. `pip install torch` (see pytorch.org).
+# Note: transformers 5.x needs torch>=2.6, hence the <5.0 pin above.

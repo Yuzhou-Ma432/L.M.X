@@ -1,0 +1,15 @@
+{
+  "id": "qt6m-xctn",
+  "name": "Street Sign Work Orders",
+  "strategy": "baseline",
+  "description": "This dataset contains records of street sign work orders, with 5,000 sampled rows and 25 columns. Each row represents a single work order tied to a specific sign, capturing the order number, record and order type, borough, and street location details including on-street, from-street, and to-street names and suffixes, side of street, and distance from the intersection. Sign-specific fields describe the sign code, description, size, location, arrow and facing directions, sheeting type, and support structure, along with notes and X/Y coordinates. Dates are included for when an order was completed and when a sign design was voided.\n\nThe data could be used to analyze sign maintenance and replacement activity across boroughs, track completion timelines, map sign locations, identify common sign types and supports, or study patterns in sign design changes and work order volume over time.",
+  "prompt": "Title: Street Sign Work Orders\nCategory: Transportation\nRows (sampled): 5000\nColumns: 25\nColumn names: order_number, record_type, order_type, borough, on_street, on_street_suffix, from_street, from_street_suffix, to_street, to_street_suffix, side_of_street, order_completed_on_date, sign_code, sign_description, sign_size, sign_design_voided_on_date, sign_location, distance_from_intersection, arrow_direction, facing_direction, sheeting_type, support, sign_notes, sign_x_coord, sign_y_coord\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 209,
+    "completion_tokens": 176,
+    "total_tokens": 385
+  },
+  "elapsed_seconds": 1.62
+}

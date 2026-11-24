@@ -1,0 +1,15 @@
+{
+  "id": "k2zg-756q",
+  "name": "2019 NYC School Survey - Student",
+  "strategy": "baseline",
+  "description": "This dataset contains student-level results from the 2019 New York City School Survey, covering 1,829 sampled rows across 11 columns. Each row identifies a school by its district-borough-number code (dbn) and name, and includes overall parent, teacher, and student response rates alongside survey-based scores for collaborative teachers, effective school leadership, rigorous instruction, supportive environment, strong family-community ties, and trust. The scores summarize how students and school communities rated key aspects of school quality and climate. The data can be used to compare school performance and climate across NYC schools, examine relationships between response rates and survey outcomes, identify schools with strong or weak family and community engagement, and support research or reporting on educational equity and school improvement.",
+  "prompt": "Title: 2019 NYC School Survey - Student\nCategory: Education\nRows (sampled): 1829\nColumns: 11\nColumn names: dbn, school_name, total_parent_response_rate, total_teacher_response_rate, total_student_response_rate, collaborative_teachers_score, effective_school_leadership, rigorous_instruction_score, supportive_environment_score, strong_family_community_ties, trust_score\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 162,
+    "completion_tokens": 150,
+    "total_tokens": 312
+  },
+  "elapsed_seconds": 1.45
+}

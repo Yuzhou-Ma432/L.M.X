@@ -1,0 +1,366 @@
+{
+  "id": "72ss-25qh",
+  "name": "HIV Testing Locations",
+  "description": "Location and facility information for places in New York City that provide HIV testing.",
+  "category": "Health",
+  "permalink": "https://data.cityofnewyork.us/d/72ss-25qh",
+  "sampled_rows": 5000,
+  "n_rows": 599,
+  "n_cols": 18,
+  "columns": [
+    {
+      "name": "agency_name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 333,
+      "sample_values": [
+        "Mount Sinai Health System",
+        "Lucas Entertainment",
+        "Selfhelp Community Services",
+        "Office of Dr. Arthur Hall",
+        "Narco Freedom"
+      ]
+    },
+    {
+      "name": "address",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 592,
+      "sample_values": [
+        "Mount Sinai - Queens",
+        "Lucas Entertainment",
+        "Selfhelp Community Services",
+        "Office of Dr. Arthur Hall",
+        "Narco Freedom - Willis Ave."
+      ]
+    },
+    {
+      "name": "hours_monday",
+      "dtype": "object",
+      "missing": 367,
+      "missing_pct": 61.27,
+      "nunique": 96,
+      "sample_values": [
+        "8:00 AM - 2:30 PM",
+        "9:00 AM- 5:00 PM",
+        "8:30 AM - 5:00 PM",
+        "8:00 AM - 7:00 PM",
+        "CLOSED"
+      ]
+    },
+    {
+      "name": "hours_tuesday",
+      "dtype": "object",
+      "missing": 365,
+      "missing_pct": 60.93,
+      "nunique": 113,
+      "sample_values": [
+        "8:00 AM - 2:30 PM",
+        "9:00 AM- 5:00 PM",
+        "8:30 AM - 5:00 PM",
+        "8:00 AM - 7:00 PM",
+        "CLOSED"
+      ]
+    },
+    {
+      "name": "hours_wednesday",
+      "dtype": "object",
+      "missing": 367,
+      "missing_pct": 61.27,
+      "nunique": 97,
+      "sample_values": [
+        "8:00 AM - 2:30 PM",
+        "9:00 AM- 5:00 PM",
+        "8:30 AM - 5:00 PM",
+        "8:00 AM - 7:00 PM",
+        "8:30 AM -5:30 PM"
+      ]
+    },
+    {
+      "name": "hours_thursday",
+      "dtype": "object",
+      "missing": 365,
+      "missing_pct": 60.93,
+      "nunique": 107,
+      "sample_values": [
+        "8:00 AM - 2:30 PM",
+        "9:00 AM- 5:00 PM",
+        "8:30 AM - 5:00 PM",
+        "8:00 AM - 7:00 PM",
+        "8:30 AM -5:30 PM"
+      ]
+    },
+    {
+      "name": "hours_friday",
+      "dtype": "object",
+      "missing": 368,
+      "missing_pct": 61.44,
+      "nunique": 92,
+      "sample_values": [
+        "CLOSED",
+        "9:00 AM- 5:00 PM",
+        "8:30 AM - 5:00 PM",
+        "8:00 AM - 7:00 PM",
+        "9:00 AM - 11:30 AM"
+      ]
+    },
+    {
+      "name": "hours_saturday",
+      "dtype": "object",
+      "missing": 384,
+      "missing_pct": 64.11,
+      "nunique": 57,
+      "sample_values": [
+        "CLOSED",
+        "CLOSED",
+        "CLOSED",
+        "8:00 AM - 5:00 PM",
+        "CLOSED"
+      ]
+    },
+    {
+      "name": "hours_sunday",
+      "dtype": "object",
+      "missing": 395,
+      "missing_pct": 65.94,
+      "nunique": 15,
+      "sample_values": [
+        "CLOSED",
+        "CLOSED",
+        "CLOSED",
+        "11:00 AM - 3:00 PM",
+        "CLOSED"
+      ],
+      "top_values": [
+        {
+          "value": "CLOSED",
+          "count": 179,
+          "pct": 87.7
+        },
+        {
+          "value": "24 Hours",
+          "count": 11,
+          "pct": 5.4
+        },
+        {
+          "value": "24 Hrs",
+          "count": 2,
+          "pct": 1.0
+        },
+        {
+          "value": "9:00AM - 3:00PM",
+          "count": 1,
+          "pct": 0.5
+        },
+        {
+          "value": "12:00AM - 12:00PM",
+          "count": 1,
+          "pct": 0.5
+        }
+      ]
+    },
+    {
+      "name": "website",
+      "dtype": "object",
+      "missing": 348,
+      "missing_pct": 58.1,
+      "nunique": 209,
+      "sample_values": [
+        "http://www.mshq.org/",
+        "http://www.narcofreedom.com/",
+        "http://www.brooklyn.cuny.edu/web/home.ph…",
+        "http://www.stlukeameharlem.org/index.php…",
+        "http://www.bronxcare.org/"
+      ]
+    },
+    {
+      "name": "phone_number",
+      "dtype": "object",
+      "missing": 154,
+      "missing_pct": 25.71,
+      "nunique": 419,
+      "sample_values": [
+        "718-289-3100",
+        "(718) 652-6206",
+        "(212) 633-0800",
+        "(212) 294-8100",
+        "(646) 929-7870"
+      ]
+    },
+    {
+      "name": "borough",
+      "dtype": "object",
+      "missing": 78,
+      "missing_pct": 13.02,
+      "nunique": 10,
+      "sample_values": [
+        "QUEENS",
+        "BRONX",
+        "BRONX",
+        "MANHATTAN",
+        "BROOKLYN"
+      ],
+      "top_values": [
+        {
+          "value": "MANHATTAN",
+          "count": 155,
+          "pct": 29.8
+        },
+        {
+          "value": "BRONX",
+          "count": 142,
+          "pct": 27.3
+        },
+        {
+          "value": "BROOKLYN",
+          "count": 135,
+          "pct": 25.9
+        },
+        {
+          "value": "QUEENS",
+          "count": 54,
+          "pct": 10.4
+        },
+        {
+          "value": "STATEN ISLAND",
+          "count": 27,
+          "pct": 5.2
+        }
+      ]
+    },
+    {
+      "name": "zip_code",
+      "dtype": "object",
+      "missing": 94,
+      "missing_pct": 15.69,
+      "nunique": 123,
+      "sample_values": [
+        "11102",
+        "10455",
+        "10455",
+        "10003",
+        "11206"
+      ]
+    },
+    {
+      "name": "ages_served",
+      "dtype": "object",
+      "missing": 421,
+      "missing_pct": 70.28,
+      "nunique": 42,
+      "sample_values": [
+        "13 and over. Parental consent not requir…",
+        "13 and over. Parental consent not requir…",
+        "13 and over. Parental consent not requir…",
+        "13 and over. Parental consent not requir…",
+        "13 and over. Parental consent not requir…"
+      ]
+    },
+    {
+      "name": "special_populations_served",
+      "dtype": "object",
+      "missing": 531,
+      "missing_pct": 88.65,
+      "nunique": 3,
+      "sample_values": [
+        "All",
+        "All",
+        "All",
+        "All",
+        "All"
+      ],
+      "top_values": [
+        {
+          "value": "All",
+          "count": 62,
+          "pct": 91.2
+        },
+        {
+          "value": "Yes",
+          "count": 5,
+          "pct": 7.4
+        },
+        {
+          "value": "Female and LGBTQI",
+          "count": 1,
+          "pct": 1.5
+        }
+      ]
+    },
+    {
+      "name": "payment_cost",
+      "dtype": "object",
+      "missing": 502,
+      "missing_pct": 83.81,
+      "nunique": 1,
+      "sample_values": [
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 97,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "free_self_tests",
+      "dtype": "bool",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "False",
+        "False",
+        "False",
+        "False",
+        "False"
+      ],
+      "top_values": [
+        {
+          "value": "False",
+          "count": 435,
+          "pct": 72.6
+        },
+        {
+          "value": "True",
+          "count": 164,
+          "pct": 27.4
+        }
+      ]
+    },
+    {
+      "name": "additional_information",
+      "dtype": "object",
+      "missing": 579,
+      "missing_pct": 96.66,
+      "nunique": 2,
+      "sample_values": [
+        "Medicaid is accepted as full payment; Un…",
+        "Medicaid is accepted as full payment; Un…",
+        "Medicaid is accepted as full payment; Un…",
+        "Medicaid is accepted as full payment; Un…",
+        "Medicaid is accepted as full payment; Un…"
+      ],
+      "top_values": [
+        {
+          "value": "Medicaid is accepted as full payment; Un…",
+          "count": 18,
+          "pct": 90.0
+        },
+        {
+          "value": "Medicaid is accepted as full payment; Un…",
+          "count": 2,
+          "pct": 10.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "id": "p2q7-at72",
+  "name": "Environmentally Preferable Purchasing FY15 - Construction",
+  "description": "",
+  "category": "City Government",
+  "permalink": "https://data.cityofnewyork.us/d/p2q7-at72",
+  "sampled_rows": 5000,
+  "n_rows": 30,
+  "n_cols": 6,
+  "columns": [
+    {
+      "name": "agency",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 8,
+      "sample_values": [
+        "DCAS",
+        "DCAS",
+        "DCAS",
+        "DDC",
+        "DDC"
+      ],
+      "top_values": [
+        {
+          "value": "DPR",
+          "count": 8,
+          "pct": 26.7
+        },
+        {
+          "value": "DHS",
+          "count": 5,
+          "pct": 16.7
+        },
+        {
+          "value": "NYPD",
+          "count": 5,
+          "pct": 16.7
+        },
+        {
+          "value": "DCAS",
+          "count": 3,
+          "pct": 10.0
+        },
+        {
+          "value": "DSNY",
+          "count": 3,
+          "pct": 10.0
+        }
+      ]
+    },
+    {
+      "name": "contract_description",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 30,
+      "sample_values": [
+        "Roof replacement and repair for DCAS bld…",
+        "GC WORK IN THE BOROUGHS OF BKLYN, QUEENS…",
+        "CONTRACT WITH CONTRACT & HOSPITALITY SER…",
+        "Rehabilitation and upgrade of DEP shaft …",
+        "Refurbishment of the West 59th Street Ma…"
+      ],
+      "top_values": [
+        {
+          "value": "Roof replacement and repair for DCAS bld…",
+          "count": 1,
+          "pct": 3.3
+        },
+        {
+          "value": "GC WORK IN THE BOROUGHS OF BKLYN, QUEENS…",
+          "count": 1,
+          "pct": 3.3
+        },
+        {
+          "value": "CONTRACT WITH CONTRACT & HOSPITALITY SER…",
+          "count": 1,
+          "pct": 3.3
+        },
+        {
+          "value": "Rehabilitation and upgrade of DEP shaft …",
+          "count": 1,
+          "pct": 3.3
+        },
+        {
+          "value": "Refurbishment of the West 59th Street Ma…",
+          "count": 1,
+          "pct": 3.3
+        }
+      ]
+    },
+    {
+      "name": "registration_date",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 27,
+      "sample_values": [
+        "2015-02-09T00:00:00.000",
+        "2015-02-24T00:00:00.000",
+        "2015-03-19T00:00:00.000",
+        "2014-08-19T00:00:00.000",
+        "2015-05-01T00:00:00.000"
+      ],
+      "top_values": [
+        {
+          "value": "2015-03-19T00:00:00.000",
+          "count": 2,
+          "pct": 6.7
+        },
+        {
+          "value": "2015-01-14T00:00:00.000",
+          "count": 2,
+          "pct": 6.7
+        },
+        {
+          "value": "2014-10-03T00:00:00.000",
+          "count": 2,
+          "pct": 6.7
+        },
+        {
+          "value": "2015-02-24T00:00:00.000",
+          "count": 1,
+          "pct": 3.3
+        },
+        {
+          "value": "2014-08-19T00:00:00.000",
+          "count": 1,
+          "pct": 3.3
+        }
+      ]
+    },
+    {
+      "name": "epp_product_type_s",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 15,
+      "sample_values": [
+        "Roof Coating",
+        "Carpet, Carpet Adhesive, Architectural C…",
+        "Carpet, Carpet Adhesive, Architectural C…",
+        "Energy Star Products, Faucets, Showerhea…",
+        "Energy Star Products, Faucets, Shower He…"
+      ],
+      "top_values": [
+        {
+          "value": "Energy Star Products",
+          "count": 9,
+          "pct": 30.0
+        },
+        {
+          "value": "Architectural Coatings",
+          "count": 7,
+          "pct": 23.3
+        },
+        {
+          "value": "Carpet, Carpet Adhesive, Architectural C…",
+          "count": 2,
+          "pct": 6.7
+        },
+        {
+          "value": "Energy Star Products, Faucets, Showerhea…",
+          "count": 1,
+          "pct": 3.3
+        },
+        {
+          "value": "Roof Coating",
+          "count": 1,
+          "pct": 3.3
+        }
+      ]
+    },
+    {
+      "name": "products_meets_epp_minimum_standards_y_n",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Yes",
+        "Yes",
+        "Yes",
+        "No",
+        "No"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 25,
+          "pct": 83.3
+        },
+        {
+          "value": "No",
+          "count": 5,
+          "pct": 16.7
+        }
+      ]
+    },
+    {
+      "name": "contract_value",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 29,
+      "sample_values": [
+        "1000000",
+        "3000000",
+        "3000000",
+        "16976962",
+        "46035715"
+      ],
+      "top_values": [
+        {
+          "value": "3000000",
+          "count": 2,
+          "pct": 6.7
+        },
+        {
+          "value": "1000000",
+          "count": 1,
+          "pct": 3.3
+        },
+        {
+          "value": "16976962",
+          "count": 1,
+          "pct": 3.3
+        },
+        {
+          "value": "46035715",
+          "count": 1,
+          "pct": 3.3
+        },
+        {
+          "value": "1872936",
+          "count": 1,
+          "pct": 3.3
+        }
+      ],
+      "stats": {
+        "min": 119070.0,
+        "max": 142636000.0,
+        "mean": 10047880.5667,
+        "median": 1251608.0,
+        "p25": 682381.25,
+        "p75": 3000000.0
+      }
+    }
+  ]
+}

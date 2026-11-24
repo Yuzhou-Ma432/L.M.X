@@ -1,0 +1,15 @@
+{
+  "id": "4y9q-t4wb",
+  "name": "Broadway Curb Cut Survey Data",
+  "strategy": "baseline",
+  "description": "This dataset contains field survey records documenting curb cuts along Broadway, with 1,156 sampled rows and 13 columns. Each record identifies a location by two cross streets (street_1 and street_2) and describes the condition and features of the curb ramp there, including whether a curb cut exists, ramp width, slope in inches, and whether there is no curb cut or a center cut. It also captures accessibility and maintenance details such as lip or bump measurements in inches, crumbling concrete, whether damage led to a pothole, the presence of detectable warnings, and object barriers or barriers above the ramp.\n\nThe data could be used to assess sidewalk and curb ramp accessibility, prioritize repairs and maintenance, map problem locations along Broadway, and support planning or compliance work by city agencies and advocates.",
+  "prompt": "Title: Broadway Curb Cut Survey Data\nCategory: City Government\nRows (sampled): 1156\nColumns: 13\nColumn names: street_1, street_2, curb_cut, slope_inch, ramp_width, no_curb_cut, center_cut, lip_bump_measurement_in_inches, crumbling_concrete, led_to_pot_hole, detectable_warnings, object_barriers, barriers_above\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 168,
+    "completion_tokens": 159,
+    "total_tokens": 327
+  },
+  "elapsed_seconds": 1.56
+}

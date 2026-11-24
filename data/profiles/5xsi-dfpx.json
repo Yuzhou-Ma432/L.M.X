@@ -1,0 +1,167 @@
+{
+  "id": "5xsi-dfpx",
+  "name": "Sandy Inundation Zone",
+  "description": "Areas of New York City that were flooded as a result of Hurricane Sandy.",
+  "category": "Environment",
+  "permalink": "https://data.cityofnewyork.us/d/5xsi-dfpx",
+  "sampled_rows": 5000,
+  "n_rows": 492,
+  "n_cols": 7,
+  "columns": [
+    {
+      "name": "comments",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "Surge extent clipped to 1000ft HSIP buff…",
+        "Surge extent clipped to 1000ft HSIP buff…",
+        "Surge extent clipped to 1000ft HSIP buff…",
+        "Surge extent clipped to 1000ft HSIP buff…",
+        "Surge extent clipped to 1000ft HSIP buff…"
+      ],
+      "top_values": [
+        {
+          "value": "Surge extent clipped to 1000ft HSIP buff…",
+          "count": 492,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "state",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "New York",
+        "New York",
+        "New York",
+        "New York",
+        "New York"
+      ],
+      "top_values": [
+        {
+          "value": "New York",
+          "count": 492,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "demsource",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "New York City OEM 1-meter",
+        "New York City OEM 1-meter",
+        "New York City OEM 1-meter",
+        "New York City OEM 1-meter",
+        "New York City OEM 1-meter"
+      ],
+      "top_values": [
+        {
+          "value": "New York City OEM 1-meter",
+          "count": 492,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "id",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0"
+      ],
+      "top_values": [
+        {
+          "value": "0.0",
+          "count": 492,
+          "pct": 100.0
+        }
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 0.0
+      }
+    },
+    {
+      "name": "status",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "Final Field-Verified High Resolution",
+        "Final Field-Verified High Resolution",
+        "Final Field-Verified High Resolution",
+        "Final Field-Verified High Resolution",
+        "Final Field-Verified High Resolution"
+      ],
+      "top_values": [
+        {
+          "value": "Final Field-Verified High Resolution",
+          "count": 492,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "sourcedata",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "USGS Mission Assignment/HWM/Surge Sensor…",
+        "USGS Mission Assignment/HWM/Surge Sensor…",
+        "USGS Mission Assignment/HWM/Surge Sensor…",
+        "USGS Mission Assignment/HWM/Surge Sensor…",
+        "USGS Mission Assignment/HWM/Surge Sensor…"
+      ],
+      "top_values": [
+        {
+          "value": "USGS Mission Assignment/HWM/Surge Sensor…",
+          "count": 492,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "verified",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 492,
+          "pct": 100.0
+        }
+      ]
+    }
+  ]
+}

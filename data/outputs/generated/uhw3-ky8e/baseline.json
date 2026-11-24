@@ -1,0 +1,15 @@
+{
+  "id": "uhw3-ky8e",
+  "name": "A Foundation Report: Family Violence",
+  "strategy": "baseline",
+  "description": "This dataset is an annual report on family violence, organized by year and community district or borough. Its 74 sampled rows and 46 columns break down reported family-related offenses, including felony assault, rape, and homicide, and further disaggregate them by the victim's relationship to the offender (child, parent, other relative, or unknown). Additional columns capture homicide victim sex, whether there was a prior domestic incident, and the method used (blunt object, sharp object, firearm, or other). A separate set of columns covers intimate partner violence homicides with similar breakdowns, and another group records counts of family justice center clients and the services they received, such as safety planning, counseling, civil legal help, and permanent housing assistance.\n\nThe data could support analyses of how family violence patterns vary across districts and over time, comparisons between family and intimate partner violence, examination of relationship types and methods involved in homicides, and assessment of service use among family justice center clients relative to reported incidents.",
+  "prompt": "Title: A Foundation Report: Family Violence\nCategory: Public Safety\nRows (sampled): 74\nColumns: 46\nColumn names: year, comm_dist_boro, comm_district, fam_dir, fam_fel_assault, dv_fel_assault, fam_rape, dv_rape, dir_family_total, dir_fam_rel_child, dir_fam_rel_parent, dir_fam_rel_othrelative, fel_aslt_fam_total, fel_aslt_rel_child, fel_aslt_rel_parent, fel_aslt_rel_othrelative, fel_rape_fam_total, fel_rape_rel_child, fel_rape_rel_parent, fel_rape_rel_othrelative, fam_homicide_total, fam_hom_rel_child, fam_hom_rel_parent, fam_hom_rel_oth, fam_hom_rel_unkn, fam_hom_sex_female, fam_hom_sex_male, fam_hom_prior_dir_yes, fam_hom_prior_dir_no, fam_hom_meth_blunt, fam_hom_meth_sharpe, fam_hom_meth_firearm, ipv_hom_sex_female, ipv_hom_sex_male, ipv_hom_prior_dir_yes, ipv_hom_prior_dir_no, ipv_hom_meth_blunt, ipv_hom_meth_sharpe, ipv_hom_meth_firearm, ipv_hom_meth_oth, fjc_fam_client, fjc_fam_client_ser_safplan, fjc_fam_client_ser_counseling, fjc_fam_client_ser_civleg, fjc_fam_client_ser_permhous, fjc_fam_client_ser\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "length",
+  "usage": {
+    "prompt_tokens": 444,
+    "completion_tokens": 200,
+    "total_tokens": 644
+  },
+  "elapsed_seconds": 1.79
+}

@@ -1,0 +1,21 @@
+{
+  "id": "f64t-5yiv",
+  "name": "Inmate Deaths",
+  "strategy": "semantic",
+  "description": "This dataset contains records of inmate deaths in correctional facilities, with each row representing a single reported incident. It has four columns: a unique incident ID, the date and time the incident was reported, the incident type, and the facility where it occurred. The sample covers 22 incidents reported between 2015 and later years, all classified as suicides, across seven facilities including AMKC, GRVC, OBCC, EMTC, and RMSC. Facility information is missing for roughly 23% of rows.\n\nThe data could support corrections oversight and transparency work, such as tracking suicide incidents over time, comparing counts across facilities, or examining reporting patterns. Because the extract is small and limited to a single incident type, it is best suited for illustrative or preliminary analysis rather than broad statistical conclusions.",
+  "prompt": "Title: Inmate Deaths\nCategory: Public Safety\nRows (sampled): 22\nColumns: 4\n\nColumn details:\n- incident_id (type int64) 22 distinct values 0.0% missing min=64622.0 max=203689.0 mean=139693.1364 p25=100191.5 p75=174079.0 common values: 64622 (4.5%), 68923 (4.5%), 77047 (4.5%), 77355 (4.5%), 90911 (4.5%) samples: 64622, 68923, 77047, 77355, 90911\n- reported_dt (type object) 22 distinct values 0.0% missing common values: 2015-01-01T17:20:00.000 (4.5%), 2015-06-10T12:28:00.000 (4.5%), 2016-01-29T14:20:00.000 (4.5%), 2016-03-14T22:11:00.000 (4.5%), 2017-04-16T14:06:00.000 (4.5%) samples: 2015-01-01T17:20:00.000, 2015-06-10T12:28:00.000, 2016-01-29T14:20:00.000, 2016-03-14T22:11:00.000, 2017-04-16T14:06:00.000\n- incident_type (type object) 1 distinct values 0.0% missing common values: Suicide (100.0%) samples: Suicide, Suicide, Suicide, Suicide, Suicide\n- facility (type object) 7 distinct values 22.73% missing common values: AMKC (29.4%), GRVC (23.5%), OBCC (17.6%), EMTC (11.8%), RMSC (5.9%) samples: RMSC, AMKC, AMKC, MDC, OBCC\n\nSemantic summary (topic and possible uses):\nThis dataset records inmate deaths in correctional facilities, listing each incident by a unique ID, the date it was reported, the type of incident, and the facility where it occurred. It belongs to the public safety and criminal justice domain, specifically corrections oversight and government transparency. With only 22 sampled rows and four columns, it is a small extract likely useful for tracking death trends across facilities, comparing incident types, monitoring reporting dates, and supporting accountability or policy analysis, though its limited size restricts broader statistical use.\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 641,
+    "completion_tokens": 160,
+    "total_tokens": 801
+  },
+  "elapsed_seconds": 3.19,
+  "semantic_summary": "This dataset records inmate deaths in correctional facilities, listing each incident by a unique ID, the date it was reported, the type of incident, and the facility where it occurred. It belongs to the public safety and criminal justice domain, specifically corrections oversight and government transparency. With only 22 sampled rows and four columns, it is a small extract likely useful for tracking death trends across facilities, comparing incident types, monitoring reporting dates, and supporting accountability or policy analysis, though its limited size restricts broader statistical use.",
+  "semantic_usage": {
+    "prompt_tokens": 139,
+    "completion_tokens": 102,
+    "total_tokens": 241
+  }
+}

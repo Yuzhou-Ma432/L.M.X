@@ -1,0 +1,15 @@
+{
+  "id": "g76y-dcqj",
+  "name": "DOB After Hour Variance Permits",
+  "strategy": "baseline",
+  "description": "This dataset contains records of after-hours variance permits issued by the New York City Department of Buildings, allowing construction or demolition work outside standard permitted hours. Each row represents a single variance permit, identified by a unique after-hours permit number and linked to a building (BIN), job number, and work permit number. The 24 columns capture the property address and borough, community board and council district, census tract, and geographic coordinates, along with details of the variance itself: permit status, variance type, the stated reason for the variance, and start and end date-times for the approved work window. Several flag columns indicate whether the work occurs within 200 feet of a residence, involves enclosed work, demolition, or crane use.\n\nThe data can be used to analyze the geographic distribution and frequency of after-hours construction activity across neighborhoods, examine how often variances are requested and approved, identify common justifications for nighttime or weekend work, and assess potential impacts on residential areas. It is useful for urban planning, construction",
+  "prompt": "Title: DOB After Hour Variance Permits\nCategory: Housing & Development\nRows (sampled): 5000\nColumns: 24\nColumn names: bin, housenumber, streetname, borough, cbno, job_number, workpermitnumber, ahv_permit_number, ahvpermitstatus, variancetype, reasonforvariance, variance_start_date_time, variance_end_date_time, residence_200ft, enclosed_work, demolition, crane_use, latitude, longitude, community_board, council_district, census_tract, bbl, nta\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "length",
+  "usage": {
+    "prompt_tokens": 197,
+    "completion_tokens": 200,
+    "total_tokens": 397
+  },
+  "elapsed_seconds": 1.89
+}

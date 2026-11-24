@@ -1,0 +1,15 @@
+{
+  "id": "5vi6-xdpy",
+  "name": "Small Business Services (SBS) Equal Employment Opportunity (EO 50) Certified Businesses",
+  "strategy": "baseline",
+  "description": "This dataset lists small businesses certified under New York City's Equal Employment Opportunity (EO 50) program, which recognizes firms that commit to fair hiring and employment practices. Each record includes the business name, phone number, and EO 50 approval date, along with its street address, city, state, ZIP code, and borough. Geographic identifiers such as latitude and longitude, community board, council district, building identification number (BIN), borough-block-lot (BBL), 2020 census tract, and 2020 neighborhood tabulation area allow the listings to be mapped and linked to other local data.\n\nThe data can be used to find EO 50-certified businesses by location or neighborhood, analyze how certification is distributed across boroughs and council districts, support outreach or procurement programs that favor certified firms, and join with other business or demographic datasets for research and planning.",
+  "prompt": "Title: Small Business Services (SBS) Equal Employment Opportunity (EO 50) Certified Businesses\nCategory: Business\nRows (sampled): 1317\nColumns: 16\nColumn names: eo50_approval_date, business_name, business_phone, street, city, state, postcode, borough, latitude, longitude, community_board, council_district, bin, bbl, ct2020, nta2020\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 166,
+    "completion_tokens": 175,
+    "total_tokens": 341
+  },
+  "elapsed_seconds": 1.58
+}

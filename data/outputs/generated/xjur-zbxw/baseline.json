@@ -1,0 +1,15 @@
+{
+  "id": "xjur-zbxw",
+  "name": "Home Care Caseload (Historical)",
+  "strategy": "baseline",
+  "description": "This dataset provides a historical monthly record of home care caseloads, with 291 sampled rows across five columns. Each row captures a year and month alongside the number of active cases, plus two derived measures: the percentage change in cases from the previous month and the percentage change from the same month in the prior year. The data supports trend analysis of demand for home care services over time, including seasonal patterns and year-over-year growth or decline. It could be used by social service planners, policy analysts, and researchers to monitor caseload trajectories, compare short-term fluctuations with longer-term trends, and inform budgeting or capacity planning for home care programs.",
+  "prompt": "Title: Home Care Caseload (Historical)\nCategory: Social Services\nRows (sampled): 291\nColumns: 5\nColumn names: year, month, cases, monthly_percent_change, yearly_percent_change\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 121,
+    "completion_tokens": 131,
+    "total_tokens": 252
+  },
+  "elapsed_seconds": 1.66
+}

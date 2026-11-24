@@ -1,0 +1,21 @@
+{
+  "id": "g2dh-zf5t",
+  "name": "Child Support Caseload and Collections",
+  "strategy": "semantic",
+  "description": "This dataset contains child support enforcement records organized by indicator, case type, and date. Each row pairs a measure, such as total cases with orders, support establishment percentage, cases with collections, current distributions, or calendar year collections, with a case category (total, current, former, never, or yearly goal) and a reporting date. Numeric fields capture caseload counts, percentage rates, and dollar amounts, though many rows leave one or more of these blank depending on the measure reported.\n\nThe data can be used to track caseload trends over time, compare collection performance across case types, and assess program outcomes such as the share of cases with established orders or active collections. Analysts, researchers, and agency staff could use it to monitor progress toward yearly goals, evaluate the effectiveness of enforcement efforts, and support budgeting or policy decisions related to family support services.",
+  "prompt": "Title: Child Support Caseload and Collections\nCategory: Social Services\nRows (sampled): 1189\nColumns: 6\n\nColumn details:\n- indicator (type object) 7 distinct values 0.0% missing common values: Support Establishment Percent (SEP) % of… (17.2%), % Cases w/Collection (1) (17.2%), Calendar Year Collections (17.2%), % Current Distributed (13.8%), Total Cases with Orders (13.8%) samples: Total Cases with Orders, Total Cases with Orders, Total Cases with Orders, Total Cases with Orders, Support Establishment Percent (SEP) % of…\n- case_type (type object) 6 distinct values 0.08% missing common values: Total (24.2%), Current (20.7%), Never (20.7%), Former (20.6%), Yearly Goal (10.4%) samples: Total, Current, Former, Never, Current\n- date (type object) 41 distinct values 0.0% missing samples: 2026-09-30T00:00:00.000, 2026-09-30T00:00:00.000, 2026-09-30T00:00:00.000, 2026-09-30T00:00:00.000, 2026-09-30T00:00:00.000\n- caseload (type float64) 300 distinct values 72.41% missing min=23.0 max=201857.0 mean=46717.6098 p25=243.75 p75=84151.5 samples: 174663.0, 16937.0, 74612.0, 83114.0, 464.0\n- percentage (type float64) 48 distinct values 44.83% missing min=0.32 max=0.89 mean=0.6019 p25=0.43 p75=0.7625 samples: 0.55, 0.75, 0.73, 0.83, 0.76\n- dollars (type float64) 169 distinct values 82.76% missing min=1533089.0 max=717000000.0 mean=159483705.0683 p25=18300563.0 p75=60596966.0 samples: 51494771.0, 17912413.0, 31687227.0, 1895131.0, 672900000.0\n\nSemantic summary (topic and possible uses):\nThis dataset tracks child support enforcement caseloads and collection outcomes over time, broken down by case type and indicator. It belongs to the social services domain, specifically public benefits and family support administration. With fields for caseload counts, percentages, and dollar amounts across dated records, it could support analysis of collection performance, caseload trends, and program effectiveness, or inform policy and budgeting decisions by agencies and researchers.\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 712,
+    "completion_tokens": 175,
+    "total_tokens": 887
+  },
+  "elapsed_seconds": 2.69,
+  "semantic_summary": "This dataset tracks child support enforcement caseloads and collection outcomes over time, broken down by case type and indicator. It belongs to the social services domain, specifically public benefits and family support administration. With fields for caseload counts, percentages, and dollar amounts across dated records, it could support analysis of collection performance, caseload trends, and program effectiveness, or inform policy and budgeting decisions by agencies and researchers.",
+  "semantic_usage": {
+    "prompt_tokens": 146,
+    "completion_tokens": 85,
+    "total_tokens": 231
+  }
+}

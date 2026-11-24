@@ -1,0 +1,327 @@
+{
+  "id": "5vi6-xdpy",
+  "name": "Small Business Services (SBS) Equal Employment Opportunity (EO 50) Certified Businesses",
+  "description": "This dataset contains a list of businesses that have successfully complied with Equal Employment Opportunity (EO 50) requirements and have received EO50 certificate of approval from the NYC Department of Small Business Services (SBS). Executive Order No. 50 was established in 1980 during Mayor Koch's tenure. It mandates that all contractors adhere to equal employment principles, explicitly prohibiting discriminatory hiring practices. This order safeguards individuals from discrimination based on ten protected categories: race, sex, creed, age, color, disability, national origin, marital status, sexual orientation, and citizenship status. For additional information, please visit our website at \n<a href=\"https://www.nyc.gov/site/sbs/businesses/contract-compliance.page\">https://www.nyc.gov/site/sbs/businesses/contract-compliance.page</a>",
+  "category": "Business",
+  "permalink": "https://data.cityofnewyork.us/d/5vi6-xdpy",
+  "sampled_rows": 5000,
+  "n_rows": 1317,
+  "n_cols": 16,
+  "columns": [
+    {
+      "name": "eo50_approval_date",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 529,
+      "sample_values": [
+        "2025-08-07T00:00:00.000",
+        "2024-06-03T00:00:00.000",
+        "2024-10-21T00:00:00.000",
+        "2026-01-16T00:00:00.000",
+        "2024-01-16T00:00:00.000"
+      ]
+    },
+    {
+      "name": "business_name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1317,
+      "sample_values": [
+        "100 Lee Development LLC",
+        "101-24 Multi Specialty Plaza LLC",
+        "1045 Flatbush Avenue, LLC",
+        "1099 Webster Owners, LLC",
+        "11:11 Systems, Inc."
+      ]
+    },
+    {
+      "name": "business_phone",
+      "dtype": "object",
+      "missing": 2,
+      "missing_pct": 0.15,
+      "nunique": 1252,
+      "sample_values": [
+        "718-942-9449",
+        "646-584-6460",
+        "201-314-6746",
+        "718-932-6342",
+        "864-214-0934"
+      ]
+    },
+    {
+      "name": "street",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1220,
+      "sample_values": [
+        "199 Lee Avenue",
+        "214 Brookville Road",
+        "1300 Tonnelle Avenue",
+        "48-02 25th Avenue",
+        "777 Central Blvd."
+      ]
+    },
+    {
+      "name": "city",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 390,
+      "sample_values": [
+        "Brooklyn",
+        "Glen Head",
+        "North Bergen",
+        "Astoria",
+        "Cartstadt"
+      ]
+    },
+    {
+      "name": "state",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 33,
+      "sample_values": [
+        "New York",
+        "New York",
+        "New Jersey",
+        "New York",
+        "New Jersey"
+      ]
+    },
+    {
+      "name": "postcode",
+      "dtype": "float64",
+      "missing": 2,
+      "missing_pct": 0.15,
+      "nunique": 515,
+      "sample_values": [
+        "11211.0",
+        "11545.0",
+        "7047.0",
+        "11103.0",
+        "7072.0"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 98312.0,
+        "mean": 14469.1703,
+        "median": 11101.0,
+        "p25": 10018.0,
+        "p75": 11434.0
+      }
+    },
+    {
+      "name": "borough",
+      "dtype": "object",
+      "missing": 625,
+      "missing_pct": 47.46,
+      "nunique": 5,
+      "sample_values": [
+        "Brooklyn",
+        "Queens",
+        "Manhattan",
+        "Brooklyn",
+        "Manhattan"
+      ],
+      "top_values": [
+        {
+          "value": "Manhattan",
+          "count": 305,
+          "pct": 44.1
+        },
+        {
+          "value": "Brooklyn",
+          "count": 176,
+          "pct": 25.4
+        },
+        {
+          "value": "Queens",
+          "count": 134,
+          "pct": 19.4
+        },
+        {
+          "value": "Staten Island",
+          "count": 44,
+          "pct": 6.4
+        },
+        {
+          "value": "Bronx",
+          "count": 33,
+          "pct": 4.8
+        }
+      ]
+    },
+    {
+      "name": "latitude",
+      "dtype": "float64",
+      "missing": 626,
+      "missing_pct": 47.53,
+      "nunique": 602,
+      "sample_values": [
+        "40.701995",
+        "40.764896",
+        "40.760847",
+        "40.703004",
+        "40.628681"
+      ],
+      "stats": {
+        "min": 40.5221,
+        "max": 40.9108,
+        "mean": 40.7191,
+        "median": 40.7402,
+        "p25": 40.6964,
+        "p75": 40.7549
+      }
+    },
+    {
+      "name": "longitude",
+      "dtype": "float64",
+      "missing": 626,
+      "missing_pct": 47.53,
+      "nunique": 604,
+      "sample_values": [
+        "-73.955762",
+        "-73.905188",
+        "-73.971321",
+        "-73.984098",
+        "-73.987975"
+      ],
+      "stats": {
+        "min": -74.2396,
+        "max": -73.7231,
+        "mean": -73.9613,
+        "median": -73.9787,
+        "p25": -73.9927,
+        "p75": -73.9201
+      }
+    },
+    {
+      "name": "community_board",
+      "dtype": "float64",
+      "missing": 626,
+      "missing_pct": 47.53,
+      "nunique": 61,
+      "sample_values": [
+        "301.0",
+        "401.0",
+        "105.0",
+        "302.0",
+        "312.0"
+      ],
+      "stats": {
+        "min": 101.0,
+        "max": 503.0,
+        "mean": 254.4255,
+        "median": 301.0,
+        "p25": 105.0,
+        "p75": 401.0
+      }
+    },
+    {
+      "name": "council_district",
+      "dtype": "float64",
+      "missing": 626,
+      "missing_pct": 47.53,
+      "nunique": 50,
+      "sample_values": [
+        "33.0",
+        "22.0",
+        "4.0",
+        "33.0",
+        "44.0"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 51.0,
+        "mean": 20.1143,
+        "median": 20.0,
+        "p25": 3.0,
+        "p75": 33.0
+      }
+    },
+    {
+      "name": "bin",
+      "dtype": "float64",
+      "missing": 638,
+      "missing_pct": 48.44,
+      "nunique": 583,
+      "sample_values": [
+        "3060998.0",
+        "4013983.0",
+        "1035772.0",
+        "3335871.0",
+        "3130163.0"
+      ],
+      "stats": {
+        "min": 1000005.0,
+        "max": 5171653.0,
+        "mean": 2598522.7467,
+        "median": 3056631.0,
+        "p25": 1024684.5,
+        "p75": 4014605.0
+      }
+    },
+    {
+      "name": "bbl",
+      "dtype": "float64",
+      "missing": 638,
+      "missing_pct": 48.44,
+      "nunique": 586,
+      "sample_values": [
+        "3022260001.0",
+        "4007440040.0",
+        "1012910038.0",
+        "3000420001.0",
+        "3054770039.0"
+      ],
+      "stats": {
+        "min": 1000047501.0,
+        "max": 5077020113.0,
+        "mean": 2503081169.2062,
+        "median": 3007540040.0,
+        "p25": 1008560033.5,
+        "p75": 4004855013.5
+      }
+    },
+    {
+      "name": "ct2020",
+      "dtype": "float64",
+      "missing": 626,
+      "missing_pct": 47.53,
+      "nunique": 305,
+      "sample_values": [
+        "533.0",
+        "145.0",
+        "102.0",
+        "21.0",
+        "238.0"
+      ],
+      "stats": {
+        "min": 2.0,
+        "max": 152902.0,
+        "mean": 6990.9899,
+        "median": 228.0,
+        "p25": 86.5,
+        "p75": 991.0
+      }
+    },
+    {
+      "name": "nta2020",
+      "dtype": "object",
+      "missing": 626,
+      "missing_pct": 47.53,
+      "nunique": 135,
+      "sample_values": [
+        "BK0103",
+        "QN0104",
+        "MN0502",
+        "BK0202",
+        "BK1202"
+      ]
+    }
+  ]
+}

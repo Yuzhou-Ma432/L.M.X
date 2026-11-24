@@ -1,0 +1,21 @@
+{
+  "id": "jb7j-dtam",
+  "name": "New York City Leading Causes of Death",
+  "strategy": "semantic",
+  "description": "This dataset contains records of the leading causes of death in New York City from 2007 through 2021. Each row pairs a year and a specific leading cause of death with a breakdown by sex and race/ethnicity, along with the number of deaths and two rate measures: the crude death rate and the age-adjusted death rate. Causes include broad categories such as diseases of the heart, influenza and pneumonia, chronic liver diseases and cirrhosis, mental and behavioral disorders, and an \"all other causes\" grouping. Sex values appear in both abbreviated (F, M) and spelled-out (Female, Male) forms, and race/ethnicity covers groups such as Hispanic, Black Non-Hispanic, Asian and Pacific Islander, Other Race/Ethnicity, and Not Stated/Unknown. Death counts and rates are stored as text rather than numbers, and the two rate columns are missing for roughly 16% of rows.\n\nThe data can be used to track how the burden of particular causes of",
+  "prompt": "Title: New York City Leading Causes of Death\nCategory: Health\nRows (sampled): 2102\nColumns: 7\n\nColumn details:\n- year (type int64) 15 distinct values 0.0% missing min=2007.0 max=2021.0 mean=2014.0894 p25=2010.0 p75=2018.0 common values: 2019 (8.5%), 2016 (6.9%), 2015 (6.7%), 2007 (6.7%), 2011 (6.7%) samples: 2021, 2021, 2021, 2021, 2021\n- leading_cause (type object) 42 distinct values 0.0% missing samples: Mental and Behavioral Disorders due to A…, All Other Causes, Chronic Liver Diseases and Cirrhosis, Diseases of Heart (I00-I09, I11, I13, I2…, Influenza (Flu) and Pneumonia (J09-J18)\n- sex (type object) 4 distinct values 0.0% missing common values: F (29.6%), M (29.0%), Female (20.8%), Male (20.6%) samples: Male, Female, Male, Female, Male\n- race_ethnicity (type object) 8 distinct values 0.0% missing common values: Other Race/ Ethnicity (19.6%), Not Stated/Unknown (17.2%), Asian and Pacific Islander (15.8%), Hispanic (15.7%), Black Non-Hispanic (8.5%) samples: Other Race/ Ethnicity, Not Stated/Unknown, Not Stated/Unknown, Hispanic, Not Stated/Unknown\n- deaths (type object) 720 distinct values 0.0% missing samples: 9, 102, 16, 1409, 16\n- death_rate (type object) 1008 distinct values 16.32% missing samples: 111, 91.2, 76.1, 20.9, 18.4\n- age_adjusted_death_rate (type object) 999 distinct values 16.32% missing samples: 95.5, 80.8, 66.8, 18, 17.8\n\nSemantic summary (topic and possible uses):\nThis dataset records the leading causes of death in New York City, broken down by year, cause, sex, and race/ethnicity, with counts of deaths and both crude and age-adjusted death rates. It belongs to the public health and epidemiology domain, offering a demographic view of mortality patterns across population groups. It could be used to track trends in specific causes of death over time, compare mortality burden across sexes and racial or ethnic groups, identify disparities in age-adjusted death rates, and support public health research, reporting, or policy analysis.\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "length",
+  "usage": {
+    "prompt_tokens": 682,
+    "completion_tokens": 200,
+    "total_tokens": 882
+  },
+  "elapsed_seconds": 3.08,
+  "semantic_summary": "This dataset records the leading causes of death in New York City, broken down by year, cause, sex, and race/ethnicity, with counts of deaths and both crude and age-adjusted death rates. It belongs to the public health and epidemiology domain, offering a demographic view of mortality patterns across population groups. It could be used to track trends in specific causes of death over time, compare mortality burden across sexes and racial or ethnic groups, identify disparities in age-adjusted death rates, and support public health research, reporting, or policy analysis.",
+  "semantic_usage": {
+    "prompt_tokens": 155,
+    "completion_tokens": 108,
+    "total_tokens": 263
+  }
+}

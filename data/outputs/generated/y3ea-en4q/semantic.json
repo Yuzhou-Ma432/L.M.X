@@ -1,0 +1,21 @@
+{
+  "id": "y3ea-en4q",
+  "name": "Manhattan Community Award Program (MCAP) (2007-2017)",
+  "strategy": "semantic",
+  "description": "This dataset lists awards made through the Manhattan Community Award Program (MCAP) for fiscal years 2007 through 2017. Each row records a single allocation and includes the fiscal year, the sponsoring city agency, the recipient organization, the project title, and the dollar amount awarded. Agencies include DFTA, DOE, DOH, DPR, and DOHMH, and organizations range from block associations and community development corporations to senior service providers. Allocations vary widely, from under $2,000 to $940,000, with a typical award of a few thousand dollars.\n\nThe data can be used to track how community grant funding changed over the decade, compare award activity across agencies and organizations, see what kinds of projects received support, and analyze the size and distribution of individual allocations. It is useful for budget transparency, funding trend analysis, and research on discretionary or community-level public spending in Manhattan.",
+  "prompt": "Title: Manhattan Community Award Program (MCAP) (2007-2017)\nCategory: City Government\nRows (sampled): 1956\nColumns: 5\n\nColumn details:\n- fy (type float64) 11 distinct values 0.36% missing min=2007.0 max=2017.0 mean=2012.0944 p25=2009.0 p75=2015.0 common values: 2015.0 (11.0%), 2014.0 (10.0%), 2010.0 (9.6%), 2017.0 (9.3%), 2011.0 (9.3%) samples: 2007.0, 2007.0, 2007.0, 2007.0, 2007.0\n- agency (type object) 7 distinct values 0.36% missing common values: DFTA (45.9%), DOE (24.5%), DOH (12.1%), DPR (9.5%), DOHMH (5.4%) samples: DFTA, DFTA, DFTA, DFTA, DFTA\n- organization (type object) 1138 distinct values 0.36% missing samples: 116 Street Block Association, Abyssinian Development Corp., ARC XVI Fort Washington, Bowery Resident's Committee, Inc., Brookdale Center on Aging of Hunter Coll…\n- project_title (type object) 1451 distinct values 1.43% missing samples: Senior Service Program, ADC Senior Services Department, ARC Adult Day Center, BRC-Senior Services Center, Cerfificate Program in Daily Money Manag…\n- allocation (type float64) 116 distinct values 0.1% missing min=1985.0 max=940000.0 mean=7156.1648 p25=3500.0 p75=6320.0 samples: 10000.0, 20000.0, 15000.0, 4000.0, 10000.0\n\nSemantic summary (topic and possible uses):\nThis dataset records allocations made through the Manhattan Community Award Program (MCAP) between 2007 and 2017, listing the fiscal year, the sponsoring city agency, the recipient organization, the project title, and the dollar amount allocated. It belongs to the city government and public budgeting domain, specifically capturing discretionary or community grant funding in Manhattan. The data could be used to analyze funding trends over time, compare which agencies and organizations received awards, identify the types of projects supported, and examine the distribution and size of allocations across fiscal years.\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 624,
+    "completion_tokens": 183,
+    "total_tokens": 807
+  },
+  "elapsed_seconds": 2.88,
+  "semantic_summary": "This dataset records allocations made through the Manhattan Community Award Program (MCAP) between 2007 and 2017, listing the fiscal year, the sponsoring city agency, the recipient organization, the project title, and the dollar amount allocated. It belongs to the city government and public budgeting domain, specifically capturing discretionary or community grant funding in Manhattan. The data could be used to analyze funding trends over time, compare which agencies and organizations received awards, identify the types of projects supported, and examine the distribution and size of allocations across fiscal years.",
+  "semantic_usage": {
+    "prompt_tokens": 149,
+    "completion_tokens": 109,
+    "total_tokens": 258
+  }
+}

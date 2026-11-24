@@ -1,0 +1,213 @@
+{
+  "id": "k8hv-56d7",
+  "name": "2009 - 2010 Graduation Outcomes - Regents-based Math- ELA APM - School Level",
+  "description": "Graduation Outcomes - Class of 2010 - Math/ELA Aspirational Performance Measure (APM) \r\n¶•The New York State Education Department adopted Aspirational Performance Measures (APM) in addition to high school graduation rates for the Cohort of 2006 (Class of 2010). In addition to the numbers of students earning Advanced Regents Designation on their diplomas, another metric was developed based on performance on Math and ELA Regents exams. The Math/ELA APM represents the percentage of students in the cohort who graduated with any regular diploma (Regents Diploma with Advanced Designation, Regents Diploma, or Local Diploma) and who scored 80 or greater on their highest mathematics Regents and 75 or greater on the English Regents. Since this metric is new for the Class of 2010, only one year of results is reported, separately for June and August graduation cohorts. The total number of students in the cohort is the same in June and August. \r\n¶•Records with cohorts of 20 students or less are suppressed. \r\n¶•August outcomes include all June and August graduates. \r\n¶•In school-level reporting, students who were in a school for less than 5 months are not included in the school’s cohort, but are included in citywide totals. \r\n¶•School level results are not presented for District 79 schools, but their outcomes are included in citywide totals. \r\n¶•Schools that had previously obtained a waiver to use alternative assessments (rather than Regents examinations) were omitted from the Math/ELA APM calculations.",
+  "category": "Education",
+  "permalink": "https://data.cityofnewyork.us/d/k8hv-56d7",
+  "sampled_rows": 5000,
+  "n_rows": 4103,
+  "n_cols": 9,
+  "columns": [
+    {
+      "name": "demographic",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 11,
+      "sample_values": [
+        "All Students",
+        "All Students",
+        "All Students",
+        "All Students",
+        "All Students"
+      ],
+      "top_values": [
+        {
+          "value": "All Students",
+          "count": 373,
+          "pct": 9.1
+        },
+        {
+          "value": "English Language Learners",
+          "count": 373,
+          "pct": 9.1
+        },
+        {
+          "value": "English Proficient",
+          "count": 373,
+          "pct": 9.1
+        },
+        {
+          "value": "Special Education",
+          "count": 373,
+          "pct": 9.1
+        },
+        {
+          "value": "General Education",
+          "count": 373,
+          "pct": 9.1
+        }
+      ]
+    },
+    {
+      "name": "dbn",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 373,
+      "sample_values": [
+        "01M292",
+        "01M448",
+        "01M509",
+        "01M515",
+        "01M539"
+      ]
+    },
+    {
+      "name": "name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 373,
+      "sample_values": [
+        "HENRY STREET SCHOOL FOR INTERNATIONAL",
+        "UNIVERSITY NEIGHBORHOOD HIGH SCHOOL",
+        "MARTA VALLE HIGH SCHOOL",
+        "LOWER EAST SIDE PREPARATORY HIGH SCHO",
+        "NEW EXPLORATIONS INTO SCIENCE  TECHNO"
+      ]
+    },
+    {
+      "name": "total_cohort_june",
+      "dtype": "float64",
+      "missing": 343,
+      "missing_pct": 8.36,
+      "nunique": 483,
+      "sample_values": [
+        "78.0",
+        "124.0",
+        "84.0",
+        "193.0",
+        "46.0"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 1209.0,
+        "mean": 93.9013,
+        "median": 50.0,
+        "p25": 13.0,
+        "p75": 96.0
+      }
+    },
+    {
+      "name": "total_math_ela_apm_june",
+      "dtype": "float64",
+      "missing": 1523,
+      "missing_pct": 37.12,
+      "nunique": 222,
+      "sample_values": [
+        "7.0",
+        "17.0",
+        "14.0",
+        "63.0",
+        "42.0"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 967.0,
+        "mean": 30.5581,
+        "median": 7.0,
+        "p25": 2.0,
+        "p75": 21.0
+      }
+    },
+    {
+      "name": "_of_cohort_june",
+      "dtype": "float64",
+      "missing": 1523,
+      "missing_pct": 37.12,
+      "nunique": 551,
+      "sample_values": [
+        "9.0",
+        "13.7",
+        "16.7",
+        "32.6",
+        "91.3"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 16.5546,
+        "median": 8.95,
+        "p25": 3.4,
+        "p75": 20.3
+      }
+    },
+    {
+      "name": "total_cohort_august",
+      "dtype": "float64",
+      "missing": 343,
+      "missing_pct": 8.36,
+      "nunique": 483,
+      "sample_values": [
+        "78.0",
+        "124.0",
+        "84.0",
+        "193.0",
+        "46.0"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 1209.0,
+        "mean": 93.9013,
+        "median": 50.0,
+        "p25": 13.0,
+        "p75": 96.0
+      }
+    },
+    {
+      "name": "total_math_ela_apm_august",
+      "dtype": "float64",
+      "missing": 1523,
+      "missing_pct": 37.12,
+      "nunique": 224,
+      "sample_values": [
+        "7.0",
+        "17.0",
+        "14.0",
+        "63.0",
+        "42.0"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 1001.0,
+        "mean": 31.2198,
+        "median": 7.0,
+        "p25": 2.0,
+        "p75": 21.0
+      }
+    },
+    {
+      "name": "_of_cohort_august",
+      "dtype": "float64",
+      "missing": 1523,
+      "missing_pct": 37.12,
+      "nunique": 552,
+      "sample_values": [
+        "9.0",
+        "13.7",
+        "16.7",
+        "32.6",
+        "91.3"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 16.8781,
+        "median": 9.25,
+        "p25": 3.6,
+        "p75": 20.7
+      }
+    }
+  ]
+}

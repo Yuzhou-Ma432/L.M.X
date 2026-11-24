@@ -1,0 +1,590 @@
+{
+  "id": "m4ph-grrm",
+  "name": "Historical Licenses",
+  "description": "This dataset features businesses and individuals that were issued a DCWP license and the status of those licenses as of October 2013. A license is required to legally operate in New York City.",
+  "category": "Business",
+  "permalink": "https://data.cityofnewyork.us/d/m4ph-grrm",
+  "sampled_rows": 5000,
+  "n_rows": 5000,
+  "n_cols": 27,
+  "columns": [
+    {
+      "name": "dca_license_number",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4882,
+      "sample_values": [
+        "711",
+        "2902",
+        "2902",
+        "6164",
+        "6840"
+      ],
+      "stats": {
+        "min": 711.0,
+        "max": 1304151.0,
+        "mean": 667592.9124,
+        "median": 737316.5,
+        "p25": 572305.75,
+        "p75": 783787.25
+      }
+    },
+    {
+      "name": "license_type",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Business",
+        "Business",
+        "Business",
+        "Business",
+        "Business"
+      ],
+      "top_values": [
+        {
+          "value": "Business",
+          "count": 3302,
+          "pct": 66.0
+        },
+        {
+          "value": "Individual",
+          "count": 1698,
+          "pct": 34.0
+        }
+      ]
+    },
+    {
+      "name": "license_creation_date",
+      "dtype": "object",
+      "missing": 34,
+      "missing_pct": 0.68,
+      "nunique": 1619,
+      "sample_values": [
+        "1999-05-25T00:00:00.000",
+        "1992-05-06T00:00:00.000",
+        "2007-04-18T00:00:00.000",
+        "1999-02-11T00:00:00.000",
+        "2007-11-02T00:00:00.000"
+      ]
+    },
+    {
+      "name": "license_expiration_date",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 369,
+      "sample_values": [
+        "2007-07-31T00:00:00.000",
+        "1993-04-30T00:00:00.000",
+        "2014-04-30T00:00:00.000",
+        "2002-03-31T00:00:00.000",
+        "2015-07-31T00:00:00.000"
+      ]
+    },
+    {
+      "name": "license_status",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 18,
+      "sample_values": [
+        "FAILED TO RENEW",
+        "OUT OF BUSINESS",
+        "CURRENT",
+        "FAILED TO RENEW",
+        "CURRENT"
+      ],
+      "top_values": [
+        {
+          "value": "CURRENT",
+          "count": 2025,
+          "pct": 40.5
+        },
+        {
+          "value": "FAILED TO RENEW",
+          "count": 1891,
+          "pct": 37.8
+        },
+        {
+          "value": "OUT OF BUSINESS",
+          "count": 611,
+          "pct": 12.2
+        },
+        {
+          "value": "SURRENDERED",
+          "count": 204,
+          "pct": 4.1
+        },
+        {
+          "value": "DENIED-RENEWAL",
+          "count": 53,
+          "pct": 1.1
+        }
+      ]
+    },
+    {
+      "name": "license_status_date",
+      "dtype": "object",
+      "missing": 4,
+      "missing_pct": 0.08,
+      "nunique": 1358,
+      "sample_values": [
+        "2007-11-05T00:00:00.000",
+        "1993-04-30T00:00:00.000",
+        "2013-02-27T00:00:00.000",
+        "2002-05-30T00:00:00.000",
+        "2013-06-04T00:00:00.000"
+      ]
+    },
+    {
+      "name": "business_code",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 45,
+      "sample_values": [
+        "6",
+        "80",
+        "80",
+        "24",
+        "6"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 122.0,
+        "mean": 64.4792,
+        "median": 62.0,
+        "p25": 34.0,
+        "p75": 100.0
+      }
+    },
+    {
+      "name": "business_code_description",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 45,
+      "sample_values": [
+        "SECOND HAND DEALER  GENERAL",
+        "PAWNBROKER",
+        "PAWNBROKER",
+        "NEWSSTAND",
+        "SECOND HAND DEALER  GENERAL"
+      ]
+    },
+    {
+      "name": "business_name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4597,
+      "sample_values": [
+        "M LEVIN INC",
+        "GEM PAWNBROKERS     MANHATTAN CORP",
+        "GEM FINANCIAL SERVICES INC",
+        "SACKLER, ADELAIDE",
+        "FLORIAN PAPP INC"
+      ]
+    },
+    {
+      "name": "business_name2",
+      "dtype": "object",
+      "missing": 3897,
+      "missing_pct": 77.94,
+      "nunique": 993,
+      "sample_values": [
+        "GEM PAWNBROKERS",
+        "70 SQ FT",
+        "CYCLONE",
+        "WONDER WHEEL",
+        "NEMET MOTORS"
+      ]
+    },
+    {
+      "name": "address_building",
+      "dtype": "object",
+      "missing": 1701,
+      "missing_pct": 34.02,
+      "nunique": 1811,
+      "sample_values": [
+        "269",
+        "608",
+        "608",
+        "N/W/C",
+        "962"
+      ]
+    },
+    {
+      "name": "address_street_name",
+      "dtype": "object",
+      "missing": 1699,
+      "missing_pct": 33.98,
+      "nunique": 1244,
+      "sample_values": [
+        "BOWERY",
+        "8 AVENUE",
+        "8 AVENUE",
+        "3 AVENUE",
+        "MADISON AVENUE"
+      ]
+    },
+    {
+      "name": "secondary_address_street",
+      "dtype": "object",
+      "missing": 4377,
+      "missing_pct": 87.54,
+      "nunique": 505,
+      "sample_values": [
+        "EAST   14 STREET",
+        "WEST   50 STREET",
+        "W 86TH ST",
+        "W 181ST ST",
+        "PARK AVENUE SOUTH"
+      ]
+    },
+    {
+      "name": "address_city",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 449,
+      "sample_values": [
+        "NEW YORK",
+        "NEW YORK",
+        "NEW YORK",
+        "NEW YORK",
+        "NEW YORK"
+      ]
+    },
+    {
+      "name": "address_state",
+      "dtype": "object",
+      "missing": 3,
+      "missing_pct": 0.06,
+      "nunique": 17,
+      "sample_values": [
+        "NY",
+        "NY",
+        "NY",
+        "NY",
+        "NY"
+      ],
+      "top_values": [
+        {
+          "value": "NY",
+          "count": 4838,
+          "pct": 96.8
+        },
+        {
+          "value": "NJ",
+          "count": 121,
+          "pct": 2.4
+        },
+        {
+          "value": "CT",
+          "count": 9,
+          "pct": 0.2
+        },
+        {
+          "value": "FL",
+          "count": 5,
+          "pct": 0.1
+        },
+        {
+          "value": "CA",
+          "count": 5,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "address_zip",
+      "dtype": "object",
+      "missing": 9,
+      "missing_pct": 0.18,
+      "nunique": 486,
+      "sample_values": [
+        "10002",
+        "10018",
+        "10018",
+        "10003",
+        "10021"
+      ]
+    },
+    {
+      "name": "contact_phone_number",
+      "dtype": "object",
+      "missing": 1993,
+      "missing_pct": 39.86,
+      "nunique": 2406,
+      "sample_values": [
+        "2126743579",
+        "7182371166",
+        "2125818546",
+        "2122886770",
+        "2128736404"
+      ]
+    },
+    {
+      "name": "borough_code",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 8,
+      "sample_values": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "top_values": [
+        {
+          "value": "1",
+          "count": 1592,
+          "pct": 31.8
+        },
+        {
+          "value": "3",
+          "count": 1013,
+          "pct": 20.3
+        },
+        {
+          "value": "4",
+          "count": 983,
+          "pct": 19.7
+        },
+        {
+          "value": "8",
+          "count": 683,
+          "pct": 13.7
+        },
+        {
+          "value": "2",
+          "count": 390,
+          "pct": 7.8
+        }
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 9.0,
+        "mean": 3.3002,
+        "median": 3.0,
+        "p25": 1.0,
+        "p75": 4.0
+      }
+    },
+    {
+      "name": "community_board",
+      "dtype": "float64",
+      "missing": 673,
+      "missing_pct": 13.46,
+      "nunique": 62,
+      "sample_values": [
+        "103.0",
+        "105.0",
+        "105.0",
+        "106.0",
+        "108.0"
+      ],
+      "stats": {
+        "min": 101.0,
+        "max": 503.0,
+        "mean": 266.1555,
+        "median": 306.0,
+        "p25": 107.0,
+        "p75": 405.0
+      }
+    },
+    {
+      "name": "council_district",
+      "dtype": "float64",
+      "missing": 1219,
+      "missing_pct": 24.38,
+      "nunique": 51,
+      "sample_values": [
+        "1.0",
+        "3.0",
+        "3.0",
+        "4.0",
+        "3.0"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 51.0,
+        "mean": 23.4163,
+        "median": 23.0,
+        "p25": 5.0,
+        "p75": 39.0
+      }
+    },
+    {
+      "name": "borough",
+      "dtype": "object",
+      "missing": 2063,
+      "missing_pct": 41.26,
+      "nunique": 5,
+      "sample_values": [
+        "MANHATTAN",
+        "MANHATTAN",
+        "MANHATTAN",
+        "MANHATTAN",
+        "MANHATTAN"
+      ],
+      "top_values": [
+        {
+          "value": "MANHATTAN",
+          "count": 1157,
+          "pct": 39.4
+        },
+        {
+          "value": "BROOKLYN",
+          "count": 730,
+          "pct": 24.9
+        },
+        {
+          "value": "QUEENS",
+          "count": 612,
+          "pct": 20.8
+        },
+        {
+          "value": "BRONX",
+          "count": 259,
+          "pct": 8.8
+        },
+        {
+          "value": "STATEN IS",
+          "count": 179,
+          "pct": 6.1
+        }
+      ]
+    },
+    {
+      "name": "latitude",
+      "dtype": "float64",
+      "missing": 2068,
+      "missing_pct": 41.36,
+      "nunique": 2506,
+      "sample_values": [
+        "40.72353",
+        "40.755613",
+        "40.755613",
+        "40.774031",
+        "40.730395"
+      ],
+      "stats": {
+        "min": 40.503,
+        "max": 40.9071,
+        "mean": 40.7204,
+        "median": 40.7342,
+        "p25": 40.671,
+        "p75": 40.7647
+      }
+    },
+    {
+      "name": "longitude",
+      "dtype": "float64",
+      "missing": 2068,
+      "missing_pct": 41.36,
+      "nunique": 2503,
+      "sample_values": [
+        "-73.992817",
+        "-73.990962",
+        "-73.990962",
+        "-73.963805",
+        "-74.000166"
+      ],
+      "stats": {
+        "min": -74.2509,
+        "max": -73.7027,
+        "mean": -73.9479,
+        "median": -73.964,
+        "p25": -73.989,
+        "p75": -73.9063
+      }
+    },
+    {
+      "name": "bin",
+      "dtype": "float64",
+      "missing": 2136,
+      "missing_pct": 42.72,
+      "nunique": 2292,
+      "sample_values": [
+        "1078071.0",
+        "1014495.0",
+        "1014495.0",
+        "1072056.0",
+        "1008746.0"
+      ],
+      "stats": {
+        "min": 1000000.0,
+        "max": 5172004.0,
+        "mean": 2542557.875,
+        "median": 3000376.5,
+        "p25": 1042842.75,
+        "p75": 4005054.0
+      }
+    },
+    {
+      "name": "bbl",
+      "dtype": "float64",
+      "missing": 2136,
+      "missing_pct": 42.72,
+      "nunique": 2399,
+      "sample_values": [
+        "1004277502.0",
+        "1007890005.0",
+        "1007890005.0",
+        "1013900056.0",
+        "1005430021.0"
+      ],
+      "stats": {
+        "min": 1000090029.0,
+        "max": 5080430019.0,
+        "mean": 2474499640.574,
+        "median": 3002615087.0,
+        "p25": 1012757544.0,
+        "p75": 4006160037.0
+      }
+    },
+    {
+      "name": "ct2020",
+      "dtype": "float64",
+      "missing": 2068,
+      "missing_pct": 41.36,
+      "nunique": 841,
+      "sample_values": [
+        "3601.0",
+        "113.0",
+        "113.0",
+        "130.0",
+        "65.0"
+      ],
+      "stats": {
+        "min": 2.0,
+        "max": 157903.0,
+        "mean": 7873.0017,
+        "median": 304.0,
+        "p25": 118.0,
+        "p75": 1502.0
+      }
+    },
+    {
+      "name": "nta2020",
+      "dtype": "object",
+      "missing": 2068,
+      "missing_pct": 41.36,
+      "nunique": 198,
+      "sample_values": [
+        "MN0302",
+        "MN0502",
+        "MN0502",
+        "MN0802",
+        "MN0202"
+      ]
+    }
+  ]
+}

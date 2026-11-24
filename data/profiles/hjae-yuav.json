@@ -1,0 +1,159 @@
+{
+  "id": "hjae-yuav",
+  "name": "Directory Of Toilets In Public Parks",
+  "description": "Directory of Toilets in Public Parks",
+  "category": "Recreation",
+  "permalink": "https://data.cityofnewyork.us/d/hjae-yuav",
+  "sampled_rows": 5000,
+  "n_rows": 616,
+  "n_cols": 6,
+  "columns": [
+    {
+      "name": "name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 589,
+      "sample_values": [
+        "100% Playground",
+        "174th Street Playground",
+        "227 Street Playground",
+        "Abe Lincoln",
+        "Abigail Playground"
+      ]
+    },
+    {
+      "name": "location",
+      "dtype": "object",
+      "missing": 1,
+      "missing_pct": 0.16,
+      "nunique": 584,
+      "sample_values": [
+        "Glenwood Road, East 100 & East 101 stree…",
+        "East 174 Street, Stratford Avenue, Bronx…",
+        "Bronx Boulevard between East 226 and Eas…",
+        "East 135 Street, between Madison & 5 ave…",
+        "East 156 Street, Tinton Avenue"
+      ]
+    },
+    {
+      "name": "open_year_round",
+      "dtype": "object",
+      "missing": 27,
+      "missing_pct": 4.38,
+      "nunique": 2,
+      "sample_values": [
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes",
+        "No"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 529,
+          "pct": 89.8
+        },
+        {
+          "value": "No",
+          "count": 60,
+          "pct": 10.2
+        }
+      ]
+    },
+    {
+      "name": "handicap_accessible",
+      "dtype": "object",
+      "missing": 487,
+      "missing_pct": 79.06,
+      "nunique": 1,
+      "sample_values": [
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 129,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "borough",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5,
+      "sample_values": [
+        "Brooklyn",
+        "Bronx",
+        "Bronx",
+        "Manhattan",
+        "Bronx"
+      ],
+      "top_values": [
+        {
+          "value": "Brooklyn",
+          "count": 170,
+          "pct": 27.6
+        },
+        {
+          "value": "Queens",
+          "count": 161,
+          "pct": 26.1
+        },
+        {
+          "value": "Manhattan",
+          "count": 129,
+          "pct": 20.9
+        },
+        {
+          "value": "Bronx",
+          "count": 118,
+          "pct": 19.2
+        },
+        {
+          "value": "Staten Island",
+          "count": 38,
+          "pct": 6.2
+        }
+      ]
+    },
+    {
+      "name": "comments",
+      "dtype": "object",
+      "missing": 608,
+      "missing_pct": 98.7,
+      "nunique": 3,
+      "sample_values": [
+        "This facility is currently closed",
+        "This facility is currently closed",
+        "This facility is currently closed",
+        "Closed from 7:30 - 3:30p during the scho…",
+        "This facility is currently closed. "
+      ],
+      "top_values": [
+        {
+          "value": "This facility is currently closed",
+          "count": 6,
+          "pct": 75.0
+        },
+        {
+          "value": "Closed from 7:30 - 3:30p during the scho…",
+          "count": 1,
+          "pct": 12.5
+        },
+        {
+          "value": "This facility is currently closed. ",
+          "count": 1,
+          "pct": 12.5
+        }
+      ]
+    }
+  ]
+}

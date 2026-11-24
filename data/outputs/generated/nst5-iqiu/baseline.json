@@ -1,0 +1,15 @@
+{
+  "id": "nst5-iqiu",
+  "name": "TAX_LOT_POLYGON",
+  "strategy": "baseline",
+  "description": "This dataset contains polygon records for tax lots, the basic land parcels used for property assessment and billing. Each row represents one lot and includes its borough, block, and lot identifiers along with the combined borough-block-lot (BBL) number. The 22 columns also capture lot characteristics and status flags, such as whether the lot is a condominium, has a real estate tax exemption or abatement (REUC), is an air lot, sub-lot, or easement, and whether it is flagged for building or billing purposes. Additional fields record the effective tax year, free-text lot notes, creation and last-edit metadata, and geometry measures (shape area and shape length).\n\nWith 5,000 sampled rows, the data can support mapping and spatial analysis of tax parcels, joining lot attributes to property or tax records by BBL, and filtering lots by borough, tax year, or status flags. It is useful for urban planning, property research, and building parcel-level views of",
+  "prompt": "Title: TAX_LOT_POLYGON\nCategory: Uncategorized\nRows (sampled): 5000\nColumns: 22\nColumn names: objectid, boro, block, lot, bbl, condo_flag, reuc_flag, air_lot_flag, sub_lot_flag, easement_flag, lot_note, effective_tax_year, bill_bbl_flag, nycmap_bldg_flag, conversion_exception_flag, value_reflected_out_flag, created_user, created_date, last_edited_user, last_edited_date, shape_area, shape_length\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "length",
+  "usage": {
+    "prompt_tokens": 196,
+    "completion_tokens": 200,
+    "total_tokens": 396
+  },
+  "elapsed_seconds": 2.19
+}

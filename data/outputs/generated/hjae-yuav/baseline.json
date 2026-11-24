@@ -1,0 +1,15 @@
+{
+  "id": "hjae-yuav",
+  "name": "Directory Of Toilets In Public Parks",
+  "strategy": "baseline",
+  "description": "This dataset lists toilets located in public parks, with 616 records and six fields. Each record identifies the facility by name and location, indicates whether it is open year-round and whether it is handicap accessible, and assigns it to a borough. A comments field provides additional notes about the facility. The data can be used to find public restrooms in parks, compare accessibility and seasonal availability across boroughs, map facilities for visitors and residents, or support planning and maintenance decisions for public amenities.",
+  "prompt": "Title: Directory Of Toilets In Public Parks\nCategory: Recreation\nRows (sampled): 616\nColumns: 6\nColumn names: name, location, open_year_round, handicap_accessible, borough, comments\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 122,
+    "completion_tokens": 97,
+    "total_tokens": 219
+  },
+  "elapsed_seconds": 1.22
+}

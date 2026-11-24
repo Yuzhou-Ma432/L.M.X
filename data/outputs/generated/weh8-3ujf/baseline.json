@@ -1,0 +1,15 @@
+{
+  "id": "weh8-3ujf",
+  "name": "Synthetic Turf Fields",
+  "strategy": "baseline",
+  "description": "This dataset lists synthetic turf fields, likely maintained by a municipal parks or recreation department, with 338 sampled records and 19 attributes per field. Each record identifies the field's location and administrative context (system, parent ID, department, borough), describes the turf installation (system type, turf type, infill material, and a location description), and captures maintenance and construction details such as who maintains the field, the construction entity and contract type/number, and the commission date. It also includes a retired flag and a feature status field, allowing users to distinguish active fields from decommissioned ones. The data could support recreation planning and asset management, comparing turf and infill types across boroughs, tracking field age and maintenance responsibility, monitoring construction contracts, and identifying retired or inactive facilities.",
+  "prompt": "Title: Synthetic Turf Fields\nCategory: Recreation\nRows (sampled): 338\nColumns: 19\nColumn names: system, parentid, department, description, synturf_location, system_type, turf_type, infill_material, jop, maint_by, maint_by_spec, construction_entity, construction_entity_spec, contract_type, contract_number, commission_date, retired, borough, featurestatus\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 162,
+    "completion_tokens": 158,
+    "total_tokens": 320
+  },
+  "elapsed_seconds": 1.74
+}

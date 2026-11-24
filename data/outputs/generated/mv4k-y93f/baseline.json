@@ -1,0 +1,15 @@
+{
+  "id": "mv4k-y93f",
+  "name": "NYPD Criminal Court Summons Incident Level Data (Year To Date)",
+  "strategy": "baseline",
+  "description": "This dataset contains year-to-date incident-level records of criminal court summonses issued by the New York City Police Department. Each row represents a single summons and includes the date it was issued, the offense description, the relevant law section number and law description, and the summons category type. It also captures demographic information about the person summoned, including age group, sex, and race, along with geographic details such as jurisdiction code, borough, precinct of occurrence, and X/Y coordinates, latitude, longitude, and a geocoded location field. A unique summons key identifies each record.\n\nThe data can be used to analyze patterns in summons activity across offenses, categories, boroughs, and precincts, and to examine how summonses are distributed across demographic groups. The geographic fields support mapping and spatial analysis of where summonses occur, while the date field enables trend analysis over the year to date. It is useful for public safety research, policy evaluation, and community-level reporting on enforcement activity.",
+  "prompt": "Title: NYPD Criminal Court Summons Incident Level Data (Year To Date)\nCategory: Public Safety\nRows (sampled): 5000\nColumns: 17\nColumn names: summons_key, summons_date, offense_description, law_section_number, law_description, summons_category_type, age_group, sex, race, jurisdiction_code, boro, precinct_of_occur, x_coordinate_cd, y_coordinate_cd, latitude, longitude, geocoded_column\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 172,
+    "completion_tokens": 196,
+    "total_tokens": 368
+  },
+  "elapsed_seconds": 1.74
+}

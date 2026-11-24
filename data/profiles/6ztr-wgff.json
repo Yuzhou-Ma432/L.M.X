@@ -1,0 +1,151 @@
+{
+  "id": "6ztr-wgff",
+  "name": "Transit Zones",
+  "description": "The Transit Zones dataset is composed of areas related to the Greater Transit Zone. \n\nThe Greater Transit Zone is broken up into separate areas where special rules governing residential parking are applied. The Greater Transit Zone is composed of the following areas:\n\n  • Manhattan Core and Long Island City parking areas: No parking required.\n  • Inner Transit Zone: No parking required.\n• Outer Transit Zone: Some parking required. Certain housing types do not require parking. \n  • Special ZR# 25-241 Parking Provision areas: Parking required.\n    Affordable housing has significantly less required parking than market rate housing and certain housing types have no requirement.\n\n \nBeyond the Greater Transit Zone areas are not within the Greater Transit Zone. Parking is required but affordable housing has less required parking than market rate housing and certain housing types have no requirement.\n\nThe boundaries for the Greater Transit Zone for Qualifying Residential Sites differs from the defined Transit Zones where they overlap with Special Coastal Risk Districts. (See the Greater Transit Zone for Qualifying Residential Sites dataset at https://data.cityofnewyork.us/d/vhqf-adkz).",
+  "category": "Housing & Development",
+  "permalink": "https://data.cityofnewyork.us/d/6ztr-wgff",
+  "sampled_rows": 5000,
+  "n_rows": 5,
+  "n_cols": 3,
+  "columns": [
+    {
+      "name": "transtzone",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5,
+      "sample_values": [
+        "Beyond the Greater Transit Zone",
+        "Outer Transit Zone",
+        "Special 25-241 Parking Provisions",
+        "Manhattan Core and Long Island City Park…",
+        "Inner Transit Zone"
+      ],
+      "top_values": [
+        {
+          "value": "Beyond the Greater Transit Zone",
+          "count": 1,
+          "pct": 20.0
+        },
+        {
+          "value": "Outer Transit Zone",
+          "count": 1,
+          "pct": 20.0
+        },
+        {
+          "value": "Special 25-241 Parking Provisions",
+          "count": 1,
+          "pct": 20.0
+        },
+        {
+          "value": "Manhattan Core and Long Island City Park…",
+          "count": 1,
+          "pct": 20.0
+        },
+        {
+          "value": "Inner Transit Zone",
+          "count": 1,
+          "pct": 20.0
+        }
+      ]
+    },
+    {
+      "name": "shape_leng",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5,
+      "sample_values": [
+        "2807857.57629",
+        "1552708.36731",
+        "269528.663572",
+        "229269.624978",
+        "409151.667448"
+      ],
+      "top_values": [
+        {
+          "value": "2807857.57629",
+          "count": 1,
+          "pct": 20.0
+        },
+        {
+          "value": "1552708.36731",
+          "count": 1,
+          "pct": 20.0
+        },
+        {
+          "value": "269528.663572",
+          "count": 1,
+          "pct": 20.0
+        },
+        {
+          "value": "229269.624978",
+          "count": 1,
+          "pct": 20.0
+        },
+        {
+          "value": "409151.667448",
+          "count": 1,
+          "pct": 20.0
+        }
+      ],
+      "stats": {
+        "min": 229269.625,
+        "max": 2807857.5763,
+        "mean": 1053703.1799,
+        "median": 409151.6674,
+        "p25": 269528.6636,
+        "p75": 1552708.3673
+      }
+    },
+    {
+      "name": "shape_area",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5,
+      "sample_values": [
+        "3896484656.1",
+        "2935131088.76",
+        "270421696.926",
+        "395442383.383",
+        "801655538.925"
+      ],
+      "top_values": [
+        {
+          "value": "3896484656.1",
+          "count": 1,
+          "pct": 20.0
+        },
+        {
+          "value": "2935131088.76",
+          "count": 1,
+          "pct": 20.0
+        },
+        {
+          "value": "270421696.926",
+          "count": 1,
+          "pct": 20.0
+        },
+        {
+          "value": "395442383.383",
+          "count": 1,
+          "pct": 20.0
+        },
+        {
+          "value": "801655538.925",
+          "count": 1,
+          "pct": 20.0
+        }
+      ],
+      "stats": {
+        "min": 270421696.926,
+        "max": 3896484656.1,
+        "mean": 1659827072.8188,
+        "median": 801655538.925,
+        "p25": 395442383.383,
+        "p75": 2935131088.76
+      }
+    }
+  ]
+}

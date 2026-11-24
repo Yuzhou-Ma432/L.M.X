@@ -1,0 +1,152 @@
+{
+  "id": "y3ea-en4q",
+  "name": "Manhattan Community Award Program (MCAP) (2007-2017)",
+  "description": "",
+  "category": "City Government",
+  "permalink": "https://data.cityofnewyork.us/d/y3ea-en4q",
+  "sampled_rows": 5000,
+  "n_rows": 1956,
+  "n_cols": 5,
+  "columns": [
+    {
+      "name": "fy",
+      "dtype": "float64",
+      "missing": 7,
+      "missing_pct": 0.36,
+      "nunique": 11,
+      "sample_values": [
+        "2007.0",
+        "2007.0",
+        "2007.0",
+        "2007.0",
+        "2007.0"
+      ],
+      "top_values": [
+        {
+          "value": "2015.0",
+          "count": 214,
+          "pct": 11.0
+        },
+        {
+          "value": "2014.0",
+          "count": 194,
+          "pct": 10.0
+        },
+        {
+          "value": "2010.0",
+          "count": 188,
+          "pct": 9.6
+        },
+        {
+          "value": "2017.0",
+          "count": 182,
+          "pct": 9.3
+        },
+        {
+          "value": "2011.0",
+          "count": 182,
+          "pct": 9.3
+        }
+      ],
+      "stats": {
+        "min": 2007.0,
+        "max": 2017.0,
+        "mean": 2012.0944,
+        "median": 2012.0,
+        "p25": 2009.0,
+        "p75": 2015.0
+      }
+    },
+    {
+      "name": "agency",
+      "dtype": "object",
+      "missing": 7,
+      "missing_pct": 0.36,
+      "nunique": 7,
+      "sample_values": [
+        "DFTA",
+        "DFTA",
+        "DFTA",
+        "DFTA",
+        "DFTA"
+      ],
+      "top_values": [
+        {
+          "value": "DFTA",
+          "count": 895,
+          "pct": 45.9
+        },
+        {
+          "value": "DOE",
+          "count": 478,
+          "pct": 24.5
+        },
+        {
+          "value": "DOH",
+          "count": 236,
+          "pct": 12.1
+        },
+        {
+          "value": "DPR",
+          "count": 186,
+          "pct": 9.5
+        },
+        {
+          "value": "DOHMH",
+          "count": 105,
+          "pct": 5.4
+        }
+      ]
+    },
+    {
+      "name": "organization",
+      "dtype": "object",
+      "missing": 7,
+      "missing_pct": 0.36,
+      "nunique": 1138,
+      "sample_values": [
+        "116 Street Block Association",
+        "Abyssinian Development Corp.",
+        "ARC XVI Fort Washington",
+        "Bowery Resident's Committee, Inc.",
+        "Brookdale Center on Aging of Hunter Coll…"
+      ]
+    },
+    {
+      "name": "project_title",
+      "dtype": "object",
+      "missing": 28,
+      "missing_pct": 1.43,
+      "nunique": 1451,
+      "sample_values": [
+        "Senior Service Program",
+        "ADC Senior Services Department",
+        "ARC Adult Day Center",
+        "BRC-Senior Services Center",
+        "Cerfificate Program in Daily Money Manag…"
+      ]
+    },
+    {
+      "name": "allocation",
+      "dtype": "float64",
+      "missing": 2,
+      "missing_pct": 0.1,
+      "nunique": 116,
+      "sample_values": [
+        "10000.0",
+        "20000.0",
+        "15000.0",
+        "4000.0",
+        "10000.0"
+      ],
+      "stats": {
+        "min": 1985.0,
+        "max": 940000.0,
+        "mean": 7156.1648,
+        "median": 5000.0,
+        "p25": 3500.0,
+        "p75": 6320.0
+      }
+    }
+  ]
+}

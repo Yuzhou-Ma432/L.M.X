@@ -1,0 +1,15 @@
+{
+  "id": "wffy-3iyg",
+  "name": "Percent Live Births by Infant Sex and Mother’s Race/Ethnicity",
+  "strategy": "baseline",
+  "description": "This dataset reports the percentage of live births by infant sex and mother's race/ethnicity, broken down by birth year. Each row gives a birth year, the infant's sex, the mother's race or ethnicity, the number of births, and the corresponding percentage. With 184 rows and five columns, it supports analysis of how the sex ratio at birth varies across racial and ethnic groups and over time, and can be used to compare birth distributions, track trends, or build charts and tables for public health reporting.",
+  "prompt": "Title: Percent Live Births by Infant Sex and Mother’s Race/Ethnicity\nCategory: Health\nRows (sampled): 184\nColumns: 5\nColumn names: birth_year, sex_of_infant, race_or_ethnicity_of_mother, births, percentage\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 134,
+    "completion_tokens": 104,
+    "total_tokens": 238
+  },
+  "elapsed_seconds": 1.61
+}

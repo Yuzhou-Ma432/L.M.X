@@ -1,0 +1,21 @@
+{
+  "id": "39et-rijq",
+  "name": "DYCD Runaway and Homeless Youth (RHY) Demographics and Services (Local Law 86)",
+  "strategy": "semantic",
+  "description": "This dataset contains demographic and service-usage figures for New York City's Runaway and Homeless Youth (RHY) programs, reported by the Department of Youth and Community Development under Local Law 86. Each row pairs a fiscal year (FY18 through FY26) with a demographic dimension—such as age at enrollment, gender, race, or sexual orientation—and a specific category within it, then reports counts and shares for two service streams: crisis services and transitional independent living (TIL). Counts appear in the crisis_services and til columns, with corresponding percentages in crisis_services_1 and til_1. A separate demographic grouping covers dispositions for youth who have exited a program, capturing outcomes rather than participant characteristics.\n\nThe data can be used to examine which youth populations access shelter and housing services, compare the reach of crisis services versus transitional living programs, and track how service use and participant demographics shift across fiscal years. It supports policy analysis, program planning, and reporting on youth homelessness services",
+  "prompt": "Title: DYCD Runaway and Homeless Youth (RHY) Demographics and Services (Local Law 86)\nCategory: Social Services\nRows (sampled): 539\nColumns: 7\n\nColumn details:\n- year (type object) 9 distinct values 0.0% missing common values: FY26 (13.2%), FY24 (12.8%), FY23 (12.8%), FY22 (12.8%), FY25 (12.6%) samples: FY26, FY26, FY26, FY26, FY26\n- demographic (type object) 15 distinct values 0.0% missing common values: Dispositions for Youth Who Have Exited a… (24.3%), Race (14.8%), Sexual Orientation (14.7%), Gender (10.9%), Age (at time of enrollment) (6.7%) samples: Age (at time of enrollment), Age (at time of enrollment), Age (at time of enrollment), Age (at time of enrollment), Gender\n- category (type object) 106 distinct values 0.19% missing samples: 16-17, 18-20, 21+, Infants + children, Male\n- crisis_services (type object) 276 distinct values 0.19% missing samples: 181, 1,240, 236, 83, 571\n- crisis_services_1 (type object) 255 distinct values 3.34% missing samples: 10%, 71%, 14%, 5%, 33%\n- til (type object) 217 distinct values 0.19% missing samples: 60, 1020, 87, 45, 539\n- til_1 (type object) 256 distinct values 3.34% missing samples: 5%, 84%, 7%, 4%, 44%\n\nSemantic summary (topic and possible uses):\nThis dataset, from New York City's Department of Youth and Community Development (DYCD), reports demographics and service usage for Runaway and Homeless Youth (RHY) programs under Local Law 86. It belongs to the social services domain, covering youth served by crisis services and transitional independent living (TIL) programs, broken down by year, demographic group, and category. The data could support analyses of which youth populations access shelter and housing services, comparisons of crisis versus transitional program reach, and tracking of service trends over time for policy and program planning.\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "length",
+  "usage": {
+    "prompt_tokens": 587,
+    "completion_tokens": 200,
+    "total_tokens": 787
+  },
+  "elapsed_seconds": 2.82,
+  "semantic_summary": "This dataset, from New York City's Department of Youth and Community Development (DYCD), reports demographics and service usage for Runaway and Homeless Youth (RHY) programs under Local Law 86. It belongs to the social services domain, covering youth served by crisis services and transitional independent living (TIL) programs, broken down by year, demographic group, and category. The data could support analyses of which youth populations access shelter and housing services, comparisons of crisis versus transitional program reach, and tracking of service trends over time for policy and program planning.",
+  "semantic_usage": {
+    "prompt_tokens": 165,
+    "completion_tokens": 111,
+    "total_tokens": 276
+  }
+}

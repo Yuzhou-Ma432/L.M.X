@@ -1,0 +1,21 @@
+{
+  "id": "6v9u-ndjg",
+  "name": "Building Complaint Disposition Codes",
+  "strategy": "semantic",
+  "description": "This dataset is a reference table mapping 160 disposition codes to their plain-language descriptions for building complaints, likely drawn from a municipal housing or buildings agency's complaint-handling system. Each row pairs a short code (such as A2, A6, or EA) with the outcome or status it represents, for example \"CRIMINAL COURT SUMMONS SERVED,\" \"ECB VIOLATION SERVED,\" or \"COMPLAINT ACCEPTED BY PADLOCK UNIT.\" The table is nearly complete, with no missing values in either column, though one code appears to share a description with another.\n\nThe data is most useful as a lookup or decoding table: anyone working with raw complaint records can join on the code to retrieve a readable disposition, making reports and dashboards easier to interpret. It can also support building case-management or inspection systems that need standardized outcome labels, and it enables analysis of how building complaints are resolved—for instance, tallying how often violations are issued, cases go",
+  "prompt": "Title: Building Complaint Disposition Codes\nCategory: Housing & Development\nRows (sampled): 160\nColumns: 2\n\nColumn details:\n- code (type object) 160 distinct values 0.0% missing samples: A2, A6, A7, A8, EA\n- disposition (type object) 159 distinct values 0.0% missing samples: CRIMINAL COURT SUMMONS SERVED, VACANT/OPEN/UNGUARDED STRUCTURE - VIOLAT…, COMPLAINT ACCEPTED BY PADLOCK UNIT, ECB VIOLATION SERVED, COMPLAINT ASSIGNED TO INTERIOR DEMOLITIO…\n\nSemantic summary (topic and possible uses):\nThis dataset lists disposition codes and their corresponding descriptions for building complaints, likely from a municipal or housing authority's complaint-handling system. It belongs to the housing and development domain, specifically code enforcement or building inspection operations. The data could be used to decode complaint records, standardize reporting on how building complaints are resolved, build lookup tables for case management systems, or analyze the distribution of complaint outcomes across a city or agency.\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "length",
+  "usage": {
+    "prompt_tokens": 308,
+    "completion_tokens": 200,
+    "total_tokens": 508
+  },
+  "elapsed_seconds": 3.35,
+  "semantic_summary": "This dataset lists disposition codes and their corresponding descriptions for building complaints, likely from a municipal or housing authority's complaint-handling system. It belongs to the housing and development domain, specifically code enforcement or building inspection operations. The data could be used to decode complaint records, standardize reporting on how building complaints are resolved, build lookup tables for case management systems, or analyze the distribution of complaint outcomes across a city or agency.",
+  "semantic_usage": {
+    "prompt_tokens": 133,
+    "completion_tokens": 84,
+    "total_tokens": 217
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "y6fv-k6p7",
+  "name": "DCLA Programs Funding",
+  "description": "Dataset contains the annual DCLA Cultural Development Funding amount per fiscal year and funded organization.",
+  "category": "Recreation",
+  "permalink": "https://data.cityofnewyork.us/d/y6fv-k6p7",
+  "sampled_rows": 5000,
+  "n_rows": 5000,
+  "n_cols": 3,
+  "columns": [
+    {
+      "name": "application",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5000,
+      "sample_values": [
+        "FY12-AN-009139",
+        "FY12-RN-009814",
+        "FY12-RN-009843",
+        "FY12-MY-006965",
+        "FY12-RN-009783"
+      ]
+    },
+    {
+      "name": "organization",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1234,
+      "sample_values": [
+        "3 Graces Theater Co., Inc.",
+        "3 Legged Dog",
+        "52nd Street Project, Inc.",
+        "7 Loaves, Inc.",
+        "Aaron Davis Hall, Inc."
+      ]
+    },
+    {
+      "name": "total_final_award",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1197,
+      "sample_values": [
+        "5325",
+        "15975",
+        "60750",
+        "18975",
+        "145625"
+      ],
+      "stats": {
+        "min": 2955.0,
+        "max": 885870.0,
+        "mean": 37023.2028,
+        "median": 15975.0,
+        "p25": 8300.0,
+        "p75": 36165.0
+      }
+    }
+  ]
+}

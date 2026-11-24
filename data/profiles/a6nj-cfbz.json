@@ -1,0 +1,637 @@
+{
+  "id": "a6nj-cfbz",
+  "name": "WiredNYC – All Buildings Data",
+  "description": "This dataset contains building information for all buildings that have completed a WiredNYC survey.  This includes buildings that have opted-out from displaying their profiles publicly.  Therefore, the building-specific data (e.g. building address) provided is anonymous and only linked to the borough the building is located in.",
+  "category": "NYC BigApps",
+  "permalink": "https://data.cityofnewyork.us/d/a6nj-cfbz",
+  "sampled_rows": 5000,
+  "n_rows": 323,
+  "n_cols": 19,
+  "columns": [
+    {
+      "name": "building_id",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 323,
+      "sample_values": [
+        "building_1",
+        "building_2",
+        "building_3",
+        "building_4",
+        "building_5"
+      ]
+    },
+    {
+      "name": "borough",
+      "dtype": "object",
+      "missing": 1,
+      "missing_pct": 0.31,
+      "nunique": 5,
+      "sample_values": [
+        "Manhattan",
+        "Manhattan",
+        "Manhattan",
+        "Manhattan",
+        "Manhattan"
+      ],
+      "top_values": [
+        {
+          "value": "Manhattan",
+          "count": 274,
+          "pct": 85.1
+        },
+        {
+          "value": "Brooklyn",
+          "count": 24,
+          "pct": 7.5
+        },
+        {
+          "value": "Bronx",
+          "count": 9,
+          "pct": 2.8
+        },
+        {
+          "value": "Queens",
+          "count": 8,
+          "pct": 2.5
+        },
+        {
+          "value": "Staten Island",
+          "count": 7,
+          "pct": 2.2
+        }
+      ]
+    },
+    {
+      "name": "certification_class",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5,
+      "sample_values": [
+        "Not certified",
+        "Not certified",
+        "Not certified",
+        "Not certified",
+        "Not certified"
+      ],
+      "top_values": [
+        {
+          "value": "Not certified",
+          "count": 195,
+          "pct": 60.4
+        },
+        {
+          "value": "Platinum",
+          "count": 38,
+          "pct": 11.8
+        },
+        {
+          "value": "Gold",
+          "count": 36,
+          "pct": 11.1
+        },
+        {
+          "value": "Connected",
+          "count": 35,
+          "pct": 10.8
+        },
+        {
+          "value": "Silver",
+          "count": 19,
+          "pct": 5.9
+        }
+      ]
+    },
+    {
+      "name": "of_carriers",
+      "dtype": "object",
+      "missing": 19,
+      "missing_pct": 5.88,
+      "nunique": 6,
+      "sample_values": [
+        "4",
+        "5 or more",
+        "4",
+        "2",
+        "3"
+      ],
+      "top_values": [
+        {
+          "value": "5 or more",
+          "count": 112,
+          "pct": 36.8
+        },
+        {
+          "value": "3",
+          "count": 61,
+          "pct": 20.1
+        },
+        {
+          "value": "2",
+          "count": 54,
+          "pct": 17.8
+        },
+        {
+          "value": "4",
+          "count": 43,
+          "pct": 14.1
+        },
+        {
+          "value": "1",
+          "count": 30,
+          "pct": 9.9
+        }
+      ]
+    },
+    {
+      "name": "coax_cable_connections",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 287,
+          "pct": 88.9
+        },
+        {
+          "value": "No",
+          "count": 36,
+          "pct": 11.1
+        }
+      ]
+    },
+    {
+      "name": "fiber_connection",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 267,
+          "pct": 82.7
+        },
+        {
+          "value": "No",
+          "count": 56,
+          "pct": 17.3
+        }
+      ]
+    },
+    {
+      "name": "satellite_fixed_wireless_connection",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "No",
+        "No",
+        "No",
+        "No",
+        "No"
+      ],
+      "top_values": [
+        {
+          "value": "No",
+          "count": 236,
+          "pct": 73.1
+        },
+        {
+          "value": "Yes",
+          "count": 87,
+          "pct": 26.9
+        }
+      ]
+    },
+    {
+      "name": "fiber_distribution",
+      "dtype": "object",
+      "missing": 19,
+      "missing_pct": 5.88,
+      "nunique": 6,
+      "sample_values": [
+        "Partial Distribution (some floors)",
+        "Full Distribution (all floors)",
+        "Full Distribution (all floors)",
+        "Full Distribution (all floors)",
+        "Full Distribution (all floors)"
+      ],
+      "top_values": [
+        {
+          "value": "Full Distribution (all floors)",
+          "count": 159,
+          "pct": 52.3
+        },
+        {
+          "value": "Partial Distribution (some floors)",
+          "count": 101,
+          "pct": 33.2
+        },
+        {
+          "value": "No Distribution",
+          "count": 38,
+          "pct": 12.5
+        },
+        {
+          "value": "none",
+          "count": 3,
+          "pct": 1.0
+        },
+        {
+          "value": "5",
+          "count": 2,
+          "pct": 0.7
+        }
+      ]
+    },
+    {
+      "name": "isps_1",
+      "dtype": "object",
+      "missing": 20,
+      "missing_pct": 6.19,
+      "nunique": 9,
+      "sample_values": [
+        "4",
+        "5 or more",
+        "3",
+        "2",
+        "4"
+      ],
+      "top_values": [
+        {
+          "value": "5 or more",
+          "count": 108,
+          "pct": 35.6
+        },
+        {
+          "value": "3",
+          "count": 68,
+          "pct": 22.4
+        },
+        {
+          "value": "2",
+          "count": 58,
+          "pct": 19.1
+        },
+        {
+          "value": "4",
+          "count": 38,
+          "pct": 12.5
+        },
+        {
+          "value": "1",
+          "count": 25,
+          "pct": 8.3
+        }
+      ]
+    },
+    {
+      "name": "multiple_points_of_entry",
+      "dtype": "object",
+      "missing": 23,
+      "missing_pct": 7.12,
+      "nunique": 6,
+      "sample_values": [
+        "Yes",
+        "No",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 207,
+          "pct": 69.0
+        },
+        {
+          "value": "No",
+          "count": 87,
+          "pct": 29.0
+        },
+        {
+          "value": "Combination of open",
+          "count": 2,
+          "pct": 0.7
+        },
+        {
+          "value": "Dedicated room",
+          "count": 2,
+          "pct": 0.7
+        },
+        {
+          "value": "none",
+          "count": 1,
+          "pct": 0.3
+        }
+      ]
+    },
+    {
+      "name": "designated_telecom_utility_space",
+      "dtype": "object",
+      "missing": 24,
+      "missing_pct": 7.43,
+      "nunique": 7,
+      "sample_values": [
+        "Combination of open, shared, and dedicat…",
+        "Common (shared) room",
+        "Dedicated room",
+        "Combination of open, shared, and dedicat…",
+        "Common (shared) room"
+      ],
+      "top_values": [
+        {
+          "value": "Combination of open, shared, and dedicat…",
+          "count": 160,
+          "pct": 53.5
+        },
+        {
+          "value": "Dedicated room",
+          "count": 87,
+          "pct": 29.1
+        },
+        {
+          "value": "Hallway/Open Space",
+          "count": 24,
+          "pct": 8.0
+        },
+        {
+          "value": "Common (shared) room",
+          "count": 23,
+          "pct": 7.7
+        },
+        {
+          "value": " shared",
+          "count": 2,
+          "pct": 0.7
+        }
+      ]
+    },
+    {
+      "name": "additional_telecom_space",
+      "dtype": "object",
+      "missing": 24,
+      "missing_pct": 7.43,
+      "nunique": 5,
+      "sample_values": [
+        "No",
+        "Yes",
+        "No",
+        "Yes",
+        "No"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 198,
+          "pct": 66.2
+        },
+        {
+          "value": "No",
+          "count": 97,
+          "pct": 32.4
+        },
+        {
+          "value": " and dedicated  space",
+          "count": 2,
+          "pct": 0.7
+        },
+        {
+          "value": "Does not have two or more diverse riser …",
+          "count": 1,
+          "pct": 0.3
+        },
+        {
+          "value": "none",
+          "count": 1,
+          "pct": 0.3
+        }
+      ]
+    },
+    {
+      "name": "riser_space_for_current_providers",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "No",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 270,
+          "pct": 83.6
+        },
+        {
+          "value": "No",
+          "count": 53,
+          "pct": 16.4
+        }
+      ]
+    },
+    {
+      "name": "riser_space_for_additional_providers",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "No",
+        "Yes",
+        "Yes",
+        "Yes",
+        "No"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 239,
+          "pct": 74.0
+        },
+        {
+          "value": "No",
+          "count": 82,
+          "pct": 25.4
+        },
+        {
+          "value": "Current Providers",
+          "count": 2,
+          "pct": 0.6
+        }
+      ]
+    },
+    {
+      "name": "diverse_riser_locations",
+      "dtype": "object",
+      "missing": 24,
+      "missing_pct": 7.43,
+      "nunique": 4,
+      "sample_values": [
+        "Does not have two or more diverse riser …",
+        "Does not have two or more diverse riser …",
+        "Does not have two or more diverse riser …",
+        "Yes",
+        "Does not have two or more diverse riser …"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 153,
+          "pct": 51.2
+        },
+        {
+          "value": "Does not have two or more diverse riser …",
+          "count": 142,
+          "pct": 47.5
+        },
+        {
+          "value": "No",
+          "count": 3,
+          "pct": 1.0
+        },
+        {
+          "value": "None available",
+          "count": 1,
+          "pct": 0.3
+        }
+      ]
+    },
+    {
+      "name": "signed_poes",
+      "dtype": "object",
+      "missing": 25,
+      "missing_pct": 7.74,
+      "nunique": 4,
+      "sample_values": [
+        "Yes - for installed connections",
+        "Yes - for installed connections",
+        "Yes - for installed connections",
+        "Yes - for installed connections",
+        "None available"
+      ],
+      "top_values": [
+        {
+          "value": "Yes - for installed connections",
+          "count": 184,
+          "pct": 61.7
+        },
+        {
+          "value": "None available",
+          "count": 108,
+          "pct": 36.2
+        },
+        {
+          "value": "Yes",
+          "count": 5,
+          "pct": 1.7
+        },
+        {
+          "value": "Yes - signed but connection not installe…",
+          "count": 1,
+          "pct": 0.3
+        }
+      ]
+    },
+    {
+      "name": "agreements",
+      "dtype": "object",
+      "missing": 27,
+      "missing_pct": 8.36,
+      "nunique": 3,
+      "sample_values": [
+        "Yes",
+        "No",
+        "Yes",
+        "Yes",
+        "No"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 179,
+          "pct": 60.5
+        },
+        {
+          "value": "No",
+          "count": 115,
+          "pct": 38.9
+        },
+        {
+          "value": "Does not have two or more diverse riser …",
+          "count": 2,
+          "pct": 0.7
+        }
+      ]
+    },
+    {
+      "name": "new_service_providers",
+      "dtype": "object",
+      "missing": 30,
+      "missing_pct": 9.29,
+      "nunique": 3,
+      "sample_values": [
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 277,
+          "pct": 94.5
+        },
+        {
+          "value": "No capability available",
+          "count": 14,
+          "pct": 4.8
+        },
+        {
+          "value": "None available",
+          "count": 2,
+          "pct": 0.7
+        }
+      ]
+    },
+    {
+      "name": "isps_2",
+      "dtype": "object",
+      "missing": 112,
+      "missing_pct": 34.67,
+      "nunique": 160,
+      "sample_values": [
+        "Verizon,Time Warner Cable,OCG",
+        "Verizon,Time Warner Cable,Lightower,Coge…",
+        "Other,Verizon FIOS,Verizon,Time Warner C…",
+        "Century Link",
+        "Zayo,Verizon,TW Telecom,Lightpath,Cogent…"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "bztk-4g6r",
+  "name": "Shapefiles of BOA and Community Brownfield Planning Areas - OER Existing Conditions Studies",
+  "strategy": "baseline",
+  "description": "This dataset contains polygon shapefiles defining Brownfield Opportunity Area (BOA) and Community Brownfield Planning Areas, as identified in Existing Conditions Studies from the New York State Office of Environmental Remediation (OER). Each record represents a planning area and includes a unique identifier, the area's geographic size, the area name, associated community organizations, links to relevant EPIC and Existing Conditions Study resources, and contact information. With only a handful of records, it serves as a reference layer for locating and describing designated brownfield planning zones. It could be used for environmental planning and analysis, mapping brownfield areas alongside other geographic data, identifying community organizations active in each area, or connecting planning areas to supporting studies and contacts.",
+  "prompt": "Title: Shapefiles of BOA and Community Brownfield Planning Areas - OER Existing Conditions Studies\nCategory: Environment\nRows (sampled): 9\nColumns: 7\nColumn names: cartodb_id, shape_area, area_name, comm_orgs, epic_link, ecs_link, contacts\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 138,
+    "completion_tokens": 142,
+    "total_tokens": 280
+  },
+  "elapsed_seconds": 1.37
+}

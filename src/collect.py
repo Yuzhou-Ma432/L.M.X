@@ -88,44 +88,47 @@ def _richness_bucket(words: int) -> str:
 
 
 def select_stratified(records: list[dict], n: int, seed: int = 42) -> list[dict]:
-    """Deterministic stratified sample: round-robin across richness buckets,
-    with category diversity inside each bucket."""
-    buckets: dict[str, list[dict]] = defaultdict(list)
+    """Deterministic stratified sample: round-robin across categories, and
+    within each category prefer the globally least-represented richness bucket.
+    This diversifies both category and description richness."""
+    rng = random.Random(seed)
+    by_cat: dict[str, list[dict]] = defaultdict(list)
     for r in records:
-        buckets[_richness_bucket(r["desc_words"])].append(r)
+        by_cat[r["category"]].append(r)
 
-    # Sort each bucket by category so adjacent round-robin picks differ.
-    for b in buckets.values():
-        b.sort(key=lambda r: (r["category"], -r["download_count"]))
+    # Per category, bucket by richness and shuffle within each bucket.
+    cat_buckets: dict[str, dict[str, list[dict]]] = {}
+    for cat, rs in by_cat.items():
+        buckets: dict[str, list[dict]] = defaultdict(list)
+        for r in rs:
+            buckets[_richness_bucket(r["desc_words"])].append(r)
+        for b in buckets.values():
+            rng.shuffle(b)
+        cat_buckets[cat] = buckets
 
     order = ["none", "short", "medium", "long"]
-    idx = {k: 0 for k in order}
+    # Larger categories first so they contribute proportionally more.
+    cats = sorted(by_cat, key=lambda c: -len(by_cat[c]))
+    ptr = {c: {k: 0 for k in order} for c in cats}
+    richness_count: dict[str, int] = defaultdict(int)
+
     selected: list[dict] = []
     while len(selected) < n:
         progressed = False
-        for k in order:
-            lst = buckets.get(k, [])
-            if idx[k] < len(lst):
-                selected.append(lst[idx[k]])
-                idx[k] += 1
-                progressed = True
-                if len(selected) >= n:
+        for cat in cats:
+            if len(selected) >= n:
+                break
+            # Prefer the globally least-represented richness bucket.
+            for k in sorted(order, key=lambda k: (richness_count[k], k)):
+                bucket = cat_buckets[cat].get(k, [])
+                if ptr[cat][k] < len(bucket):
+                    selected.append(bucket[ptr[cat][k]])
+                    ptr[cat][k] += 1
+                    richness_count[k] += 1
+                    progressed = True
                     break
         if not progressed:
             break
-
-    # Top up from any remaining records if we ran short of a bucket.
-    if len(selected) < n:
-        rest = [r for k in order for r in buckets.get(k, [])[idx[k]:]]
-        rng = random.Random(seed)
-        rng.shuffle(rest)
-        seen = {r["id"] for r in selected}
-        for r in rest:
-            if r["id"] in seen:
-                continue
-            selected.append(r)
-            if len(selected) >= n:
-                break
     return selected
 
 

@@ -1,0 +1,221 @@
+{
+  "id": "4bae-3jps",
+  "name": "MTNYC_PlantedBlocks_20150930",
+  "description": "This data tracks the blocks that have been planted through NYC Parks’ street tree block planting program, a major component of the MillionTreesNYC initiative.  When a block planting is completed for specific street segment, all available and appropriate locations for street tree installation have been planted.  This dataset is based on the Citywide Street Centerline data.",
+  "category": "Environment",
+  "permalink": "https://data.cityofnewyork.us/d/4bae-3jps",
+  "sampled_rows": 5000,
+  "n_rows": 5000,
+  "n_cols": 8,
+  "columns": [
+    {
+      "name": "physicalid",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5000,
+      "sample_values": [
+        "48",
+        "114",
+        "121",
+        "136",
+        "159"
+      ],
+      "stats": {
+        "min": 48.0,
+        "max": 35404.0,
+        "mean": 18419.1884,
+        "median": 18308.5,
+        "p25": 10392.75,
+        "p75": 26430.25
+      }
+    },
+    {
+      "name": "objectid",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5000,
+      "sample_values": [
+        "24",
+        "86",
+        "93",
+        "108",
+        "131"
+      ],
+      "stats": {
+        "min": 24.0,
+        "max": 34368.0,
+        "mean": 17792.6004,
+        "median": 17695.5,
+        "p25": 10025.75,
+        "p75": 25534.25
+      }
+    },
+    {
+      "name": "stname_lab",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 694,
+      "sample_values": [
+        "BROAD ST",
+        "WATER ST",
+        "WATER ST",
+        "RECTOR ST",
+        "CHURCH ST"
+      ]
+    },
+    {
+      "name": "boroughcod",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "top_values": [
+        {
+          "value": "4",
+          "count": 3386,
+          "pct": 67.7
+        },
+        {
+          "value": "1",
+          "count": 1264,
+          "pct": 25.3
+        },
+        {
+          "value": "5",
+          "count": 279,
+          "pct": 5.6
+        },
+        {
+          "value": "2",
+          "count": 71,
+          "pct": 1.4
+        }
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 5.0,
+        "mean": 3.269,
+        "median": 4.0,
+        "p25": 1.0,
+        "p75": 4.0
+      }
+    },
+    {
+      "name": "segmentlen",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5000,
+      "sample_values": [
+        "439.18633052",
+        "152.06586871",
+        "275.84645111",
+        "242.51978384",
+        "219.08015774"
+      ],
+      "stats": {
+        "min": 10.5325,
+        "max": 2030.5131,
+        "mean": 344.6584,
+        "median": 263.5056,
+        "p25": 246.3213,
+        "p75": 440.1688
+      }
+    },
+    {
+      "name": "b5_sc",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 692,
+      "sample_values": [
+        "113590",
+        "133490",
+        "133490",
+        "129440",
+        "115350"
+      ],
+      "stats": {
+        "min": 110010.0,
+        "max": 557720.0,
+        "mean": 355970.96,
+        "median": 419340.0,
+        "p25": 137630.0,
+        "p75": 445890.0
+      }
+    },
+    {
+      "name": "bphys_id",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5000,
+      "sample_values": [
+        "148",
+        "1114",
+        "1121",
+        "1136",
+        "1159"
+      ],
+      "stats": {
+        "min": 148.0,
+        "max": 535230.0,
+        "mean": 291085.0084,
+        "median": 414416.5,
+        "p25": 119166.0,
+        "p75": 425661.25
+      }
+    },
+    {
+      "name": "plnt_seas",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 17,
+      "sample_values": [
+        "Fall11",
+        "Fall13",
+        "Fall13",
+        "Fall11",
+        "Fall11"
+      ],
+      "top_values": [
+        {
+          "value": "Spring12",
+          "count": 721,
+          "pct": 14.4
+        },
+        {
+          "value": "Fall08",
+          "count": 533,
+          "pct": 10.7
+        },
+        {
+          "value": "Spring14",
+          "count": 483,
+          "pct": 9.7
+        },
+        {
+          "value": "Spring09",
+          "count": 450,
+          "pct": 9.0
+        },
+        {
+          "value": "Spring13",
+          "count": 384,
+          "pct": 7.7
+        }
+      ]
+    }
+  ]
+}

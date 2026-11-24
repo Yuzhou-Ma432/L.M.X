@@ -1,0 +1,6104 @@
+{
+  "id": "77q4-nkfh",
+  "name": "Energy and Water Data Disclosure for Local Law 84 2016 (Data for Calendar Year 2015)",
+  "description": "Data and metrics on water and energy consumption in privately owned buildings over 25,000 ft2 and in City-owned buildings over 10,000 ft2.",
+  "category": "Environment",
+  "permalink": "https://data.cityofnewyork.us/d/77q4-nkfh",
+  "sampled_rows": 5000,
+  "n_rows": 5000,
+  "n_cols": 256,
+  "columns": [
+    {
+      "name": "property_id",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4870,
+      "sample_values": [
+        "2659942",
+        "3287077",
+        "2685891",
+        "2664118",
+        "2674133"
+      ],
+      "stats": {
+        "min": 7365.0,
+        "max": 4943431.0,
+        "mean": 3334838.5198,
+        "median": 2960539.0,
+        "p25": 2721846.25,
+        "p75": 4045060.25
+      }
+    },
+    {
+      "name": "property_name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4862,
+      "sample_values": [
+        "Commerce-Halsey, LLC",
+        "3075 Richmond Terrace",
+        "Omni Berkshire Place Hotel",
+        "Sovereign - 425 East 58th Street",
+        "Lightstone - 98th St Beach Channel Drive"
+      ]
+    },
+    {
+      "name": "parent_property_id",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 52,
+      "sample_values": [
+        "Not Applicable: Standalone Property",
+        "Not Applicable: Standalone Property",
+        "Not Applicable: Standalone Property",
+        "Not Applicable: Standalone Property",
+        "Not Applicable: Standalone Property"
+      ]
+    },
+    {
+      "name": "parent_property_name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 52,
+      "sample_values": [
+        "Not Applicable: Standalone Property",
+        "Not Applicable: Standalone Property",
+        "Not Applicable: Standalone Property",
+        "Not Applicable: Standalone Property",
+        "Not Applicable: Standalone Property"
+      ]
+    },
+    {
+      "name": "year_ending",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "2015-12-31T00:00:00.000",
+        "2015-12-31T00:00:00.000",
+        "2015-12-31T00:00:00.000",
+        "2015-12-31T00:00:00.000",
+        "2015-12-31T00:00:00.000"
+      ],
+      "top_values": [
+        {
+          "value": "2015-12-31T00:00:00.000",
+          "count": 5000,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "nyc_borough_block_and_lot",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4596,
+      "sample_values": [
+        "2-03852-0001",
+        "5012080004",
+        "1-01288-0011",
+        "1-01370-0015",
+        "4-16155-0021"
+      ]
+    },
+    {
+      "name": "nyc_building_identification",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4659,
+      "sample_values": [
+        "2027286",
+        "5157635",
+        "1081151;1081152",
+        "1040637",
+        "4445407"
+      ]
+    },
+    {
+      "name": "address_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4833,
+      "sample_values": [
+        "2500 Halsey Street",
+        "3035 Richmond Terrace",
+        "21 EAST 52 STREET",
+        "425 East 58th Street",
+        "319 Beach 98th Street"
+      ]
+    },
+    {
+      "name": "address_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 70,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "320 Beach 100th Street"
+      ]
+    },
+    {
+      "name": "city",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 111,
+      "sample_values": [
+        "Bronx",
+        "Staten Island",
+        "NEW YORK",
+        "New York",
+        "Queens"
+      ]
+    },
+    {
+      "name": "county",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 32,
+      "sample_values": [
+        "Bronx",
+        "Richmond",
+        "New York",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "postcode",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 240,
+      "sample_values": [
+        "10461",
+        "10303",
+        "10022",
+        "10022",
+        "11694"
+      ]
+    },
+    {
+      "name": "primary_property_type_self",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 50,
+      "sample_values": [
+        "Office",
+        "Non-Refrigerated Warehouse",
+        "Hotel",
+        "Multifamily Housing",
+        "Multifamily Housing"
+      ]
+    },
+    {
+      "name": "primary_property_type_epa",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 44,
+      "sample_values": [
+        "Office",
+        "Non-Refrigerated Warehouse",
+        "Hotel",
+        "Multifamily Housing",
+        "Multifamily Housing"
+      ]
+    },
+    {
+      "name": "national_median_reference",
+      "dtype": "object",
+      "missing": 43,
+      "missing_pct": 0.86,
+      "nunique": 29,
+      "sample_values": [
+        "CBECS - Office & Bank/Financial",
+        "CBECS - Unrefrigerated Warehouse & Distr…",
+        "CBECS - Hotel & Motel/Inn",
+        "Fannie Mae Industry Survey - Multifamily",
+        "Fannie Mae Industry Survey - Multifamily"
+      ],
+      "top_values": [
+        {
+          "value": "Fannie Mae Industry Survey - Multifamily",
+          "count": 3468,
+          "pct": 70.0
+        },
+        {
+          "value": "CBECS - Office & Bank/Financial",
+          "count": 636,
+          "pct": 12.8
+        },
+        {
+          "value": "CBECS - Unrefrigerated Warehouse & Distr…",
+          "count": 171,
+          "pct": 3.4
+        },
+        {
+          "value": "CBECS - Hotel & Motel/Inn",
+          "count": 148,
+          "pct": 3.0
+        },
+        {
+          "value": "CBECS - Other",
+          "count": 102,
+          "pct": 2.1
+        }
+      ]
+    },
+    {
+      "name": "list_of_all_property_use",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 450,
+      "sample_values": [
+        "Office",
+        "Non-Refrigerated Warehouse, Office",
+        "Hotel, Other, Restaurant, Social/Meeting…",
+        "Medical Office, Multifamily Housing, Par…",
+        "Multifamily Housing, Office, Parking"
+      ]
+    },
+    {
+      "name": "largest_property_use_type",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 43,
+      "sample_values": [
+        "Office",
+        "Non-Refrigerated Warehouse",
+        "Hotel",
+        "Multifamily Housing",
+        "Multifamily Housing"
+      ]
+    },
+    {
+      "name": "largest_property_use_type_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3927,
+      "sample_values": [
+        "153816",
+        "61000",
+        "239898",
+        "950000",
+        "423246"
+      ]
+    },
+    {
+      "name": "_2nd_largest_property_use",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 50,
+      "sample_values": [
+        "Not Available",
+        "Office",
+        "Social/Meeting Hall",
+        "Parking",
+        "Parking"
+      ]
+    },
+    {
+      "name": "_2nd_largest_property_use_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 914,
+      "sample_values": [
+        "Not Available",
+        "2000",
+        "5640",
+        "35000",
+        "49725"
+      ]
+    },
+    {
+      "name": "_3rd_largest_property_use",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 38,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Other",
+        "Medical Office",
+        "Office"
+      ]
+    },
+    {
+      "name": "_3rd_largest_property_use_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 384,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "4116",
+        "15000",
+        "1032"
+      ]
+    },
+    {
+      "name": "year_built",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 142,
+      "sample_values": [
+        "1981",
+        "1912",
+        "1925",
+        "1972",
+        "1968"
+      ],
+      "stats": {
+        "min": 1600.0,
+        "max": 2015.0,
+        "mean": 1949.7534,
+        "median": 1949.0,
+        "p25": 1927.0,
+        "p75": 1966.0
+      }
+    },
+    {
+      "name": "number_of_buildings",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 25,
+      "sample_values": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "top_values": [
+        {
+          "value": "1",
+          "count": 4783,
+          "pct": 95.7
+        },
+        {
+          "value": "2",
+          "count": 75,
+          "pct": 1.5
+        },
+        {
+          "value": "0",
+          "count": 41,
+          "pct": 0.8
+        },
+        {
+          "value": "3",
+          "count": 26,
+          "pct": 0.5
+        },
+        {
+          "value": "4",
+          "count": 26,
+          "pct": 0.5
+        }
+      ]
+    },
+    {
+      "name": "occupancy",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 17,
+      "sample_values": [
+        "100",
+        "100",
+        "100",
+        "100",
+        "100"
+      ],
+      "top_values": [
+        {
+          "value": "100",
+          "count": 4723,
+          "pct": 94.5
+        },
+        {
+          "value": "95",
+          "count": 103,
+          "pct": 2.1
+        },
+        {
+          "value": "90",
+          "count": 76,
+          "pct": 1.5
+        },
+        {
+          "value": "80",
+          "count": 21,
+          "pct": 0.4
+        },
+        {
+          "value": "70",
+          "count": 18,
+          "pct": 0.4
+        }
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 98.958,
+        "median": 100.0,
+        "p25": 100.0,
+        "p75": 100.0
+      }
+    },
+    {
+      "name": "metered_areas_energy",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 7,
+      "sample_values": [
+        "Tenant areas only",
+        "Whole Building",
+        "Whole Building",
+        "Whole Building",
+        "Whole Building"
+      ],
+      "top_values": [
+        {
+          "value": "Whole Building",
+          "count": 4923,
+          "pct": 98.5
+        },
+        {
+          "value": "Common areas only",
+          "count": 30,
+          "pct": 0.6
+        },
+        {
+          "value": "Not Available",
+          "count": 28,
+          "pct": 0.6
+        },
+        {
+          "value": "Another configuration",
+          "count": 10,
+          "pct": 0.2
+        },
+        {
+          "value": "Tenant areas only",
+          "count": 7,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "metered_areas_water",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 6,
+      "sample_values": [
+        "Not Available",
+        "Whole Building",
+        "Not Available",
+        "Whole Building",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Whole Building",
+          "count": 3024,
+          "pct": 60.5
+        },
+        {
+          "value": "Not Available",
+          "count": 1963,
+          "pct": 39.3
+        },
+        {
+          "value": "Common areas only",
+          "count": 7,
+          "pct": 0.1
+        },
+        {
+          "value": "Combination of common and tenant areas",
+          "count": 4,
+          "pct": 0.1
+        },
+        {
+          "value": "Another configuration",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "energy_star_score",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 101,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "17",
+        "9",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "national_median_energy_star",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "50",
+        "50",
+        "50",
+        "50",
+        "50"
+      ],
+      "top_values": [
+        {
+          "value": "50",
+          "count": 5000,
+          "pct": 100.0
+        }
+      ],
+      "stats": {
+        "min": 50.0,
+        "max": 50.0,
+        "mean": 50.0,
+        "median": 50.0,
+        "p25": 50.0,
+        "p75": 50.0
+      }
+    },
+    {
+      "name": "energy_star_certification",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 52,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "energy_star_certification_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 86,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "energy_star_certification_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "No",
+        "No",
+        "No",
+        "No",
+        "No"
+      ],
+      "top_values": [
+        {
+          "value": "No",
+          "count": 3937,
+          "pct": 78.7
+        },
+        {
+          "value": "Yes",
+          "count": 1063,
+          "pct": 21.3
+        }
+      ]
+    },
+    {
+      "name": "site_eui_kbtu_ft",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1583,
+      "sample_values": [
+        "Not Available",
+        "7.7",
+        "108",
+        "125.4",
+        "96.5"
+      ]
+    },
+    {
+      "name": "weather_normalized_site_eui",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1535,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "107.3",
+        "120.4",
+        "98.3"
+      ]
+    },
+    {
+      "name": "national_median_site_eui",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1240,
+      "sample_values": [
+        "67.3",
+        "26.9",
+        "78",
+        "90.8",
+        "81.6"
+      ]
+    },
+    {
+      "name": "difference_from_national",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1558,
+      "sample_values": [
+        "Not Available",
+        "-71.3",
+        "38.5",
+        "38.2",
+        "18.3"
+      ]
+    },
+    {
+      "name": "site_energy_use_kbtu",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4791,
+      "sample_values": [
+        "Not Available",
+        "485929.5",
+        "27190398.2",
+        "121036671.7",
+        "40950400.1"
+      ]
+    },
+    {
+      "name": "weather_normalized_site_energy",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4428,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "27013395.8",
+        "116169047.2",
+        "41721535.6"
+      ]
+    },
+    {
+      "name": "national_median_site_energy",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4793,
+      "sample_values": [
+        "10357149.1",
+        "1694155.9",
+        "19635698.4",
+        "87610486.1",
+        "34609974.9"
+      ]
+    },
+    {
+      "name": "weather_normalized_site",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 386,
+      "sample_values": [
+        "Not Available",
+        "1.2",
+        "19.3",
+        "8.7",
+        "6.8"
+      ]
+    },
+    {
+      "name": "weather_normalized_site_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 61,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "0.4",
+        "0.9",
+        "0.8"
+      ]
+    },
+    {
+      "name": "source_eui_kbtu_ft",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2183,
+      "sample_values": [
+        "Not Available",
+        "17.2",
+        "252.3",
+        "194",
+        "151.4"
+      ]
+    },
+    {
+      "name": "weather_normalized_source",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2058,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "250.4",
+        "188",
+        "151.5"
+      ]
+    },
+    {
+      "name": "national_median_source_eui",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1426,
+      "sample_values": [
+        "148.1",
+        "60",
+        "182.2",
+        "140.4",
+        "127.9"
+      ]
+    },
+    {
+      "name": "difference_from_national_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1559,
+      "sample_values": [
+        "Not Available",
+        "-71.3",
+        "38.5",
+        "38.2",
+        "18.3"
+      ]
+    },
+    {
+      "name": "source_energy_use_kbtu",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4791,
+      "sample_values": [
+        "Not Available",
+        "1083546.4",
+        "63531002.4",
+        "187204876.1",
+        "64221491.4"
+      ]
+    },
+    {
+      "name": "weather_normalized_source_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4428,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "63037892.7",
+        "181446814.4",
+        "64263636"
+      ]
+    },
+    {
+      "name": "national_median_source_energy",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4675,
+      "sample_values": [
+        "22772503.4",
+        "3777701.4",
+        "45879268.5",
+        "135505292.4",
+        "54277964.4"
+      ]
+    },
+    {
+      "name": "fuel_oil_1_use_kbtu",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 5000,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "fuel_oil_2_use_kbtu",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 770,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "7137842.8",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "fuel_oil_4_use_kbtu",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 521,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "fuel_oil_5_6_use_kbtu",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 248,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "diesel_2_use_kbtu",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 11,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4988,
+          "pct": 99.8
+        },
+        {
+          "value": "5016576",
+          "count": 2,
+          "pct": 0.0
+        },
+        {
+          "value": "0",
+          "count": 2,
+          "pct": 0.0
+        },
+        {
+          "value": "7114604.5",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "50163",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "kerosene_use_kbtu",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 5000,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "propane_use_kbtu",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 5000,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "district_steam_use_kbtu",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 363,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "district_hot_water_use_kbtu",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 5000,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "district_chilled_water_use",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4997,
+          "pct": 99.9
+        },
+        {
+          "value": "74314139.2",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "93831.9",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "8052523.7",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "natural_gas_use_kbtu",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4170,
+      "sample_values": [
+        "Not Available",
+        "211613.5",
+        "10453037.4",
+        "84998405.7",
+        "30795581.3"
+      ]
+    },
+    {
+      "name": "weather_normalized_site_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4058,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "104230.5",
+        "835875.4",
+        "319339.6"
+      ]
+    },
+    {
+      "name": "electricity_use_grid_purchase",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4724,
+      "sample_values": [
+        "Not Available",
+        "274316",
+        "16737360.9",
+        "28900423.2",
+        "10154818.8"
+      ]
+    },
+    {
+      "name": "weather_normalized_site_3",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4644,
+      "sample_values": [
+        "Not Available",
+        "77796",
+        "4862352.3",
+        "8362169.4",
+        "2868572.7"
+      ]
+    },
+    {
+      "name": "electricity_use_grid_purchase_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4722,
+      "sample_values": [
+        "Not Available",
+        "274316",
+        "16737361.3",
+        "28900424.8",
+        "10154818.3"
+      ]
+    },
+    {
+      "name": "electricity_use_generated",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 6,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4995,
+          "pct": 99.9
+        },
+        {
+          "value": "1215266",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "50361.1",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "166012.2",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "488141.2",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "electricity_use_generated_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 6,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4995,
+          "pct": 99.9
+        },
+        {
+          "value": "356174.1",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "14760",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "59738.1",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "143066",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "electricity_use_generated_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4995,
+          "pct": 99.9
+        },
+        {
+          "value": "0",
+          "count": 3,
+          "pct": 0.1
+        },
+        {
+          "value": "11082.7",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "202790.3",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "green_power_onsite_kwh",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 6,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4995,
+          "pct": 99.9
+        },
+        {
+          "value": "0",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "14760",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "145.2",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "143066",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "green_power_offsite_kwh",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "Not Available",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "top_values": [
+        {
+          "value": "0",
+          "count": 4918,
+          "pct": 98.4
+        },
+        {
+          "value": "Not Available",
+          "count": 80,
+          "pct": 1.6
+        },
+        {
+          "value": "2180903",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "5051200",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "avoided_emissions_onsite",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 6,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4995,
+          "pct": 99.9
+        },
+        {
+          "value": "0",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "7.6",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "0.1",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "73.5",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "avoided_emissions_offsite",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "Not Available",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "top_values": [
+        {
+          "value": "0",
+          "count": 4921,
+          "pct": 98.4
+        },
+        {
+          "value": "Not Available",
+          "count": 77,
+          "pct": 1.5
+        },
+        {
+          "value": "803.7",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "1861.5",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "total_ghg_emissions_metric",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3963,
+      "sample_values": [
+        "Not Available",
+        "34",
+        "1943.3",
+        "7441.2",
+        "2477.9"
+      ]
+    },
+    {
+      "name": "direct_ghg_emissions_metric",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3352,
+      "sample_values": [
+        "Not Available",
+        "11.2",
+        "555.2",
+        "5044.4",
+        "1635.7"
+      ]
+    },
+    {
+      "name": "indirect_ghg_emissions_metric",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3092,
+      "sample_values": [
+        "Not Available",
+        "22.8",
+        "1388.1",
+        "2396.8",
+        "842.2"
+      ]
+    },
+    {
+      "name": "national_median_total_ghg",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3948,
+      "sample_values": [
+        "722.9",
+        "118.5",
+        "1403.4",
+        "5386.2",
+        "2094.2"
+      ]
+    },
+    {
+      "name": "estimated_data_flag",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "No",
+        "No",
+        "No",
+        "No",
+        "No"
+      ],
+      "top_values": [
+        {
+          "value": "No",
+          "count": 4808,
+          "pct": 96.2
+        },
+        {
+          "value": "Yes",
+          "count": 132,
+          "pct": 2.6
+        },
+        {
+          "value": "Not Available",
+          "count": 60,
+          "pct": 1.2
+        }
+      ]
+    },
+    {
+      "name": "estimated_data_flag_natural",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "No",
+        "No",
+        "No",
+        "No",
+        "No"
+      ],
+      "top_values": [
+        {
+          "value": "No",
+          "count": 4338,
+          "pct": 86.8
+        },
+        {
+          "value": "Not Available",
+          "count": 567,
+          "pct": 11.3
+        },
+        {
+          "value": "Yes",
+          "count": 95,
+          "pct": 1.9
+        }
+      ]
+    },
+    {
+      "name": "estimated_data_flag_fuel",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "No",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 3901,
+          "pct": 78.0
+        },
+        {
+          "value": "No",
+          "count": 1080,
+          "pct": 21.6
+        },
+        {
+          "value": "Yes",
+          "count": 19,
+          "pct": 0.4
+        }
+      ]
+    },
+    {
+      "name": "estimated_data_flag_fuel_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4324,
+          "pct": 86.5
+        },
+        {
+          "value": "No",
+          "count": 670,
+          "pct": 13.4
+        },
+        {
+          "value": "Yes",
+          "count": 6,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "estimated_data_flag_fuel_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4304,
+          "pct": 86.1
+        },
+        {
+          "value": "No",
+          "count": 692,
+          "pct": 13.8
+        },
+        {
+          "value": "Yes",
+          "count": 4,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "estimated_data_flag_district",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4614,
+          "pct": 92.3
+        },
+        {
+          "value": "No",
+          "count": 379,
+          "pct": 7.6
+        },
+        {
+          "value": "Yes",
+          "count": 7,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "egrid_output_emissions_rate",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "82.9",
+        "82.9",
+        "82.9",
+        "82.9",
+        "82.9"
+      ],
+      "top_values": [
+        {
+          "value": "82.9",
+          "count": 4989,
+          "pct": 99.8
+        },
+        {
+          "value": "Not Available",
+          "count": 5,
+          "pct": 0.1
+        },
+        {
+          "value": "178.3",
+          "count": 5,
+          "pct": 0.1
+        },
+        {
+          "value": "72.9",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "net_emissions_metric_tons",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3965,
+      "sample_values": [
+        "Not Available",
+        "34",
+        "1943.3",
+        "7441.2",
+        "2477.9"
+      ]
+    },
+    {
+      "name": "percent_of_electricity_that",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 7,
+      "sample_values": [
+        "Not Available",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "top_values": [
+        {
+          "value": "0",
+          "count": 4912,
+          "pct": 98.2
+        },
+        {
+          "value": "Not Available",
+          "count": 82,
+          "pct": 1.6
+        },
+        {
+          "value": "100",
+          "count": 2,
+          "pct": 0.0
+        },
+        {
+          "value": "93.57344",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "0.01537513",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "percent_of_recs_retained",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4995,
+          "pct": 99.9
+        },
+        {
+          "value": "100",
+          "count": 3,
+          "pct": 0.1
+        },
+        {
+          "value": "0",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "0.2983458",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "percent_of_total_electricity",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 6,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4995,
+          "pct": 99.9
+        },
+        {
+          "value": "45.38661",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "100",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "5.15346",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "24.37831",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "difference_from_national_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 5000,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "costar_property_id",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 5000,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "leed_us_project_id",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 7,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4992,
+          "pct": 99.8
+        },
+        {
+          "value": "1000001164",
+          "count": 2,
+          "pct": 0.0
+        },
+        {
+          "value": "745440494141505",
+          "count": 2,
+          "pct": 0.0
+        },
+        {
+          "value": "1000022898",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "1000003768",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "date_property_last_modified",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2578,
+      "sample_values": [
+        "09/03/2014 11:20 PM EDT",
+        "09/03/2014 11:24 PM EDT",
+        "05/18/2015 11:32 AM EDT",
+        "09/03/2014 11:20 PM EDT",
+        "09/03/2014 11:20 PM EDT"
+      ]
+    },
+    {
+      "name": "adult_education_gross_floor",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4999,
+          "pct": 100.0
+        },
+        {
+          "value": "74105",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "ambulatory_surgical_center",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4999,
+          "pct": 100.0
+        },
+        {
+          "value": "238000",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "automobile_dealership_gross",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 7,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4994,
+          "pct": 99.9
+        },
+        {
+          "value": "115500",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "65625",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "91256",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "137456",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "bank_branch_gross_floor_area",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 36,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "bank_branch_number_of",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 27,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4963,
+          "pct": 99.3
+        },
+        {
+          "value": "15",
+          "count": 5,
+          "pct": 0.1
+        },
+        {
+          "value": "14",
+          "count": 3,
+          "pct": 0.1
+        },
+        {
+          "value": "13",
+          "count": 2,
+          "pct": 0.0
+        },
+        {
+          "value": "10",
+          "count": 2,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "bar_nightclub_gross_floor",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4998,
+          "pct": 100.0
+        },
+        {
+          "value": "20000",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "4705",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "college_university_gross",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 20,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4980,
+          "pct": 99.6
+        },
+        {
+          "value": "55000",
+          "count": 2,
+          "pct": 0.0
+        },
+        {
+          "value": "480694",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "77500",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "379449.8",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "college_university_number",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 11,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4989,
+          "pct": 99.8
+        },
+        {
+          "value": "120",
+          "count": 2,
+          "pct": 0.0
+        },
+        {
+          "value": "174",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "26",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "400",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "convenience_store_with_gas",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 5000,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "convenience_store_without",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 9,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4992,
+          "pct": 99.8
+        },
+        {
+          "value": "5190",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "10000",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "1811",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "3029",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "convention_center_gross_floor",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 5000,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "courthouse_gross_floor_area",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 5000,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "data_center_gross_floor_area",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 28,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4969,
+          "pct": 99.4
+        },
+        {
+          "value": "0",
+          "count": 2,
+          "pct": 0.0
+        },
+        {
+          "value": "3901",
+          "count": 2,
+          "pct": 0.0
+        },
+        {
+          "value": "23196",
+          "count": 2,
+          "pct": 0.0
+        },
+        {
+          "value": "5000",
+          "count": 2,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "data_center_pdu_input_meter",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4969,
+          "pct": 99.4
+        },
+        {
+          "value": "0",
+          "count": 31,
+          "pct": 0.6
+        }
+      ]
+    },
+    {
+      "name": "data_center_pdu_output_meter",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4969,
+          "pct": 99.4
+        },
+        {
+          "value": "0",
+          "count": 31,
+          "pct": 0.6
+        }
+      ]
+    },
+    {
+      "name": "data_center_it_equipment",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4969,
+          "pct": 99.4
+        },
+        {
+          "value": "0",
+          "count": 31,
+          "pct": 0.6
+        }
+      ]
+    },
+    {
+      "name": "data_center_it_site_energy",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 16,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4983,
+          "pct": 99.7
+        },
+        {
+          "value": "3096005.1",
+          "count": 2,
+          "pct": 0.0
+        },
+        {
+          "value": "0",
+          "count": 2,
+          "pct": 0.0
+        },
+        {
+          "value": "803856",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "15168466.1",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "data_center_it_source_energy",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 16,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4983,
+          "pct": 99.7
+        },
+        {
+          "value": "33169607.6",
+          "count": 2,
+          "pct": 0.0
+        },
+        {
+          "value": "0",
+          "count": 2,
+          "pct": 0.0
+        },
+        {
+          "value": "8612256.2",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "162510092.1",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "data_center_pue",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 5000,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "data_center_national_median",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 5000,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "data_center_ups_output_meter",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 17,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4976,
+          "pct": 99.5
+        },
+        {
+          "value": "0",
+          "count": 8,
+          "pct": 0.2
+        },
+        {
+          "value": "3096005.1",
+          "count": 2,
+          "pct": 0.0
+        },
+        {
+          "value": "803856",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "15168466.1",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "data_center_cooling_equipment",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 6,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4988,
+          "pct": 99.8
+        },
+        {
+          "value": "N+1",
+          "count": 5,
+          "pct": 0.1
+        },
+        {
+          "value": "N",
+          "count": 4,
+          "pct": 0.1
+        },
+        {
+          "value": "None of the Above, 2N",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "2N",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "data_center_it_energy",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4969,
+          "pct": 99.4
+        },
+        {
+          "value": "Uninterruptible Power Supply (UPS) suppo…",
+          "count": 30,
+          "pct": 0.6
+        },
+        {
+          "value": "Facility Has No UPS",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "data_center_ups_system",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 8,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4988,
+          "pct": 99.8
+        },
+        {
+          "value": "N",
+          "count": 4,
+          "pct": 0.1
+        },
+        {
+          "value": "N+1",
+          "count": 3,
+          "pct": 0.1
+        },
+        {
+          "value": "Greater than 2N",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "None of the Above, 2N",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "distribution_center_gross",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 47,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "enclosed_mall_gross_floor",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 6,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4995,
+          "pct": 99.9
+        },
+        {
+          "value": "121490",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "725679",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "491085",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "2662400",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "energy_power_station_gross",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 5000,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "fast_food_restaurant_gross",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 29,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4968,
+          "pct": 99.4
+        },
+        {
+          "value": "1625",
+          "count": 2,
+          "pct": 0.0
+        },
+        {
+          "value": "4125",
+          "count": 2,
+          "pct": 0.0
+        },
+        {
+          "value": "2630",
+          "count": 2,
+          "pct": 0.0
+        },
+        {
+          "value": "1000",
+          "count": 2,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "financial_office_gross_floor",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 56,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "financial_office_number_of",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 38,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "financial_office_number_of_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 38,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "financial_office_weekly",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 29,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4939,
+          "pct": 98.8
+        },
+        {
+          "value": "50",
+          "count": 9,
+          "pct": 0.2
+        },
+        {
+          "value": "65",
+          "count": 8,
+          "pct": 0.2
+        },
+        {
+          "value": "45",
+          "count": 5,
+          "pct": 0.1
+        },
+        {
+          "value": "60",
+          "count": 4,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "fitness_center_health_club",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 12,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4988,
+          "pct": 99.8
+        },
+        {
+          "value": "11201",
+          "count": 2,
+          "pct": 0.0
+        },
+        {
+          "value": "20357",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "17500",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "19649",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "food_sales_gross_floor_area",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 17,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4982,
+          "pct": 99.6
+        },
+        {
+          "value": "2500",
+          "count": 3,
+          "pct": 0.1
+        },
+        {
+          "value": "3428",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "1200",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "6470",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "food_service_gross_floor",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 14,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4985,
+          "pct": 99.7
+        },
+        {
+          "value": "500",
+          "count": 3,
+          "pct": 0.1
+        },
+        {
+          "value": "3700",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "818",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "1380",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "hospital_general_medical",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 35,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "hospital_general_medical_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 25,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4966,
+          "pct": 99.3
+        },
+        {
+          "value": "2.6",
+          "count": 11,
+          "pct": 0.2
+        },
+        {
+          "value": "2.30678",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "2.6006",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "2.6016",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "hospital_general_medical_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 35,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "hospital_general_medical_3",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4967,
+          "pct": 99.3
+        },
+        {
+          "value": "100% Yes",
+          "count": 18,
+          "pct": 0.4
+        },
+        {
+          "value": "No",
+          "count": 15,
+          "pct": 0.3
+        }
+      ]
+    },
+    {
+      "name": "hospital_general_medical_4",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 35,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "hospital_general_medical_5",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 31,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "hospital_general_medical_6",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 13,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4967,
+          "pct": 99.3
+        },
+        {
+          "value": "5",
+          "count": 11,
+          "pct": 0.2
+        },
+        {
+          "value": "6",
+          "count": 4,
+          "pct": 0.1
+        },
+        {
+          "value": "10",
+          "count": 3,
+          "pct": 0.1
+        },
+        {
+          "value": "8",
+          "count": 3,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "hospital_general_medical_7",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 32,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "hospital_general_medical_8",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4966,
+          "pct": 99.3
+        },
+        {
+          "value": "1",
+          "count": 26,
+          "pct": 0.5
+        },
+        {
+          "value": "0",
+          "count": 4,
+          "pct": 0.1
+        },
+        {
+          "value": "2",
+          "count": 3,
+          "pct": 0.1
+        },
+        {
+          "value": "1.33",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "hospital_general_medical_9",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 33,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "hospital_general_medical_10",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 35,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "hospital_general_medical_11",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 29,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4966,
+          "pct": 99.3
+        },
+        {
+          "value": "1.32",
+          "count": 4,
+          "pct": 0.1
+        },
+        {
+          "value": "1.31993",
+          "count": 3,
+          "pct": 0.1
+        },
+        {
+          "value": "1.31981",
+          "count": 2,
+          "pct": 0.0
+        },
+        {
+          "value": "1.94635",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "hospital_general_medical_12",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4966,
+          "pct": 99.3
+        },
+        {
+          "value": "No",
+          "count": 29,
+          "pct": 0.6
+        },
+        {
+          "value": "100% Yes",
+          "count": 5,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "hospital_general_medical_13",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4980,
+          "pct": 99.6
+        },
+        {
+          "value": "Non Profit",
+          "count": 16,
+          "pct": 0.3
+        },
+        {
+          "value": "For Profit",
+          "count": 4,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "hospital_general_medical_14",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4966,
+          "pct": 99.3
+        },
+        {
+          "value": "100",
+          "count": 33,
+          "pct": 0.7
+        },
+        {
+          "value": "80",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "hospital_general_medical_15",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4966,
+          "pct": 99.3
+        },
+        {
+          "value": "100",
+          "count": 33,
+          "pct": 0.7
+        },
+        {
+          "value": "80",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "hospital_general_medical_16",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 31,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "hospital_general_medical_17",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4967,
+          "pct": 99.3
+        },
+        {
+          "value": "100% Yes",
+          "count": 25,
+          "pct": 0.5
+        },
+        {
+          "value": "No",
+          "count": 8,
+          "pct": 0.2
+        }
+      ]
+    },
+    {
+      "name": "medical_office_gross_floor",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 134,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "15000",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "medical_office_mri_machine",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4975,
+          "pct": 99.5
+        },
+        {
+          "value": "0",
+          "count": 25,
+          "pct": 0.5
+        }
+      ]
+    },
+    {
+      "name": "medical_office_number_of",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4975,
+          "pct": 99.5
+        },
+        {
+          "value": "0",
+          "count": 25,
+          "pct": 0.5
+        }
+      ]
+    },
+    {
+      "name": "medical_office_number_of_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 108,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "33",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "medical_office_percent_that",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 14,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "100",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4836,
+          "pct": 96.7
+        },
+        {
+          "value": "100",
+          "count": 136,
+          "pct": 2.7
+        },
+        {
+          "value": "90",
+          "count": 7,
+          "pct": 0.1
+        },
+        {
+          "value": "0",
+          "count": 4,
+          "pct": 0.1
+        },
+        {
+          "value": "50",
+          "count": 3,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "medical_office_percent_that_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 14,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "100",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4836,
+          "pct": 96.7
+        },
+        {
+          "value": "100",
+          "count": 141,
+          "pct": 2.8
+        },
+        {
+          "value": "90",
+          "count": 8,
+          "pct": 0.2
+        },
+        {
+          "value": "50",
+          "count": 3,
+          "pct": 0.1
+        },
+        {
+          "value": "0",
+          "count": 3,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "medical_office_weekly",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 36,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "65",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "outpatient_rehabilitation",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 9,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4991,
+          "pct": 99.8
+        },
+        {
+          "value": "102571",
+          "count": 2,
+          "pct": 0.0
+        },
+        {
+          "value": "2030",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "142101",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "10400",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "urgent_care_clinic_other",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 9,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4992,
+          "pct": 99.8
+        },
+        {
+          "value": "105518",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "14339",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "41431.5",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "230000",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "k_12_school_gross_floor_area",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 58,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "laboratory_gross_floor_area",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4998,
+          "pct": 100.0
+        },
+        {
+          "value": "54000",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "180000",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "library_gross_floor_area",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4996,
+          "pct": 99.9
+        },
+        {
+          "value": "16004",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "40724",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "43309",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "102484",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "mailing_center_post_office",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 6,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4995,
+          "pct": 99.9
+        },
+        {
+          "value": "10000",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "2500",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "2372",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "8531",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "manufacturing_industrial",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 14,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4987,
+          "pct": 99.7
+        },
+        {
+          "value": "50000",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "63000",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "1900",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "108000",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "movie_theater_gross_floor",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4997,
+          "pct": 99.9
+        },
+        {
+          "value": "7000",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "145044",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "400000",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "multifamily_housing_gross",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2769,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "950000",
+        "423246"
+      ]
+    },
+    {
+      "name": "multifamily_housing_government",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "No",
+        "No"
+      ],
+      "top_values": [
+        {
+          "value": "No",
+          "count": 2470,
+          "pct": 49.4
+        },
+        {
+          "value": "Not Available",
+          "count": 2269,
+          "pct": 45.4
+        },
+        {
+          "value": "100% Yes",
+          "count": 261,
+          "pct": 5.2
+        }
+      ]
+    },
+    {
+      "name": "multifamily_housing_number",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 941,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "1035",
+        "647"
+      ]
+    },
+    {
+      "name": "multifamily_housing_number_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 190,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "360",
+        "0"
+      ]
+    },
+    {
+      "name": "multifamily_housing_number_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 72,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "0",
+        "38"
+      ]
+    },
+    {
+      "name": "multifamily_housing_total",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 679,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "360",
+        "373"
+      ]
+    },
+    {
+      "name": "multifamily_housing_percent",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 14,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "0",
+        "0"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 1755,
+          "pct": 35.1
+        },
+        {
+          "value": "100",
+          "count": 1070,
+          "pct": 21.4
+        },
+        {
+          "value": "0",
+          "count": 1007,
+          "pct": 20.1
+        },
+        {
+          "value": "90",
+          "count": 784,
+          "pct": 15.7
+        },
+        {
+          "value": "80",
+          "count": 217,
+          "pct": 4.3
+        }
+      ]
+    },
+    {
+      "name": "multifamily_housing_percent_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 12,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "100",
+        "100"
+      ],
+      "top_values": [
+        {
+          "value": "100",
+          "count": 2621,
+          "pct": 52.4
+        },
+        {
+          "value": "Not Available",
+          "count": 1741,
+          "pct": 34.8
+        },
+        {
+          "value": "90",
+          "count": 429,
+          "pct": 8.6
+        },
+        {
+          "value": "80",
+          "count": 143,
+          "pct": 2.9
+        },
+        {
+          "value": "0",
+          "count": 30,
+          "pct": 0.6
+        }
+      ]
+    },
+    {
+      "name": "multifamily_housing_resident",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 6,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "No specific resident population",
+        "No specific resident population"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 2951,
+          "pct": 59.0
+        },
+        {
+          "value": "No specific resident population",
+          "count": 1997,
+          "pct": 39.9
+        },
+        {
+          "value": "Dedicated Senior/Independent Living",
+          "count": 42,
+          "pct": 0.8
+        },
+        {
+          "value": "Other dedicated housing",
+          "count": 8,
+          "pct": 0.2
+        },
+        {
+          "value": "Dedicated Student",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "multifamily_housing_number_3",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2661,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "1.08947",
+        "1.52866"
+      ]
+    },
+    {
+      "name": "multifamily_housing_total_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2798,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "0.37895",
+        "0.88128"
+      ]
+    },
+    {
+      "name": "multifamily_housing_number_4",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 355,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "360",
+        "373"
+      ]
+    },
+    {
+      "name": "multifamily_housing_number_5",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 750,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "0.37895",
+        "0.88128"
+      ]
+    },
+    {
+      "name": "multifamily_housing_number_6",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 257,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "multifamily_housing_number_7",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1845,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "office_computer_density_number",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 656,
+      "sample_values": [
+        "4.84345",
+        "3.5",
+        "Not Available",
+        "Not Available",
+        "2"
+      ]
+    },
+    {
+      "name": "office_gross_floor_area_ft",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 795,
+      "sample_values": [
+        "153816",
+        "2000",
+        "Not Available",
+        "Not Available",
+        "1032"
+      ]
+    },
+    {
+      "name": "office_number_of_computers",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 540,
+      "sample_values": [
+        "745",
+        "7",
+        "Not Available",
+        "Not Available",
+        "2.06"
+      ]
+    },
+    {
+      "name": "office_number_of_workers",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 539,
+      "sample_values": [
+        "620",
+        "6",
+        "Not Available",
+        "Not Available",
+        "2.37"
+      ]
+    },
+    {
+      "name": "office_percent_that_can_be",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 46,
+      "sample_values": [
+        "100",
+        "100",
+        "Not Available",
+        "Not Available",
+        "100"
+      ]
+    },
+    {
+      "name": "office_percent_that_can_be_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 29,
+      "sample_values": [
+        "100",
+        "100",
+        "Not Available",
+        "Not Available",
+        "100"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4114,
+          "pct": 82.3
+        },
+        {
+          "value": "100",
+          "count": 828,
+          "pct": 16.6
+        },
+        {
+          "value": "33",
+          "count": 18,
+          "pct": 0.4
+        },
+        {
+          "value": "0",
+          "count": 12,
+          "pct": 0.2
+        },
+        {
+          "value": "85.48",
+          "count": 2,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "office_weekly_operating_hours",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 233,
+      "sample_values": [
+        "86.36",
+        "40",
+        "Not Available",
+        "Not Available",
+        "65"
+      ]
+    },
+    {
+      "name": "office_worker_density_number",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 669,
+      "sample_values": [
+        "4.03079",
+        "3",
+        "Not Available",
+        "Not Available",
+        "2.3"
+      ]
+    },
+    {
+      "name": "museum_gross_floor_area_ft",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 7,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4994,
+          "pct": 99.9
+        },
+        {
+          "value": "5924",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "197509",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "2570",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "18623",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "non_refrigerated_warehouse",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 143,
+      "sample_values": [
+        "Not Available",
+        "61000",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "other_gross_floor_area_ft",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 310,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "4116",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "other_weekly_operating_hours",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 76,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "168",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "other_number_of_computers",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 43,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "24",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "other_number_of_workers_on",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 64,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "15",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "performing_arts_gross_floor",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4997,
+          "pct": 99.9
+        },
+        {
+          "value": "14500",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "51997",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "56934",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "personal_services_health",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 11,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4990,
+          "pct": 99.8
+        },
+        {
+          "value": "1212",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "9000",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "600",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "1000",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "pre_school_daycare_gross",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4997,
+          "pct": 99.9
+        },
+        {
+          "value": "12483",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "13772",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "10000",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "race_track_gross_floor_area",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 5000,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "refrigerated_warehouse_gross",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 17,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4982,
+          "pct": 99.6
+        },
+        {
+          "value": "148700",
+          "count": 2,
+          "pct": 0.0
+        },
+        {
+          "value": "21800",
+          "count": 2,
+          "pct": 0.0
+        },
+        {
+          "value": "120200",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "80000",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "repair_services_vehicle_shoe",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4999,
+          "pct": 100.0
+        },
+        {
+          "value": "57820",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "residence_hall_dormitory",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 36,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "restaurant_gross_floor_area",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 114,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "2116",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "self_storage_facility_gross",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 74,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "senior_care_community_gross",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 71,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "social_meeting_hall_gross",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 16,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "5640",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4985,
+          "pct": 99.7
+        },
+        {
+          "value": "5640",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "129642",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "9060",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "22474",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "strip_mall_gross_floor_area",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4997,
+          "pct": 99.9
+        },
+        {
+          "value": "94139",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "63522",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "10904",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "supermarket_grocery_gross",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 66,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "transportation_terminal",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 5000,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "veterinary_office_gross_floor",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 5000,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "vocational_school_gross_floor",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4999,
+          "pct": 100.0
+        },
+        {
+          "value": "1850",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "wholesale_club_supercenter",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4999,
+          "pct": 100.0
+        },
+        {
+          "value": "65000",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "worship_facility_gross_floor",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 20,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4981,
+          "pct": 99.6
+        },
+        {
+          "value": "28086",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "60000",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "10406",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "52000",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "retail_store_gross_floor",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 373,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "restaurant_worker_density",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 83,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "7.08885",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "restaurant_weekly_operating",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 48,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "112",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "retail_store_walk_in",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 88,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "retail_store_percent_that",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 33,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "retail_store_open_or_closed",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 148,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "retail_store_number_of_walk",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 16,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4528,
+          "pct": 90.6
+        },
+        {
+          "value": "0",
+          "count": 380,
+          "pct": 7.6
+        },
+        {
+          "value": "1",
+          "count": 42,
+          "pct": 0.8
+        },
+        {
+          "value": "2",
+          "count": 22,
+          "pct": 0.4
+        },
+        {
+          "value": "3",
+          "count": 8,
+          "pct": 0.2
+        }
+      ]
+    },
+    {
+      "name": "retail_store_number_of_open",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 32,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "parking_gross_floor_area",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 303,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "35000",
+        "49725"
+      ]
+    },
+    {
+      "name": "parking_open_parking_lot",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 98,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "hotel_gross_floor_area_ft",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 145,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "239898",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "hotel_gym_fitness_center",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 38,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "1",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "hotel_room_density_number",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 150,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "1.65904",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "hotel_worker_density_number",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 131,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "0.83369",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "hotel_percent_that_can_be",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 9,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "100",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4843,
+          "pct": 96.9
+        },
+        {
+          "value": "100",
+          "count": 104,
+          "pct": 2.1
+        },
+        {
+          "value": "90",
+          "count": 33,
+          "pct": 0.7
+        },
+        {
+          "value": "80",
+          "count": 8,
+          "pct": 0.2
+        },
+        {
+          "value": "70",
+          "count": 6,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "estimated_data_flag_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 5000,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "alert_data_center_does_not",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Ok",
+        "Ok",
+        "Ok",
+        "Ok",
+        "Ok"
+      ],
+      "top_values": [
+        {
+          "value": "Ok",
+          "count": 4993,
+          "pct": 99.9
+        },
+        {
+          "value": "Possible Issue",
+          "count": 7,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "alert_gross_floor_area_is",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "Ok",
+        "Ok",
+        "Ok",
+        "Ok",
+        "Ok"
+      ],
+      "top_values": [
+        {
+          "value": "Ok",
+          "count": 4995,
+          "pct": 99.9
+        },
+        {
+          "value": "Unable to Check (not enough data)",
+          "count": 4,
+          "pct": 0.1
+        },
+        {
+          "value": "Possible Issue",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "alert_individual_monthly",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "Ok",
+        "Possible Issue",
+        "Ok",
+        "Ok",
+        "Ok"
+      ],
+      "top_values": [
+        {
+          "value": "Ok",
+          "count": 4752,
+          "pct": 95.0
+        },
+        {
+          "value": "Possible Issue",
+          "count": 236,
+          "pct": 4.7
+        },
+        {
+          "value": "Unable to Check (not enough data)",
+          "count": 12,
+          "pct": 0.2
+        }
+      ]
+    },
+    {
+      "name": "alert_meter_has_overlaps",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "Ok",
+        "Ok",
+        "Ok",
+        "Ok",
+        "Ok"
+      ],
+      "top_values": [
+        {
+          "value": "Ok",
+          "count": 4982,
+          "pct": 99.6
+        },
+        {
+          "value": "Unable to Check (not enough data)",
+          "count": 12,
+          "pct": 0.2
+        },
+        {
+          "value": "Possible Issue",
+          "count": 6,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "alert_meter_has_gaps",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "Ok",
+        "Ok",
+        "Ok",
+        "Ok",
+        "Ok"
+      ],
+      "top_values": [
+        {
+          "value": "Ok",
+          "count": 4987,
+          "pct": 99.7
+        },
+        {
+          "value": "Unable to Check (not enough data)",
+          "count": 12,
+          "pct": 0.2
+        },
+        {
+          "value": "Possible Issue",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "alert_meter_has_less_than",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "Possible Issue",
+        "Ok",
+        "Ok",
+        "Ok",
+        "Ok"
+      ],
+      "top_values": [
+        {
+          "value": "Ok",
+          "count": 4238,
+          "pct": 84.8
+        },
+        {
+          "value": "Possible Issue",
+          "count": 750,
+          "pct": 15.0
+        },
+        {
+          "value": "Unable to Check (not enough data)",
+          "count": 12,
+          "pct": 0.2
+        }
+      ]
+    },
+    {
+      "name": "alert_no_meters_are_associated",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "Ok",
+        "Ok",
+        "Ok",
+        "Ok",
+        "Ok"
+      ],
+      "top_values": [
+        {
+          "value": "Ok",
+          "count": 4988,
+          "pct": 99.8
+        },
+        {
+          "value": "Unable to Check (not enough data)",
+          "count": 9,
+          "pct": 0.2
+        },
+        {
+          "value": "Possible Issue",
+          "count": 3,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "alert_property_has_no_uses",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Ok",
+        "Ok",
+        "Ok",
+        "Ok",
+        "Ok"
+      ],
+      "top_values": [
+        {
+          "value": "Ok",
+          "count": 4997,
+          "pct": 99.9
+        },
+        {
+          "value": "Possible Issue",
+          "count": 3,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "data_quality_checker_run",
+      "dtype": "bool",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "False",
+        "False",
+        "True",
+        "False",
+        "False"
+      ],
+      "top_values": [
+        {
+          "value": "False",
+          "count": 2676,
+          "pct": 53.5
+        },
+        {
+          "value": "True",
+          "count": 2324,
+          "pct": 46.5
+        }
+      ]
+    },
+    {
+      "name": "data_quality_checker_date",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 73,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "2016-02-19",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "default_values",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "No",
+        "No",
+        "No",
+        "Yes",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "No",
+          "count": 3734,
+          "pct": 74.7
+        },
+        {
+          "value": "Yes",
+          "count": 1263,
+          "pct": 25.3
+        },
+        {
+          "value": "Unable to Check (not enough data)",
+          "count": 3,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "estimated_values_energy",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "No",
+        "No",
+        "No",
+        "No",
+        "No"
+      ],
+      "top_values": [
+        {
+          "value": "No",
+          "count": 4789,
+          "pct": 95.8
+        },
+        {
+          "value": "Yes",
+          "count": 199,
+          "pct": 4.0
+        },
+        {
+          "value": "Unable to Check (not enough data)",
+          "count": 12,
+          "pct": 0.2
+        }
+      ]
+    },
+    {
+      "name": "temporary_values",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "No",
+        "No",
+        "No",
+        "No",
+        "No"
+      ],
+      "top_values": [
+        {
+          "value": "No",
+          "count": 4871,
+          "pct": 97.4
+        },
+        {
+          "value": "Yes",
+          "count": 129,
+          "pct": 2.6
+        }
+      ]
+    },
+    {
+      "name": "estimated_values_water",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "Unable to Check (not enough data)",
+        "No",
+        "No",
+        "No",
+        "Unable to Check (not enough data)"
+      ],
+      "top_values": [
+        {
+          "value": "No",
+          "count": 3878,
+          "pct": 77.6
+        },
+        {
+          "value": "Unable to Check (not enough data)",
+          "count": 1015,
+          "pct": 20.3
+        },
+        {
+          "value": "Yes",
+          "count": 107,
+          "pct": 2.1
+        }
+      ]
+    },
+    {
+      "name": "property_gfa_self_reported",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3908,
+      "sample_values": [
+        "153816",
+        "63000",
+        "246000",
+        "965000",
+        "424278"
+      ]
+    },
+    {
+      "name": "property_gfa_epa_calculated",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3914,
+      "sample_values": [
+        "153816",
+        "63000",
+        "251770",
+        "1000000",
+        "474003"
+      ]
+    },
+    {
+      "name": "property_gfa_epa_calculated_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3914,
+      "sample_values": [
+        "153816",
+        "63000",
+        "251770",
+        "965000",
+        "424278"
+      ]
+    },
+    {
+      "name": "property_gfa_epa_calculated_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 344,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "35000",
+        "49725"
+      ]
+    },
+    {
+      "name": "water_current_date",
+      "dtype": "object",
+      "missing": 1460,
+      "missing_pct": 29.2,
+      "nunique": 36,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "2016-02-29",
+        "2015-12-31",
+        "2016-02-29"
+      ]
+    },
+    {
+      "name": "water_use_all_water_sources",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2843,
+      "sample_values": [
+        "1632.2",
+        "76.1",
+        "19383.4",
+        "43470.8",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "indoor_water_use_all_water",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2425,
+      "sample_values": [
+        "Not Available",
+        "76.1",
+        "19383.4",
+        "43470.8",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "indoor_water_intensity_all",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2243,
+      "sample_values": [
+        "10.61",
+        "1.21",
+        "76.99",
+        "45.05",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "outdoor_water_use_all_water",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 14,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4986,
+          "pct": 99.7
+        },
+        {
+          "value": "8775.8",
+          "count": 2,
+          "pct": 0.0
+        },
+        {
+          "value": "3762.4",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "8189.9",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "6768.8",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "municipally_supplied_potable",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 391,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "municipally_supplied_potable_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2420,
+      "sample_values": [
+        "Not Available",
+        "76.1",
+        "19383.4",
+        "43470.8",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "municipally_supplied_potable_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2229,
+      "sample_values": [
+        "Not Available",
+        "1.21",
+        "76.99",
+        "45.05",
+        "Not Available"
+      ]
+    },
+    {
+      "name": "municipally_supplied_potable_3",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 13,
+      "sample_values": [
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available",
+        "Not Available"
+      ],
+      "top_values": [
+        {
+          "value": "Not Available",
+          "count": 4988,
+          "pct": 99.8
+        },
+        {
+          "value": "2028.5",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "3762.4",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "8189.9",
+          "count": 1,
+          "pct": 0.0
+        },
+        {
+          "value": "6768.8",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "generation_date",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2628,
+      "sample_values": [
+        "2016-02-19T11:55:32.000",
+        "2016-02-19T11:11:11.000",
+        "2016-02-19T17:41:05.000",
+        "2016-02-22T09:39:47.000",
+        "2016-02-22T09:59:52.000"
+      ]
+    },
+    {
+      "name": "release_date",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1856,
+      "sample_values": [
+        "2016-02-19T11:57:04.000",
+        "2016-02-19T12:08:50.000",
+        "2016-02-19T17:43:58.000",
+        "2016-02-22T09:40:24.000",
+        "2016-02-22T10:00:34.000"
+      ]
+    },
+    {
+      "name": "borough",
+      "dtype": "object",
+      "missing": 227,
+      "missing_pct": 4.54,
+      "nunique": 5,
+      "sample_values": [
+        "BRONX",
+        "STATEN IS",
+        "MANHATTAN",
+        "MANHATTAN",
+        "QUEENS"
+      ],
+      "top_values": [
+        {
+          "value": "MANHATTAN",
+          "count": 1839,
+          "pct": 38.5
+        },
+        {
+          "value": "BROOKLYN",
+          "count": 1030,
+          "pct": 21.6
+        },
+        {
+          "value": "QUEENS",
+          "count": 975,
+          "pct": 20.4
+        },
+        {
+          "value": "BRONX",
+          "count": 853,
+          "pct": 17.9
+        },
+        {
+          "value": "STATEN IS",
+          "count": 76,
+          "pct": 1.6
+        }
+      ]
+    },
+    {
+      "name": "latitude",
+      "dtype": "float64",
+      "missing": 228,
+      "missing_pct": 4.56,
+      "nunique": 4530,
+      "sample_values": [
+        "40.837532",
+        "40.637405",
+        "40.759432",
+        "40.758684",
+        "40.585783"
+      ],
+      "stats": {
+        "min": 40.522,
+        "max": 40.9129,
+        "mean": 40.7473,
+        "median": 40.7506,
+        "p25": 40.706,
+        "p75": 40.7984
+      }
+    },
+    {
+      "name": "longitude",
+      "dtype": "float64",
+      "missing": 228,
+      "missing_pct": 4.56,
+      "nunique": 4511,
+      "sample_values": [
+        "-73.842448",
+        "-74.160722",
+        "-73.975415",
+        "-73.961705",
+        "-73.820357"
+      ],
+      "stats": {
+        "min": -74.2169,
+        "max": -73.706,
+        "mean": -73.9313,
+        "median": -73.9509,
+        "p25": -73.9814,
+        "p75": -73.8962
+      }
+    },
+    {
+      "name": "community_board",
+      "dtype": "float64",
+      "missing": 228,
+      "missing_pct": 4.56,
+      "nunique": 61,
+      "sample_values": [
+        "210.0",
+        "501.0",
+        "105.0",
+        "106.0",
+        "414.0"
+      ],
+      "stats": {
+        "min": 101.0,
+        "max": 503.0,
+        "mean": 235.8606,
+        "median": 208.0,
+        "p25": 107.0,
+        "p75": 315.0
+      }
+    },
+    {
+      "name": "council_district",
+      "dtype": "float64",
+      "missing": 228,
+      "missing_pct": 4.56,
+      "nunique": 51,
+      "sample_values": [
+        "13.0",
+        "49.0",
+        "4.0",
+        "5.0",
+        "32.0"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 51.0,
+        "mean": 18.838,
+        "median": 14.0,
+        "p25": 5.0,
+        "p75": 30.0
+      }
+    },
+    {
+      "name": "census_tract",
+      "dtype": "float64",
+      "missing": 228,
+      "missing_pct": 4.56,
+      "nunique": 822,
+      "sample_values": [
+        "96.0",
+        "31902.0",
+        "102.0",
+        "10601.0",
+        "94201.0"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 155102.0,
+        "mean": 10225.9952,
+        "median": 273.0,
+        "p25": 111.0,
+        "p75": 872.0
+      }
+    },
+    {
+      "name": "nta",
+      "dtype": "object",
+      "missing": 228,
+      "missing_pct": 4.56,
+      "nunique": 183,
+      "sample_values": [
+        "Westchester-Unionport",
+        "Mariner's Harbor-Arlington-Port Ivory-Gr…",
+        "Midtown-Midtown South",
+        "Turtle Bay-East Midtown",
+        "Breezy Point-Belle Harbor-Rockaway Park-…"
+      ]
+    }
+  ]
+}

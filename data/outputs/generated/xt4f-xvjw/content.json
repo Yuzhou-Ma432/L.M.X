@@ -1,0 +1,15 @@
+{
+  "id": "xt4f-xvjw",
+  "name": "P-Card Purchase",
+  "strategy": "content",
+  "description": "This dataset records P-Card (purchasing card) purchase totals by New York City agency across three fiscal years, 2018 through 2020. Each row pairs a fiscal year with an agency name and the total value purchased, covering 33 records in the sample. Agencies include FDNY, DOT, NYPD, DEP, DOHMH, NYCEM, and others, with 13 distinct agencies represented and roughly equal coverage across the three years. Purchase totals range from about $350,500 to nearly $7.9 million, with a mean of roughly $2.2 million.\n\nThe data can be used to compare P-Card spending across agencies and track year-over-year changes in procurement activity. It supports analyses such as ranking agencies by purchase volume, identifying spending trends over the 2018–2020 period, and benchmarking individual agencies against the overall average. It is best suited to aggregate comparisons rather than detailed transaction-level review, since each row represents a total rather than individual",
+  "prompt": "Title: P-Card Purchase\nCategory: Business\nRows (sampled): 33\nColumns: 3\n\nColumn details:\n- fiscal_year (type int64) 3 distinct values 0.0% missing min=2018.0 max=2020.0 mean=2019.0 p25=2018.0 p75=2020.0 common values: 2020 (33.3%), 2019 (33.3%), 2018 (33.3%) samples: 2020, 2020, 2020, 2020, 2020\n- agency (type object) 13 distinct values 0.0% missing common values: FDNY (9.1%), DOT (9.1%), NYPD (9.1%), DEP (9.1%), DOHMH (9.1%) samples: FDNY, DOT, NYPD, NYCEM, DEP\n- total_value_purchased (type float64) 33 distinct values 0.0% missing min=350500.0 max=7877900.0 mean=2228042.4242 p25=894800.0 p75=2835500.0 samples: 7877900.0, 3342100.0, 2835500.0, 2045000.0, 1797800.0\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "length",
+  "usage": {
+    "prompt_tokens": 362,
+    "completion_tokens": 200,
+    "total_tokens": 562
+  },
+  "elapsed_seconds": 1.66
+}

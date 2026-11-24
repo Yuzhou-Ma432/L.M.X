@@ -1,0 +1,40 @@
+{
+  "id": "6v9u-ndjg",
+  "name": "Building Complaint Disposition Codes",
+  "description": "A reference table of disposition codes for building complaints",
+  "category": "Housing & Development",
+  "permalink": "https://data.cityofnewyork.us/d/6v9u-ndjg",
+  "sampled_rows": 5000,
+  "n_rows": 160,
+  "n_cols": 2,
+  "columns": [
+    {
+      "name": "code",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 160,
+      "sample_values": [
+        "A2",
+        "A6",
+        "A7",
+        "A8",
+        "EA"
+      ]
+    },
+    {
+      "name": "disposition",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 159,
+      "sample_values": [
+        "CRIMINAL COURT SUMMONS SERVED",
+        "VACANT/OPEN/UNGUARDED STRUCTURE - VIOLAT…",
+        "COMPLAINT ACCEPTED BY PADLOCK UNIT",
+        "ECB VIOLATION SERVED",
+        "COMPLAINT ASSIGNED TO INTERIOR DEMOLITIO…"
+      ]
+    }
+  ]
+}

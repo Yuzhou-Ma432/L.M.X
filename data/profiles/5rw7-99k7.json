@@ -1,0 +1,155 @@
+{
+  "id": "5rw7-99k7",
+  "name": "Runaway and Homeless Youth (RHY) Daily Census",
+  "description": "This data tracks the number of beds available for runaway and homeless youth and young adults as well as the number and percent vacant.  Data include Crisis Shelters, Crisis Shelters HYA (Homeless Young Adults), Transitional Independent Living, and Transitional Independent Living HYA. For more information about programs, visit https://www1.nyc.gov/site/dycd/services/services.page and https://discoverdycd.dycdconnect.nyc/home.\n\nFor the RHY Data Collection, please follow <a href=\"https://data.cityofnewyork.us/browse?Data-Collection_Data-Collection=DYCD%20Runaway%20and%20Homeless%20Youth%20Services\"> this link</a>.",
+  "category": "Social Services",
+  "permalink": "https://data.cityofnewyork.us/d/5rw7-99k7",
+  "sampled_rows": 5000,
+  "n_rows": 5000,
+  "n_cols": 5,
+  "columns": [
+    {
+      "name": "date",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1388,
+      "sample_values": [
+        "2019-07-01T00:00:00.000",
+        "2019-07-01T00:00:00.000",
+        "2019-07-01T00:00:00.000",
+        "2019-07-02T00:00:00.000",
+        "2019-07-02T00:00:00.000"
+      ]
+    },
+    {
+      "name": "program_type",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "Crisis Shelters",
+        "Transitional Independent Living (HYA)",
+        "Transitional Independent Living (TIL)",
+        "Crisis Shelters",
+        "Transitional Independent Living (HYA)"
+      ],
+      "top_values": [
+        {
+          "value": "Crisis Shelters",
+          "count": 1388,
+          "pct": 27.8
+        },
+        {
+          "value": "Transitional Independent Living (HYA)",
+          "count": 1387,
+          "pct": 27.7
+        },
+        {
+          "value": "Transitional Independent Living (TIL)",
+          "count": 1387,
+          "pct": 27.7
+        },
+        {
+          "value": "Crisis Shelters (HYA)",
+          "count": 838,
+          "pct": 16.8
+        }
+      ]
+    },
+    {
+      "name": "vacancies_per_day",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 163,
+      "sample_values": [
+        "45",
+        "25",
+        "85",
+        "42",
+        "25"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 162.0,
+        "mean": 47.69,
+        "median": 38.0,
+        "p25": 2.0,
+        "p75": 82.0
+      }
+    },
+    {
+      "name": "beds_per_day",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 18,
+      "sample_values": [
+        "246",
+        "25",
+        "450",
+        "246",
+        "25"
+      ],
+      "top_values": [
+        {
+          "value": "258",
+          "count": 1127,
+          "pct": 22.5
+        },
+        {
+          "value": "25",
+          "count": 1096,
+          "pct": 21.9
+        },
+        {
+          "value": "35",
+          "count": 769,
+          "pct": 15.4
+        },
+        {
+          "value": "495",
+          "count": 471,
+          "pct": 9.4
+        },
+        {
+          "value": "494",
+          "count": 395,
+          "pct": 7.9
+        }
+      ],
+      "stats": {
+        "min": 10.0,
+        "max": 495.0,
+        "mean": 216.4602,
+        "median": 258.0,
+        "p25": 25.0,
+        "p75": 431.0
+      }
+    },
+    {
+      "name": "vacant_per_day",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 53,
+      "sample_values": [
+        "0.18",
+        "1.0",
+        "0.19",
+        "0.17",
+        "1.0"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.1833,
+        "median": 0.16,
+        "p25": 0.06,
+        "p75": 0.26
+      }
+    }
+  ]
+}

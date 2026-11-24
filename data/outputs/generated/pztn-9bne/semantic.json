@@ -1,0 +1,21 @@
+{
+  "id": "pztn-9bne",
+  "name": "Shooting Victims (2006-Present)",
+  "strategy": "semantic",
+  "description": "This dataset contains records of shooting victims from 2006 onward, with each row representing one victim linked to a shooting incident through a shared incident key. Six columns capture the incident identifier, a unique victim identifier, and demographic details including age group (under 18, 18-24, 25-44, 45-64, and 65+), sex, and race. A final flag indicates whether the incident was classified as a murder. The sample is predominantly male (about 91%) and majority Black (about 73%), with most victims in the 18-24 and 25-44 age groups, and roughly 18% of records flagged as murders.\n\nThe data can support analyses of shooting trends over time, demographic patterns among victims, and the proportion of shootings that result in homicide. It may be useful for research, policy evaluation, public reporting, and community safety planning, though users should note that the sample of 5,000 rows is a subset of the full",
+  "prompt": "Title: Shooting Victims (2006-Present)\nCategory: Public Safety\nRows (sampled): 5000\nColumns: 6\n\nColumn details:\n- incident_key (type int64) 4176 distinct values 0.0% missing min=9953246.0 max=319009737.0 mean=47935771.6862 p25=26297683.25 p75=59725892.0 samples: 299453927, 212336415, 280768895, 141824677, 270079203\n- victim_id (type object) 5000 distinct values 0.0% missing samples: 299453927-1, 212336415-1, 280768895-1, 141824677-27687, 270079203-1\n- victim_age_group (type object) 6 distinct values 0.0% missing common values: 18-24 (41.4%), 25-44 (40.4%), <18 (12.3%), 45-64 (5.2%), 65+ (0.5%) samples: 25-44, 18-24, 25-44, 25-44, 45-64\n- victim_sex (type object) 3 distinct values 0.0% missing common values: MALE (91.4%), FEMALE (8.6%), UNKNOWN (0.0%) samples: MALE, MALE, MALE, MALE, MALE\n- victim_race (type object) 7 distinct values 0.0% missing common values: BLACK (72.7%), WHITE HISPANIC (15.3%), BLACK HISPANIC (8.0%), WHITE (2.6%), ASIAN / PACIFIC ISLANDER (1.1%) samples: BLACK, BLACK, BLACK, BLACK HISPANIC, BLACK\n- stat_murder_flg (type object) 2 distinct values 0.0% missing common values: N (82.4%), Y (17.6%) samples: N, N, N, N, Y\n\nSemantic summary (topic and possible uses):\nThis dataset records shooting victims from 2006 onward, with each row representing an individual victim linked to an incident through an incident key. It includes demographic details such as age group, sex, and race, along with a flag indicating whether the incident was classified as a murder. The data belongs to the public safety and criminal justice domain, and could support analyses of shooting trends over time, demographic patterns among victims, and the share of shootings resulting in homicide, as well as research, policy evaluation, and public reporting.\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "length",
+  "usage": {
+    "prompt_tokens": 639,
+    "completion_tokens": 200,
+    "total_tokens": 839
+  },
+  "elapsed_seconds": 2.86,
+  "semantic_summary": "This dataset records shooting victims from 2006 onward, with each row representing an individual victim linked to an incident through an incident key. It includes demographic details such as age group, sex, and race, along with a flag indicating whether the incident was classified as a murder. The data belongs to the public safety and criminal justice domain, and could support analyses of shooting trends over time, demographic patterns among victims, and the share of shootings resulting in homicide, as well as research, policy evaluation, and public reporting.",
+  "semantic_usage": {
+    "prompt_tokens": 156,
+    "completion_tokens": 103,
+    "total_tokens": 259
+  }
+}

@@ -1,0 +1,581 @@
+{
+  "id": "ez4e-fazm",
+  "name": "Bus Breakdown and Delays",
+  "description": "The Bus Breakdown and Delay system collects information from school bus vendors operating out in the field in real time. Bus staff that encounter delays during the route are instructed to radio the dispatcher at the bus vendor’s central office. The bus vendor staff are then instructed to log into the Bus Breakdown and Delay system to record the event and notify OPT. OPT customer service agents use this system to inform parents who call with questions regarding bus service. The Bus Breakdown and Delay system is publicly accessible and contains real time updates. All information in the system is entered by school bus vendor staff.",
+  "category": "Transportation",
+  "permalink": "https://data.cityofnewyork.us/d/ez4e-fazm",
+  "sampled_rows": 5000,
+  "n_rows": 5000,
+  "n_cols": 21,
+  "columns": [
+    {
+      "name": "school_year",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 7,
+      "sample_values": [
+        "2015-2016",
+        "2016-2017",
+        "2015-2016",
+        "2016-2017",
+        "2016-2017"
+      ],
+      "top_values": [
+        {
+          "value": "2025-2026",
+          "count": 4210,
+          "pct": 84.2
+        },
+        {
+          "value": "2026-2027",
+          "count": 773,
+          "pct": 15.5
+        },
+        {
+          "value": "2016-2017",
+          "count": 11,
+          "pct": 0.2
+        },
+        {
+          "value": "2015-2016",
+          "count": 2,
+          "pct": 0.0
+        },
+        {
+          "value": "2000-2001",
+          "count": 2,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "busbreakdown_id",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5000,
+      "sample_values": [
+        "1272996",
+        "1313907",
+        "1267391",
+        "1312240",
+        "1312351"
+      ],
+      "stats": {
+        "min": 10.0,
+        "max": 2101243.0,
+        "mean": 1740088.2956,
+        "median": 2028493.5,
+        "p25": 2020668.75,
+        "p75": 2030613.25
+      }
+    },
+    {
+      "name": "run_type",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 9,
+      "sample_values": [
+        "Special Ed AM Run",
+        "Special Ed AM Run",
+        "Special Ed AM Run",
+        "General Ed AM Run",
+        "Special Ed AM Run"
+      ],
+      "top_values": [
+        {
+          "value": "Special Ed AM Run",
+          "count": 2900,
+          "pct": 58.0
+        },
+        {
+          "value": "School Age",
+          "count": 602,
+          "pct": 12.0
+        },
+        {
+          "value": "Special Ed PM Run",
+          "count": 535,
+          "pct": 10.7
+        },
+        {
+          "value": "General Ed AM Run",
+          "count": 433,
+          "pct": 8.7
+        },
+        {
+          "value": "Pre-K/EI",
+          "count": 269,
+          "pct": 5.4
+        }
+      ]
+    },
+    {
+      "name": "bus_no",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2196,
+      "sample_values": [
+        "2256",
+        "4481",
+        "GT2114",
+        "2436",
+        "5814D"
+      ]
+    },
+    {
+      "name": "route_number",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2364,
+      "sample_values": [
+        "K355",
+        "K002",
+        "Y925",
+        "K1546",
+        "X441"
+      ]
+    },
+    {
+      "name": "reason",
+      "dtype": "object",
+      "missing": 4,
+      "missing_pct": 0.08,
+      "nunique": 12,
+      "sample_values": [
+        "Won`t Start",
+        "Won`t Start",
+        "Won`t Start",
+        "Other",
+        "Mechanical Problem"
+      ],
+      "top_values": [
+        {
+          "value": "Heavy Traffic",
+          "count": 3257,
+          "pct": 65.2
+        },
+        {
+          "value": "Other",
+          "count": 921,
+          "pct": 18.4
+        },
+        {
+          "value": "Problem Run",
+          "count": 468,
+          "pct": 9.4
+        },
+        {
+          "value": "Mechanical Problem",
+          "count": 169,
+          "pct": 3.4
+        },
+        {
+          "value": "Won`t Start",
+          "count": 38,
+          "pct": 0.8
+        }
+      ]
+    },
+    {
+      "name": "schools_serviced",
+      "dtype": "object",
+      "missing": 2,
+      "missing_pct": 0.04,
+      "nunique": 2133,
+      "sample_values": [
+        "15879",
+        "22001",
+        "11012",
+        "15032",
+        "11002"
+      ]
+    },
+    {
+      "name": "occurred_on",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2901,
+      "sample_values": [
+        "2016-06-03T06:03:00.000",
+        "2017-01-10T05:55:00.000",
+        "2016-05-11T05:50:00.000",
+        "2017-01-05T06:00:00.000",
+        "2017-01-05T06:45:00.000"
+      ]
+    },
+    {
+      "name": "created_on",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3331,
+      "sample_values": [
+        "2016-06-03T06:05:00.000",
+        "2017-01-10T05:57:00.000",
+        "2016-05-11T05:59:00.000",
+        "2017-01-05T06:05:00.000",
+        "2017-01-05T06:54:00.000"
+      ]
+    },
+    {
+      "name": "boro",
+      "dtype": "object",
+      "missing": 3,
+      "missing_pct": 0.06,
+      "nunique": 13,
+      "sample_values": [
+        "Brooklyn",
+        "Brooklyn",
+        "Bronx",
+        "Brooklyn",
+        "Bronx"
+      ],
+      "top_values": [
+        {
+          "value": "Brooklyn",
+          "count": 1583,
+          "pct": 31.7
+        },
+        {
+          "value": "Bronx",
+          "count": 1106,
+          "pct": 22.1
+        },
+        {
+          "value": "Queens",
+          "count": 892,
+          "pct": 17.9
+        },
+        {
+          "value": "Nassau County",
+          "count": 593,
+          "pct": 11.9
+        },
+        {
+          "value": "Manhattan",
+          "count": 406,
+          "pct": 8.1
+        }
+      ]
+    },
+    {
+      "name": "bus_company_name",
+      "dtype": "object",
+      "missing": 2,
+      "missing_pct": 0.04,
+      "nunique": 51,
+      "sample_values": [
+        "RELIANT TRANS, INC. (B232",
+        "NEW DAWN TRANSIT, LLC (B2",
+        "DON THOMAS BUSES, INC. (B",
+        "ALL AMERICAN SCHOOL BUS C",
+        "LITTLE LISA BUS CO. INC."
+      ]
+    },
+    {
+      "name": "how_long_delayed",
+      "dtype": "object",
+      "missing": 229,
+      "missing_pct": 4.58,
+      "nunique": 17,
+      "sample_values": [
+        "30min",
+        "30 MIN",
+        "20 MINS",
+        "15 MINS",
+        "40 MINS"
+      ],
+      "top_values": [
+        {
+          "value": "16-30 Min",
+          "count": 1579,
+          "pct": 33.1
+        },
+        {
+          "value": "61-90 Min",
+          "count": 867,
+          "pct": 18.2
+        },
+        {
+          "value": "31-45 Min",
+          "count": 664,
+          "pct": 13.9
+        },
+        {
+          "value": "0-15 Min",
+          "count": 606,
+          "pct": 12.7
+        },
+        {
+          "value": "46-60 Min",
+          "count": 342,
+          "pct": 7.2
+        }
+      ]
+    },
+    {
+      "name": "number_of_students_on_the_bus",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 30,
+      "sample_values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "top_values": [
+        {
+          "value": "0",
+          "count": 3387,
+          "pct": 67.7
+        },
+        {
+          "value": "1",
+          "count": 257,
+          "pct": 5.1
+        },
+        {
+          "value": "2",
+          "count": 198,
+          "pct": 4.0
+        },
+        {
+          "value": "4",
+          "count": 184,
+          "pct": 3.7
+        },
+        {
+          "value": "3",
+          "count": 167,
+          "pct": 3.3
+        }
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 602.0,
+        "mean": 1.9902,
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 2.0
+      }
+    },
+    {
+      "name": "has_contractor_notified_schools",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Yes",
+        "Yes",
+        "Yes",
+        "No",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 3028,
+          "pct": 60.6
+        },
+        {
+          "value": "No",
+          "count": 1972,
+          "pct": 39.4
+        }
+      ]
+    },
+    {
+      "name": "has_contractor_notified_parents",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Yes",
+        "Yes",
+        "Yes",
+        "No",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "No",
+          "count": 2747,
+          "pct": 54.9
+        },
+        {
+          "value": "Yes",
+          "count": 2253,
+          "pct": 45.1
+        }
+      ]
+    },
+    {
+      "name": "have_you_alerted_opt",
+      "dtype": "object",
+      "missing": 707,
+      "missing_pct": 14.14,
+      "nunique": 2,
+      "sample_values": [
+        "Yes",
+        "No",
+        "Yes",
+        "No",
+        "No"
+      ],
+      "top_values": [
+        {
+          "value": "No",
+          "count": 3890,
+          "pct": 90.6
+        },
+        {
+          "value": "Yes",
+          "count": 403,
+          "pct": 9.4
+        }
+      ]
+    },
+    {
+      "name": "informed_on",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3331,
+      "sample_values": [
+        "2016-06-03T06:05:00.000",
+        "2017-01-10T05:57:00.000",
+        "2016-05-11T05:59:00.000",
+        "2017-01-05T06:05:00.000",
+        "2017-01-05T06:54:00.000"
+      ]
+    },
+    {
+      "name": "incident_number",
+      "dtype": "object",
+      "missing": 4288,
+      "missing_pct": 85.76,
+      "nunique": 6,
+      "sample_values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "top_values": [
+        {
+          "value": "0",
+          "count": 707,
+          "pct": 99.3
+        },
+        {
+          "value": "INC1858399",
+          "count": 1,
+          "pct": 0.1
+        },
+        {
+          "value": "1905916",
+          "count": 1,
+          "pct": 0.1
+        },
+        {
+          "value": "1906101",
+          "count": 1,
+          "pct": 0.1
+        },
+        {
+          "value": "1911277",
+          "count": 1,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "last_updated_on",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 220,
+      "sample_values": [
+        "2016-06-03T06:05:05.000",
+        "2017-01-10T05:57:42.000",
+        "2016-05-11T05:59:42.000",
+        "2017-01-05T06:05:48.000",
+        "2017-01-05T10:50:02.000"
+      ]
+    },
+    {
+      "name": "breakdown_or_running_late",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "Breakdown",
+        "Running Late",
+        "Running Late",
+        "Running Late",
+        "Breakdown"
+      ],
+      "top_values": [
+        {
+          "value": "Running Late",
+          "count": 4064,
+          "pct": 81.3
+        },
+        {
+          "value": "Busdelay",
+          "count": 639,
+          "pct": 12.8
+        },
+        {
+          "value": "Breakdown",
+          "count": 297,
+          "pct": 5.9
+        }
+      ]
+    },
+    {
+      "name": "school_age_or_prek",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "School-Age",
+        "School-Age",
+        "School-Age",
+        "School-Age",
+        "School-Age"
+      ],
+      "top_values": [
+        {
+          "value": "School-Age",
+          "count": 4024,
+          "pct": 80.5
+        },
+        {
+          "value": "School Age",
+          "count": 602,
+          "pct": 12.0
+        },
+        {
+          "value": "Pre-K",
+          "count": 374,
+          "pct": 7.5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "aqw3-vugz",
+  "name": "Future Floodplain 2020s",
+  "strategy": "baseline",
+  "description": "This dataset contains mapped floodplain areas for the 2020s, with roughly 4,500 polygon features. Each record includes a flood zone designation (fld_zone), a static base flood elevation value (static_bfe), a flag for the 0.2 percent annual chance flood area (abfe_0_2pc), and a grid code (gridcode), along with identifiers and geometric attributes such as shape length and area. Join and origin fields link features back to their source data.\n\nThe data can support flood risk assessment, land-use and zoning review, insurance and permitting analysis, emergency planning, and environmental studies. It is also useful for GIS mapping and spatial analysis, such as identifying properties within flood zones or comparing floodplain extents across time periods.",
+  "prompt": "Title: Future Floodplain 2020s\nCategory: Environment\nRows (sampled): 4484\nColumns: 10\nColumn names: join_count, target_fid, id, fld_zone, static_bfe, abfe_0_2pc, shape_leng, shape_area, gridcode, orig_fid\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 146,
+    "completion_tokens": 157,
+    "total_tokens": 303
+  },
+  "elapsed_seconds": 1.51
+}

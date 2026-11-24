@@ -1,0 +1,15 @@
+{
+  "id": "idfb-y78n",
+  "name": "Recreational Boating Permits",
+  "strategy": "baseline",
+  "description": "This dataset records recreational boating permits issued by year and company. Each row lists a year, the name of the company issuing permits, the total number of permits issued, counts of seasonal and temporary tags, and the number of permits broken out by boat type: canoes, kayaks, rowboats, sailboats, and sculls. With 23 sampled rows and 10 columns, it provides a compact view of permit activity across companies and years. It could be used to compare permit volumes over time, identify which companies issue the most permits, analyze the mix of boat types being permitted, or examine the balance between seasonal and temporary tags.",
+  "prompt": "Title: Recreational Boating Permits\nCategory: Uncategorized\nRows (sampled): 23\nColumns: 10\nColumn names: year, company_name, permits_issued, seasonal_tags, temporary_tags, canoes, kayaks, rowboats, sailboats, sculls\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 133,
+    "completion_tokens": 129,
+    "total_tokens": 262
+  },
+  "elapsed_seconds": 1.32
+}

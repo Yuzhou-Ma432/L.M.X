@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import json
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import config
 from src import llm
@@ -36,7 +37,11 @@ def _col_details(profile: dict) -> str:
                 f"{c['missing_pct']}% missing"]
         if c.get("stats"):
             s = c["stats"]
-            bits.append(f"min={s.get('min')} max={s.get('max')} mean={s.get('mean')}")
+            bits.append(f"min={s.get('min')} max={s.get('max')} mean={s.get('mean')} "
+                        f"p25={s.get('p25')} p75={s.get('p75')}")
+        if c.get("top_values"):
+            tv = ", ".join(f"{t['value']} ({t['pct']}%)" for t in c["top_values"])
+            bits.append("common values: " + tv)
         if c.get("sample_values"):
             bits.append("samples: " + ", ".join(c["sample_values"]))
         lines.append(" ".join(bits))
@@ -144,17 +149,41 @@ def generate_one(profile: dict, strategy: str) -> dict | None:
 STRATEGIES = ["baseline", "content", "semantic"]
 
 
-def generate_all(profiles: list[dict], strategies: list[str] | None = None) -> list[dict]:
+def _gen_task(profile: dict, strat: str) -> dict | None:
+    try:
+        r = generate_one(profile, strat)
+        print(f"  {profile['id']} :: {strat} -> {r['usage']['total_tokens']} tok / {r['elapsed_seconds']}s")
+        return r
+    except Exception as e:  # noqa: BLE001 — a failed dataset must not stop the run
+        print(f"  {profile['id']} :: {strat} !! failed: {e}")
+        return None
+
+
+def generate_all(profiles: list[dict], strategies: list[str] | None = None,
+                 workers: int = 1) -> list[dict]:
     strategies = strategies or STRATEGIES
+    tasks = [(p, s) for p in profiles for s in strategies]
+    total = len(tasks)
     results: list[dict] = []
-    for i, profile in enumerate(profiles, 1):
-        for strat in strategies:
-            print(f"[{i}/{len(profiles)}] {profile['id']} :: {strat}")
-            try:
-                r = generate_one(profile, strat)
+
+    if workers <= 1:
+        for i, (profile, strat) in enumerate(tasks, 1):
+            print(f"[{i}/{total}] {profile['id']} :: {strat}")
+            r = _gen_task(profile, strat)
+            if r:
+                results.append(r)
+    else:
+        with ThreadPoolExecutor(max_workers=workers) as ex:
+            futs = {ex.submit(_gen_task, p, s): (p, s) for p, s in tasks}
+            done = 0
+            for fut in as_completed(futs):
+                done += 1
+                p, s = futs[fut]
+                r = fut.result()
                 if r:
                     results.append(r)
-                    print(f"      -> {r['usage']['total_tokens']} tok / {r['elapsed_seconds']}s")
-            except Exception as e:  # noqa: BLE001
-                print(f"      !! failed: {e}")
+                if done % 20 == 0:
+                    print(f"  progress: {done}/{total}")
+
+    print(f"Generated {len(results)}/{total} descriptions.")
     return results

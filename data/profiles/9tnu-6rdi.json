@@ -1,0 +1,116 @@
+{
+  "id": "9tnu-6rdi",
+  "name": "High School Equivalency (HSE) Diplomas Awarded to NYCHA Residents by NYCHA Development – Local Law 163",
+  "description": "This datasets contains information about NYCHA residents who earned a high school equivalency (HSE) diploma in a given year. Only Pathways to Graduation HSE graduates are included. Pathways to Graduation is a full-time free NYC Department of Education program that helps students earn their HSE Diploma. Each row in the dataset represents the number of public housing residents on a NYCHA Development-level who earned a HSE diploma through participation in Pathways to Graduation. \nUp until December 2021, in New York State, HSE diplomas were awarded to students who passed the Test Assessing Secondary Completion (TASC) exam. In December 2021 New York Staten transitioned from using the TASC to the <a href=\"https://ged.com/\">GED Test</a>  as the state’s HSE exam.\nFor datasets related to other services provided to NYCHA residents, view the data collection “Services available to NYCHA Residents - Local Law 163”.",
+  "category": "Social Services",
+  "permalink": "https://data.cityofnewyork.us/d/9tnu-6rdi",
+  "sampled_rows": 5000,
+  "n_rows": 765,
+  "n_cols": 3,
+  "columns": [
+    {
+      "name": "year",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 7,
+      "sample_values": [
+        "2024",
+        "2024",
+        "2024",
+        "2024",
+        "2024"
+      ],
+      "top_values": [
+        {
+          "value": "2018",
+          "count": 339,
+          "pct": 44.3
+        },
+        {
+          "value": "2019",
+          "count": 91,
+          "pct": 11.9
+        },
+        {
+          "value": "2022",
+          "count": 83,
+          "pct": 10.8
+        },
+        {
+          "value": "2021",
+          "count": 83,
+          "pct": 10.8
+        },
+        {
+          "value": "2020",
+          "count": 66,
+          "pct": 8.6
+        }
+      ],
+      "stats": {
+        "min": 2018.0,
+        "max": 2024.0,
+        "mean": 2019.7882,
+        "median": 2019.0,
+        "p25": 2018.0,
+        "p75": 2021.0
+      }
+    },
+    {
+      "name": "development",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 500,
+      "sample_values": [
+        "ADAMS",
+        "ARMSTRONG II",
+        "AUDUBON",
+        "BARUCH",
+        "BELMONT-SUTTER AREA"
+      ]
+    },
+    {
+      "name": "number_of_public_housing",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5,
+      "sample_values": [
+        "<5",
+        "<5",
+        "<5",
+        "<5",
+        "<5"
+      ],
+      "top_values": [
+        {
+          "value": "< 5",
+          "count": 588,
+          "pct": 76.9
+        },
+        {
+          "value": "<5",
+          "count": 167,
+          "pct": 21.8
+        },
+        {
+          "value": "5",
+          "count": 5,
+          "pct": 0.7
+        },
+        {
+          "value": "6",
+          "count": 4,
+          "pct": 0.5
+        },
+        {
+          "value": "8",
+          "count": 1,
+          "pct": 0.1
+        }
+      ]
+    }
+  ]
+}

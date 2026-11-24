@@ -1,0 +1,203 @@
+{
+  "id": "nnf6-km2a",
+  "name": "Research Permits",
+  "description": "Permits issued to conduct scientific research in property under NYC Parks jurisdiction",
+  "category": "Environment",
+  "permalink": "https://data.cityofnewyork.us/d/nnf6-km2a",
+  "sampled_rows": 5000,
+  "n_rows": 65,
+  "n_cols": 7,
+  "columns": [
+    {
+      "name": "permit_year",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "2017",
+        "2017",
+        "2017",
+        "2017",
+        "2017"
+      ],
+      "top_values": [
+        {
+          "value": "2017",
+          "count": 64,
+          "pct": 98.5
+        },
+        {
+          "value": "2013,2014,2015,2016,2017,2018",
+          "count": 1,
+          "pct": 1.5
+        }
+      ]
+    },
+    {
+      "name": "project_title",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 64,
+      "sample_values": [
+        "Wetlands Delineation Conference House Pa…",
+        "PIN X731.27 Bruckner Expressway Access a…",
+        "Mapping coyote habitat and dispersal cor…",
+        "Opportunistic GPS Telemetry of Relocated…",
+        "Geological Mapping of Outcrops in Centra…"
+      ]
+    },
+    {
+      "name": "institution",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 45,
+      "sample_values": [
+        "AKRF Inc.",
+        "AKRF Inc.",
+        "American Museum of Natural History",
+        "American Museum of Natural History",
+        "American Museum of Natural History"
+      ]
+    },
+    {
+      "name": "borough",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 16,
+      "sample_values": [
+        "Staten Island",
+        "Bronx",
+        "Bronx, Brooklyn, Manhattan, Queens, Stat…",
+        "Bronx, Brooklyn, Manhattan, Queens, Stat…",
+        "Manhattan"
+      ],
+      "top_values": [
+        {
+          "value": "Manhattan",
+          "count": 15,
+          "pct": 23.1
+        },
+        {
+          "value": "Queens",
+          "count": 12,
+          "pct": 18.5
+        },
+        {
+          "value": "Bronx, Brooklyn, Manhattan, Queens, Stat…",
+          "count": 7,
+          "pct": 10.8
+        },
+        {
+          "value": "Bronx",
+          "count": 7,
+          "pct": 10.8
+        },
+        {
+          "value": "Brooklyn",
+          "count": 7,
+          "pct": 10.8
+        }
+      ]
+    },
+    {
+      "name": "park_name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 51,
+      "sample_values": [
+        "Conference House Park",
+        "Van Cortlandt Park",
+        "Alley Pond Park, Astoria Park, Baisley P…",
+        "Multiple",
+        "Central Park"
+      ]
+    },
+    {
+      "name": "location_within_park",
+      "dtype": "object",
+      "missing": 58,
+      "missing_pct": 89.23,
+      "nunique": 7,
+      "sample_values": [
+        "Rec Center Green Roof",
+        "Some work was performed at Rec Center Gr…",
+        "Princess Bay Marina",
+        "Conselyeas Pond",
+        "Initial surveys for CAGO nests - 123 Par…"
+      ],
+      "top_values": [
+        {
+          "value": "Rec Center Green Roof",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "value": "Some work was performed at Rec Center Gr…",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "value": "Princess Bay Marina",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "value": "Conselyeas Pond",
+          "count": 1,
+          "pct": 14.3
+        },
+        {
+          "value": "Initial surveys for CAGO nests - 123 Par…",
+          "count": 1,
+          "pct": 14.3
+        }
+      ]
+    },
+    {
+      "name": "taxa_or_area_of_study",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 30,
+      "sample_values": [
+        "Other",
+        "Plants",
+        "Mammals",
+        "Mammals",
+        "Other"
+      ],
+      "top_values": [
+        {
+          "value": "Plants",
+          "count": 10,
+          "pct": 15.4
+        },
+        {
+          "value": "Mammals",
+          "count": 7,
+          "pct": 10.8
+        },
+        {
+          "value": "Birds",
+          "count": 7,
+          "pct": 10.8
+        },
+        {
+          "value": "Other",
+          "count": 4,
+          "pct": 6.2
+        },
+        {
+          "value": "Water quality/Hydrology",
+          "count": 4,
+          "pct": 6.2
+        }
+      ]
+    }
+  ]
+}

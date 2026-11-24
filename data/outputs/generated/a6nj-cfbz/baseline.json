@@ -1,0 +1,15 @@
+{
+  "id": "a6nj-cfbz",
+  "name": "WiredNYC – All Buildings Data",
+  "strategy": "baseline",
+  "description": "This dataset contains records on 323 New York City buildings from the WiredNYC program, which assesses and documents a building's readiness for broadband and telecommunications services. Each row represents one building and includes its identifier and borough, along with a certification class that rates the building's connectivity infrastructure. The remaining columns describe specific physical and operational features, such as the number of carriers and internet service providers serving the building, whether it has coaxial cable, fiber connections, fiber distribution, satellite or fixed wireless access, multiple points of entry, designated or additional telecom space, riser space for current and additional providers, diverse riser locations, signed points of entry, and existing agreements or new service providers.\n\nThe data can be used to compare connectivity infrastructure across buildings and boroughs, identify buildings with strong or weak telecom readiness, and support decisions by tenants, brokers, developers, or policymakers interested in broadband access and building upgrades. It is also useful for mapping patterns in fiber availability and provider competition across the city.",
+  "prompt": "Title: WiredNYC – All Buildings Data\nCategory: NYC BigApps\nRows (sampled): 323\nColumns: 19\nColumn names: building_id, borough, certification_class, of_carriers, coax_cable_connections, fiber_connection, satellite_fixed_wireless_connection, fiber_distribution, isps_1, multiple_points_of_entry, designated_telecom_utility_space, additional_telecom_space, riser_space_for_current_providers, riser_space_for_additional_providers, diverse_riser_locations, signed_poes, agreements, new_service_providers, isps_2\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 211,
+    "completion_tokens": 199,
+    "total_tokens": 410
+  },
+  "elapsed_seconds": 2.1
+}

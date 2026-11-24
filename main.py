@@ -32,6 +32,9 @@ def main() -> None:
     for name in ("profile", "generate", "pipeline"):
         sp = sub.add_parser(name)
         sp.add_argument("--limit", type=int, default=None)
+        if name in ("generate", "pipeline"):
+            sp.add_argument("--workers", type=int, default=1,
+                            help="concurrent LLM calls (e.g. 6)")
     sp = sub.add_parser("evaluate")
 
     args = p.parse_args()
@@ -45,7 +48,8 @@ def main() -> None:
     elif args.cmd == "generate":
         profiles = [json.loads(f.read_text(encoding="utf-8"))
                     for f in sorted(config.PROFILE_DIR.glob("*.json"))]
-        generate.generate_all(profiles[: args.limit] if args.limit else profiles)
+        generate.generate_all(profiles[: args.limit] if args.limit else profiles,
+                              workers=args.workers)
 
     elif args.cmd == "evaluate":
         results = evaluate.evaluate()
@@ -56,7 +60,8 @@ def main() -> None:
         profile.profile_all(_load_selected(), limit=args.limit)
         profiles = [json.loads(f.read_text(encoding="utf-8"))
                     for f in sorted(config.PROFILE_DIR.glob("*.json"))]
-        generate.generate_all(profiles[: args.limit] if args.limit else profiles)
+        generate.generate_all(profiles[: args.limit] if args.limit else profiles,
+                              workers=args.workers)
         results = evaluate.evaluate()
         print(evaluate.summarize(results))
 

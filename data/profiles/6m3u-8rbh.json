@@ -1,0 +1,365 @@
+{
+  "id": "6m3u-8rbh",
+  "name": "Upcoming contracts to be awarded (CAP)",
+  "description": "New school projects (Capacity)  that will complete design within the next 6 months and will be available for bid.",
+  "category": "Housing & Development",
+  "permalink": "https://data.cityofnewyork.us/d/6m3u-8rbh",
+  "sampled_rows": 5000,
+  "n_rows": 25,
+  "n_cols": 10,
+  "columns": [
+    {
+      "name": "upcoming_project_name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 14,
+      "sample_values": [
+        "P.S. @ 257 FRANKLIN STREET - BROOKLYN",
+        "P.S. 9 - STATEN ISLAND",
+        "P.S. 134 - BROOKLYN",
+        "I.S. 228 - BROOKLYN",
+        "FRANCIS LEWIS HS - QUEENS"
+      ],
+      "top_values": [
+        {
+          "value": "P.S. @ 8802 5 AVENUE - BROOKLYN",
+          "count": 3,
+          "pct": 12.0
+        },
+        {
+          "value": "P.S. @ 257 FRANKLIN STREET - BROOKLYN",
+          "count": 2,
+          "pct": 8.0
+        },
+        {
+          "value": "P.S. 9 - STATEN ISLAND",
+          "count": 2,
+          "pct": 8.0
+        },
+        {
+          "value": "P.S. 134 - BROOKLYN",
+          "count": 2,
+          "pct": 8.0
+        },
+        {
+          "value": "I.S. 228 - BROOKLYN",
+          "count": 2,
+          "pct": 8.0
+        }
+      ]
+    },
+    {
+      "name": "upcoming_project_borough_",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5,
+      "sample_values": [
+        "BROOKLYN",
+        "STATEN ISLAND",
+        "BROOKLYN",
+        "BROOKLYN",
+        "QUEENS"
+      ],
+      "top_values": [
+        {
+          "value": "BROOKLYN",
+          "count": 13,
+          "pct": 52.0
+        },
+        {
+          "value": "QUEENS",
+          "count": 6,
+          "pct": 24.0
+        },
+        {
+          "value": "MANHATTAN",
+          "count": 3,
+          "pct": 12.0
+        },
+        {
+          "value": "STATEN ISLAND",
+          "count": 2,
+          "pct": 8.0
+        },
+        {
+          "value": "BRONX",
+          "count": 1,
+          "pct": 4.0
+        }
+      ]
+    },
+    {
+      "name": "upcoming_project_geographic_district",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 10,
+      "sample_values": [
+        "14",
+        "31",
+        "22",
+        "21",
+        "26"
+      ],
+      "top_values": [
+        {
+          "value": "26",
+          "count": 5,
+          "pct": 20.0
+        },
+        {
+          "value": "20",
+          "count": 5,
+          "pct": 20.0
+        },
+        {
+          "value": "22",
+          "count": 4,
+          "pct": 16.0
+        },
+        {
+          "value": "14",
+          "count": 2,
+          "pct": 8.0
+        },
+        {
+          "value": "31",
+          "count": 2,
+          "pct": 8.0
+        }
+      ],
+      "stats": {
+        "min": 2.0,
+        "max": 31.0,
+        "mean": 20.08,
+        "median": 21.0,
+        "p25": 20.0,
+        "p75": 26.0
+      }
+    },
+    {
+      "name": "upcoming_project_description",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "NEW",
+        "ADDITION",
+        "ADDITION",
+        "ADDITION",
+        "ADDITION"
+      ],
+      "top_values": [
+        {
+          "value": "DEMO",
+          "count": 11,
+          "pct": 44.0
+        },
+        {
+          "value": "ADDITION",
+          "count": 8,
+          "pct": 32.0
+        },
+        {
+          "value": "NEW",
+          "count": 4,
+          "pct": 16.0
+        },
+        {
+          "value": "LEASE",
+          "count": 2,
+          "pct": 8.0
+        }
+      ]
+    },
+    {
+      "name": "upcoming_project_budget_range",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "$4M OVER",
+        "$4M OVER",
+        "$4M OVER",
+        "$4M OVER",
+        "$4M OVER"
+      ],
+      "top_values": [
+        {
+          "value": "$4M OVER",
+          "count": 19,
+          "pct": 76.0
+        },
+        {
+          "value": "$1M - $4M",
+          "count": 5,
+          "pct": 20.0
+        },
+        {
+          "value": "$500K - $750K",
+          "count": 1,
+          "pct": 4.0
+        }
+      ]
+    },
+    {
+      "name": "upcoming_project_design_completion_date",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "2027/04",
+        "2027/04",
+        "2027/04",
+        "2027/03",
+        "2027/03"
+      ],
+      "top_values": [
+        {
+          "value": "2026/12",
+          "count": 9,
+          "pct": 36.0
+        },
+        {
+          "value": "2026/11",
+          "count": 7,
+          "pct": 28.0
+        },
+        {
+          "value": "2027/03",
+          "count": 6,
+          "pct": 24.0
+        },
+        {
+          "value": "2027/04",
+          "count": 3,
+          "pct": 12.0
+        }
+      ]
+    },
+    {
+      "name": "upcoming_project_category",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "NEW SCHOOLS",
+        "ADDITIONS",
+        "ADDITIONS",
+        "ADDITIONS",
+        "ADDITIONS"
+      ],
+      "top_values": [
+        {
+          "value": "SITE",
+          "count": 11,
+          "pct": 44.0
+        },
+        {
+          "value": "ADDITIONS",
+          "count": 7,
+          "pct": 28.0
+        },
+        {
+          "value": "NEW SCHOOLS",
+          "count": 5,
+          "pct": 20.0
+        },
+        {
+          "value": "LEASES",
+          "count": 2,
+          "pct": 8.0
+        }
+      ]
+    },
+    {
+      "name": "upcoming_project_status_",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Design",
+        "Scope",
+        "Design",
+        "Design",
+        "Design"
+      ],
+      "top_values": [
+        {
+          "value": "Design",
+          "count": 24,
+          "pct": 96.0
+        },
+        {
+          "value": "Scope",
+          "count": 1,
+          "pct": 4.0
+        }
+      ]
+    },
+    {
+      "name": "upcoming_project_square_footage",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 13,
+      "sample_values": [
+        "451",
+        "316",
+        "395",
+        "279",
+        "491"
+      ],
+      "top_values": [
+        {
+          "value": "0",
+          "count": 12,
+          "pct": 48.0
+        },
+        {
+          "value": "451",
+          "count": 2,
+          "pct": 8.0
+        },
+        {
+          "value": "316",
+          "count": 1,
+          "pct": 4.0
+        },
+        {
+          "value": "279",
+          "count": 1,
+          "pct": 4.0
+        },
+        {
+          "value": "395",
+          "count": 1,
+          "pct": 4.0
+        }
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 696.0,
+        "mean": 223.24,
+        "median": 279.0,
+        "p25": 0.0,
+        "p75": 395.0
+      }
+    },
+    {
+      "name": "upcoming_project_seat_count",
+      "dtype": "float64",
+      "missing": 25,
+      "missing_pct": 100.0,
+      "nunique": 0,
+      "sample_values": []
+    }
+  ]
+}

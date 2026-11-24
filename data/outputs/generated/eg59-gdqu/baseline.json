@@ -1,0 +1,15 @@
+{
+  "id": "eg59-gdqu",
+  "name": "2017 Diversity Report Admissions Methods",
+  "strategy": "baseline",
+  "description": "This dataset lists New York City public schools with information on their admissions methods for the 2017 diversity reporting cycle. Each row represents one school, identified by its district-borough-number code (dbn) and school name. The admissions_methods column describes how students are admitted to the school, and the fully_screened column indicates whether the school uses fully screened admissions. With roughly 1,500 school records and four fields, the data supports comparisons of admissions approaches across schools, analysis of how common screened versus other admissions methods are, and joining to other school-level datasets for research on enrollment equity and school choice.",
+  "prompt": "Title: 2017 Diversity Report Admissions Methods\nCategory: Education\nRows (sampled): 1542\nColumns: 4\nColumn names: dbn, school_name, admissions_methods, fully_screened\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 120,
+    "completion_tokens": 124,
+    "total_tokens": 244
+  },
+  "elapsed_seconds": 1.42
+}

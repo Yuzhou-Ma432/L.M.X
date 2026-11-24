@@ -1,0 +1,565 @@
+{
+  "id": "vpeq-ndkd",
+  "name": "9/11 Authorized Bus Parking Permit",
+  "description": "Parking Permits issued to Motor Coach Tour Bus operators to park in designated metered bus parking spaces below Houston Street from River to River to visit the 9/11 Memorial Museum.",
+  "category": "Transportation",
+  "permalink": "https://data.cityofnewyork.us/d/vpeq-ndkd",
+  "sampled_rows": 5000,
+  "n_rows": 3914,
+  "n_cols": 22,
+  "columns": [
+    {
+      "name": "permityear",
+      "dtype": "float64",
+      "missing": 10,
+      "missing_pct": 0.26,
+      "nunique": 16,
+      "sample_values": [
+        "2011.0",
+        "2011.0",
+        "2011.0",
+        "2011.0",
+        "2011.0"
+      ],
+      "top_values": [
+        {
+          "value": "2015.0",
+          "count": 657,
+          "pct": 16.8
+        },
+        {
+          "value": "2014.0",
+          "count": 585,
+          "pct": 15.0
+        },
+        {
+          "value": "2016.0",
+          "count": 563,
+          "pct": 14.4
+        },
+        {
+          "value": "2012.0",
+          "count": 504,
+          "pct": 12.9
+        },
+        {
+          "value": "2013.0",
+          "count": 385,
+          "pct": 9.9
+        }
+      ],
+      "stats": {
+        "min": 2011.0,
+        "max": 2026.0,
+        "mean": 2015.7777,
+        "median": 2015.0,
+        "p25": 2014.0,
+        "p75": 2017.0
+      }
+    },
+    {
+      "name": "permitno",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3603,
+      "sample_values": [
+        "401",
+        "402",
+        "403",
+        "404",
+        "405"
+      ],
+      "stats": {
+        "min": 401.0,
+        "max": 4016.0,
+        "mean": 2306.4688,
+        "median": 2367.5,
+        "p25": 1388.25,
+        "p75": 3292.75
+      }
+    },
+    {
+      "name": "reservationnumber",
+      "dtype": "object",
+      "missing": 2,
+      "missing_pct": 0.05,
+      "nunique": 3908,
+      "sample_values": [
+        "1703",
+        "16817",
+        "18772",
+        "21928",
+        "13851"
+      ]
+    },
+    {
+      "name": "valid_date",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1944,
+      "sample_values": [
+        "2011-09-17T00:00:00.000",
+        "2011-09-28T00:00:00.000",
+        "2011-10-12T00:00:00.000",
+        "2011-11-14T00:00:00.000",
+        "2011-09-16T00:00:00.000"
+      ]
+    },
+    {
+      "name": "busarrivaltime",
+      "dtype": "object",
+      "missing": 40,
+      "missing_pct": 1.02,
+      "nunique": 297,
+      "sample_values": [
+        "9:00 AM",
+        "12:00 PM",
+        "10:45 AM",
+        "10:30 AM",
+        "11:30 AM"
+      ]
+    },
+    {
+      "name": "permitnumber",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3913,
+      "sample_values": [
+        "BUS-401",
+        "BUS-402",
+        "BUS-403",
+        "BUS-404",
+        "BUS-405"
+      ]
+    },
+    {
+      "name": "companyname",
+      "dtype": "object",
+      "missing": 19,
+      "missing_pct": 0.49,
+      "nunique": 2340,
+      "sample_values": [
+        "SUE SMITH VACATION",
+        "CLASSIC RESIDENCE",
+        "TAYLOR MANAGEMENT",
+        "CDCN ALUMNI",
+        "TAYLOR MANAGEMENT"
+      ]
+    },
+    {
+      "name": "dayofweek",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 7,
+      "sample_values": [
+        "SATURDAY",
+        "WEDNESDAY",
+        "WEDNESDAY",
+        "MONDAY",
+        "FRIDAY"
+      ],
+      "top_values": [
+        {
+          "value": "SATURDAY",
+          "count": 983,
+          "pct": 25.1
+        },
+        {
+          "value": "SUNDAY",
+          "count": 612,
+          "pct": 15.6
+        },
+        {
+          "value": "WEDNESDAY",
+          "count": 543,
+          "pct": 13.9
+        },
+        {
+          "value": "THURSDAY",
+          "count": 512,
+          "pct": 13.1
+        },
+        {
+          "value": "TUESDAY",
+          "count": 459,
+          "pct": 11.7
+        }
+      ]
+    },
+    {
+      "name": "numberofbuses",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 10,
+      "sample_values": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "top_values": [
+        {
+          "value": "1",
+          "count": 3177,
+          "pct": 81.2
+        },
+        {
+          "value": "2",
+          "count": 559,
+          "pct": 14.3
+        },
+        {
+          "value": "3",
+          "count": 110,
+          "pct": 2.8
+        },
+        {
+          "value": "4",
+          "count": 38,
+          "pct": 1.0
+        },
+        {
+          "value": "6",
+          "count": 10,
+          "pct": 0.3
+        }
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 10.0,
+        "mean": 1.2588,
+        "median": 1.0,
+        "p25": 1.0,
+        "p75": 1.0
+      }
+    },
+    {
+      "name": "city",
+      "dtype": "object",
+      "missing": 2,
+      "missing_pct": 0.05,
+      "nunique": 1281,
+      "sample_values": [
+        "HOT SPRINGS VILLAGE",
+        "TEANECK",
+        "HIGHLAND PARK",
+        "SOMERSET",
+        "YORKTOWN"
+      ]
+    },
+    {
+      "name": "state",
+      "dtype": "object",
+      "missing": 3,
+      "missing_pct": 0.08,
+      "nunique": 68,
+      "sample_values": [
+        "AZ",
+        "NJ",
+        "NJ",
+        "NJ",
+        "NY"
+      ]
+    },
+    {
+      "name": "zipcode",
+      "dtype": "object",
+      "missing": 4,
+      "missing_pct": 0.1,
+      "nunique": 1571,
+      "sample_values": [
+        "71909",
+        "07666",
+        "08904",
+        "08873",
+        "10598"
+      ]
+    },
+    {
+      "name": "issuedate",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1269,
+      "sample_values": [
+        "2011-08-24T00:00:00.000",
+        "2011-08-24T00:00:00.000",
+        "2011-08-25T00:00:00.000",
+        "2011-08-25T00:00:00.000",
+        "2011-09-08T00:00:00.000"
+      ]
+    },
+    {
+      "name": "permittype",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "SPECIAL PARKING PERMIT",
+        "SPECIAL PARKING PERMIT",
+        "SPECIAL PARKING PERMIT",
+        "SPECIAL PARKING PERMIT",
+        "SPECIAL PARKING PERMIT"
+      ],
+      "top_values": [
+        {
+          "value": "SPECIAL PARKING PERMIT",
+          "count": 3914,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "vehicletype",
+      "dtype": "object",
+      "missing": 23,
+      "missing_pct": 0.59,
+      "nunique": 9,
+      "sample_values": [
+        "MOTORCOACH",
+        "MOTORCOACH",
+        "MOTORCOACH",
+        "MOTORCOACH",
+        "MOTORCOACH"
+      ],
+      "top_values": [
+        {
+          "value": "MOTORCOACH",
+          "count": 3675,
+          "pct": 94.4
+        },
+        {
+          "value": "SCHOOL BUS",
+          "count": 203,
+          "pct": 5.2
+        },
+        {
+          "value": "MINI-BUS",
+          "count": 4,
+          "pct": 0.1
+        },
+        {
+          "value": "VAN",
+          "count": 4,
+          "pct": 0.1
+        },
+        {
+          "value": "1:15 pm",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "buscompanyname",
+      "dtype": "object",
+      "missing": 2,
+      "missing_pct": 0.05,
+      "nunique": 1536,
+      "sample_values": [
+        "MOTORCOACH",
+        "MOTORCOACH",
+        "TROLLEY TOUR BUS CO.",
+        "TRIPLE D",
+        "MOTORCOACH"
+      ]
+    },
+    {
+      "name": "permitqty",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 10,
+      "sample_values": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "top_values": [
+        {
+          "value": "1",
+          "count": 3177,
+          "pct": 81.2
+        },
+        {
+          "value": "2",
+          "count": 559,
+          "pct": 14.3
+        },
+        {
+          "value": "3",
+          "count": 110,
+          "pct": 2.8
+        },
+        {
+          "value": "4",
+          "count": 38,
+          "pct": 1.0
+        },
+        {
+          "value": "6",
+          "count": 10,
+          "pct": 0.3
+        }
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 10.0,
+        "mean": 1.2588,
+        "median": 1.0,
+        "p25": 1.0,
+        "p75": 1.0
+      }
+    },
+    {
+      "name": "qtyreturn",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 7,
+      "sample_values": [
+        "1",
+        "0",
+        "1",
+        "0",
+        "1"
+      ],
+      "top_values": [
+        {
+          "value": "0",
+          "count": 2707,
+          "pct": 69.2
+        },
+        {
+          "value": "1",
+          "count": 1060,
+          "pct": 27.1
+        },
+        {
+          "value": "2",
+          "count": 116,
+          "pct": 3.0
+        },
+        {
+          "value": "3",
+          "count": 19,
+          "pct": 0.5
+        },
+        {
+          "value": "4",
+          "count": 7,
+          "pct": 0.2
+        }
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 1014.0,
+        "mean": 0.616,
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 1.0
+      }
+    },
+    {
+      "name": "return",
+      "dtype": "bool",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "True",
+        "False",
+        "True",
+        "False",
+        "True"
+      ],
+      "top_values": [
+        {
+          "value": "False",
+          "count": 2706,
+          "pct": 69.1
+        },
+        {
+          "value": "True",
+          "count": 1208,
+          "pct": 30.9
+        }
+      ]
+    },
+    {
+      "name": "returndate",
+      "dtype": "object",
+      "missing": 2818,
+      "missing_pct": 72.0,
+      "nunique": 500,
+      "sample_values": [
+        "2011-09-29T00:00:00.000",
+        "2011-09-18T00:00:00.000",
+        "2011-09-29T00:00:00.000",
+        "2011-10-21T00:00:00.000",
+        "2011-10-27T00:00:00.000"
+      ]
+    },
+    {
+      "name": "conditionrestrictions",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "VOID WITHOUT PAID METER RECEIPT",
+        "VOID WITHOUT PAID METER RECEIPT",
+        "VOID WITHOUT PAID METER RECEIPT",
+        "VOID WITHOUT PAID METER RECEIPT",
+        "VOID WITHOUT PAID METER RECEIPT"
+      ],
+      "top_values": [
+        {
+          "value": "VOID WITHOUT PAID METER RECEIPT",
+          "count": 3314,
+          "pct": 84.7
+        },
+        {
+          "value": "NO METER RECEIPT REQUIRED",
+          "count": 600,
+          "pct": 15.3
+        }
+      ]
+    },
+    {
+      "name": "placereciepthere",
+      "dtype": "object",
+      "missing": 600,
+      "missing_pct": 15.33,
+      "nunique": 2,
+      "sample_values": [
+        "PLACE METER RECEIPT HERE",
+        "PLACE METER RECEIPT HERE",
+        "PLACE METER RECEIPT HERE",
+        "PLACE METER RECEIPT HERE",
+        "PLACE METER RECEIPT HERE"
+      ],
+      "top_values": [
+        {
+          "value": "PLACE METER RECEIPT HERE",
+          "count": 3313,
+          "pct": 100.0
+        },
+        {
+          "value": "PLACE METER RECEIPT HERE on",
+          "count": 1,
+          "pct": 0.0
+        }
+      ]
+    }
+  ]
+}

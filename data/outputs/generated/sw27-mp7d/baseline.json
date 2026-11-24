@@ -1,0 +1,15 @@
+{
+  "id": "sw27-mp7d",
+  "name": "Rates of Intimate Partner Violence Across New York City: An Intersectional Analysis",
+  "strategy": "baseline",
+  "description": "This dataset provides counts of intimate partner violence (assault) incidents and population figures across New York City geographic locations, broken down by race/ethnicity and sex. Each row represents a geographic area and includes population counts for five racial/ethnic groups (white, black, Hispanic, Asian/Pacific Islander, and American Indian) overall and separately for females and males, alongside corresponding assault counts for each group and sex. The dataset also includes expected assault counts by race/ethnicity, which can be compared with observed counts to identify disparities. With 61 rows and 36 columns, it supports intersectional analysis of how intimate partner violence rates vary across race, gender, and neighborhood, and could be used for public health research, resource allocation, policy evaluation, and identifying communities with elevated risk or underreporting.",
+  "prompt": "Title: Rates of Intimate Partner Violence Across New York City: An Intersectional Analysis\nCategory: Public Safety\nRows (sampled): 61\nColumns: 36\nColumn names: geographic_location, pop_white, pop_black, pop_hispanic, pop_asian_pac, pop_amer_indian, pop_white_female, pop_black_female, pop_hispanic_female, pop_asian_pac_female, pop_amer_indian_female, pop_white_male, pop_black_male, pop_hispanic_male, pop_asian_pac_male, pop_amer_indian_male, assault_white, assault_black, assault_hispanic, assault_asian_pac, assault_amer_indian, assault_white_female, assault_black_female, assault_hispanic_female, assault_asian_pac_female, assault_amer_indian_female, assault_white_male, assault_black_male, assault_hispanic_male, assault_asian_pac_male, assault_amer_indian_male, expected_assault_white, expected_assault_black, expected_assault_hispanic, expected_assault_asian_pac, expected_assault_amer_indian\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 342,
+    "completion_tokens": 162,
+    "total_tokens": 504
+  },
+  "elapsed_seconds": 1.5
+}

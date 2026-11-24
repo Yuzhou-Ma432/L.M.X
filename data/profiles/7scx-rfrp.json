@@ -1,0 +1,1465 @@
+{
+  "id": "7scx-rfrp",
+  "name": "2017 Diversity Report K-8 - Special Programs",
+  "description": "",
+  "category": "Education",
+  "permalink": "https://data.cityofnewyork.us/d/7scx-rfrp",
+  "sampled_rows": 5000,
+  "n_rows": 1715,
+  "n_cols": 71,
+  "columns": [
+    {
+      "name": "dbn",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 329,
+      "sample_values": [
+        "01M020",
+        "01M020",
+        "01M020",
+        "01M020",
+        "01M020"
+      ]
+    },
+    {
+      "name": "school_name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 329,
+      "sample_values": [
+        "P.S. 020 Anna Silver",
+        "P.S. 020 Anna Silver",
+        "P.S. 020 Anna Silver",
+        "P.S. 020 Anna Silver",
+        "P.S. 020 Anna Silver"
+      ]
+    },
+    {
+      "name": "special_program",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Dual Language",
+        "Dual Language",
+        "Dual Language",
+        "Dual Language",
+        "Dual Language"
+      ],
+      "top_values": [
+        {
+          "value": "Dual Language",
+          "count": 1200,
+          "pct": 70.0
+        },
+        {
+          "value": "Gifted and Talented",
+          "count": 515,
+          "pct": 30.0
+        }
+      ]
+    },
+    {
+      "name": "category",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 6,
+      "sample_values": [
+        "All Students",
+        "Attend school outside district of reside…",
+        "English Language Learners",
+        "Receive free or reduced price lunch",
+        "Reside in temporary housing"
+      ],
+      "top_values": [
+        {
+          "value": "All Students",
+          "count": 349,
+          "pct": 20.3
+        },
+        {
+          "value": "Receive free or reduced price lunch",
+          "count": 345,
+          "pct": 20.1
+        },
+        {
+          "value": "English Language Learners",
+          "count": 262,
+          "pct": 15.3
+        },
+        {
+          "value": "Reside in temporary housing",
+          "count": 258,
+          "pct": 15.0
+        },
+        {
+          "value": "Attend school outside district of reside…",
+          "count": 251,
+          "pct": 14.6
+        }
+      ]
+    },
+    {
+      "name": "year",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "2016-17",
+        "2016-17",
+        "2016-17",
+        "2016-17",
+        "2016-17"
+      ],
+      "top_values": [
+        {
+          "value": "2016-17",
+          "count": 1715,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "total_enrollment",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 228,
+      "sample_values": [
+        "162",
+        "62",
+        "45",
+        "162",
+        "21"
+      ]
+    },
+    {
+      "name": "grade_k",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 56,
+      "sample_values": [
+        "No Data",
+        "No Data",
+        "No Data",
+        "No Data",
+        "No Data"
+      ]
+    },
+    {
+      "name": "grade_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 66,
+      "sample_values": [
+        "49",
+        "22",
+        "18",
+        "49",
+        "7"
+      ]
+    },
+    {
+      "name": "grade_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 66,
+      "sample_values": [
+        "33",
+        "11",
+        "14",
+        "33",
+        "s"
+      ]
+    },
+    {
+      "name": "grade_3",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 65,
+      "sample_values": [
+        "33",
+        "11",
+        "10",
+        "33",
+        "6"
+      ]
+    },
+    {
+      "name": "grade_4",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 63,
+      "sample_values": [
+        "25",
+        "7",
+        "s",
+        "25",
+        "s"
+      ]
+    },
+    {
+      "name": "grade_5",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 56,
+      "sample_values": [
+        "22",
+        "11",
+        "s",
+        "22",
+        "s"
+      ]
+    },
+    {
+      "name": "grade_6",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 32,
+      "sample_values": [
+        "No Data",
+        "No Data",
+        "No Data",
+        "No Data",
+        "No Data"
+      ]
+    },
+    {
+      "name": "grade_7",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 32,
+      "sample_values": [
+        "No Data",
+        "No Data",
+        "No Data",
+        "No Data",
+        "No Data"
+      ]
+    },
+    {
+      "name": "grade_8",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 33,
+      "sample_values": [
+        "No Data",
+        "No Data",
+        "No Data",
+        "No Data",
+        "No Data"
+      ]
+    },
+    {
+      "name": "female_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 148,
+      "sample_values": [
+        "90",
+        "40",
+        "29",
+        "90",
+        "12"
+      ]
+    },
+    {
+      "name": "female_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 244,
+      "sample_values": [
+        "55.6%",
+        "64.5%",
+        "64.4%",
+        "55.6%",
+        "57.1%"
+      ]
+    },
+    {
+      "name": "male_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 139,
+      "sample_values": [
+        "72",
+        "22",
+        "16",
+        "72",
+        "9"
+      ]
+    },
+    {
+      "name": "male_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 243,
+      "sample_values": [
+        "44.4%",
+        "35.5%",
+        "35.6%",
+        "44.4%",
+        "42.9%"
+      ]
+    },
+    {
+      "name": "asian_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 103,
+      "sample_values": [
+        "92",
+        "34",
+        "39",
+        "92",
+        "9"
+      ]
+    },
+    {
+      "name": "asian_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 193,
+      "sample_values": [
+        "56.8%",
+        "54.8%",
+        "86.7%",
+        "56.8%",
+        "42.9%"
+      ]
+    },
+    {
+      "name": "black_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 52,
+      "sample_values": [
+        "10",
+        "s",
+        "s",
+        "10",
+        "s"
+      ]
+    },
+    {
+      "name": "black_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 175,
+      "sample_values": [
+        "6.2%",
+        "s",
+        "s",
+        "6.2%",
+        "s"
+      ]
+    },
+    {
+      "name": "hispanic_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 155,
+      "sample_values": [
+        "41",
+        "18",
+        "s",
+        "41",
+        "7"
+      ]
+    },
+    {
+      "name": "hispanic_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 314,
+      "sample_values": [
+        "25.3%",
+        "29.0%",
+        "s",
+        "25.3%",
+        "33.3%"
+      ]
+    },
+    {
+      "name": "other_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 22,
+      "sample_values": [
+        "8",
+        "s",
+        "s",
+        "8",
+        "s"
+      ],
+      "top_values": [
+        {
+          "value": "s",
+          "count": 1656,
+          "pct": 96.6
+        },
+        {
+          "value": "6",
+          "count": 14,
+          "pct": 0.8
+        },
+        {
+          "value": "10",
+          "count": 5,
+          "pct": 0.3
+        },
+        {
+          "value": "8",
+          "count": 5,
+          "pct": 0.3
+        },
+        {
+          "value": "11",
+          "count": 5,
+          "pct": 0.3
+        }
+      ]
+    },
+    {
+      "name": "other_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 46,
+      "sample_values": [
+        "4.9%",
+        "s",
+        "s",
+        "4.9%",
+        "s"
+      ]
+    },
+    {
+      "name": "white_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 83,
+      "sample_values": [
+        "11",
+        "s",
+        "s",
+        "11",
+        "s"
+      ]
+    },
+    {
+      "name": "white_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 186,
+      "sample_values": [
+        "6.8%",
+        "s",
+        "s",
+        "6.8%",
+        "s"
+      ]
+    },
+    {
+      "name": "ell_spanish_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 73,
+      "sample_values": [
+        "No Data",
+        "No Data",
+        "s",
+        "No Data",
+        "No Data"
+      ]
+    },
+    {
+      "name": "ell_spanish_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 38,
+      "sample_values": [
+        "No Data",
+        "No Data",
+        "s",
+        "No Data",
+        "No Data"
+      ]
+    },
+    {
+      "name": "ell_chinese_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 17,
+      "sample_values": [
+        "No Data",
+        "No Data",
+        "38",
+        "No Data",
+        "No Data"
+      ],
+      "top_values": [
+        {
+          "value": "No Data",
+          "count": 1453,
+          "pct": 84.7
+        },
+        {
+          "value": "s",
+          "count": 246,
+          "pct": 14.3
+        },
+        {
+          "value": "7",
+          "count": 2,
+          "pct": 0.1
+        },
+        {
+          "value": "86",
+          "count": 1,
+          "pct": 0.1
+        },
+        {
+          "value": "38",
+          "count": 1,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "ell_chinese_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 13,
+      "sample_values": [
+        "No Data",
+        "No Data",
+        "84.4%",
+        "No Data",
+        "No Data"
+      ],
+      "top_values": [
+        {
+          "value": "No Data",
+          "count": 1453,
+          "pct": 84.7
+        },
+        {
+          "value": "s",
+          "count": 246,
+          "pct": 14.3
+        },
+        {
+          "value": "100.0%",
+          "count": 6,
+          "pct": 0.3
+        },
+        {
+          "value": "93.5%",
+          "count": 1,
+          "pct": 0.1
+        },
+        {
+          "value": "84.4%",
+          "count": 1,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "ell_bengali_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "No Data",
+        "No Data",
+        "s",
+        "No Data",
+        "No Data"
+      ],
+      "top_values": [
+        {
+          "value": "No Data",
+          "count": 1453,
+          "pct": 84.7
+        },
+        {
+          "value": "s",
+          "count": 261,
+          "pct": 15.2
+        },
+        {
+          "value": "6",
+          "count": 1,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "ell_bengali_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "No Data",
+        "No Data",
+        "s",
+        "No Data",
+        "No Data"
+      ],
+      "top_values": [
+        {
+          "value": "No Data",
+          "count": 1453,
+          "pct": 84.7
+        },
+        {
+          "value": "s",
+          "count": 261,
+          "pct": 15.2
+        },
+        {
+          "value": "1.9%",
+          "count": 1,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "ell_arabic_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "No Data",
+        "No Data",
+        "s",
+        "No Data",
+        "No Data"
+      ],
+      "top_values": [
+        {
+          "value": "No Data",
+          "count": 1453,
+          "pct": 84.7
+        },
+        {
+          "value": "s",
+          "count": 261,
+          "pct": 15.2
+        },
+        {
+          "value": "16",
+          "count": 1,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "ell_arabic_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "No Data",
+        "No Data",
+        "s",
+        "No Data",
+        "No Data"
+      ],
+      "top_values": [
+        {
+          "value": "No Data",
+          "count": 1453,
+          "pct": 84.7
+        },
+        {
+          "value": "s",
+          "count": 261,
+          "pct": 15.2
+        },
+        {
+          "value": "88.9%",
+          "count": 1,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "ell_haitian_creole_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "No Data",
+        "No Data",
+        "s",
+        "No Data",
+        "No Data"
+      ],
+      "top_values": [
+        {
+          "value": "No Data",
+          "count": 1453,
+          "pct": 84.7
+        },
+        {
+          "value": "s",
+          "count": 260,
+          "pct": 15.2
+        },
+        {
+          "value": "15",
+          "count": 1,
+          "pct": 0.1
+        },
+        {
+          "value": "6",
+          "count": 1,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "ell_haitian_creole_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "No Data",
+        "No Data",
+        "s",
+        "No Data",
+        "No Data"
+      ],
+      "top_values": [
+        {
+          "value": "No Data",
+          "count": 1453,
+          "pct": 84.7
+        },
+        {
+          "value": "s",
+          "count": 260,
+          "pct": 15.2
+        },
+        {
+          "value": "33.3%",
+          "count": 1,
+          "pct": 0.1
+        },
+        {
+          "value": "66.7%",
+          "count": 1,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "ell_french_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 7,
+      "sample_values": [
+        "No Data",
+        "No Data",
+        "s",
+        "No Data",
+        "No Data"
+      ],
+      "top_values": [
+        {
+          "value": "No Data",
+          "count": 1453,
+          "pct": 84.7
+        },
+        {
+          "value": "s",
+          "count": 257,
+          "pct": 15.0
+        },
+        {
+          "value": "8",
+          "count": 1,
+          "pct": 0.1
+        },
+        {
+          "value": "17",
+          "count": 1,
+          "pct": 0.1
+        },
+        {
+          "value": "7",
+          "count": 1,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "ell_french_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 7,
+      "sample_values": [
+        "No Data",
+        "No Data",
+        "s",
+        "No Data",
+        "No Data"
+      ],
+      "top_values": [
+        {
+          "value": "No Data",
+          "count": 1453,
+          "pct": 84.7
+        },
+        {
+          "value": "s",
+          "count": 257,
+          "pct": 15.0
+        },
+        {
+          "value": "88.9%",
+          "count": 1,
+          "pct": 0.1
+        },
+        {
+          "value": "70.8%",
+          "count": 1,
+          "pct": 0.1
+        },
+        {
+          "value": "87.5%",
+          "count": 1,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "ell_russian_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 8,
+      "sample_values": [
+        "No Data",
+        "No Data",
+        "s",
+        "No Data",
+        "No Data"
+      ],
+      "top_values": [
+        {
+          "value": "No Data",
+          "count": 1453,
+          "pct": 84.7
+        },
+        {
+          "value": "s",
+          "count": 255,
+          "pct": 14.9
+        },
+        {
+          "value": "17",
+          "count": 2,
+          "pct": 0.1
+        },
+        {
+          "value": "18",
+          "count": 1,
+          "pct": 0.1
+        },
+        {
+          "value": "44",
+          "count": 1,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "ell_russian_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 9,
+      "sample_values": [
+        "No Data",
+        "No Data",
+        "s",
+        "No Data",
+        "No Data"
+      ],
+      "top_values": [
+        {
+          "value": "No Data",
+          "count": 1453,
+          "pct": 84.7
+        },
+        {
+          "value": "s",
+          "count": 255,
+          "pct": 14.9
+        },
+        {
+          "value": "68.0%",
+          "count": 1,
+          "pct": 0.1
+        },
+        {
+          "value": "94.7%",
+          "count": 1,
+          "pct": 0.1
+        },
+        {
+          "value": "91.7%",
+          "count": 1,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "ell_korean_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "No Data",
+        "No Data",
+        "s",
+        "No Data",
+        "No Data"
+      ],
+      "top_values": [
+        {
+          "value": "No Data",
+          "count": 1453,
+          "pct": 84.7
+        },
+        {
+          "value": "s",
+          "count": 261,
+          "pct": 15.2
+        },
+        {
+          "value": "23",
+          "count": 1,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "ell_korean_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "No Data",
+        "No Data",
+        "s",
+        "No Data",
+        "No Data"
+      ],
+      "top_values": [
+        {
+          "value": "No Data",
+          "count": 1453,
+          "pct": 84.7
+        },
+        {
+          "value": "s",
+          "count": 261,
+          "pct": 15.2
+        },
+        {
+          "value": "95.8%",
+          "count": 1,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "ell_urdu_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "No Data",
+        "No Data",
+        "s",
+        "No Data",
+        "No Data"
+      ],
+      "top_values": [
+        {
+          "value": "No Data",
+          "count": 1453,
+          "pct": 84.7
+        },
+        {
+          "value": "s",
+          "count": 262,
+          "pct": 15.3
+        }
+      ]
+    },
+    {
+      "name": "ell_urdu_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "No Data",
+        "No Data",
+        "s",
+        "No Data",
+        "No Data"
+      ],
+      "top_values": [
+        {
+          "value": "No Data",
+          "count": 1453,
+          "pct": 84.7
+        },
+        {
+          "value": "s",
+          "count": 262,
+          "pct": 15.3
+        }
+      ]
+    },
+    {
+      "name": "ell_other_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5,
+      "sample_values": [
+        "No Data",
+        "No Data",
+        "s",
+        "No Data",
+        "No Data"
+      ],
+      "top_values": [
+        {
+          "value": "No Data",
+          "count": 1453,
+          "pct": 84.7
+        },
+        {
+          "value": "s",
+          "count": 259,
+          "pct": 15.1
+        },
+        {
+          "value": "7",
+          "count": 1,
+          "pct": 0.1
+        },
+        {
+          "value": "26",
+          "count": 1,
+          "pct": 0.1
+        },
+        {
+          "value": "8",
+          "count": 1,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "ell_other_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5,
+      "sample_values": [
+        "No Data",
+        "No Data",
+        "s",
+        "No Data",
+        "No Data"
+      ],
+      "top_values": [
+        {
+          "value": "No Data",
+          "count": 1453,
+          "pct": 84.7
+        },
+        {
+          "value": "s",
+          "count": 259,
+          "pct": 15.1
+        },
+        {
+          "value": "2.3%",
+          "count": 1,
+          "pct": 0.1
+        },
+        {
+          "value": "100.0%",
+          "count": 1,
+          "pct": 0.1
+        },
+        {
+          "value": "32.0%",
+          "count": 1,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "ela_test_takers",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 144,
+      "sample_values": [
+        "72",
+        "26",
+        "13",
+        "72",
+        "10"
+      ]
+    },
+    {
+      "name": "ela_level_1_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 50,
+      "sample_values": [
+        "15",
+        "s",
+        "10",
+        "15",
+        "s"
+      ]
+    },
+    {
+      "name": "ela_level_1_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 165,
+      "sample_values": [
+        "20.8%",
+        "s",
+        "76.9%",
+        "20.8%",
+        "s"
+      ]
+    },
+    {
+      "name": "ela_level_2_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 57,
+      "sample_values": [
+        "21",
+        "8",
+        "s",
+        "21",
+        "s"
+      ]
+    },
+    {
+      "name": "ela_level_2_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 157,
+      "sample_values": [
+        "29.2%",
+        "30.8%",
+        "s",
+        "29.2%",
+        "s"
+      ]
+    },
+    {
+      "name": "ela_level_3_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 67,
+      "sample_values": [
+        "22",
+        "13",
+        "s",
+        "22",
+        "s"
+      ]
+    },
+    {
+      "name": "ela_level_3_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 175,
+      "sample_values": [
+        "30.6%",
+        "50.0%",
+        "s",
+        "30.6%",
+        "s"
+      ]
+    },
+    {
+      "name": "ela_level_4_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 78,
+      "sample_values": [
+        "14",
+        "s",
+        "s",
+        "14",
+        "s"
+      ]
+    },
+    {
+      "name": "ela_level_4_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 186,
+      "sample_values": [
+        "19.4%",
+        "s",
+        "s",
+        "19.4%",
+        "s"
+      ]
+    },
+    {
+      "name": "ela_l3_l4_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 106,
+      "sample_values": [
+        "36",
+        "s",
+        "s",
+        "36",
+        "s"
+      ]
+    },
+    {
+      "name": "ela_l3_l4_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 151,
+      "sample_values": [
+        "50.0%",
+        "s",
+        "s",
+        "50.0%",
+        "s"
+      ]
+    },
+    {
+      "name": "math_test_takers",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 144,
+      "sample_values": [
+        "74",
+        "27",
+        "13",
+        "74",
+        "11"
+      ]
+    },
+    {
+      "name": "math_level_1_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 56,
+      "sample_values": [
+        "11",
+        "s",
+        "s",
+        "11",
+        "s"
+      ]
+    },
+    {
+      "name": "math_level_1_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 166,
+      "sample_values": [
+        "14.9%",
+        "s",
+        "s",
+        "14.9%",
+        "s"
+      ]
+    },
+    {
+      "name": "math_level_2_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 57,
+      "sample_values": [
+        "15",
+        "s",
+        "s",
+        "15",
+        "s"
+      ]
+    },
+    {
+      "name": "math_level_2_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 150,
+      "sample_values": [
+        "20.3%",
+        "s",
+        "s",
+        "20.3%",
+        "s"
+      ]
+    },
+    {
+      "name": "math_level_3_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 52,
+      "sample_values": [
+        "24",
+        "10",
+        "s",
+        "24",
+        "s"
+      ]
+    },
+    {
+      "name": "math_level_3_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 179,
+      "sample_values": [
+        "32.4%",
+        "37.0%",
+        "s",
+        "32.4%",
+        "s"
+      ]
+    },
+    {
+      "name": "math_level_4_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 94,
+      "sample_values": [
+        "24",
+        "10",
+        "s",
+        "24",
+        "s"
+      ]
+    },
+    {
+      "name": "math_level_4_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 221,
+      "sample_values": [
+        "32.4%",
+        "37.0%",
+        "s",
+        "32.4%",
+        "s"
+      ]
+    },
+    {
+      "name": "math_l3_l4_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 111,
+      "sample_values": [
+        "48",
+        "20",
+        "s",
+        "48",
+        "s"
+      ]
+    },
+    {
+      "name": "math_l3_l4_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 148,
+      "sample_values": [
+        "64.9%",
+        "74.1%",
+        "s",
+        "64.9%",
+        "s"
+      ]
+    }
+  ]
+}

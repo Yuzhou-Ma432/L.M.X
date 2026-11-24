@@ -1,0 +1,147 @@
+{
+  "id": "uh2s-ftgh",
+  "name": "Raised Crosswalk Locations",
+  "description": "A list of raised crosswalk locations throughout New York City.",
+  "category": "Transportation",
+  "permalink": "https://data.cityofnewyork.us/d/uh2s-ftgh",
+  "sampled_rows": 5000,
+  "n_rows": 159,
+  "n_cols": 6,
+  "columns": [
+    {
+      "name": "treatment",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 13,
+      "sample_values": [
+        "Mid-block raised crosswalk",
+        "Raised Crosswalk",
+        "Raised Crosswalk",
+        "Raised Crosswalk",
+        "Raised Crosswalk"
+      ],
+      "top_values": [
+        {
+          "value": "Raised Crosswalk",
+          "count": 142,
+          "pct": 89.3
+        },
+        {
+          "value": "Raised Crosswalk - W Leg",
+          "count": 3,
+          "pct": 1.9
+        },
+        {
+          "value": "Raised Crosswalk - E Leg",
+          "count": 3,
+          "pct": 1.9
+        },
+        {
+          "value": "Raised Crosswalk on north leg of interse…",
+          "count": 2,
+          "pct": 1.3
+        },
+        {
+          "value": "Mid-block raised crosswalk",
+          "count": 1,
+          "pct": 0.6
+        }
+      ]
+    },
+    {
+      "name": "date",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 124,
+      "sample_values": [
+        "2026-07-10T00:00:00.000",
+        "2023-07-25T00:00:00.000",
+        "2026-10-17T00:00:00.000",
+        "2024-10-03T00:00:00.000",
+        "2024-07-18T00:00:00.000"
+      ]
+    },
+    {
+      "name": "nodeid",
+      "dtype": "float64",
+      "missing": 1,
+      "missing_pct": 0.63,
+      "nunique": 156,
+      "sample_values": [
+        "54281.0",
+        "82556.0",
+        "43491.0",
+        "55884.0",
+        "17709.0"
+      ],
+      "stats": {
+        "min": 1357.0,
+        "max": 9037784.0,
+        "mean": 100289.1266,
+        "median": 43399.0,
+        "p25": 18651.75,
+        "p75": 55543.25
+      }
+    },
+    {
+      "name": "wkt_geometry",
+      "dtype": "object",
+      "missing": 1,
+      "missing_pct": 0.63,
+      "nunique": 156,
+      "sample_values": [
+        "POINT (1023560.33688253 267137.233144462…",
+        "POINT (1020506.3306578 203252.798765168)",
+        "POINT (1001278.8207467 247574.027725294)",
+        "POINT (1036073.07410146 218062.903335467…",
+        "POINT (997806.655599803 166570.69526659)"
+      ]
+    },
+    {
+      "name": "x",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 157,
+      "sample_values": [
+        "1014806.1715612486",
+        "1023560.3368825316",
+        "1020506.3306577952",
+        "1001278.8207467048",
+        "1036073.074101463"
+      ],
+      "stats": {
+        "min": 927130.6052,
+        "max": 1063055.8178,
+        "mean": 1004861.3033,
+        "median": 1008485.6495,
+        "p25": 993340.4981,
+        "p75": 1021441.386
+      }
+    },
+    {
+      "name": "y",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 157,
+      "sample_values": [
+        "254117.38728791475",
+        "267137.2331444621",
+        "203252.7987651676",
+        "247574.02772529423",
+        "218062.90333546695"
+      ],
+      "stats": {
+        "min": 130813.5535,
+        "max": 267137.2331,
+        "mean": 205500.4149,
+        "median": 202639.7685,
+        "p25": 172418.3605,
+        "p75": 243426.3774
+      }
+    }
+  ]
+}

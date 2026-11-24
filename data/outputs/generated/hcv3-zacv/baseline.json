@@ -1,0 +1,15 @@
+{
+  "id": "hcv3-zacv",
+  "name": "Street Construction Permits - Cranes",
+  "strategy": "baseline",
+  "description": "This dataset contains records of street construction permits that involve cranes, drawn from a sample of 5,000 rows. Each record includes a permit number, a short description of the crane type, the crane's serial number, and timestamps for when the record was created and last modified. The data can be used to track crane-related construction activity by permit, identify the types and equipment involved in street work, and analyze patterns over time based on creation and modification dates. It may be useful for urban planning, transportation and right-of-way management, construction oversight, and research into how often and where cranes are deployed for permitted street projects.",
+  "prompt": "Title: Street Construction Permits - Cranes\nCategory: Transportation\nRows (sampled): 5000\nColumns: 5\nColumn names: permitnumber, cranetypeshortdesc, craneserialnumber, createdon, modifiedon\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 125,
+    "completion_tokens": 128,
+    "total_tokens": 253
+  },
+  "elapsed_seconds": 1.36
+}

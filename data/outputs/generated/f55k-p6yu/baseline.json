@@ -1,0 +1,15 @@
+{
+  "id": "f55k-p6yu",
+  "name": "Motor Vehicle Collisions - Person",
+  "strategy": "baseline",
+  "description": "This dataset contains records of people involved in motor vehicle collisions, with one row per person per crash. Each record links to a collision and vehicle through identifiers and includes the crash date and time, the person's role (such as driver, passenger, pedestrian, or cyclist), injury outcome, age, and sex. It also captures details about the person's position in the vehicle, whether they were ejected, safety equipment use, and emotional or bodily injury status. For pedestrians, it records location, action, and role at the time of the crash, along with any complaint noted. Up to two contributing factors are listed for each person. With 5,000 sampled rows and 21 columns, the data can support analyses of injury severity and outcomes by road user type, safety equipment use, age, and sex; identification of common contributing factors; pedestrian and cyclist risk patterns; and temporal trends in crashes. It is useful for public safety research, traffic safety planning, and dashboards that summarize who",
+  "prompt": "Title: Motor Vehicle Collisions - Person\nCategory: Public Safety\nRows (sampled): 5000\nColumns: 21\nColumn names: unique_id, collision_id, crash_date, crash_time, person_id, person_type, person_injury, vehicle_id, person_age, ejection, emotional_status, bodily_injury, position_in_vehicle, safety_equipment, ped_location, ped_action, complaint, ped_role, contributing_factor_1, contributing_factor_2, person_sex\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "length",
+  "usage": {
+    "prompt_tokens": 177,
+    "completion_tokens": 200,
+    "total_tokens": 377
+  },
+  "elapsed_seconds": 2.05
+}

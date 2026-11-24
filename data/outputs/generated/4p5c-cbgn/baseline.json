@@ -1,0 +1,15 @@
+{
+  "id": "4p5c-cbgn",
+  "name": "2019 High Volume FHV Trip Records",
+  "strategy": "baseline",
+  "description": "This dataset contains a sample of 5,000 trip records for high-volume for-hire vehicles (FHV), such as rideshare services, from 2019. Each row represents a single trip and includes the license number of the operating company, the dispatching base number, pickup and dropoff timestamps, pickup and dropoff location IDs, and a shared-ride flag. The location IDs correspond to taxi zones, allowing trips to be mapped to geographic areas. With this data, users can analyze trip patterns by time of day, day of week, or location, examine travel durations between zones, compare activity across dispatching bases, and study the prevalence of shared rides. It is useful for transportation planning, congestion analysis, and research on rideshare demand.",
+  "prompt": "Title: 2019 High Volume FHV Trip Records\nCategory: Transportation\nRows (sampled): 5000\nColumns: 7\nColumn names: hvfhs_license_num, dispatching_base_num, pickup_datetime, dropoff_datetime, pulocationid, dolocationid, sr_flag\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 139,
+    "completion_tokens": 153,
+    "total_tokens": 292
+  },
+  "elapsed_seconds": 3.0
+}

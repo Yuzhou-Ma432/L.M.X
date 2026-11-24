@@ -1,0 +1,15 @@
+{
+  "id": "ivbu-e2q7",
+  "name": "Directory Of Unsheltered Street Homeless To General Population Ratio 2011",
+  "strategy": "baseline",
+  "description": "This dataset compares the unsheltered street homeless population to the general population for eight cities in 2011. Each row lists a city, its street homeless count, its general population, and the resulting ratio of unsheltered homeless people to the overall population. The data can be used to compare the relative scale of street homelessness across cities, identify places with unusually high or low concentrations, and support social services planning, policy analysis, or public reporting on homelessness.",
+  "prompt": "Title: Directory Of Unsheltered Street Homeless To General Population Ratio 2011\nCategory: Social Services\nRows (sampled): 8\nColumns: 4\nColumn names: city, street_homeless_population, general_population, ratio_of_unsheltered_homeless_to_general_population\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 140,
+    "completion_tokens": 92,
+    "total_tokens": 232
+  },
+  "elapsed_seconds": 1.55
+}

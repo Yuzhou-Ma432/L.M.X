@@ -1,0 +1,21 @@
+{
+  "id": "5xsi-dfpx",
+  "name": "Sandy Inundation Zone",
+  "strategy": "semantic",
+  "description": "This dataset contains polygon records delineating areas inundated by Hurricane Sandy storm surge, clipped to a 1,000-foot buffer around the HSIP (Homeland Security Infrastructure Program) boundary. Each of the 492 sampled rows represents a mapped inundation zone in New York, with metadata describing how the zone was produced. The fields include the state, the elevation data source (New York City OEM 1-meter), the mapping status (Final Field-Verified High Resolution), the source data (USGS Mission Assignment, high-water marks, and surge sensors), a verification flag (Yes), and a descriptive comment. An ID column is present but holds a constant value of zero across all rows.\n\nBecause the attributes are uniform in this sample, the dataset functions primarily as a spatial layer of Sandy surge extent rather than a multi-variable table. It could be used for coastal flood risk assessment, floodplain and insurance analysis, emergency planning and recovery studies, infrastructure exposure screening, and research on storm surge impacts in",
+  "prompt": "Title: Sandy Inundation Zone\nCategory: Environment\nRows (sampled): 492\nColumns: 7\n\nColumn details:\n- comments (type object) 1 distinct values 0.0% missing common values: Surge extent clipped to 1000ft HSIP buff… (100.0%) samples: Surge extent clipped to 1000ft HSIP buff…, Surge extent clipped to 1000ft HSIP buff…, Surge extent clipped to 1000ft HSIP buff…, Surge extent clipped to 1000ft HSIP buff…, Surge extent clipped to 1000ft HSIP buff…\n- state (type object) 1 distinct values 0.0% missing common values: New York (100.0%) samples: New York, New York, New York, New York, New York\n- demsource (type object) 1 distinct values 0.0% missing common values: New York City OEM 1-meter (100.0%) samples: New York City OEM 1-meter, New York City OEM 1-meter, New York City OEM 1-meter, New York City OEM 1-meter, New York City OEM 1-meter\n- id (type float64) 1 distinct values 0.0% missing min=0.0 max=0.0 mean=0.0 p25=0.0 p75=0.0 common values: 0.0 (100.0%) samples: 0.0, 0.0, 0.0, 0.0, 0.0\n- status (type object) 1 distinct values 0.0% missing common values: Final Field-Verified High Resolution (100.0%) samples: Final Field-Verified High Resolution, Final Field-Verified High Resolution, Final Field-Verified High Resolution, Final Field-Verified High Resolution, Final Field-Verified High Resolution\n- sourcedata (type object) 1 distinct values 0.0% missing common values: USGS Mission Assignment/HWM/Surge Sensor… (100.0%) samples: USGS Mission Assignment/HWM/Surge Sensor…, USGS Mission Assignment/HWM/Surge Sensor…, USGS Mission Assignment/HWM/Surge Sensor…, USGS Mission Assignment/HWM/Surge Sensor…, USGS Mission Assignment/HWM/Surge Sensor…\n- verified (type object) 1 distinct values 0.0% missing common values: Yes (100.0%) samples: Yes, Yes, Yes, Yes, Yes\n\nSemantic summary (topic and possible uses):\nThis dataset describes areas affected by Hurricane Sandy storm surge and flooding, organized by state and tagged with metadata about how each zone was mapped. It belongs to the environmental and emergency management domain, with fields covering state, elevation data source, status, verification, and comments. It could support coastal risk assessment, floodplain mapping, disaster planning and recovery, insurance or property analysis, and research on storm surge impacts.\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "length",
+  "usage": {
+    "prompt_tokens": 701,
+    "completion_tokens": 200,
+    "total_tokens": 901
+  },
+  "elapsed_seconds": 3.59,
+  "semantic_summary": "This dataset describes areas affected by Hurricane Sandy storm surge and flooding, organized by state and tagged with metadata about how each zone was mapped. It belongs to the environmental and emergency management domain, with fields covering state, elevation data source, status, verification, and comments. It could support coastal risk assessment, floodplain mapping, disaster planning and recovery, insurance or property analysis, and research on storm surge impacts.",
+  "semantic_usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 81,
+    "total_tokens": 224
+  }
+}

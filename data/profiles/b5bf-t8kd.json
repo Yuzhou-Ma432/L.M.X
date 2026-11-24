@@ -1,0 +1,599 @@
+{
+  "id": "b5bf-t8kd",
+  "name": "CONDO_AREA",
+  "description": "",
+  "category": "Uncategorized",
+  "permalink": "https://data.cityofnewyork.us/d/b5bf-t8kd",
+  "sampled_rows": 5000,
+  "n_rows": 1263,
+  "n_cols": 22,
+  "columns": [
+    {
+      "name": "objectid",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1263,
+      "sample_values": [
+        "616",
+        "104",
+        "923",
+        "549",
+        "1200"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 1263.0,
+        "mean": 632.0,
+        "median": 632.0,
+        "p25": 316.5,
+        "p75": 947.5
+      }
+    },
+    {
+      "name": "elevation",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 223,
+      "sample_values": [
+        "91.19",
+        "46.67",
+        "171.17",
+        "116.19",
+        "45.167"
+      ],
+      "stats": {
+        "min": -71.96,
+        "max": 662.17,
+        "mean": 162.5383,
+        "median": 116.19,
+        "p25": 45.167,
+        "p75": 250.85
+      }
+    },
+    {
+      "name": "model",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "top_values": [
+        {
+          "value": "D",
+          "count": 1249,
+          "pct": 98.9
+        },
+        {
+          "value": "B",
+          "count": 14,
+          "pct": 1.1
+        }
+      ]
+    },
+    {
+      "name": "notes",
+      "dtype": "object",
+      "missing": 1059,
+      "missing_pct": 83.85,
+      "nunique": 44,
+      "sample_values": [
+        "Roof Terrace Appurtenant to UNIT 1131",
+        "Represents the first data load of CONDO_…",
+        "ROOF TERRACE Appurtenant to UNIT LOTS: 1…",
+        "Building Cross Section had Illegible Hei…",
+        "Appurtenant to UNIT LOT 1521"
+      ]
+    },
+    {
+      "name": "created_user",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "DOF_OWNDP",
+        "DOF_OWNDP",
+        "DOF_OWNDP",
+        "DOF_OWNDP",
+        "DOF_OWNDP"
+      ],
+      "top_values": [
+        {
+          "value": "DOF_OWNDP",
+          "count": 1263,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "created_date",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "2024-10-07T21:54:21.000Z",
+        "2024-10-07T21:54:21.000Z",
+        "2024-10-07T21:54:21.000Z",
+        "2024-10-07T21:54:21.000Z",
+        "2024-10-07T21:54:21.000Z"
+      ],
+      "top_values": [
+        {
+          "value": "2024-10-07T21:54:21.000Z",
+          "count": 1263,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "last_edited_user",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "DOF_OWNDP",
+        "DOF_OWNDP",
+        "DOF_OWNDP",
+        "DOF_OWNDP",
+        "DOF_OWNDP"
+      ],
+      "top_values": [
+        {
+          "value": "DOF_OWNDP",
+          "count": 1263,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "last_edited_date",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "2024-10-07T21:54:21.000Z",
+        "2024-10-07T21:54:21.000Z",
+        "2024-10-07T21:54:21.000Z",
+        "2024-10-07T21:54:21.000Z",
+        "2024-10-07T21:54:21.000Z"
+      ],
+      "top_values": [
+        {
+          "value": "2024-10-07T21:54:21.000Z",
+          "count": 1263,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "shape_area",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 977,
+      "sample_values": [
+        "67.69921875",
+        "148.2109375",
+        "2340.86328125",
+        "129.39453125",
+        "144.31640625"
+      ],
+      "stats": {
+        "min": 1.7383,
+        "max": 7606.5234,
+        "mean": 361.7965,
+        "median": 145.5664,
+        "p25": 102.5645,
+        "p75": 257.6797
+      }
+    },
+    {
+      "name": "shape_length",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 993,
+      "sample_values": [
+        "35.93151985038367",
+        "72.40910201542755",
+        "376.88492975737967",
+        "47.118242150304795",
+        "50.66711360022737"
+      ],
+      "stats": {
+        "min": 5.4058,
+        "max": 607.1608,
+        "mean": 88.3061,
+        "median": 57.6361,
+        "p25": 46.0238,
+        "p75": 78.6577
+      }
+    },
+    {
+      "name": "base_bbl",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 14,
+      "sample_values": [
+        "1000230007",
+        "1004270010",
+        "1013160005",
+        "1000230007",
+        "1008660048"
+      ],
+      "top_values": [
+        {
+          "value": "1000230007",
+          "count": 793,
+          "pct": 62.8
+        },
+        {
+          "value": "1008660048",
+          "count": 147,
+          "pct": 11.6
+        },
+        {
+          "value": "1000720002",
+          "count": 105,
+          "pct": 8.3
+        },
+        {
+          "value": "1013160005",
+          "count": 58,
+          "pct": 4.6
+        },
+        {
+          "value": "1004270200",
+          "count": 44,
+          "pct": 3.5
+        }
+      ],
+      "stats": {
+        "min": 1000230007.0,
+        "max": 2030040020.0,
+        "mean": 1028359338.601,
+        "median": 1000230007.0,
+        "p25": 1000230007.0,
+        "p75": 1004270021.5
+      }
+    },
+    {
+      "name": "unit_lot",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 583,
+      "sample_values": [
+        "0",
+        "1307",
+        "1023",
+        "1189",
+        "1059"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 1702.0,
+        "mean": 977.5835,
+        "median": 1126.0,
+        "p25": 1004.0,
+        "p75": 1316.5
+      }
+    },
+    {
+      "name": "unit_bbl",
+      "dtype": "float64",
+      "missing": 261,
+      "missing_pct": 20.67,
+      "nunique": 873,
+      "sample_values": [
+        "1004271307.0",
+        "1013161023.0",
+        "1000231189.0",
+        "1008661059.0",
+        "1000231389.0"
+      ],
+      "stats": {
+        "min": 1000231001.0,
+        "max": 2030041202.0,
+        "mean": 1018765613.4521,
+        "median": 1000231482.5,
+        "p25": 1000231232.25,
+        "p75": 1004271307.0
+      }
+    },
+    {
+      "name": "unit_designation",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 751,
+      "sample_values": [
+        "LCE",
+        "PH",
+        "15",
+        "1205",
+        "UNIT"
+      ]
+    },
+    {
+      "name": "bin",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 14,
+      "sample_values": [
+        "1000815",
+        "1078068",
+        "1037550",
+        "1000815",
+        "1017185"
+      ],
+      "top_values": [
+        {
+          "value": "1000815",
+          "count": 793,
+          "pct": 62.8
+        },
+        {
+          "value": "1017185",
+          "count": 147,
+          "pct": 11.6
+        },
+        {
+          "value": "1090257",
+          "count": 105,
+          "pct": 8.3
+        },
+        {
+          "value": "1037550",
+          "count": 58,
+          "pct": 4.6
+        },
+        {
+          "value": "1090397",
+          "count": 44,
+          "pct": 3.5
+        }
+      ],
+      "stats": {
+        "min": 1000815.0,
+        "max": 2120210.0,
+        "mean": 1047845.9113,
+        "median": 1000815.0,
+        "p25": 1000815.0,
+        "p75": 1017185.0
+      }
+    },
+    {
+      "name": "condo_key",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 14,
+      "sample_values": [
+        "102751",
+        "102236",
+        "102316",
+        "102751",
+        "101613"
+      ],
+      "top_values": [
+        {
+          "value": "102751",
+          "count": 793,
+          "pct": 62.8
+        },
+        {
+          "value": "101613",
+          "count": 147,
+          "pct": 11.6
+        },
+        {
+          "value": "104368",
+          "count": 105,
+          "pct": 8.3
+        },
+        {
+          "value": "102316",
+          "count": 58,
+          "pct": 4.6
+        },
+        {
+          "value": "102789",
+          "count": 44,
+          "pct": 3.5
+        }
+      ],
+      "stats": {
+        "min": 100949.0,
+        "max": 200239.0,
+        "mean": 105177.4323,
+        "median": 102751.0,
+        "p25": 102751.0,
+        "p75": 102751.0
+      }
+    },
+    {
+      "name": "floor_text",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 175,
+      "sample_values": [
+        "8TH FLOOR",
+        "6",
+        "15TH FLOOR",
+        "10TH FLOOR",
+        "6th FL"
+      ]
+    },
+    {
+      "name": "floor_num",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 65,
+      "sample_values": [
+        "8.0",
+        "6.0",
+        "15.0",
+        "10.0",
+        "6.0"
+      ],
+      "stats": {
+        "min": -5.0,
+        "max": 60.0,
+        "mean": 14.3321,
+        "median": 11.0,
+        "p25": 5.0,
+        "p75": 21.0
+      }
+    },
+    {
+      "name": "room_height",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 46,
+      "sample_values": [
+        "12.5",
+        "8.3",
+        "11.3",
+        "12.5",
+        "9.0"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 59.0,
+        "mean": 11.7251,
+        "median": 12.0,
+        "p25": 10.0,
+        "p75": 12.5
+      }
+    },
+    {
+      "name": "room_desc",
+      "dtype": "object",
+      "missing": 1095,
+      "missing_pct": 86.7,
+      "nunique": 37,
+      "sample_values": [
+        "ROOF TERRACE APPURTENANT TO UNIT 1131",
+        "1BED 1BATH",
+        "STUDIO",
+        "STUDIO",
+        "STUDIO"
+      ]
+    },
+    {
+      "name": "base_height",
+      "dtype": "float64",
+      "missing": 1116,
+      "missing_pct": 88.36,
+      "nunique": 17,
+      "sample_values": [
+        "45.167",
+        "0.0",
+        "72.292",
+        "9.042",
+        "27.125"
+      ],
+      "top_values": [
+        {
+          "value": "-9.042",
+          "count": 17,
+          "pct": 11.6
+        },
+        {
+          "value": "0.0",
+          "count": 13,
+          "pct": 8.8
+        },
+        {
+          "value": "45.167",
+          "count": 11,
+          "pct": 7.5
+        },
+        {
+          "value": "27.125",
+          "count": 11,
+          "pct": 7.5
+        },
+        {
+          "value": "72.292",
+          "count": 11,
+          "pct": 7.5
+        }
+      ],
+      "stats": {
+        "min": -18.042,
+        "max": 128.417,
+        "mean": 40.7367,
+        "median": 36.167,
+        "p25": 9.042,
+        "p75": 72.292
+      }
+    },
+    {
+      "name": "top_height",
+      "dtype": "float64",
+      "missing": 1116,
+      "missing_pct": 88.36,
+      "nunique": 17,
+      "sample_values": [
+        "54.209",
+        "9.042",
+        "81.334",
+        "18.084",
+        "36.167"
+      ],
+      "top_values": [
+        {
+          "value": "0.0",
+          "count": 17,
+          "pct": 11.6
+        },
+        {
+          "value": "9.042",
+          "count": 13,
+          "pct": 8.8
+        },
+        {
+          "value": "54.209",
+          "count": 11,
+          "pct": 7.5
+        },
+        {
+          "value": "36.167",
+          "count": 11,
+          "pct": 7.5
+        },
+        {
+          "value": "81.334",
+          "count": 11,
+          "pct": 7.5
+        }
+      ],
+      "stats": {
+        "min": -9.042,
+        "max": 140.667,
+        "mean": 49.8036,
+        "median": 45.167,
+        "p25": 18.084,
+        "p75": 81.334
+      }
+    }
+  ]
+}

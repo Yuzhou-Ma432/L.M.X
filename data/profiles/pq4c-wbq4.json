@@ -1,0 +1,607 @@
+{
+  "id": "pq4c-wbq4",
+  "name": "421-a(16) Affordable New York Housing Program Completion Extension - Letters of Intent",
+  "description": "Buildings which intend to seek partial real estate tax exemption under New York State Real Property Tax Law Section 421-a Subdivision 16 are required to commence and complete construction, as those terms are defined by the law, by certain dates. On April 20th, 2024, New York State extended the date by which buildings can complete construction from June 15, 2026 to June 15, 2031, for projects that, among other things, submit a form created by the agency within 90 days of the agency providing such form to the public. This form includes owner reported data including, but not limited to, information about ownership, the reported number of dwelling units and affordable housing units anticipated to be included in the building and reported commencement dates and reported, anticipated completion dates.",
+  "category": "Housing & Development",
+  "permalink": "https://data.cityofnewyork.us/d/pq4c-wbq4",
+  "sampled_rows": 5000,
+  "n_rows": 740,
+  "n_cols": 27,
+  "columns": [
+    {
+      "name": "no",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 740,
+      "sample_values": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 740.0,
+        "mean": 370.5,
+        "median": 370.5,
+        "p25": 185.75,
+        "p75": 555.25
+      }
+    },
+    {
+      "name": "form_submission_date",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 60,
+      "sample_values": [
+        "2024-06-14T00:00:00.000",
+        "2024-06-14T00:00:00.000",
+        "2024-06-14T00:00:00.000",
+        "2024-06-17T00:00:00.000",
+        "2024-06-17T00:00:00.000"
+      ]
+    },
+    {
+      "name": "reported_property_addresses",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 693,
+      "sample_values": [
+        "155 Third Street, Brooklyn, NY 11231",
+        "267 Bond Street, Brooklyn, NY 11217",
+        "498 Sackett Street Brooklyn, NY",
+        "247 East 117th Street",
+        "240 4th Avenue, Brooklyn, NY, 11215"
+      ]
+    },
+    {
+      "name": "reported_borough",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5,
+      "sample_values": [
+        "BROOKLYN",
+        "BROOKLYN",
+        "BROOKLYN",
+        "MANHATTAN",
+        "BROOKLYN"
+      ],
+      "top_values": [
+        {
+          "value": "BROOKLYN",
+          "count": 346,
+          "pct": 46.8
+        },
+        {
+          "value": "BRONX",
+          "count": 178,
+          "pct": 24.1
+        },
+        {
+          "value": "QUEENS",
+          "count": 121,
+          "pct": 16.4
+        },
+        {
+          "value": "MANHATTAN",
+          "count": 86,
+          "pct": 11.6
+        },
+        {
+          "value": "STATEN ISLAND",
+          "count": 9,
+          "pct": 1.2
+        }
+      ]
+    },
+    {
+      "name": "reported_dob_bin_number",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 654,
+      "sample_values": [
+        "3255167",
+        "3429687",
+        "3429688",
+        "1089658",
+        "3395598"
+      ]
+    },
+    {
+      "name": "reported_dob_permit_sequence",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 665,
+      "sample_values": [
+        "B00640761",
+        "B00612352",
+        "B00616358",
+        "123265484",
+        "B00716682"
+      ]
+    },
+    {
+      "name": "reported_units",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 236,
+      "sample_values": [
+        "300",
+        "344",
+        "173",
+        "51",
+        "165"
+      ],
+      "stats": {
+        "min": 4.0,
+        "max": 1348.0,
+        "mean": 106.5689,
+        "median": 44.0,
+        "p25": 15.0,
+        "p75": 123.5
+      }
+    },
+    {
+      "name": "reported_affordale_units",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 130,
+      "sample_values": [
+        "75",
+        "88",
+        "44",
+        "15",
+        "42"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 524.0,
+        "mean": 33.7311,
+        "median": 14.0,
+        "p25": 6.0,
+        "p75": 40.0
+      }
+    },
+    {
+      "name": "reported_commencement_date",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 206,
+      "sample_values": [
+        "2022-05-18T00:00:00.000",
+        "2022-05-23T00:00:00.000",
+        "2022-05-25T00:00:00.000",
+        "2022-06-13T00:00:00.000",
+        "2022-06-09T00:00:00.000"
+      ]
+    },
+    {
+      "name": "reported_anticipated",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 175,
+      "sample_values": [
+        "2031-06-15T00:00:00.000",
+        "2024-12-16T00:00:00.000",
+        "2024-12-16T00:00:00.000",
+        "2026-09-18T00:00:00.000",
+        "2031-06-14T00:00:00.000"
+      ]
+    },
+    {
+      "name": "reported_property_tax_block",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 538,
+      "sample_values": [
+        "462",
+        "424",
+        "431",
+        "1667",
+        "441"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 16188.0,
+        "mean": 2950.3568,
+        "median": 2443.5,
+        "p25": 1342.0,
+        "p75": 3693.25
+      }
+    },
+    {
+      "name": "reported_property_tax_lot",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 217,
+      "sample_values": [
+        "12;14",
+        "1",
+        "12",
+        "120",
+        "24;35"
+      ]
+    },
+    {
+      "name": "reported_affordability_option",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5,
+      "sample_values": [
+        "OPTION A",
+        "OPTION A",
+        "OPTION A",
+        "OPTION A",
+        "OPTION A"
+      ],
+      "top_values": [
+        {
+          "value": "OPTION B",
+          "count": 587,
+          "pct": 79.3
+        },
+        {
+          "value": "OPTION A",
+          "count": 120,
+          "pct": 16.2
+        },
+        {
+          "value": "OPTION F",
+          "count": 22,
+          "pct": 3.0
+        },
+        {
+          "value": "OPTION E",
+          "count": 7,
+          "pct": 0.9
+        },
+        {
+          "value": "OPTION D",
+          "count": 4,
+          "pct": 0.5
+        }
+      ]
+    },
+    {
+      "name": "presumed_borough",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5,
+      "sample_values": [
+        "BROOKLYN",
+        "BROOKLYN",
+        "BROOKLYN",
+        "MANHATTAN",
+        "BROOKLYN"
+      ],
+      "top_values": [
+        {
+          "value": "BROOKLYN",
+          "count": 345,
+          "pct": 46.6
+        },
+        {
+          "value": "BRONX",
+          "count": 180,
+          "pct": 24.3
+        },
+        {
+          "value": "QUEENS",
+          "count": 121,
+          "pct": 16.4
+        },
+        {
+          "value": "MANHATTAN",
+          "count": 85,
+          "pct": 11.5
+        },
+        {
+          "value": "STATEN ISLAND",
+          "count": 9,
+          "pct": 1.2
+        }
+      ]
+    },
+    {
+      "name": "presumed_community_board",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 54,
+      "sample_values": [
+        "306",
+        "306",
+        "306",
+        "111",
+        "306"
+      ],
+      "stats": {
+        "min": 101.0,
+        "max": 501.0,
+        "mean": 278.7068,
+        "median": 303.0,
+        "p25": 206.0,
+        "p75": 317.0
+      }
+    },
+    {
+      "name": "presumed_council_district",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 49,
+      "sample_values": [
+        "39",
+        "39",
+        "39",
+        "8",
+        "39"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 50.0,
+        "mean": 26.773,
+        "median": 29.0,
+        "p25": 15.0,
+        "p75": 37.25
+      }
+    },
+    {
+      "name": "presumed_duplicate",
+      "dtype": "object",
+      "missing": 597,
+      "missing_pct": 80.68,
+      "nunique": 1,
+      "sample_values": [
+        "DUPLICATE",
+        "DUPLICATE",
+        "DUPLICATE",
+        "DUPLICATE",
+        "DUPLICATE"
+      ],
+      "top_values": [
+        {
+          "value": "DUPLICATE",
+          "count": 143,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "presumed_duplicate_weight",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0"
+      ],
+      "top_values": [
+        {
+          "value": "1.0",
+          "count": 597,
+          "pct": 80.7
+        },
+        {
+          "value": "0.5",
+          "count": 116,
+          "pct": 15.7
+        },
+        {
+          "value": "0.33",
+          "count": 27,
+          "pct": 3.6
+        }
+      ],
+      "stats": {
+        "min": 0.33,
+        "max": 1.0,
+        "mean": 0.8972,
+        "median": 1.0,
+        "p25": 1.0,
+        "p75": 1.0
+      }
+    },
+    {
+      "name": "presumed_building_units",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 232,
+      "sample_values": [
+        "300",
+        "344",
+        "173",
+        "51",
+        "165"
+      ],
+      "stats": {
+        "min": 4.0,
+        "max": 1348.0,
+        "mean": 107.4378,
+        "median": 44.0,
+        "p25": 15.0,
+        "p75": 123.5
+      }
+    },
+    {
+      "name": "presumed_building_affordable",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 128,
+      "sample_values": [
+        "75",
+        "88",
+        "44",
+        "15",
+        "42"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 524.0,
+        "mean": 34.2635,
+        "median": 15.0,
+        "p25": 6.0,
+        "p75": 40.0
+      }
+    },
+    {
+      "name": "presumed_lot_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 673,
+      "sample_values": [
+        "3004620012; 3004620014",
+        "3004240001",
+        "3004310012",
+        "1016670120",
+        "3004410024; 3004410035"
+      ]
+    },
+    {
+      "name": "postcode",
+      "dtype": "float64",
+      "missing": 21,
+      "missing_pct": 2.84,
+      "nunique": 112,
+      "sample_values": [
+        "11231.0",
+        "11217.0",
+        "11231.0",
+        "10035.0",
+        "11215.0"
+      ],
+      "stats": {
+        "min": 10001.0,
+        "max": 11694.0,
+        "mean": 10898.2935,
+        "median": 11206.0,
+        "p25": 10458.0,
+        "p75": 11222.0
+      }
+    },
+    {
+      "name": "latitude",
+      "dtype": "float64",
+      "missing": 21,
+      "missing_pct": 2.84,
+      "nunique": 644,
+      "sample_values": [
+        "40.676493",
+        "40.681164",
+        "40.680445",
+        "40.798179",
+        "40.676926"
+      ],
+      "stats": {
+        "min": 40.5764,
+        "max": 40.8894,
+        "mean": 40.7393,
+        "median": 40.7122,
+        "p25": 40.6777,
+        "p75": 40.8197
+      }
+    },
+    {
+      "name": "longitude",
+      "dtype": "float64",
+      "missing": 21,
+      "missing_pct": 2.84,
+      "nunique": 646,
+      "sample_values": [
+        "-73.990915",
+        "-73.988722",
+        "-73.988802",
+        "-73.938445",
+        "-73.983387"
+      ],
+      "stats": {
+        "min": -74.0792,
+        "max": -73.7383,
+        "mean": -73.9261,
+        "median": -73.9317,
+        "p25": -73.9553,
+        "p75": -73.9025
+      }
+    },
+    {
+      "name": "bbl",
+      "dtype": "float64",
+      "missing": 70,
+      "missing_pct": 9.46,
+      "nunique": 594,
+      "sample_values": [
+        "3004240001.0",
+        "3004310012.0",
+        "1016670120.0",
+        "3004410035.0",
+        "3004410033.0"
+      ],
+      "stats": {
+        "min": 1000250007.0,
+        "max": 5005270050.0,
+        "mean": 2717731285.3567,
+        "median": 3013680010.5,
+        "p25": 2029952520.25,
+        "p75": 3050100026.0
+      }
+    },
+    {
+      "name": "ct2020",
+      "dtype": "float64",
+      "missing": 21,
+      "missing_pct": 2.84,
+      "nunique": 350,
+      "sample_values": [
+        "77.0",
+        "75.0",
+        "75.0",
+        "188.0",
+        "11901.0"
+      ],
+      "stats": {
+        "min": 3.0,
+        "max": 152901.0,
+        "mean": 9139.3449,
+        "median": 395.0,
+        "p25": 206.0,
+        "p75": 1701.5
+      }
+    },
+    {
+      "name": "nta2020",
+      "dtype": "object",
+      "missing": 21,
+      "missing_pct": 2.84,
+      "nunique": 130,
+      "sample_values": [
+        "BK0601",
+        "BK0601",
+        "BK0601",
+        "MN1102",
+        "BK0601"
+      ]
+    }
+  ]
+}

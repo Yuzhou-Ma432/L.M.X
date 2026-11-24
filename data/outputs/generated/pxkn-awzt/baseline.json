@@ -1,0 +1,15 @@
+{
+  "id": "pxkn-awzt",
+  "name": "NYC Human Powered Boat Launches",
+  "strategy": "baseline",
+  "description": "This dataset lists 63 human-powered boat launch sites in New York City, such as kayak and canoe access points. Each record includes the site name, the borough where it is located, a link with more information, and x/y coordinates for mapping the location. The data can be used to find nearby launch spots, map paddling access across the five boroughs, compare availability by borough, or support recreation and trip-planning tools.",
+  "prompt": "Title: NYC Human Powered Boat Launches\nCategory: Recreation\nRows (sampled): 63\nColumns: 5\nColumn names: name, borough, link, x_coordina, y_coordina\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 119,
+    "completion_tokens": 88,
+    "total_tokens": 207
+  },
+  "elapsed_seconds": 1.09
+}

@@ -1,0 +1,15 @@
+{
+  "id": "mzcd-fznk",
+  "name": "NYC Climate Budgeting Report: Resiliency Exposure Forecast - Outdoor Heat - Tree Canopy",
+  "strategy": "content",
+  "description": "This dataset contains neighborhood-level tree canopy coverage projections for New York City, published as part of the NYC Climate Budgeting Report's resiliency exposure forecast for outdoor heat. Each row pairs a neighborhood (identified by its NTA name and abbreviation) with a forecast year and the estimated percentage of that area covered by tree canopy. The data covers 262 neighborhoods across five time points (2021, 2030, 2040, 2050, and 2055), with canopy coverage ranging from under 1% to about 83% and averaging roughly 27%. All records share a single publication date of May 13, 2026.\n\nThe dataset can be used to compare tree canopy coverage across neighborhoods and to track how coverage is projected to change over time, supporting analysis of heat exposure, urban greening priorities, and equity in climate resilience planning. It is useful for planners, researchers, and advocates examining which areas have low canopy and may face greater outdoor heat risk, and for evaluating",
+  "prompt": "Title: NYC Climate Budgeting Report: Resiliency Exposure Forecast - Outdoor Heat - Tree Canopy\nCategory: Uncategorized\nRows (sampled): 1310\nColumns: 5\n\nColumn details:\n- publication_date (type int64) 1 distinct values 0.0% missing min=20260513.0 max=20260513.0 mean=20260513.0 p25=20260513.0 p75=20260513.0 common values: 20260513 (100.0%) samples: 20260513, 20260513, 20260513, 20260513, 20260513\n- ntaname (type object) 262 distinct values 0.0% missing samples: Greenpoint, Greenpoint, Greenpoint, Greenpoint, Greenpoint\n- ntaabbrev (type object) 262 distinct values 0.0% missing samples: Grnpt, Grnpt, Grnpt, Grnpt, Grnpt\n- year (type int64) 5 distinct values 0.0% missing min=2021.0 max=2055.0 mean=2039.2 p25=2030.0 p75=2050.0 common values: 2021 (20.0%), 2030 (20.0%), 2040 (20.0%), 2050 (20.0%), 2055 (20.0%) samples: 2021, 2030, 2040, 2050, 2055\n- canopy_coverage_percent (type float64) 1310 distinct values 0.0% missing min=0.84 max=83.2724 mean=26.9302 p25=18.7319 p75=31.4654 samples: 12.31673415932321, 13.70921844700613, 15.3486814025342, 17.18399111365598, 18.22247447656936\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "length",
+  "usage": {
+    "prompt_tokens": 501,
+    "completion_tokens": 200,
+    "total_tokens": 701
+  },
+  "elapsed_seconds": 1.73
+}

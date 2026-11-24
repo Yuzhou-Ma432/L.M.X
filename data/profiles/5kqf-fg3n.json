@@ -1,0 +1,2490 @@
+{
+  "id": "5kqf-fg3n",
+  "name": "NYC Free Tax Prep Sites",
+  "description": "This dataset provides a machine-readable format for the data that populates the \"NYC Free Tax Preparation Site Finder\" map hosted on DCA's website.  The dataset includes the name and address of the service provider, its hours of operation, services available, and required geo-spacial data elements used by the map.\n\nDCA's Office of Financial Empowerment (OFE) DCA coordinates the City’s Annual Tax Season Initiative which offers free tax preparation services to qualifying New Yorkers. NYC Free Tax Prep sites are displayed on a map at nyc.gov/taxprep (https://www1.nyc.gov/assets/dca/TaxMap/index.html)\n\nThe map is updated whenever a new site is added or an existing site changes its hours of operation or services provided.\n\nFor more information about Free Tax Preparation Sties visit the DCA website (https://www1.nyc.gov/site/dca/consumers/file-your-taxes-faqs.page).",
+  "category": "Business",
+  "permalink": "https://data.cityofnewyork.us/d/5kqf-fg3n",
+  "sampled_rows": 5000,
+  "n_rows": 184,
+  "n_cols": 72,
+  "columns": [
+    {
+      "name": "sitekey",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 184,
+      "sample_values": [
+        "UU - 1",
+        "PREP-QNS",
+        "AARPMN - 15",
+        "GB - 11",
+        "FBNYC - 20"
+      ]
+    },
+    {
+      "name": "sitestatus",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active"
+      ],
+      "top_values": [
+        {
+          "value": "Active",
+          "count": 182,
+          "pct": 98.9
+        },
+        {
+          "value": "Inactive",
+          "count": 2,
+          "pct": 1.1
+        }
+      ]
+    },
+    {
+      "name": "providername",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 11,
+      "sample_values": [
+        "Food Bank For New York City",
+        "NYC Free Tax Prep-A-Thon",
+        "AARP Tax Aide",
+        "Food Bank For New York City",
+        "Food Bank For New York City"
+      ],
+      "top_values": [
+        {
+          "value": "Food Bank For New York City",
+          "count": 82,
+          "pct": 44.6
+        },
+        {
+          "value": "AARP Tax Aide",
+          "count": 33,
+          "pct": 17.9
+        },
+        {
+          "value": "Ariva",
+          "count": 22,
+          "pct": 12.0
+        },
+        {
+          "value": "Urban Upbound",
+          "count": 20,
+          "pct": 10.9
+        },
+        {
+          "value": "Grow Brooklyn",
+          "count": 10,
+          "pct": 5.4
+        }
+      ]
+    },
+    {
+      "name": "sitename",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 174,
+      "sample_values": [
+        "Jesus Is The Answer",
+        "Queens",
+        "Kennedy Center",
+        "Bed-Stuy Campaingn against Hunger Far Ro…",
+        "NYCHA Grand Street Settlement"
+      ]
+    },
+    {
+      "name": "building",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 161,
+      "sample_values": [
+        "89-17",
+        "35-01",
+        "34",
+        "2010",
+        "400"
+      ]
+    },
+    {
+      "name": "street",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 152,
+      "sample_values": [
+        "139th Street",
+        "Union Street",
+        "West 134th Street",
+        "Fulton Street",
+        "Hart Street"
+      ]
+    },
+    {
+      "name": "unit",
+      "dtype": "object",
+      "missing": 111,
+      "missing_pct": 60.33,
+      "nunique": 35,
+      "sample_values": [
+        "Ground Floor",
+        "Lower Level",
+        "1STFL",
+        "Lower Level",
+        "1st Floor"
+      ]
+    },
+    {
+      "name": "borough",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 6,
+      "sample_values": [
+        "Queens",
+        "Queens",
+        "Manhattan",
+        "Brooklyn",
+        "Brooklyn"
+      ],
+      "top_values": [
+        {
+          "value": "Brooklyn",
+          "count": 51,
+          "pct": 27.7
+        },
+        {
+          "value": "Manhattan",
+          "count": 50,
+          "pct": 27.2
+        },
+        {
+          "value": "Bronx",
+          "count": 49,
+          "pct": 26.6
+        },
+        {
+          "value": "Queens",
+          "count": 28,
+          "pct": 15.2
+        },
+        {
+          "value": "Staten Island",
+          "count": 5,
+          "pct": 2.7
+        }
+      ]
+    },
+    {
+      "name": "city",
+      "dtype": "object",
+      "missing": 154,
+      "missing_pct": 83.7,
+      "nunique": 16,
+      "sample_values": [
+        "Jamaica",
+        "Flushing",
+        "Forest Hills",
+        "Far Rockaway",
+        "Woodside"
+      ],
+      "top_values": [
+        {
+          "value": "Jamaica",
+          "count": 5,
+          "pct": 16.7
+        },
+        {
+          "value": "Flushing",
+          "count": 4,
+          "pct": 13.3
+        },
+        {
+          "value": "Far Rockaway",
+          "count": 3,
+          "pct": 10.0
+        },
+        {
+          "value": "Jackson Heights",
+          "count": 3,
+          "pct": 10.0
+        },
+        {
+          "value": "Forest Hills",
+          "count": 2,
+          "pct": 6.7
+        }
+      ]
+    },
+    {
+      "name": "postcode",
+      "dtype": "float64",
+      "missing": 184,
+      "missing_pct": 100.0,
+      "nunique": 0,
+      "sample_values": []
+    },
+    {
+      "name": "mappedaddress",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 180,
+      "sample_values": [
+        "\"89-17 139th Street, Queens NY, 11435\"",
+        "\"35-01 Union Street, Queens NY, 11354\"",
+        "\"34 West 134th Street, Manhattan NY, 100…",
+        "\"2014 Fulton Street, Brooklyn NY, 11233\"",
+        "\"400 Hart Street, Brooklyn NY, 11206\""
+      ]
+    },
+    {
+      "name": "phone",
+      "dtype": "object",
+      "missing": 17,
+      "missing_pct": 9.24,
+      "nunique": 115,
+      "sample_values": [
+        "(718) 908-6303",
+        "(212) 862-6401",
+        "(718) 773-3551",
+        "(718) 919-5623",
+        "(646) 981-6111"
+      ]
+    },
+    {
+      "name": "extension",
+      "dtype": "object",
+      "missing": 155,
+      "missing_pct": 84.24,
+      "nunique": 11,
+      "sample_values": [
+        "118",
+        "208",
+        "7",
+        "2190 or 2114",
+        "7"
+      ],
+      "top_values": [
+        {
+          "value": "7",
+          "count": 13,
+          "pct": 44.8
+        },
+        {
+          "value": "208",
+          "count": 6,
+          "pct": 20.7
+        },
+        {
+          "value": "118",
+          "count": 2,
+          "pct": 6.9
+        },
+        {
+          "value": "2190 or 2114",
+          "count": 1,
+          "pct": 3.4
+        },
+        {
+          "value": "48004",
+          "count": 1,
+          "pct": 3.4
+        }
+      ]
+    },
+    {
+      "name": "show311",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Yes",
+        "Yes",
+        "Yes",
+        "No",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 156,
+          "pct": 84.8
+        },
+        {
+          "value": "No",
+          "count": 28,
+          "pct": 15.2
+        }
+      ]
+    },
+    {
+      "name": "showonmap",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Yes",
+        "Yes",
+        "Yes",
+        "No",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 156,
+          "pct": 84.8
+        },
+        {
+          "value": "No",
+          "count": 28,
+          "pct": 15.2
+        }
+      ]
+    },
+    {
+      "name": "website",
+      "dtype": "object",
+      "missing": 28,
+      "missing_pct": 15.22,
+      "nunique": 10,
+      "sample_values": [
+        "http://www.foodbanknyc.org/taxhelp",
+        "http://www.nyc.gov/taxprep",
+        "http://www.foodbanknyc.org/taxhelp",
+        "http://www.foodbanknyc.org/taxhelp",
+        "http://www.foodbanknyc.org/taxhelp"
+      ],
+      "top_values": [
+        {
+          "value": "http://www.foodbanknyc.org/taxhelp",
+          "count": 82,
+          "pct": 52.6
+        },
+        {
+          "value": "https://ariva.org",
+          "count": 22,
+          "pct": 14.1
+        },
+        {
+          "value": "http://www.urbanupbound.org",
+          "count": 20,
+          "pct": 12.8
+        },
+        {
+          "value": "http://www.growbrooklyn.org/taxes",
+          "count": 10,
+          "pct": 6.4
+        },
+        {
+          "value": "http://www.aarp.org/taxaide",
+          "count": 6,
+          "pct": 3.8
+        }
+      ]
+    },
+    {
+      "name": "ada_accessible",
+      "dtype": "float64",
+      "missing": 184,
+      "missing_pct": 100.0,
+      "nunique": 0,
+      "sample_values": []
+    },
+    {
+      "name": "incomelimit",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 9,
+      "sample_values": [
+        "\"For all filers: Income below $55,000.\"",
+        "\"For all filers: income below $54,000.\"",
+        "\"Open to all taxpayers, with special att…",
+        "\"For all filers: Income below $55,000.\"",
+        "\"For all filers: Income below $55,000.\""
+      ],
+      "top_values": [
+        {
+          "value": "\"For all filers: Income below $55,000.\"",
+          "count": 71,
+          "pct": 38.6
+        },
+        {
+          "value": "\"Open to all taxpayers, with special att…",
+          "count": 33,
+          "pct": 17.9
+        },
+        {
+          "value": "\"Individuals without dependents: $30,000…",
+          "count": 33,
+          "pct": 17.9
+        },
+        {
+          "value": "\"For all filers: Income below $66,000.\"",
+          "count": 20,
+          "pct": 10.9
+        },
+        {
+          "value": "Open to all taxpayers.",
+          "count": 10,
+          "pct": 5.4
+        }
+      ]
+    },
+    {
+      "name": "l1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 20,
+      "sample_values": [
+        "\"English, Spanish\"",
+        "\"English, Spanish\"",
+        "\"English, Spanish\"",
+        "English",
+        "\"English, Spanish\""
+      ],
+      "top_values": [
+        {
+          "value": "\"English, Spanish\"",
+          "count": 106,
+          "pct": 57.6
+        },
+        {
+          "value": "English",
+          "count": 53,
+          "pct": 28.8
+        },
+        {
+          "value": "\"English, Spanish, Russian\"",
+          "count": 4,
+          "pct": 2.2
+        },
+        {
+          "value": "\"English, Spanish, Cantonese, Mandarin\"",
+          "count": 3,
+          "pct": 1.6
+        },
+        {
+          "value": "\"English, Spanish, Cantonese\"",
+          "count": 2,
+          "pct": 1.1
+        }
+      ]
+    },
+    {
+      "name": "itin",
+      "dtype": "object",
+      "missing": 84,
+      "missing_pct": 45.65,
+      "nunique": 3,
+      "sample_values": [
+        "Non-CAA ITIN",
+        "No",
+        "Non-CAA ITIN",
+        "Non-CAA ITIN",
+        "Non-CAA ITIN"
+      ],
+      "top_values": [
+        {
+          "value": "Non-CAA ITIN",
+          "count": 93,
+          "pct": 93.0
+        },
+        {
+          "value": "No",
+          "count": 4,
+          "pct": 4.0
+        },
+        {
+          "value": "Certified Acceptance Agent",
+          "count": 3,
+          "pct": 3.0
+        }
+      ]
+    },
+    {
+      "name": "s1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5,
+      "sample_values": [
+        "Drop Off",
+        "In Person",
+        "In Person",
+        "Assisted Self-Preparation",
+        "Drop Off"
+      ],
+      "top_values": [
+        {
+          "value": "In Person",
+          "count": 84,
+          "pct": 45.7
+        },
+        {
+          "value": "Drop Off",
+          "count": 59,
+          "pct": 32.1
+        },
+        {
+          "value": "\"In Person, Drop Off\"",
+          "count": 19,
+          "pct": 10.3
+        },
+        {
+          "value": "Assisted Self-Preparation",
+          "count": 12,
+          "pct": 6.5
+        },
+        {
+          "value": "\"In Person, Assisted Self-Preparation\"",
+          "count": 10,
+          "pct": 5.4
+        }
+      ]
+    },
+    {
+      "name": "amendedreturn",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "Yes",
+        "No",
+        "Yes",
+        "No",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 140,
+          "pct": 76.1
+        },
+        {
+          "value": "No",
+          "count": 43,
+          "pct": 23.4
+        },
+        {
+          "value": "NO",
+          "count": 1,
+          "pct": 0.5
+        }
+      ]
+    },
+    {
+      "name": "prioryear",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "Yes",
+        "No",
+        "Yes",
+        "No",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 142,
+          "pct": 77.2
+        },
+        {
+          "value": "No",
+          "count": 41,
+          "pct": 22.3
+        },
+        {
+          "value": "NO",
+          "count": 1,
+          "pct": 0.5
+        }
+      ]
+    },
+    {
+      "name": "aarp",
+      "dtype": "object",
+      "missing": 3,
+      "missing_pct": 1.63,
+      "nunique": 2,
+      "sample_values": [
+        "No",
+        "No",
+        "Yes",
+        "No",
+        "No"
+      ],
+      "top_values": [
+        {
+          "value": "No",
+          "count": 142,
+          "pct": 78.5
+        },
+        {
+          "value": "Yes",
+          "count": 39,
+          "pct": 21.5
+        }
+      ]
+    },
+    {
+      "name": "selfemployed",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 181,
+          "pct": 98.4
+        },
+        {
+          "value": "No",
+          "count": 2,
+          "pct": 1.1
+        },
+        {
+          "value": "NO",
+          "count": 1,
+          "pct": 0.5
+        }
+      ]
+    },
+    {
+      "name": "opendatestr",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 30,
+      "sample_values": [
+        "Jan 28",
+        "Feb 9",
+        "Jan 31",
+        "Jan 28",
+        "Jan 28"
+      ],
+      "top_values": [
+        {
+          "value": "Jan 28",
+          "count": 84,
+          "pct": 45.7
+        },
+        {
+          "value": "Jan 29",
+          "count": 14,
+          "pct": 7.6
+        },
+        {
+          "value": "Jan 22",
+          "count": 11,
+          "pct": 6.0
+        },
+        {
+          "value": "Feb 1",
+          "count": 11,
+          "pct": 6.0
+        },
+        {
+          "value": "Jan 31",
+          "count": 8,
+          "pct": 4.3
+        }
+      ]
+    },
+    {
+      "name": "opendateiso",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 31,
+      "sample_values": [
+        "2019-01-28T00:00:00.000",
+        "2019-02-09T00:00:00.000",
+        "2019-01-31T00:00:00.000",
+        "2019-01-28T00:00:00.000",
+        "2019-01-28T00:00:00.000"
+      ]
+    },
+    {
+      "name": "closedatestr",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 19,
+      "sample_values": [
+        "Apr 10",
+        "Feb 9",
+        "Apr 12",
+        "Apr 15",
+        "Apr 15"
+      ],
+      "top_values": [
+        {
+          "value": "Apr 10",
+          "count": 60,
+          "pct": 32.6
+        },
+        {
+          "value": "Apr 15",
+          "count": 52,
+          "pct": 28.3
+        },
+        {
+          "value": "Apr 13",
+          "count": 17,
+          "pct": 9.2
+        },
+        {
+          "value": "Apr 12",
+          "count": 15,
+          "pct": 8.2
+        },
+        {
+          "value": "Apr 11",
+          "count": 12,
+          "pct": 6.5
+        }
+      ]
+    },
+    {
+      "name": "closedateiso",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 19,
+      "sample_values": [
+        "2019-04-10T00:00:00.000",
+        "2019-02-09T00:00:00.000",
+        "2019-04-12T00:00:00.000",
+        "2019-04-15T00:00:00.000",
+        "2019-04-15T00:00:00.000"
+      ],
+      "top_values": [
+        {
+          "value": "2019-04-10T00:00:00.000",
+          "count": 60,
+          "pct": 32.6
+        },
+        {
+          "value": "2019-04-15T00:00:00.000",
+          "count": 52,
+          "pct": 28.3
+        },
+        {
+          "value": "2019-04-13T00:00:00.000",
+          "count": 17,
+          "pct": 9.2
+        },
+        {
+          "value": "2019-04-12T00:00:00.000",
+          "count": 15,
+          "pct": 8.2
+        },
+        {
+          "value": "2019-04-11T00:00:00.000",
+          "count": 12,
+          "pct": 6.5
+        }
+      ]
+    },
+    {
+      "name": "apptorwalkin",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5,
+      "sample_values": [
+        "Both",
+        "Walk-in Only",
+        "Walk-in Only",
+        "Walk-in Only",
+        "Both"
+      ],
+      "top_values": [
+        {
+          "value": "Appointment Only",
+          "count": 77,
+          "pct": 41.8
+        },
+        {
+          "value": "Walk-in Only",
+          "count": 67,
+          "pct": 36.4
+        },
+        {
+          "value": "Both",
+          "count": 37,
+          "pct": 20.1
+        },
+        {
+          "value": "Appointment",
+          "count": 2,
+          "pct": 1.1
+        },
+        {
+          "value": "Appointments",
+          "count": 1,
+          "pct": 0.5
+        }
+      ]
+    },
+    {
+      "name": "mondayopen",
+      "dtype": "object",
+      "missing": 121,
+      "missing_pct": 65.76,
+      "nunique": 15,
+      "sample_values": [
+        "9:00 AM",
+        "5:00 PM",
+        "1:00 PM",
+        "9:00 AM",
+        "10:00 AM"
+      ],
+      "top_values": [
+        {
+          "value": "10:00 AM",
+          "count": 17,
+          "pct": 27.0
+        },
+        {
+          "value": "9:00 AM",
+          "count": 14,
+          "pct": 22.2
+        },
+        {
+          "value": "12:00 PM",
+          "count": 9,
+          "pct": 14.3
+        },
+        {
+          "value": "11:00 AM",
+          "count": 5,
+          "pct": 7.9
+        },
+        {
+          "value": "4:00 PM",
+          "count": 3,
+          "pct": 4.8
+        }
+      ]
+    },
+    {
+      "name": "imondayopen",
+      "dtype": "float64",
+      "missing": 121,
+      "missing_pct": 65.76,
+      "nunique": 15,
+      "sample_values": [
+        "9.0",
+        "17.0",
+        "13.0",
+        "9.0",
+        "10.0"
+      ],
+      "top_values": [
+        {
+          "value": "10.0",
+          "count": 17,
+          "pct": 27.0
+        },
+        {
+          "value": "9.0",
+          "count": 14,
+          "pct": 22.2
+        },
+        {
+          "value": "12.0",
+          "count": 9,
+          "pct": 14.3
+        },
+        {
+          "value": "11.0",
+          "count": 5,
+          "pct": 7.9
+        },
+        {
+          "value": "16.0",
+          "count": 3,
+          "pct": 4.8
+        }
+      ],
+      "stats": {
+        "min": 8.0,
+        "max": 19.0,
+        "mean": 11.2857,
+        "median": 10.0,
+        "p25": 9.5,
+        "p75": 12.0
+      }
+    },
+    {
+      "name": "mondayclose",
+      "dtype": "object",
+      "missing": 121,
+      "missing_pct": 65.76,
+      "nunique": 15,
+      "sample_values": [
+        "5:00 PM",
+        "8:00 PM",
+        "6:00 PM",
+        "6:00 PM",
+        "5:00 PM"
+      ],
+      "top_values": [
+        {
+          "value": "5:00 PM",
+          "count": 19,
+          "pct": 30.2
+        },
+        {
+          "value": "7:00 PM",
+          "count": 9,
+          "pct": 14.3
+        },
+        {
+          "value": "4:00 PM",
+          "count": 7,
+          "pct": 11.1
+        },
+        {
+          "value": "3:00 PM",
+          "count": 5,
+          "pct": 7.9
+        },
+        {
+          "value": "6:00 PM",
+          "count": 5,
+          "pct": 7.9
+        }
+      ]
+    },
+    {
+      "name": "imondayclose",
+      "dtype": "float64",
+      "missing": 121,
+      "missing_pct": 65.76,
+      "nunique": 15,
+      "sample_values": [
+        "17.0",
+        "20.0",
+        "18.0",
+        "18.0",
+        "17.0"
+      ],
+      "top_values": [
+        {
+          "value": "17.0",
+          "count": 19,
+          "pct": 30.2
+        },
+        {
+          "value": "19.0",
+          "count": 9,
+          "pct": 14.3
+        },
+        {
+          "value": "16.0",
+          "count": 7,
+          "pct": 11.1
+        },
+        {
+          "value": "15.0",
+          "count": 5,
+          "pct": 7.9
+        },
+        {
+          "value": "18.0",
+          "count": 5,
+          "pct": 7.9
+        }
+      ],
+      "stats": {
+        "min": 12.0,
+        "max": 21.0,
+        "mean": 17.1746,
+        "median": 17.0,
+        "p25": 16.0,
+        "p75": 18.75
+      }
+    },
+    {
+      "name": "tuesdayopen",
+      "dtype": "object",
+      "missing": 93,
+      "missing_pct": 50.54,
+      "nunique": 15,
+      "sample_values": [
+        "9:00 AM",
+        "9:00 AM",
+        "7:00 PM",
+        "5:00 PM",
+        "10:00 AM"
+      ],
+      "top_values": [
+        {
+          "value": "10:00 AM",
+          "count": 29,
+          "pct": 31.9
+        },
+        {
+          "value": "9:00 AM",
+          "count": 22,
+          "pct": 24.2
+        },
+        {
+          "value": "12:00 PM",
+          "count": 11,
+          "pct": 12.1
+        },
+        {
+          "value": "11:00 AM",
+          "count": 8,
+          "pct": 8.8
+        },
+        {
+          "value": "6:00 PM",
+          "count": 4,
+          "pct": 4.4
+        }
+      ]
+    },
+    {
+      "name": "ituesdayopen",
+      "dtype": "float64",
+      "missing": 93,
+      "missing_pct": 50.54,
+      "nunique": 15,
+      "sample_values": [
+        "9.0",
+        "9.0",
+        "19.0",
+        "17.0",
+        "10.0"
+      ],
+      "top_values": [
+        {
+          "value": "10.0",
+          "count": 29,
+          "pct": 31.9
+        },
+        {
+          "value": "9.0",
+          "count": 22,
+          "pct": 24.2
+        },
+        {
+          "value": "12.0",
+          "count": 11,
+          "pct": 12.1
+        },
+        {
+          "value": "11.0",
+          "count": 8,
+          "pct": 8.8
+        },
+        {
+          "value": "18.0",
+          "count": 4,
+          "pct": 4.4
+        }
+      ],
+      "stats": {
+        "min": 8.0,
+        "max": 19.0,
+        "mean": 11.3132,
+        "median": 10.0,
+        "p25": 9.25,
+        "p75": 12.0
+      }
+    },
+    {
+      "name": "tuesdayclose",
+      "dtype": "object",
+      "missing": 93,
+      "missing_pct": 50.54,
+      "nunique": 16,
+      "sample_values": [
+        "7:00 PM",
+        "5:00 PM",
+        "9:00 PM",
+        "8:00 PM",
+        "12:00 PM"
+      ],
+      "top_values": [
+        {
+          "value": "5:00 PM",
+          "count": 19,
+          "pct": 20.9
+        },
+        {
+          "value": "2:00 PM",
+          "count": 13,
+          "pct": 14.3
+        },
+        {
+          "value": "7:00 PM",
+          "count": 12,
+          "pct": 13.2
+        },
+        {
+          "value": "8:00 PM",
+          "count": 9,
+          "pct": 9.9
+        },
+        {
+          "value": "4:00 PM",
+          "count": 9,
+          "pct": 9.9
+        }
+      ]
+    },
+    {
+      "name": "ituesdayclose",
+      "dtype": "float64",
+      "missing": 93,
+      "missing_pct": 50.54,
+      "nunique": 16,
+      "sample_values": [
+        "19.0",
+        "17.0",
+        "21.0",
+        "20.0",
+        "12.0"
+      ],
+      "top_values": [
+        {
+          "value": "17.0",
+          "count": 19,
+          "pct": 20.9
+        },
+        {
+          "value": "14.0",
+          "count": 13,
+          "pct": 14.3
+        },
+        {
+          "value": "19.0",
+          "count": 12,
+          "pct": 13.2
+        },
+        {
+          "value": "20.0",
+          "count": 9,
+          "pct": 9.9
+        },
+        {
+          "value": "16.0",
+          "count": 9,
+          "pct": 9.9
+        }
+      ],
+      "stats": {
+        "min": 12.0,
+        "max": 21.5,
+        "mean": 16.9121,
+        "median": 17.0,
+        "p25": 15.0,
+        "p75": 19.0
+      }
+    },
+    {
+      "name": "wednesdayopen",
+      "dtype": "object",
+      "missing": 105,
+      "missing_pct": 57.07,
+      "nunique": 13,
+      "sample_values": [
+        "9:00 AM",
+        "5:00 PM",
+        "10:00 AM",
+        "1:00 PM",
+        "9:00 AM"
+      ],
+      "top_values": [
+        {
+          "value": "10:00 AM",
+          "count": 23,
+          "pct": 29.1
+        },
+        {
+          "value": "9:00 AM",
+          "count": 19,
+          "pct": 24.1
+        },
+        {
+          "value": "12:00 PM",
+          "count": 13,
+          "pct": 16.5
+        },
+        {
+          "value": "11:00 AM",
+          "count": 6,
+          "pct": 7.6
+        },
+        {
+          "value": "1:00 PM",
+          "count": 4,
+          "pct": 5.1
+        }
+      ]
+    },
+    {
+      "name": "iwednesdayopen",
+      "dtype": "float64",
+      "missing": 105,
+      "missing_pct": 57.07,
+      "nunique": 13,
+      "sample_values": [
+        "9.0",
+        "17.0",
+        "10.0",
+        "13.0",
+        "9.0"
+      ],
+      "top_values": [
+        {
+          "value": "10.0",
+          "count": 23,
+          "pct": 29.1
+        },
+        {
+          "value": "9.0",
+          "count": 19,
+          "pct": 24.1
+        },
+        {
+          "value": "12.0",
+          "count": 13,
+          "pct": 16.5
+        },
+        {
+          "value": "11.0",
+          "count": 6,
+          "pct": 7.6
+        },
+        {
+          "value": "13.0",
+          "count": 4,
+          "pct": 5.1
+        }
+      ],
+      "stats": {
+        "min": 8.0,
+        "max": 19.0,
+        "mean": 11.1835,
+        "median": 10.0,
+        "p25": 9.25,
+        "p75": 12.0
+      }
+    },
+    {
+      "name": "wednesdayclose",
+      "dtype": "object",
+      "missing": 104,
+      "missing_pct": 56.52,
+      "nunique": 13,
+      "sample_values": [
+        "5:00 PM",
+        "8:00 PM",
+        "3:00 PM",
+        "6:00 PM",
+        "6:00 PM"
+      ],
+      "top_values": [
+        {
+          "value": "7:00 PM",
+          "count": 17,
+          "pct": 21.2
+        },
+        {
+          "value": "5:00 PM",
+          "count": 16,
+          "pct": 20.0
+        },
+        {
+          "value": "8:00 PM",
+          "count": 8,
+          "pct": 10.0
+        },
+        {
+          "value": "6:00 PM",
+          "count": 8,
+          "pct": 10.0
+        },
+        {
+          "value": "2:00 PM",
+          "count": 8,
+          "pct": 10.0
+        }
+      ]
+    },
+    {
+      "name": "iwednesdayclose",
+      "dtype": "float64",
+      "missing": 104,
+      "missing_pct": 56.52,
+      "nunique": 13,
+      "sample_values": [
+        "17.0",
+        "20.0",
+        "15.0",
+        "18.0",
+        "18.0"
+      ],
+      "top_values": [
+        {
+          "value": "19.0",
+          "count": 17,
+          "pct": 21.2
+        },
+        {
+          "value": "17.0",
+          "count": 16,
+          "pct": 20.0
+        },
+        {
+          "value": "20.0",
+          "count": 8,
+          "pct": 10.0
+        },
+        {
+          "value": "18.0",
+          "count": 8,
+          "pct": 10.0
+        },
+        {
+          "value": "14.0",
+          "count": 8,
+          "pct": 10.0
+        }
+      ],
+      "stats": {
+        "min": 12.0,
+        "max": 21.5,
+        "mean": 17.3375,
+        "median": 17.5,
+        "p25": 16.0,
+        "p75": 19.0
+      }
+    },
+    {
+      "name": "thursdayopen",
+      "dtype": "object",
+      "missing": 94,
+      "missing_pct": 51.09,
+      "nunique": 14,
+      "sample_values": [
+        "9:00 AM",
+        "9:30 AM",
+        "9:00 AM",
+        "7:00 PM",
+        "5:00 PM"
+      ],
+      "top_values": [
+        {
+          "value": "10:00 AM",
+          "count": 26,
+          "pct": 28.9
+        },
+        {
+          "value": "9:00 AM",
+          "count": 19,
+          "pct": 21.1
+        },
+        {
+          "value": "12:00 PM",
+          "count": 13,
+          "pct": 14.4
+        },
+        {
+          "value": "11:00 AM",
+          "count": 11,
+          "pct": 12.2
+        },
+        {
+          "value": "6:00 PM",
+          "count": 5,
+          "pct": 5.6
+        }
+      ]
+    },
+    {
+      "name": "ithursdayopen",
+      "dtype": "float64",
+      "missing": 94,
+      "missing_pct": 51.09,
+      "nunique": 14,
+      "sample_values": [
+        "9.0",
+        "9.5",
+        "9.0",
+        "19.0",
+        "17.0"
+      ],
+      "top_values": [
+        {
+          "value": "10.0",
+          "count": 26,
+          "pct": 28.9
+        },
+        {
+          "value": "9.0",
+          "count": 19,
+          "pct": 21.1
+        },
+        {
+          "value": "12.0",
+          "count": 13,
+          "pct": 14.4
+        },
+        {
+          "value": "11.0",
+          "count": 11,
+          "pct": 12.2
+        },
+        {
+          "value": "18.0",
+          "count": 5,
+          "pct": 5.6
+        }
+      ],
+      "stats": {
+        "min": 8.0,
+        "max": 19.0,
+        "mean": 11.25,
+        "median": 10.0,
+        "p25": 9.5,
+        "p75": 12.0
+      }
+    },
+    {
+      "name": "thursdayclose",
+      "dtype": "object",
+      "missing": 94,
+      "missing_pct": 51.09,
+      "nunique": 17,
+      "sample_values": [
+        "7:00 PM",
+        "1:30 PM",
+        "5:00 PM",
+        "9:00 PM",
+        "8:00 PM"
+      ],
+      "top_values": [
+        {
+          "value": "5:00 PM",
+          "count": 18,
+          "pct": 20.0
+        },
+        {
+          "value": "7:00 PM",
+          "count": 15,
+          "pct": 16.7
+        },
+        {
+          "value": "4:00 PM",
+          "count": 11,
+          "pct": 12.2
+        },
+        {
+          "value": "8:00 PM",
+          "count": 8,
+          "pct": 8.9
+        },
+        {
+          "value": "3:00 PM",
+          "count": 7,
+          "pct": 7.8
+        }
+      ]
+    },
+    {
+      "name": "ithursdayclose",
+      "dtype": "float64",
+      "missing": 94,
+      "missing_pct": 51.09,
+      "nunique": 17,
+      "sample_values": [
+        "19.0",
+        "13.5",
+        "17.0",
+        "21.0",
+        "20.0"
+      ],
+      "top_values": [
+        {
+          "value": "17.0",
+          "count": 18,
+          "pct": 20.0
+        },
+        {
+          "value": "19.0",
+          "count": 15,
+          "pct": 16.7
+        },
+        {
+          "value": "16.0",
+          "count": 11,
+          "pct": 12.2
+        },
+        {
+          "value": "20.0",
+          "count": 8,
+          "pct": 8.9
+        },
+        {
+          "value": "15.0",
+          "count": 7,
+          "pct": 7.8
+        }
+      ],
+      "stats": {
+        "min": 12.0,
+        "max": 21.5,
+        "mean": 17.1,
+        "median": 17.0,
+        "p25": 16.0,
+        "p75": 19.0
+      }
+    },
+    {
+      "name": "fridayopen",
+      "dtype": "object",
+      "missing": 115,
+      "missing_pct": 62.5,
+      "nunique": 11,
+      "sample_values": [
+        "9:30 AM",
+        "9:00 AM",
+        "9:30 AM",
+        "10:00 AM",
+        "1:00 PM"
+      ],
+      "top_values": [
+        {
+          "value": "10:00 AM",
+          "count": 29,
+          "pct": 42.0
+        },
+        {
+          "value": "9:00 AM",
+          "count": 20,
+          "pct": 29.0
+        },
+        {
+          "value": "9:30 AM",
+          "count": 6,
+          "pct": 8.7
+        },
+        {
+          "value": "11:00 AM",
+          "count": 5,
+          "pct": 7.2
+        },
+        {
+          "value": "1:00 PM",
+          "count": 2,
+          "pct": 2.9
+        }
+      ]
+    },
+    {
+      "name": "ifridayopen",
+      "dtype": "float64",
+      "missing": 115,
+      "missing_pct": 62.5,
+      "nunique": 11,
+      "sample_values": [
+        "9.5",
+        "9.0",
+        "9.5",
+        "10.0",
+        "13.0"
+      ],
+      "top_values": [
+        {
+          "value": "10.0",
+          "count": 29,
+          "pct": 42.0
+        },
+        {
+          "value": "9.0",
+          "count": 20,
+          "pct": 29.0
+        },
+        {
+          "value": "9.5",
+          "count": 6,
+          "pct": 8.7
+        },
+        {
+          "value": "11.0",
+          "count": 5,
+          "pct": 7.2
+        },
+        {
+          "value": "13.0",
+          "count": 2,
+          "pct": 2.9
+        }
+      ],
+      "stats": {
+        "min": 8.0,
+        "max": 19.0,
+        "mean": 10.087,
+        "median": 10.0,
+        "p25": 9.0,
+        "p75": 10.0
+      }
+    },
+    {
+      "name": "fridayclose",
+      "dtype": "object",
+      "missing": 114,
+      "missing_pct": 61.96,
+      "nunique": 14,
+      "sample_values": [
+        "1:30 PM",
+        "5:00 PM",
+        "2:00 PM",
+        "3:00 PM",
+        "5:00 PM"
+      ],
+      "top_values": [
+        {
+          "value": "5:00 PM",
+          "count": 18,
+          "pct": 25.7
+        },
+        {
+          "value": "2:00 PM",
+          "count": 14,
+          "pct": 20.0
+        },
+        {
+          "value": "4:00 PM",
+          "count": 11,
+          "pct": 15.7
+        },
+        {
+          "value": "3:00 PM",
+          "count": 7,
+          "pct": 10.0
+        },
+        {
+          "value": "1:00 PM",
+          "count": 4,
+          "pct": 5.7
+        }
+      ]
+    },
+    {
+      "name": "ifridayclose",
+      "dtype": "float64",
+      "missing": 114,
+      "missing_pct": 61.96,
+      "nunique": 14,
+      "sample_values": [
+        "13.5",
+        "17.0",
+        "14.0",
+        "15.0",
+        "17.0"
+      ],
+      "top_values": [
+        {
+          "value": "17.0",
+          "count": 18,
+          "pct": 25.7
+        },
+        {
+          "value": "14.0",
+          "count": 14,
+          "pct": 20.0
+        },
+        {
+          "value": "16.0",
+          "count": 11,
+          "pct": 15.7
+        },
+        {
+          "value": "15.0",
+          "count": 7,
+          "pct": 10.0
+        },
+        {
+          "value": "13.0",
+          "count": 4,
+          "pct": 5.7
+        }
+      ],
+      "stats": {
+        "min": 12.0,
+        "max": 21.0,
+        "mean": 15.9786,
+        "median": 16.0,
+        "p25": 14.0,
+        "p75": 17.0
+      }
+    },
+    {
+      "name": "saturdayopen",
+      "dtype": "object",
+      "missing": 123,
+      "missing_pct": 66.85,
+      "nunique": 8,
+      "sample_values": [
+        "9:00 AM",
+        "10:00 AM",
+        "1:00 PM",
+        "10:00 AM",
+        "1:00 PM"
+      ],
+      "top_values": [
+        {
+          "value": "10:00 AM",
+          "count": 26,
+          "pct": 42.6
+        },
+        {
+          "value": "9:00 AM",
+          "count": 16,
+          "pct": 26.2
+        },
+        {
+          "value": "11:00 AM",
+          "count": 11,
+          "pct": 18.0
+        },
+        {
+          "value": "12:00 PM",
+          "count": 3,
+          "pct": 4.9
+        },
+        {
+          "value": "1:00 PM",
+          "count": 2,
+          "pct": 3.3
+        }
+      ]
+    },
+    {
+      "name": "isaturdayopen",
+      "dtype": "float64",
+      "missing": 123,
+      "missing_pct": 66.85,
+      "nunique": 8,
+      "sample_values": [
+        "9.0",
+        "10.0",
+        "13.0",
+        "10.0",
+        "13.0"
+      ],
+      "top_values": [
+        {
+          "value": "10.0",
+          "count": 26,
+          "pct": 42.6
+        },
+        {
+          "value": "9.0",
+          "count": 16,
+          "pct": 26.2
+        },
+        {
+          "value": "11.0",
+          "count": 11,
+          "pct": 18.0
+        },
+        {
+          "value": "12.0",
+          "count": 3,
+          "pct": 4.9
+        },
+        {
+          "value": "13.0",
+          "count": 2,
+          "pct": 3.3
+        }
+      ],
+      "stats": {
+        "min": 9.0,
+        "max": 16.0,
+        "mean": 10.2623,
+        "median": 10.0,
+        "p25": 9.0,
+        "p75": 11.0
+      }
+    },
+    {
+      "name": "saturdayclose",
+      "dtype": "object",
+      "missing": 123,
+      "missing_pct": 66.85,
+      "nunique": 10,
+      "sample_values": [
+        "7:00 PM",
+        "6:00 PM",
+        "4:00 PM",
+        "5:00 PM",
+        "5:00 PM"
+      ],
+      "top_values": [
+        {
+          "value": "4:00 PM",
+          "count": 23,
+          "pct": 37.7
+        },
+        {
+          "value": "5:00 PM",
+          "count": 9,
+          "pct": 14.8
+        },
+        {
+          "value": "3:00 PM",
+          "count": 9,
+          "pct": 14.8
+        },
+        {
+          "value": "2:00 PM",
+          "count": 8,
+          "pct": 13.1
+        },
+        {
+          "value": "7:00 PM",
+          "count": 4,
+          "pct": 6.6
+        }
+      ]
+    },
+    {
+      "name": "isaturdayclose",
+      "dtype": "float64",
+      "missing": 123,
+      "missing_pct": 66.85,
+      "nunique": 10,
+      "sample_values": [
+        "19.0",
+        "18.0",
+        "16.0",
+        "17.0",
+        "17.0"
+      ],
+      "top_values": [
+        {
+          "value": "16.0",
+          "count": 23,
+          "pct": 37.7
+        },
+        {
+          "value": "17.0",
+          "count": 9,
+          "pct": 14.8
+        },
+        {
+          "value": "15.0",
+          "count": 9,
+          "pct": 14.8
+        },
+        {
+          "value": "14.0",
+          "count": 8,
+          "pct": 13.1
+        },
+        {
+          "value": "19.0",
+          "count": 4,
+          "pct": 6.6
+        }
+      ],
+      "stats": {
+        "min": 6.0,
+        "max": 19.0,
+        "mean": 15.6967,
+        "median": 16.0,
+        "p25": 15.0,
+        "p75": 17.0
+      }
+    },
+    {
+      "name": "sundayopen",
+      "dtype": "object",
+      "missing": 161,
+      "missing_pct": 87.5,
+      "nunique": 6,
+      "sample_values": [
+        "9:00 AM",
+        "10:30 AM",
+        "11:00 AM",
+        "10:00 AM",
+        "10:00 AM"
+      ],
+      "top_values": [
+        {
+          "value": "10:00 AM",
+          "count": 11,
+          "pct": 47.8
+        },
+        {
+          "value": "11:00 AM",
+          "count": 3,
+          "pct": 13.0
+        },
+        {
+          "value": "12:00 PM",
+          "count": 3,
+          "pct": 13.0
+        },
+        {
+          "value": "9:00 AM",
+          "count": 2,
+          "pct": 8.7
+        },
+        {
+          "value": "10:30 AM",
+          "count": 2,
+          "pct": 8.7
+        }
+      ]
+    },
+    {
+      "name": "isundayopen",
+      "dtype": "float64",
+      "missing": 161,
+      "missing_pct": 87.5,
+      "nunique": 6,
+      "sample_values": [
+        "9.0",
+        "10.5",
+        "11.0",
+        "10.0",
+        "10.0"
+      ],
+      "top_values": [
+        {
+          "value": "10.0",
+          "count": 11,
+          "pct": 47.8
+        },
+        {
+          "value": "11.0",
+          "count": 3,
+          "pct": 13.0
+        },
+        {
+          "value": "12.0",
+          "count": 3,
+          "pct": 13.0
+        },
+        {
+          "value": "9.0",
+          "count": 2,
+          "pct": 8.7
+        },
+        {
+          "value": "10.5",
+          "count": 2,
+          "pct": 8.7
+        }
+      ],
+      "stats": {
+        "min": 9.0,
+        "max": 13.0,
+        "mean": 10.6087,
+        "median": 10.0,
+        "p25": 10.0,
+        "p75": 11.0
+      }
+    },
+    {
+      "name": "sundayclose",
+      "dtype": "object",
+      "missing": 161,
+      "missing_pct": 87.5,
+      "nunique": 5,
+      "sample_values": [
+        "5:00 PM",
+        "4:00 PM",
+        "6:00 PM",
+        "4:00 PM",
+        "4:00 PM"
+      ],
+      "top_values": [
+        {
+          "value": "4:00 PM",
+          "count": 15,
+          "pct": 65.2
+        },
+        {
+          "value": "5:00 PM",
+          "count": 4,
+          "pct": 17.4
+        },
+        {
+          "value": "4:30 PM",
+          "count": 2,
+          "pct": 8.7
+        },
+        {
+          "value": "6:00 PM",
+          "count": 1,
+          "pct": 4.3
+        },
+        {
+          "value": "6:00 AM",
+          "count": 1,
+          "pct": 4.3
+        }
+      ]
+    },
+    {
+      "name": "isundayclose",
+      "dtype": "float64",
+      "missing": 161,
+      "missing_pct": 87.5,
+      "nunique": 5,
+      "sample_values": [
+        "17.0",
+        "16.0",
+        "18.0",
+        "16.0",
+        "16.0"
+      ],
+      "top_values": [
+        {
+          "value": "16.0",
+          "count": 15,
+          "pct": 65.2
+        },
+        {
+          "value": "17.0",
+          "count": 4,
+          "pct": 17.4
+        },
+        {
+          "value": "16.5",
+          "count": 2,
+          "pct": 8.7
+        },
+        {
+          "value": "18.0",
+          "count": 1,
+          "pct": 4.3
+        },
+        {
+          "value": "6.0",
+          "count": 1,
+          "pct": 4.3
+        }
+      ],
+      "stats": {
+        "min": 6.0,
+        "max": 18.0,
+        "mean": 15.8696,
+        "median": 16.0,
+        "p25": 16.0,
+        "p75": 16.5
+      }
+    },
+    {
+      "name": "ianydayopen",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 14,
+      "sample_values": [
+        "9.0",
+        "10.0",
+        "9.5",
+        "9.0",
+        "13.0"
+      ],
+      "top_values": [
+        {
+          "value": "10.0",
+          "count": 87,
+          "pct": 47.3
+        },
+        {
+          "value": "9.0",
+          "count": 38,
+          "pct": 20.7
+        },
+        {
+          "value": "11.0",
+          "count": 19,
+          "pct": 10.3
+        },
+        {
+          "value": "12.0",
+          "count": 14,
+          "pct": 7.6
+        },
+        {
+          "value": "9.5",
+          "count": 9,
+          "pct": 4.9
+        }
+      ],
+      "stats": {
+        "min": 8.0,
+        "max": 19.0,
+        "mean": 10.356,
+        "median": 10.0,
+        "p25": 9.5,
+        "p75": 10.5
+      }
+    },
+    {
+      "name": "ianydayclose",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 19,
+      "sample_values": [
+        "19.0",
+        "18.0",
+        "13.5",
+        "17.0",
+        "21.0"
+      ],
+      "top_values": [
+        {
+          "value": "16.0",
+          "count": 35,
+          "pct": 19.0
+        },
+        {
+          "value": "19.0",
+          "count": 26,
+          "pct": 14.1
+        },
+        {
+          "value": "14.0",
+          "count": 25,
+          "pct": 13.6
+        },
+        {
+          "value": "17.0",
+          "count": 20,
+          "pct": 10.9
+        },
+        {
+          "value": "18.0",
+          "count": 17,
+          "pct": 9.2
+        }
+      ],
+      "stats": {
+        "min": 12.0,
+        "max": 21.5,
+        "mean": 16.8424,
+        "median": 17.0,
+        "p25": 15.0,
+        "p75": 19.0
+      }
+    },
+    {
+      "name": "scheduleexceptions",
+      "dtype": "object",
+      "missing": 147,
+      "missing_pct": 79.89,
+      "nunique": 19,
+      "sample_values": [
+        "Closed 2/18/2019 for President's Day",
+        "Closed 2/18/2019 for President's Day",
+        "Closed 2/18/19 for President's Day",
+        "Closed 2/18/2019 for President's Day",
+        "Closed 2/18/19 for Presidents Day"
+      ],
+      "top_values": [
+        {
+          "value": "Closed 2/18/2019 for President's Day",
+          "count": 13,
+          "pct": 35.1
+        },
+        {
+          "value": "Closed 2/18/19 for President's Day",
+          "count": 4,
+          "pct": 10.8
+        },
+        {
+          "value": "Closed 2/18/19 for Presidents Day",
+          "count": 2,
+          "pct": 5.4
+        },
+        {
+          "value": "tentavely closed 2/18/19 pending approva…",
+          "count": 2,
+          "pct": 5.4
+        },
+        {
+          "value": "Closed 2/1/19 - Presidents' Day",
+          "count": 2,
+          "pct": 5.4
+        }
+      ]
+    },
+    {
+      "name": "notes",
+      "dtype": "object",
+      "missing": 124,
+      "missing_pct": 67.39,
+      "nunique": 11,
+      "sample_values": [
+        "\"First come, first served.  We will stop…",
+        "To make an appointment go to https://www…",
+        "\"First come, first served.  We will stop…",
+        "\"Muhammad Al-Amin\"",
+        "\"First come, first served.  We will stop…"
+      ],
+      "top_values": [
+        {
+          "value": "\"First come, first served.  We will stop…",
+          "count": 25,
+          "pct": 41.7
+        },
+        {
+          "value": "To make an appointment go to https://www…",
+          "count": 11,
+          "pct": 18.3
+        },
+        {
+          "value": "\"www.growbrooklyn.org/taxes- By Appointm…",
+          "count": 10,
+          "pct": 16.7
+        },
+        {
+          "value": "Preferred Income limit: $60K",
+          "count": 6,
+          "pct": 10.0
+        },
+        {
+          "value": "Not A public site.",
+          "count": 2,
+          "pct": 3.3
+        }
+      ]
+    },
+    {
+      "name": "citycouncildistrict",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 46,
+      "sample_values": [
+        "24",
+        "20",
+        "5",
+        "41",
+        "36"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 49.0,
+        "mean": 21.6033,
+        "median": 17.0,
+        "p25": 9.0,
+        "p75": 36.0
+      }
+    },
+    {
+      "name": "communitydistrict",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 54,
+      "sample_values": [
+        "412",
+        "407",
+        "108",
+        "303",
+        "303"
+      ],
+      "stats": {
+        "min": 101.0,
+        "max": 501.0,
+        "mean": 244.788,
+        "median": 209.5,
+        "p25": 111.0,
+        "p75": 314.0
+      }
+    },
+    {
+      "name": "bbl",
+      "dtype": "float64",
+      "missing": 2,
+      "missing_pct": 1.09,
+      "nunique": 165,
+      "sample_values": [
+        "4099760030.0",
+        "4050020001.0",
+        "1014450014.0",
+        "3015490016.0",
+        "3015950024.0"
+      ],
+      "stats": {
+        "min": 1000220024.0,
+        "max": 5028880040.0,
+        "mean": 2421337092.3187,
+        "median": 2044763769.0,
+        "p25": 1020072507.25,
+        "p75": 3050345021.25
+      }
+    },
+    {
+      "name": "nta",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 99,
+      "sample_values": [
+        "QN61",
+        "QN22",
+        "MN31",
+        "BK79",
+        "BK35"
+      ]
+    },
+    {
+      "name": "xcoordinate",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 167,
+      "sample_values": [
+        "1036135",
+        "1031926",
+        "995898",
+        "1007084",
+        "1002222"
+      ],
+      "stats": {
+        "min": 946939.0,
+        "max": 1053126.0,
+        "mean": 1004939.1413,
+        "median": 1004341.0,
+        "p25": 992706.75,
+        "p75": 1014473.0
+      }
+    },
+    {
+      "name": "ycoordinate",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 166,
+      "sample_values": [
+        "195171",
+        "218094",
+        "218691",
+        "186535",
+        "192390"
+      ],
+      "stats": {
+        "min": 148356.0,
+        "max": 263943.0,
+        "mean": 211118.5543,
+        "median": 211297.5,
+        "p25": 187580.75,
+        "p75": 236953.0
+      }
+    },
+    {
+      "name": "latitude",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 168,
+      "sample_values": [
+        "40.70222392396387",
+        "40.76516547320827",
+        "40.76692496422546",
+        "40.67864275529949",
+        "40.69472459110605"
+      ],
+      "stats": {
+        "min": 40.5739,
+        "max": 40.8911,
+        "mean": 40.7461,
+        "median": 40.7466,
+        "p25": 40.6815,
+        "p75": 40.817
+      }
+    },
+    {
+      "name": "longitude",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 167,
+      "sample_values": [
+        "-73.81287285270264",
+        "-73.8278904510837",
+        "-73.95794983271793",
+        "-73.91767663515068",
+        "-73.93518996690639"
+      ],
+      "stats": {
+        "min": -74.1344,
+        "max": -73.752,
+        "mean": -73.9253,
+        "median": -73.9275,
+        "p25": -73.9695,
+        "p75": -73.8907
+      }
+    },
+    {
+      "name": "icon",
+      "dtype": "float64",
+      "missing": 184,
+      "missing_pct": 100.0,
+      "nunique": 0,
+      "sample_values": []
+    },
+    {
+      "name": "geocoded_column",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 167,
+      "sample_values": [
+        "(40.702223923964, -73.812872852703)",
+        "(40.765165473208, -73.827890451084)",
+        "(40.766924964225, -73.957949832718)",
+        "(40.678642755299, -73.917676635151)",
+        "(40.694724591106, -73.935189966906)"
+      ]
+    }
+  ]
+}

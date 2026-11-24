@@ -1,0 +1,21 @@
+{
+  "id": "5rqd-h5ci",
+  "name": "NYPD Sectors",
+  "strategy": "semantic",
+  "description": "This dataset lists New York City Police Department patrol sectors, with one row per sector. Each record includes a sector identifier (such as 100A or 101B), the precinct number it falls within, the patrol borough it belongs to (for example PBBS, PBBX, or PBMN), the sector's land area in square miles, its Neighborhood Coordination Officer (NCO) phase, and a sector indicator letter (A through E). The data covers 303 sectors across the city, with sector sizes ranging from about 0.08 to 8.06 square miles.\n\nThe dataset supports mapping and spatial analysis of patrol boundaries, comparing sector sizes within and across precincts and boroughs, and linking incident or crime data to specific sectors. It can also be used to study the rollout of neighborhood policing programs through the NCO phase field, and to inform research or planning on police resource allocation and coverage.",
+  "prompt": "Title: NYPD Sectors\nCategory: Public Safety\nRows (sampled): 303\nColumns: 6\n\nColumn details:\n- sector (type object) 303 distinct values 0.0% missing samples: 100A, 100B, 100C, 101A, 101B\n- pct (type int64) 78 distinct values 0.0% missing min=1.0 max=123.0 mean=63.8746 p25=33.0 p75=100.5 samples: 100, 100, 100, 101, 101\n- patrol_bor (type object) 8 distinct values 0.0% missing common values: PBBS (17.5%), PBBX (15.8%), PBMN (14.9%), PBBN (13.2%), PBMS (12.5%) samples: PBQS, PBQS, PBQS, PBQS, PBQS\n- sq_miles (type float64) 302 distinct values 0.0% missing min=0.0844 max=8.0558 mean=0.98 p25=0.3083 p75=1.1595 samples: 0.97391672, 1.62917378, 3.23532383, 1.06486467, 0.87889941\n- nco_phase (type float64) 16 distinct values 0.99% missing min=1.0 max=99.0 mean=9.9867 p25=5.0 p75=13.0 common values: 7.0 (12.0%), 15.0 (8.7%), 14.0 (8.3%), 13.0 (8.3%), 6.0 (8.0%) samples: 1.0, 1.0, 1.0, 1.0, 1.0\n- sector_ind (type object) 5 distinct values 0.0% missing common values: B (26.1%), A (25.7%), C (25.4%), D (20.1%), E (2.6%) samples: A, B, C, A, B\n\nSemantic summary (topic and possible uses):\nThis dataset contains geographic and organizational information about New York City Police Department patrol sectors, including sector identifiers, the precinct each sector belongs to, patrol borough, area in square miles, and neighborhood coordination officer (NCO) phase. It belongs to the public safety and law enforcement domain, specifically police jurisdiction and patrol boundaries. It could be used for mapping and spatial analysis of patrol areas, comparing sector sizes, linking crime or incident data to sectors, studying the rollout of neighborhood policing programs, and supporting research or planning related to police resource allocation.\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 666,
+    "completion_tokens": 185,
+    "total_tokens": 851
+  },
+  "elapsed_seconds": 3.01,
+  "semantic_summary": "This dataset contains geographic and organizational information about New York City Police Department patrol sectors, including sector identifiers, the precinct each sector belongs to, patrol borough, area in square miles, and neighborhood coordination officer (NCO) phase. It belongs to the public safety and law enforcement domain, specifically police jurisdiction and patrol boundaries. It could be used for mapping and spatial analysis of patrol areas, comparing sector sizes, linking crime or incident data to sectors, studying the rollout of neighborhood policing programs, and supporting research or planning related to police resource allocation.",
+  "semantic_usage": {
+    "prompt_tokens": 148,
+    "completion_tokens": 107,
+    "total_tokens": 255
+  }
+}

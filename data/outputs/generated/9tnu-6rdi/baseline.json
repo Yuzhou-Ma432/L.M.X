@@ -1,0 +1,15 @@
+{
+  "id": "9tnu-6rdi",
+  "name": "High School Equivalency (HSE) Diplomas Awarded to NYCHA Residents by NYCHA Development – Local Law 163",
+  "strategy": "baseline",
+  "description": "This dataset records the number of High School Equivalency (HSE) diplomas awarded to New York City Housing Authority (NYCHA) residents, broken down by year and by NYCHA development. Each row lists a year, the name of a public housing development, and the count of HSE diplomas awarded to residents of that development in that year. The data supports Local Law 163 reporting and covers 765 rows across three columns. It can be used to track HSE attainment over time, compare outcomes across developments, identify developments with high or low diploma counts, and support social services planning, education program evaluation, and public reporting on resident educational outcomes.",
+  "prompt": "Title: High School Equivalency (HSE) Diplomas Awarded to NYCHA Residents by NYCHA Development – Local Law 163\nCategory: Social Services\nRows (sampled): 765\nColumns: 3\nColumn names: year, development, number_of_public_housing\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 135,
+    "completion_tokens": 133,
+    "total_tokens": 268
+  },
+  "elapsed_seconds": 1.31
+}

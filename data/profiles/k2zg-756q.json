@@ -1,0 +1,216 @@
+{
+  "id": "k2zg-756q",
+  "name": "2019 NYC School Survey - Student",
+  "description": "Every year, all parents, all teachers, and students in grades 6 - 12 take the NYC School Survey. The survey ranks among the largest surveys of any kind ever conducted nationally. \nSurvey results provide insight into a school's learning environment and contribute a measure of diversification that goes beyond test scores on the Progress Report. NYC School Survey results contribute 10% - 15% of a school's Progress Report grade (the exact contribution to the Progress Report is dependant on school type). Survey questions assess the community's opinions on academic expectations, communication, engagement, and safety and respect. School leaders can use survey results to better understand their own school's strengths and target areas for improvement. \n\nThe NYC School Survey helps school leaders understand what key members of the school community say about the learning environment at each school. The information captured by the survey is designed to support a dialogue among all members of the school community about how to make the school a better place to learn.",
+  "category": "Education",
+  "permalink": "https://data.cityofnewyork.us/d/k2zg-756q",
+  "sampled_rows": 5000,
+  "n_rows": 1829,
+  "n_cols": 11,
+  "columns": [
+    {
+      "name": "dbn",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1829,
+      "sample_values": [
+        "01M015",
+        "01M019",
+        "01M020",
+        "01M034",
+        "01M063"
+      ]
+    },
+    {
+      "name": "school_name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1824,
+      "sample_values": [
+        "P.S. 015 ROBERTO CLEMENTE",
+        "P.S. 019 ASHER LEVY",
+        "P.S. 020 ANNA SILVER",
+        "P.S. 034 FRANKLIN D. ROOSEVELT",
+        "THE STAR ACADEMY - P.S.63"
+      ]
+    },
+    {
+      "name": "total_parent_response_rate",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 101,
+      "sample_values": [
+        "91",
+        "100",
+        "58",
+        "29",
+        "80"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 55.0541,
+        "median": 56.0,
+        "p25": 35.0,
+        "p75": 75.0
+      }
+    },
+    {
+      "name": "total_teacher_response_rate",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 85,
+      "sample_values": [
+        "100",
+        "93",
+        "90",
+        "100",
+        "100"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 83.895,
+        "median": 90.0,
+        "p25": 77.0,
+        "p75": 97.0
+      }
+    },
+    {
+      "name": "total_student_response_rate",
+      "dtype": "object",
+      "missing": 720,
+      "missing_pct": 39.37,
+      "nunique": 82,
+      "sample_values": [
+        "9500%",
+        "8700%",
+        "10000%",
+        "6600%",
+        "8200%"
+      ]
+    },
+    {
+      "name": "collaborative_teachers_score",
+      "dtype": "float64",
+      "missing": 204,
+      "missing_pct": 11.15,
+      "nunique": 285,
+      "sample_values": [
+        "4.1",
+        "4.53",
+        "2.71",
+        "2.69",
+        "4.56"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 4.99,
+        "mean": 3.6721,
+        "median": 3.69,
+        "p25": 3.24,
+        "p75": 4.17
+      }
+    },
+    {
+      "name": "effective_school_leadership",
+      "dtype": "float64",
+      "missing": 204,
+      "missing_pct": 11.15,
+      "nunique": 277,
+      "sample_values": [
+        "4.19",
+        "4.51",
+        "2.98",
+        "2.59",
+        "4.09"
+      ],
+      "stats": {
+        "min": 1.14,
+        "max": 4.99,
+        "mean": 3.6148,
+        "median": 3.64,
+        "p25": 3.25,
+        "p75": 4.02
+      }
+    },
+    {
+      "name": "rigorous_instruction_score",
+      "dtype": "float64",
+      "missing": 204,
+      "missing_pct": 11.15,
+      "nunique": 303,
+      "sample_values": [
+        "4.02",
+        "4.8",
+        "1.92",
+        "2.14",
+        "3.74"
+      ],
+      "stats": {
+        "min": 1.55,
+        "max": 4.99,
+        "mean": 3.5881,
+        "median": 3.6,
+        "p25": 3.11,
+        "p75": 4.07
+      }
+    },
+    {
+      "name": "supportive_environment_score",
+      "dtype": "float64",
+      "missing": 1829,
+      "missing_pct": 100.0,
+      "nunique": 0,
+      "sample_values": []
+    },
+    {
+      "name": "strong_family_community_ties",
+      "dtype": "float64",
+      "missing": 219,
+      "missing_pct": 11.97,
+      "nunique": 246,
+      "sample_values": [
+        "4.18",
+        "4.66",
+        "3.84",
+        "3.67",
+        "4.18"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 4.99,
+        "mean": 3.7368,
+        "median": 3.84,
+        "p25": 3.42,
+        "p75": 4.18
+      }
+    },
+    {
+      "name": "trust_score",
+      "dtype": "float64",
+      "missing": 72,
+      "missing_pct": 3.94,
+      "nunique": 289,
+      "sample_values": [
+        "3.96",
+        "3.76",
+        "3.14",
+        "2.38",
+        "3.77"
+      ],
+      "stats": {
+        "min": 1.39,
+        "max": 4.99,
+        "mean": 3.6241,
+        "median": 3.71,
+        "p25": 3.25,
+        "p75": 4.06
+      }
+    }
+  ]
+}

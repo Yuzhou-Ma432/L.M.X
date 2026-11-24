@@ -1,0 +1,21 @@
+{
+  "id": "9tnu-6rdi",
+  "name": "High School Equivalency (HSE) Diplomas Awarded to NYCHA Residents by NYCHA Development – Local Law 163",
+  "strategy": "semantic",
+  "description": "This dataset reports the number of High School Equivalency (HSE) diplomas awarded to New York City Housing Authority (NYCHA) residents, broken down by year and by NYCHA development, as required under Local Law 163. It covers years 2018 through 2024 and includes roughly 500 distinct developments. Each row lists a year, a development name, and the count of diplomas awarded there; small counts are suppressed and shown as \"< 5\" (or \"<5\"), which applies to the large majority of records. The data can be used to track HSE attainment over time, compare outcomes across developments, identify areas with lower educational attainment, and inform policy or program evaluation for resident education services. Users should note that suppressed small counts limit precise totals and that comparisons across developments should account for differences in population size.",
+  "prompt": "Title: High School Equivalency (HSE) Diplomas Awarded to NYCHA Residents by NYCHA Development – Local Law 163\nCategory: Social Services\nRows (sampled): 765\nColumns: 3\n\nColumn details:\n- year (type int64) 7 distinct values 0.0% missing min=2018.0 max=2024.0 mean=2019.7882 p25=2018.0 p75=2021.0 common values: 2018 (44.3%), 2019 (11.9%), 2022 (10.8%), 2021 (10.8%), 2020 (8.6%) samples: 2024, 2024, 2024, 2024, 2024\n- development (type object) 500 distinct values 0.0% missing samples: ADAMS, ARMSTRONG II, AUDUBON, BARUCH, BELMONT-SUTTER AREA\n- number_of_public_housing (type object) 5 distinct values 0.0% missing common values: < 5 (76.9%), <5 (21.8%), 5 (0.7%), 6 (0.5%), 8 (0.1%) samples: <5, <5, <5, <5, <5\n\nSemantic summary (topic and possible uses):\nThis dataset records the number of High School Equivalency (HSE) diplomas awarded to New York City Housing Authority (NYCHA) residents, broken down by year and by NYCHA development. It belongs to the social services domain, specifically public housing and education outcomes, and is reported under Local Law 163. With 765 rows and three columns (year, development, and number of public housing residents earning a diploma), it can be used to track HSE attainment over time, compare outcomes across developments, identify neighborhoods with lower educational attainment, and support policy or program evaluation for resident education services.\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 489,
+    "completion_tokens": 169,
+    "total_tokens": 658
+  },
+  "elapsed_seconds": 2.79,
+  "semantic_summary": "This dataset records the number of High School Equivalency (HSE) diplomas awarded to New York City Housing Authority (NYCHA) residents, broken down by year and by NYCHA development. It belongs to the social services domain, specifically public housing and education outcomes, and is reported under Local Law 163. With 765 rows and three columns (year, development, and number of public housing residents earning a diploma), it can be used to track HSE attainment over time, compare outcomes across developments, identify neighborhoods with lower educational attainment, and support policy or program evaluation for resident education services.",
+  "semantic_usage": {
+    "prompt_tokens": 160,
+    "completion_tokens": 121,
+    "total_tokens": 281
+  }
+}

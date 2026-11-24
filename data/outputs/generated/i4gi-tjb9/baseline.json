@@ -1,0 +1,15 @@
+{
+  "id": "i4gi-tjb9",
+  "name": "DOT Traffic Speeds",
+  "strategy": "baseline",
+  "description": "This dataset contains sampled traffic speed and travel time records for road links, likely from New York City given the borough field. Each row represents a single observation for a road segment, identified by link_id and link_name, with fields for measured speed, travel time, and a status indicator, along with a timestamp (data_as_of) showing when the data was captured. Rows also include the owning source, a Transcom identifier, and the borough where the link is located. Geometry is provided as encoded polylines (with a levels field for the encoding) and link_points, allowing the road segments to be mapped. With 5,000 sampled rows and 13 columns, the data can be used to analyze traffic conditions and congestion across boroughs, compare speeds and travel times between road segments, map slow or congested corridors, and study how conditions vary over time.",
+  "prompt": "Title: DOT Traffic Speeds\nCategory: Transportation\nRows (sampled): 5000\nColumns: 13\nColumn names: id, speed, travel_time, status, data_as_of, link_id, link_points, encoded_poly_line, encoded_poly_line_lvls, owner, transcom_id, borough, link_name\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 145,
+    "completion_tokens": 175,
+    "total_tokens": 320
+  },
+  "elapsed_seconds": 1.77
+}

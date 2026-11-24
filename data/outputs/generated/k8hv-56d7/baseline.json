@@ -1,0 +1,15 @@
+{
+  "id": "k8hv-56d7",
+  "name": "2009 - 2010 Graduation Outcomes - Regents-based Math- ELA APM - School Level",
+  "strategy": "baseline",
+  "description": "This dataset reports school-level graduation outcomes for New York City high school cohorts from 2009 and 2010, focusing on students who met the Regents-based Math and English Language Arts (ELA) Advanced Performance Measure (APM). Each row represents a school (identified by its DBN code and name) broken out by demographic group. For both the June and August reporting periods, the data includes the total cohort size, the number of students meeting the Math/ELA APM, and the resulting percentage of the cohort. With roughly 4,100 rows across nine columns, it supports comparisons of APM attainment across schools and student subgroups, tracking differences between June and August outcomes, and analyzing equity gaps in advanced Regents achievement. It is useful for researchers, educators, and policymakers examining graduation readiness and performance trends.",
+  "prompt": "Title: 2009 - 2010 Graduation Outcomes - Regents-based Math- ELA APM - School Level\nCategory: Education\nRows (sampled): 4103\nColumns: 9\nColumn names: demographic, dbn, name, total_cohort_june, total_math_ela_apm_june, _of_cohort_june, total_cohort_august, total_math_ela_apm_august, _of_cohort_august\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 178,
+    "completion_tokens": 164,
+    "total_tokens": 342
+  },
+  "elapsed_seconds": 1.57
+}

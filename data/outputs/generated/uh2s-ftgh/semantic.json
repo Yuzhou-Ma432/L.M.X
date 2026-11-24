@@ -1,0 +1,21 @@
+{
+  "id": "uh2s-ftgh",
+  "name": "Raised Crosswalk Locations",
+  "strategy": "semantic",
+  "description": "This dataset records locations of raised crosswalks, likely as part of a transportation safety or traffic-calming program. Each of the 159 sampled rows includes a treatment type (mostly \"Raised Crosswalk,\" with a small number of variants such as leg-specific or mid-block crosswalks), a date, a node identifier, and point geometry given as both WKT and x/y coordinates. The coordinates appear to be in a projected local system rather than latitude and longitude. A few records have missing node IDs or geometry values.\n\nThe data can be used to map and inventory raised crosswalks, examine where and when they were installed, compare treatment types across locations, and support pedestrian safety studies, planning, or GIS analysis of street infrastructure.",
+  "prompt": "Title: Raised Crosswalk Locations\nCategory: Transportation\nRows (sampled): 159\nColumns: 6\n\nColumn details:\n- treatment (type object) 13 distinct values 0.0% missing common values: Raised Crosswalk (89.3%), Raised Crosswalk - W Leg (1.9%), Raised Crosswalk - E Leg (1.9%), Raised Crosswalk on north leg of interse… (1.3%), Mid-block raised crosswalk (0.6%) samples: Mid-block raised crosswalk, Raised Crosswalk, Raised Crosswalk, Raised Crosswalk, Raised Crosswalk\n- date (type object) 124 distinct values 0.0% missing samples: 2026-07-10T00:00:00.000, 2023-07-25T00:00:00.000, 2026-10-17T00:00:00.000, 2024-10-03T00:00:00.000, 2024-07-18T00:00:00.000\n- nodeid (type float64) 156 distinct values 0.63% missing min=1357.0 max=9037784.0 mean=100289.1266 p25=18651.75 p75=55543.25 samples: 54281.0, 82556.0, 43491.0, 55884.0, 17709.0\n- wkt_geometry (type object) 156 distinct values 0.63% missing samples: POINT (1023560.33688253 267137.233144462…, POINT (1020506.3306578 203252.798765168), POINT (1001278.8207467 247574.027725294), POINT (1036073.07410146 218062.903335467…, POINT (997806.655599803 166570.69526659)\n- x (type float64) 157 distinct values 0.0% missing min=927130.6052 max=1063055.8178 mean=1004861.3033 p25=993340.4981 p75=1021441.386 samples: 1014806.1715612486, 1023560.3368825316, 1020506.3306577952, 1001278.8207467048, 1036073.074101463\n- y (type float64) 157 distinct values 0.0% missing min=130813.5535 max=267137.2331 mean=205500.4149 p25=172418.3605 p75=243426.3774 samples: 254117.38728791475, 267137.2331444621, 203252.7987651676, 247574.02772529423, 218062.90333546695\n\nSemantic summary (topic and possible uses):\nThis dataset lists raised crosswalk locations, likely as part of a transportation safety or traffic-calming program. Each row records a treatment type, a date, a node identifier, and point geometry (WKT plus x/y coordinates), covering 159 sampled locations. It belongs to the transportation and urban infrastructure domain. It could be used to map and inventory raised crosswalks, analyze where and when they were installed, compare treatment types across locations, and support safety studies, planning, or GIS analysis of pedestrian infrastructure.\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 821,
+    "completion_tokens": 146,
+    "total_tokens": 967
+  },
+  "elapsed_seconds": 2.69,
+  "semantic_summary": "This dataset lists raised crosswalk locations, likely as part of a transportation safety or traffic-calming program. Each row records a treatment type, a date, a node identifier, and point geometry (WKT plus x/y coordinates), covering 159 sampled locations. It belongs to the transportation and urban infrastructure domain. It could be used to map and inventory raised crosswalks, analyze where and when they were installed, compare treatment types across locations, and support safety studies, planning, or GIS analysis of pedestrian infrastructure.",
+  "semantic_usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 102,
+    "total_tokens": 245
+  }
+}

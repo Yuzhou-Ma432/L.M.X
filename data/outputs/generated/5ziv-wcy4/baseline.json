@@ -1,0 +1,15 @@
+{
+  "id": "5ziv-wcy4",
+  "name": "Mayor’s Office to End Domestic and Gender-Based Violence  Resource Directory",
+  "strategy": "baseline",
+  "description": "This dataset is a directory of 306 social service resources compiled by a mayor’s office focused on domestic and gender-based violence. Each row describes one organization or program, with 35 fields covering its name, address, borough, ZIP code, and geographic identifiers such as latitude and longitude, community board, council district, census tract, and neighborhood tabulation area. Contact details include phone, fax, TTY, website, and hotline numbers, along with hotline and program hours. The directory also records which boroughs each resource serves, languages available for interpretation and services, wheelchair accessibility, whether fees apply, and the types of specialized and general services provided, including any additional services noted in free-text fields.\n\nThe data could be used to build searchable referral tools or service maps for people seeking help with domestic or gender-based violence, to analyze the geographic distribution of resources across boroughs and districts, to identify gaps in accessibility, language coverage, or service types, and to support planning and outreach",
+  "prompt": "Title: Mayor’s Office to End Domestic and Gender-Based Violence  Resource Directory\nCategory: Social Services\nRows (sampled): 306\nColumns: 35\nColumn names: id, name, url, orgranization_and_program, address, borough, zip, display_physical_address, phone, fax, tty, website, hotline_phone, hotline_hours, hotline_hours_other, program_hours, program_hours_other, boroughs_served, language_interpretation_svcs, language_svcs, language_other, wheelchair_access, fee_svc, specialized_svcs, other_specialized_svcs, svcs_provided, other_svcs_provided, latitude, longitude, community_board, council_district, census_tract, bin, bbl, nta\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "length",
+  "usage": {
+    "prompt_tokens": 252,
+    "completion_tokens": 200,
+    "total_tokens": 452
+  },
+  "elapsed_seconds": 1.73
+}

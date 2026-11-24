@@ -1,0 +1,1389 @@
+{
+  "id": "ipu4-2q9a",
+  "name": "DOB Permit Issuance",
+  "description": "The Department of Buildings (DOB) issues permits for construction and demolition activities in the City of New York. The construction industry must submit an application to DOB with details of the construction job they would like to complete. The primary types of application, aka job type, are: New Building, Demolition, and Alterations Type 1, 2, and 3. Each job type can have multiple work types, such as general construction, boiler, elevator, and plumbing. Each work type will receive a separate permit. (See the DOB Job Application Filings dataset for information about each job application.) Each row/record in this dataset represents the life cycle of one permit for one work type. The dataset is updated daily with new records, and each existing record will be updated as the permit application moves through the approval process to reflect the latest status of the application.\n<b> Note: This dataset only includes permits issued in the Buildings Information System (BIS), most current permits are now issued in DOB NOW -- see the <a href =\"https://data.cityofnewyork.us/Housing-Development/DOB-NOW-Build-Approved-Permits/rbx6-tga4/about_data\">DOB NOW: Build – Approved Permits</a> dataset.</b>",
+  "category": "Housing & Development",
+  "permalink": "https://data.cityofnewyork.us/d/ipu4-2q9a",
+  "sampled_rows": 5000,
+  "n_rows": 5000,
+  "n_cols": 60,
+  "columns": [
+    {
+      "name": "borough",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5,
+      "sample_values": [
+        "BROOKLYN",
+        "QUEENS",
+        "STATEN ISLAND",
+        "BRONX",
+        "MANHATTAN"
+      ],
+      "top_values": [
+        {
+          "value": "MANHATTAN",
+          "count": 1633,
+          "pct": 32.7
+        },
+        {
+          "value": "BROOKLYN",
+          "count": 1394,
+          "pct": 27.9
+        },
+        {
+          "value": "QUEENS",
+          "count": 1224,
+          "pct": 24.5
+        },
+        {
+          "value": "BRONX",
+          "count": 445,
+          "pct": 8.9
+        },
+        {
+          "value": "STATEN ISLAND",
+          "count": 304,
+          "pct": 6.1
+        }
+      ]
+    },
+    {
+      "name": "bin__",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4216,
+      "sample_values": [
+        "3185434",
+        "4623172",
+        "5174573",
+        "2010402",
+        "1014387"
+      ],
+      "stats": {
+        "min": 1000005.0,
+        "max": 5862975.0,
+        "mean": 2779660.712,
+        "median": 3070445.5,
+        "p25": 1077550.0,
+        "p75": 4100834.5
+      }
+    },
+    {
+      "name": "house__",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2406,
+      "sample_values": [
+        "60",
+        "117",
+        "620",
+        "1323",
+        "1"
+      ]
+    },
+    {
+      "name": "street_name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2431,
+      "sample_values": [
+        "BAY 34 ST",
+        "BEACH 215 STREET",
+        "RICHMOND TERRACE",
+        "CHISHOLM ST",
+        "PENN PLAZA"
+      ]
+    },
+    {
+      "name": "job__",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4521,
+      "sample_values": [
+        "340733647",
+        "421538731",
+        "510113501",
+        "220723885",
+        "123734717"
+      ],
+      "stats": {
+        "min": 100035178.0,
+        "max": 540231587.0,
+        "mean": 280092182.3734,
+        "median": 310180202.5,
+        "p25": 123817618.0,
+        "p75": 401618198.75
+      }
+    },
+    {
+      "name": "job_doc___",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 7,
+      "sample_values": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      "top_values": [
+        {
+          "value": "1",
+          "count": 4545,
+          "pct": 90.9
+        },
+        {
+          "value": "2",
+          "count": 311,
+          "pct": 6.2
+        },
+        {
+          "value": "3",
+          "count": 101,
+          "pct": 2.0
+        },
+        {
+          "value": "4",
+          "count": 32,
+          "pct": 0.6
+        },
+        {
+          "value": "5",
+          "count": 5,
+          "pct": 0.1
+        }
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 8.0,
+        "mean": 1.1322,
+        "median": 1.0,
+        "p25": 1.0,
+        "p75": 1.0
+      }
+    },
+    {
+      "name": "job_type",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 6,
+      "sample_values": [
+        "A2",
+        "NB",
+        "NB",
+        "DM",
+        "A2"
+      ],
+      "top_values": [
+        {
+          "value": "A2",
+          "count": 2757,
+          "pct": 55.1
+        },
+        {
+          "value": "NB",
+          "count": 1090,
+          "pct": 21.8
+        },
+        {
+          "value": "A1",
+          "count": 604,
+          "pct": 12.1
+        },
+        {
+          "value": "A3",
+          "count": 357,
+          "pct": 7.1
+        },
+        {
+          "value": "DM",
+          "count": 131,
+          "pct": 2.6
+        }
+      ]
+    },
+    {
+      "name": "self_cert",
+      "dtype": "object",
+      "missing": 1340,
+      "missing_pct": 26.8,
+      "nunique": 2,
+      "sample_values": [
+        "Y",
+        "N",
+        "N",
+        "N",
+        "Y"
+      ],
+      "top_values": [
+        {
+          "value": "N",
+          "count": 1957,
+          "pct": 53.5
+        },
+        {
+          "value": "Y",
+          "count": 1703,
+          "pct": 46.5
+        }
+      ]
+    },
+    {
+      "name": "block",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2999,
+      "sample_values": [
+        "6861",
+        "16350",
+        "62",
+        "2971",
+        "783"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 99999.0,
+        "mean": 3652.3576,
+        "median": 2106.0,
+        "p25": 1012.0,
+        "p75": 5375.0
+      }
+    },
+    {
+      "name": "lot",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 282,
+      "sample_values": [
+        "67",
+        "400",
+        "56",
+        "36",
+        "70"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 9062.0,
+        "mean": 368.3524,
+        "median": 33.0,
+        "p25": 12.0,
+        "p75": 58.0
+      }
+    },
+    {
+      "name": "community_board",
+      "dtype": "float64",
+      "missing": 4,
+      "missing_pct": 0.08,
+      "nunique": 64,
+      "sample_values": [
+        "311.0",
+        "414.0",
+        "501.0",
+        "203.0",
+        "105.0"
+      ],
+      "stats": {
+        "min": 3.0,
+        "max": 503.0,
+        "mean": 268.9998,
+        "median": 304.0,
+        "p25": 108.0,
+        "p75": 404.0
+      }
+    },
+    {
+      "name": "zip_code",
+      "dtype": "float64",
+      "missing": 9,
+      "missing_pct": 0.18,
+      "nunique": 202,
+      "sample_values": [
+        "11214.0",
+        "11697.0",
+        "10301.0",
+        "10459.0",
+        "10119.0"
+      ],
+      "stats": {
+        "min": 10001.0,
+        "max": 11697.0,
+        "mean": 10745.9243,
+        "median": 11105.0,
+        "p25": 10029.0,
+        "p75": 11234.0
+      }
+    },
+    {
+      "name": "bldg_type",
+      "dtype": "float64",
+      "missing": 73,
+      "missing_pct": 1.46,
+      "nunique": 2,
+      "sample_values": [
+        "1.0",
+        "1.0",
+        "2.0",
+        "1.0",
+        "2.0"
+      ],
+      "top_values": [
+        {
+          "value": "2.0",
+          "count": 3451,
+          "pct": 70.0
+        },
+        {
+          "value": "1.0",
+          "count": 1476,
+          "pct": 30.0
+        }
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 2.0,
+        "mean": 1.7004,
+        "median": 2.0,
+        "p25": 1.0,
+        "p75": 2.0
+      }
+    },
+    {
+      "name": "residential",
+      "dtype": "object",
+      "missing": 2766,
+      "missing_pct": 55.32,
+      "nunique": 1,
+      "sample_values": [
+        "YES",
+        "YES",
+        "YES",
+        "YES",
+        "YES"
+      ],
+      "top_values": [
+        {
+          "value": "YES",
+          "count": 2234,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "special_district_1",
+      "dtype": "object",
+      "missing": 4379,
+      "missing_pct": 87.58,
+      "nunique": 56,
+      "sample_values": [
+        "SRD",
+        "SRD",
+        "BR",
+        "TA",
+        "PC"
+      ]
+    },
+    {
+      "name": "special_district_2",
+      "dtype": "object",
+      "missing": 4990,
+      "missing_pct": 99.8,
+      "nunique": 4,
+      "sample_values": [
+        "POPS",
+        "GW",
+        "IBZ",
+        "POPS",
+        "IBZ"
+      ],
+      "top_values": [
+        {
+          "value": "IBZ",
+          "count": 5,
+          "pct": 50.0
+        },
+        {
+          "value": "POPS",
+          "count": 2,
+          "pct": 20.0
+        },
+        {
+          "value": "GW",
+          "count": 2,
+          "pct": 20.0
+        },
+        {
+          "value": "JAM",
+          "count": 1,
+          "pct": 10.0
+        }
+      ]
+    },
+    {
+      "name": "work_type",
+      "dtype": "object",
+      "missing": 1374,
+      "missing_pct": 27.48,
+      "nunique": 12,
+      "sample_values": [
+        "OT",
+        "EQ",
+        "MH",
+        "OT",
+        "OT"
+      ],
+      "top_values": [
+        {
+          "value": "OT",
+          "count": 1628,
+          "pct": 44.9
+        },
+        {
+          "value": "PL",
+          "count": 858,
+          "pct": 23.7
+        },
+        {
+          "value": "EQ",
+          "count": 480,
+          "pct": 13.2
+        },
+        {
+          "value": "MH",
+          "count": 305,
+          "pct": 8.4
+        },
+        {
+          "value": "SP",
+          "count": 139,
+          "pct": 3.8
+        }
+      ]
+    },
+    {
+      "name": "permit_status",
+      "dtype": "object",
+      "missing": 9,
+      "missing_pct": 0.18,
+      "nunique": 3,
+      "sample_values": [
+        "ISSUED",
+        "ISSUED",
+        "ISSUED",
+        "ISSUED",
+        "ISSUED"
+      ],
+      "top_values": [
+        {
+          "value": "ISSUED",
+          "count": 4764,
+          "pct": 95.5
+        },
+        {
+          "value": "IN PROCESS",
+          "count": 155,
+          "pct": 3.1
+        },
+        {
+          "value": "RE-ISSUED",
+          "count": 72,
+          "pct": 1.4
+        }
+      ]
+    },
+    {
+      "name": "filing_status",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "INITIAL",
+        "RENEWAL",
+        "RENEWAL",
+        "INITIAL",
+        "INITIAL"
+      ],
+      "top_values": [
+        {
+          "value": "INITIAL",
+          "count": 2848,
+          "pct": 57.0
+        },
+        {
+          "value": "RENEWAL",
+          "count": 2152,
+          "pct": 43.0
+        }
+      ]
+    },
+    {
+      "name": "permit_type",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 8,
+      "sample_values": [
+        "EW",
+        "EQ",
+        "FO",
+        "DM",
+        "EW"
+      ],
+      "top_values": [
+        {
+          "value": "EW",
+          "count": 2181,
+          "pct": 43.6
+        },
+        {
+          "value": "PL",
+          "count": 858,
+          "pct": 17.2
+        },
+        {
+          "value": "AL",
+          "count": 522,
+          "pct": 10.4
+        },
+        {
+          "value": "NB",
+          "count": 495,
+          "pct": 9.9
+        },
+        {
+          "value": "EQ",
+          "count": 480,
+          "pct": 9.6
+        }
+      ]
+    },
+    {
+      "name": "permit_sequence__",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 18,
+      "sample_values": [
+        "1",
+        "2",
+        "2",
+        "1",
+        "1"
+      ],
+      "top_values": [
+        {
+          "value": "1",
+          "count": 2848,
+          "pct": 57.0
+        },
+        {
+          "value": "2",
+          "count": 1000,
+          "pct": 20.0
+        },
+        {
+          "value": "3",
+          "count": 501,
+          "pct": 10.0
+        },
+        {
+          "value": "4",
+          "count": 250,
+          "pct": 5.0
+        },
+        {
+          "value": "5",
+          "count": 162,
+          "pct": 3.2
+        }
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 20.0,
+        "mean": 2.008,
+        "median": 1.0,
+        "p25": 1.0,
+        "p75": 2.0
+      }
+    },
+    {
+      "name": "permit_subtype",
+      "dtype": "object",
+      "missing": 2183,
+      "missing_pct": 43.66,
+      "nunique": 14,
+      "sample_values": [
+        "OT",
+        "FN",
+        "MH",
+        "EA",
+        "OT"
+      ],
+      "top_values": [
+        {
+          "value": "OT",
+          "count": 1622,
+          "pct": 57.6
+        },
+        {
+          "value": "MH",
+          "count": 305,
+          "pct": 10.8
+        },
+        {
+          "value": "FN",
+          "count": 241,
+          "pct": 8.6
+        },
+        {
+          "value": "EA",
+          "count": 156,
+          "pct": 5.5
+        },
+        {
+          "value": "SP",
+          "count": 139,
+          "pct": 4.9
+        }
+      ]
+    },
+    {
+      "name": "oil_gas",
+      "dtype": "object",
+      "missing": 4968,
+      "missing_pct": 99.36,
+      "nunique": 2,
+      "sample_values": [
+        "OIL",
+        "OIL",
+        "OIL",
+        "OIL",
+        "OIL"
+      ],
+      "top_values": [
+        {
+          "value": "OIL",
+          "count": 30,
+          "pct": 93.8
+        },
+        {
+          "value": "GAS",
+          "count": 2,
+          "pct": 6.2
+        }
+      ]
+    },
+    {
+      "name": "site_fill",
+      "dtype": "object",
+      "missing": 519,
+      "missing_pct": 10.38,
+      "nunique": 5,
+      "sample_values": [
+        "NOT APPLICABLE",
+        "USE UNDER 300 CU.YD",
+        "ON-SITE",
+        "ON-SITE",
+        "ON-SITE"
+      ],
+      "top_values": [
+        {
+          "value": "NOT APPLICABLE",
+          "count": 1882,
+          "pct": 42.0
+        },
+        {
+          "value": "NONE",
+          "count": 1521,
+          "pct": 33.9
+        },
+        {
+          "value": "ON-SITE",
+          "count": 543,
+          "pct": 12.1
+        },
+        {
+          "value": "USE UNDER 300 CU.YD",
+          "count": 428,
+          "pct": 9.6
+        },
+        {
+          "value": "OFF-SITE",
+          "count": 107,
+          "pct": 2.4
+        }
+      ]
+    },
+    {
+      "name": "filing_date",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2493,
+      "sample_values": [
+        "06/17/2020",
+        "06/17/2020",
+        "06/17/2020",
+        "06/17/2020",
+        "04/22/2019"
+      ]
+    },
+    {
+      "name": "issuance_date",
+      "dtype": "object",
+      "missing": 155,
+      "missing_pct": 3.1,
+      "nunique": 2403,
+      "sample_values": [
+        "06/17/2020",
+        "06/17/2020",
+        "06/17/2020",
+        "06/17/2020",
+        "04/22/2019"
+      ]
+    },
+    {
+      "name": "expiration_date",
+      "dtype": "object",
+      "missing": 108,
+      "missing_pct": 2.16,
+      "nunique": 2315,
+      "sample_values": [
+        "02/26/2021",
+        "06/17/2021",
+        "07/01/2021",
+        "02/21/2021",
+        "10/31/2020"
+      ]
+    },
+    {
+      "name": "job_start_date",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2848,
+      "sample_values": [
+        "06/17/2020",
+        "06/06/2019",
+        "10/22/2019",
+        "06/17/2020",
+        "04/22/2019"
+      ]
+    },
+    {
+      "name": "permittee_s_first_name",
+      "dtype": "object",
+      "missing": 130,
+      "missing_pct": 2.6,
+      "nunique": 1258,
+      "sample_values": [
+        "JOHN",
+        "JOHN",
+        "DENNIS",
+        "FREDERICK",
+        "JIM"
+      ]
+    },
+    {
+      "name": "permittee_s_last_name",
+      "dtype": "object",
+      "missing": 130,
+      "missing_pct": 2.6,
+      "nunique": 2411,
+      "sample_values": [
+        "SHEN",
+        "NOLAN",
+        "ROME",
+        "KLEIN",
+        "CONWAY"
+      ]
+    },
+    {
+      "name": "permittee_s_business_name",
+      "dtype": "object",
+      "missing": 185,
+      "missing_pct": 3.7,
+      "nunique": 3172,
+      "sample_values": [
+        "HENRYSMITH PROPERTY MGMT",
+        "CELTIC CONSTRUCTION II",
+        "PINNACLE COMMERCIAL DEVEL",
+        "SUPERB CONSTRUCTION MGT",
+        "AMBASSADOR CONSTRUCTION C"
+      ]
+    },
+    {
+      "name": "permittee_s_phone__",
+      "dtype": "object",
+      "missing": 130,
+      "missing_pct": 2.6,
+      "nunique": 2917,
+      "sample_values": [
+        "7188020246",
+        "5166371771",
+        "7328920080",
+        "9175780709",
+        "2129221020"
+      ]
+    },
+    {
+      "name": "permittee_s_license_type",
+      "dtype": "object",
+      "missing": 564,
+      "missing_pct": 11.28,
+      "nunique": 10,
+      "sample_values": [
+        "GC",
+        "GC",
+        "GC",
+        "GC",
+        "GC"
+      ],
+      "top_values": [
+        {
+          "value": "GC",
+          "count": 3157,
+          "pct": 71.2
+        },
+        {
+          "value": "MP",
+          "count": 899,
+          "pct": 20.3
+        },
+        {
+          "value": "FS",
+          "count": 188,
+          "pct": 4.2
+        },
+        {
+          "value": "OW",
+          "count": 71,
+          "pct": 1.6
+        },
+        {
+          "value": "OB",
+          "count": 54,
+          "pct": 1.2
+        }
+      ]
+    },
+    {
+      "name": "permittee_s_license__",
+      "dtype": "object",
+      "missing": 500,
+      "missing_pct": 10.0,
+      "nunique": 2482,
+      "sample_values": [
+        "0037136",
+        "0035125",
+        "0608513",
+        "0620355",
+        "0000287"
+      ]
+    },
+    {
+      "name": "act_as_superintendent",
+      "dtype": "object",
+      "missing": 3481,
+      "missing_pct": 69.62,
+      "nunique": 2,
+      "sample_values": [
+        "Y",
+        "Y",
+        "Y",
+        "Y",
+        "Y"
+      ],
+      "top_values": [
+        {
+          "value": "Y",
+          "count": 1512,
+          "pct": 99.5
+        },
+        {
+          "value": "N",
+          "count": 7,
+          "pct": 0.5
+        }
+      ]
+    },
+    {
+      "name": "permittee_s_other_title",
+      "dtype": "object",
+      "missing": 4545,
+      "missing_pct": 90.9,
+      "nunique": 71,
+      "sample_values": [
+        "CONTRACTOR",
+        "099998",
+        "G.C.",
+        "CONT",
+        "CONT"
+      ]
+    },
+    {
+      "name": "hic_license",
+      "dtype": "float64",
+      "missing": 4954,
+      "missing_pct": 99.08,
+      "nunique": 42,
+      "sample_values": [
+        "918049.0",
+        "1289609.0",
+        "1256000.0",
+        "1256000.0",
+        "1256000.0"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 8848160.0,
+        "mean": 1126871.913,
+        "median": 886605.0,
+        "p25": 761109.75,
+        "p75": 914954.5
+      }
+    },
+    {
+      "name": "site_safety_mgr_s_first_name",
+      "dtype": "object",
+      "missing": 4881,
+      "missing_pct": 97.62,
+      "nunique": 58,
+      "sample_values": [
+        "THOMAS",
+        "THOMAS",
+        "PETER",
+        "PENELOPE",
+        "SHAHID"
+      ]
+    },
+    {
+      "name": "site_safety_mgr_s_last_name",
+      "dtype": "object",
+      "missing": 4881,
+      "missing_pct": 97.62,
+      "nunique": 74,
+      "sample_values": [
+        "HOUTAS",
+        "HOUTAS",
+        "SIMS",
+        "VASSILAKIS",
+        "MALIK"
+      ]
+    },
+    {
+      "name": "site_safety_mgr_business_name",
+      "dtype": "object",
+      "missing": 4919,
+      "missing_pct": 98.38,
+      "nunique": 44,
+      "sample_values": [
+        "ECOSAFETY CONSULTANTS INC",
+        "ECOSAFETY CONSULTANTS INC",
+        "DUNN CO. SAFETY LLC",
+        "ULTIMATE SAFETY ASSOC",
+        "DUNN CO SAFETY LLC"
+      ]
+    },
+    {
+      "name": "superintendent_first___last_name",
+      "dtype": "object",
+      "missing": 2992,
+      "missing_pct": 59.84,
+      "nunique": 1561,
+      "sample_values": [
+        "JORGE LOPEZ",
+        "RALPH SCOPO",
+        "DAVID DOXEY",
+        "YI MING CHEN",
+        "MAKHAN SINGH"
+      ]
+    },
+    {
+      "name": "superintendent_business_name",
+      "dtype": "object",
+      "missing": 3102,
+      "missing_pct": 62.04,
+      "nunique": 1623,
+      "sample_values": [
+        "PINNACLE COMMERCIAL DEVEL",
+        "CITNALTA CONSTRUCTION COR",
+        "SONY BUILDERS GROUP CORP",
+        "CAPITAL ONE CONSTRUCTION",
+        "DYNASTY CONTRACTING LLC"
+      ]
+    },
+    {
+      "name": "owner_s_business_type",
+      "dtype": "object",
+      "missing": 146,
+      "missing_pct": 2.92,
+      "nunique": 13,
+      "sample_values": [
+        "INDIVIDUAL",
+        "CORPORATION",
+        "CORPORATION",
+        "INDIVIDUAL",
+        "CORPORATION"
+      ],
+      "top_values": [
+        {
+          "value": "INDIVIDUAL",
+          "count": 1732,
+          "pct": 35.7
+        },
+        {
+          "value": "CORPORATION",
+          "count": 1626,
+          "pct": 33.5
+        },
+        {
+          "value": "PARTNERSHIP",
+          "count": 843,
+          "pct": 17.4
+        },
+        {
+          "value": "OTHER GOV'T AGENCY",
+          "count": 178,
+          "pct": 3.7
+        },
+        {
+          "value": "CONDO/CO-OP",
+          "count": 155,
+          "pct": 3.2
+        }
+      ]
+    },
+    {
+      "name": "non_profit",
+      "dtype": "object",
+      "missing": 145,
+      "missing_pct": 2.9,
+      "nunique": 2,
+      "sample_values": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N"
+      ],
+      "top_values": [
+        {
+          "value": "N",
+          "count": 4594,
+          "pct": 94.6
+        },
+        {
+          "value": "Y",
+          "count": 261,
+          "pct": 5.4
+        }
+      ]
+    },
+    {
+      "name": "owner_s_business_name",
+      "dtype": "object",
+      "missing": 1231,
+      "missing_pct": 24.62,
+      "nunique": 2825,
+      "sample_values": [
+        "BREEZY POINT COOPERATIVE, INC.",
+        "572 RT LLC C/O ABINGDON SQUARE",
+        "1321-1321 CHISHOLM LLC",
+        "VORNADO OFFICE MANAGEMENT",
+        "NYC DDC"
+      ]
+    },
+    {
+      "name": "owner_s_first_name",
+      "dtype": "object",
+      "missing": 1,
+      "missing_pct": 0.02,
+      "nunique": 1840,
+      "sample_values": [
+        "IRIS",
+        "CHRISTOPHER",
+        "BEN",
+        "MOSES",
+        "CARLOS"
+      ]
+    },
+    {
+      "name": "owner_s_last_name",
+      "dtype": "object",
+      "missing": 1,
+      "missing_pct": 0.02,
+      "nunique": 3115,
+      "sample_values": [
+        "LEE",
+        "NORTON",
+        "ATKINS",
+        "FREUND",
+        "LOPEZ"
+      ]
+    },
+    {
+      "name": "owner_s_house__",
+      "dtype": "object",
+      "missing": 1612,
+      "missing_pct": 32.24,
+      "nunique": 1595,
+      "sample_values": [
+        "1878",
+        "202-30",
+        "45",
+        "212",
+        "888"
+      ]
+    },
+    {
+      "name": "owner_s_house_street_name",
+      "dtype": "object",
+      "missing": 1613,
+      "missing_pct": 32.26,
+      "nunique": 2083,
+      "sample_values": [
+        "WEST 6 ST",
+        "ROCKAWAY POINT BOULEVARD",
+        "MAIN ST, SUITE 502",
+        "SPENCER ST",
+        "SEVENTH AVENUE"
+      ]
+    },
+    {
+      "name": "city",
+      "dtype": "object",
+      "missing": 1612,
+      "missing_pct": 32.24,
+      "nunique": 324,
+      "sample_values": [
+        "BROOKLYN",
+        "ROCKAWAY POINT",
+        "BROOKLYN",
+        "BROOKLYN",
+        "NEW YORK"
+      ]
+    },
+    {
+      "name": "state",
+      "dtype": "object",
+      "missing": 1612,
+      "missing_pct": 32.24,
+      "nunique": 17,
+      "sample_values": [
+        "NY",
+        "NY",
+        "NY",
+        "NY",
+        "NY"
+      ],
+      "top_values": [
+        {
+          "value": "NY",
+          "count": 3301,
+          "pct": 97.4
+        },
+        {
+          "value": "NJ",
+          "count": 47,
+          "pct": 1.4
+        },
+        {
+          "value": "MA",
+          "count": 9,
+          "pct": 0.3
+        },
+        {
+          "value": "CA",
+          "count": 7,
+          "pct": 0.2
+        },
+        {
+          "value": "PA",
+          "count": 4,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "owner_s_zip_code",
+      "dtype": "float64",
+      "missing": 1620,
+      "missing_pct": 32.4,
+      "nunique": 403,
+      "sample_values": [
+        "11214.0",
+        "11697.0",
+        "11201.0",
+        "11205.0",
+        "10019.0"
+      ],
+      "stats": {
+        "min": 1803.0,
+        "max": 114356361.0,
+        "mean": 479506.6885,
+        "median": 10469.0,
+        "p25": 10021.0,
+        "p75": 11230.0
+      }
+    },
+    {
+      "name": "permit_si_no",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5000,
+      "sample_values": [
+        "3765466",
+        "3765467",
+        "3765795",
+        "3765813",
+        "3623536"
+      ],
+      "stats": {
+        "min": 260.0,
+        "max": 3995351.0,
+        "mean": 2655885.1728,
+        "median": 3692029.0,
+        "p25": 848552.5,
+        "p75": 3838001.25
+      }
+    },
+    {
+      "name": "gis_latitude",
+      "dtype": "float64",
+      "missing": 38,
+      "missing_pct": 0.76,
+      "nunique": 4189,
+      "sample_values": [
+        "40.599043",
+        "40.55486",
+        "40.645602",
+        "40.830992",
+        "40.751098"
+      ],
+      "stats": {
+        "min": 40.5007,
+        "max": 40.9104,
+        "mean": 40.7186,
+        "median": 40.725,
+        "p25": 40.675,
+        "p75": 40.7642
+      }
+    },
+    {
+      "name": "gis_longitude",
+      "dtype": "float64",
+      "missing": 38,
+      "missing_pct": 0.76,
+      "nunique": 4172,
+      "sample_values": [
+        "-73.992006",
+        "-73.923824",
+        "-74.092344",
+        "-73.895698",
+        "-73.992926"
+      ],
+      "stats": {
+        "min": -74.2539,
+        "max": -73.7026,
+        "mean": -73.9376,
+        "median": -73.9543,
+        "p25": -73.9863,
+        "p75": -73.8888
+      }
+    },
+    {
+      "name": "gis_council_district",
+      "dtype": "float64",
+      "missing": 38,
+      "missing_pct": 0.76,
+      "nunique": 51,
+      "sample_values": [
+        "47.0",
+        "32.0",
+        "49.0",
+        "16.0",
+        "3.0"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 51.0,
+        "mean": 22.7582,
+        "median": 23.0,
+        "p25": 5.0,
+        "p75": 36.0
+      }
+    },
+    {
+      "name": "gis_census_tract",
+      "dtype": "float64",
+      "missing": 38,
+      "missing_pct": 0.76,
+      "nunique": 1035,
+      "sample_values": [
+        "300.0",
+        "91601.0",
+        "81.0",
+        "153.0",
+        "101.0"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 157903.0,
+        "mean": 7380.3168,
+        "median": 267.0,
+        "p25": 110.0,
+        "p75": 849.0
+      }
+    },
+    {
+      "name": "bbl",
+      "dtype": "float64",
+      "missing": 5000,
+      "missing_pct": 100.0,
+      "nunique": 0,
+      "sample_values": []
+    },
+    {
+      "name": "gis_nta_name",
+      "dtype": "object",
+      "missing": 38,
+      "missing_pct": 0.76,
+      "nunique": 193,
+      "sample_values": [
+        "Bensonhurst East",
+        "Breezy Point-Belle Harbor-Rockaway Park-…",
+        "West New Brighton-New Brighton-St. Georg…",
+        "Crotona Park East",
+        "Midtown-Midtown South"
+      ]
+    },
+    {
+      "name": "dobrundate",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 584,
+      "sample_values": [
+        "2020-06-18T00:00:00.000",
+        "2020-06-18T00:00:00.000",
+        "2020-06-18T00:00:00.000",
+        "2020-06-18T00:00:00.000",
+        "2020-07-29T00:00:00.000"
+      ]
+    }
+  ]
+}

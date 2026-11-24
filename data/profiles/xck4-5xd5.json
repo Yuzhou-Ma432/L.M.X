@@ -1,0 +1,2005 @@
+{
+  "id": "xck4-5xd5",
+  "name": "2018 Pre-K School Directory",
+  "description": "These data are collected to inform families applying to Pre-K for All of the programs available.  This is a spreadsheet version of the exact data points printed in the borough-level directories and the online PDFs. Each record represents a school participating in Pre-K for All.  The information for each school is collected by the Department of Early Childhood Education (Department of Education).  The \"Who Got Offers\" section of the spreadsheet is calculated by the Office of Student Enrollment (Department of Education) based on results from Round 1 of the Fall 2017 admissions process. This spreadsheet is simply a different representation of the same material produced in the printed and widely distributed Pre-K directories. This spreadsheet should not be used to identify current programs, as the directory was printed in December 2017 and schools are subject to change.  For the most updated list of Pre-K for All schools, use the UPK Sites Directory compiled by the Department of Early Childhood Education.\r\n\r\nDisclaimer: The following columns were added to this directory to meet the Geo-spatial Standards of Local Law 108 of 2015\r\n\r\n•\tPostcode / Zip code\r\n•\tLatitude\r\n•\tLongitude\r\n•\tCommunity Board\r\n•\tCouncil District\r\n•\tCensus tract\r\n•\tBIN\r\n•\tBBL\r\n•\tNTA",
+  "category": "Education",
+  "permalink": "https://data.cityofnewyork.us/d/xck4-5xd5",
+  "sampled_rows": 5000,
+  "n_rows": 1789,
+  "n_cols": 85,
+  "columns": [
+    {
+      "name": "schooldbn",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1789,
+      "sample_values": [
+        "01M015",
+        "01M019",
+        "01M020",
+        "01M034",
+        "01M063"
+      ]
+    },
+    {
+      "name": "locationname",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1740,
+      "sample_values": [
+        "P.S. 15 Roberto Clemente",
+        "P.S. 19 Asher Levy",
+        "P.S. 20 Anna Silver",
+        "P.S. 34 Franklin D. Roosevelt",
+        "The STAR Academy - P.S. 63"
+      ]
+    },
+    {
+      "name": "final_address",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1742,
+      "sample_values": [
+        "333 East 4th Street, Manhattan NY 10009",
+        "185 First Avenue, Manhattan NY 10003",
+        "166 Essex Street, Manhattan NY 10002",
+        "730 East 12th Street, Manhattan NY 10009",
+        "121 East 3rd Street, Manhattan NY 10009"
+      ]
+    },
+    {
+      "name": "borough",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5,
+      "sample_values": [
+        "Manhattan",
+        "Manhattan",
+        "Manhattan",
+        "Manhattan",
+        "Manhattan"
+      ],
+      "top_values": [
+        {
+          "value": "Brooklyn",
+          "count": 585,
+          "pct": 32.7
+        },
+        {
+          "value": "Queens",
+          "count": 511,
+          "pct": 28.6
+        },
+        {
+          "value": "Bronx",
+          "count": 324,
+          "pct": 18.1
+        },
+        {
+          "value": "Manhattan",
+          "count": 258,
+          "pct": 14.4
+        },
+        {
+          "value": "Staten Island",
+          "count": 111,
+          "pct": 6.2
+        }
+      ]
+    },
+    {
+      "name": "district",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 32,
+      "sample_values": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 32.0,
+        "mean": 18.0654,
+        "median": 20.0,
+        "p25": 10.0,
+        "p75": 26.0
+      }
+    },
+    {
+      "name": "prek_type",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "District School",
+        "District School",
+        "District School",
+        "District School",
+        "District School"
+      ],
+      "top_values": [
+        {
+          "value": "NYCEEC",
+          "count": 1082,
+          "pct": 60.5
+        },
+        {
+          "value": "District School",
+          "count": 622,
+          "pct": 34.8
+        },
+        {
+          "value": "Pre-K Center",
+          "count": 71,
+          "pct": 4.0
+        },
+        {
+          "value": "Charter School",
+          "count": 14,
+          "pct": 0.8
+        }
+      ]
+    },
+    {
+      "name": "phone",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1728,
+      "sample_values": [
+        "212-228-8730",
+        "212-533-5340",
+        "212-254-9577",
+        "212-228-4433",
+        "212-674-3180"
+      ]
+    },
+    {
+      "name": "contact_name",
+      "dtype": "object",
+      "missing": 2,
+      "missing_pct": 0.11,
+      "nunique": 1705,
+      "sample_values": [
+        "Laura Salmon",
+        "Jacqueline Flanagan",
+        "Sarah Pinto Viagran",
+        "Rosemarie Gonzalez",
+        "Darlene Cameron"
+      ]
+    },
+    {
+      "name": "contact_email",
+      "dtype": "object",
+      "missing": 1,
+      "missing_pct": 0.06,
+      "nunique": 1693,
+      "sample_values": [
+        "LSalmon@schools.nyc.gov",
+        "jflanagan@schools.nyc.gov",
+        "spinto4@schools.nyc.gov",
+        "aloukatos@schools.nyc.gov",
+        "dcameron2@schools.nyc.gov"
+      ]
+    },
+    {
+      "name": "website",
+      "dtype": "object",
+      "missing": 318,
+      "missing_pct": 17.78,
+      "nunique": 1226,
+      "sample_values": [
+        "www.PS15.org",
+        "schools.nyc.gov/schoolportals/01/m019",
+        "ps20m.org",
+        "schools.nyc.gov/schoolportals/01/m034",
+        "staracademyps63.com"
+      ]
+    },
+    {
+      "name": "meals",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 7,
+      "sample_values": [
+        "Breakfast/Lunch",
+        "Breakfast/Lunch/Snack(s)",
+        "Breakfast/Lunch/Snack(s)",
+        "Breakfast/Lunch/Snack(s)",
+        "Breakfast/Lunch/Snack(s)"
+      ],
+      "top_values": [
+        {
+          "value": "Breakfast/Lunch/Snack(s)",
+          "count": 754,
+          "pct": 42.1
+        },
+        {
+          "value": "Breakfast/Lunch",
+          "count": 694,
+          "pct": 38.8
+        },
+        {
+          "value": "Contact program",
+          "count": 172,
+          "pct": 9.6
+        },
+        {
+          "value": "Lunch/Snack(s)",
+          "count": 157,
+          "pct": 8.8
+        },
+        {
+          "value": "Snack(s)",
+          "count": 8,
+          "pct": 0.4
+        }
+      ]
+    },
+    {
+      "name": "play",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 10,
+      "sample_values": [
+        "Indoor/Outdoor (Onsite) Playspace",
+        "Indoor/Outdoor (Onsite) Playspace",
+        "Indoor/Outdoor (Onsite) Playspace",
+        "Indoor/Outdoor (Onsite) Playspace",
+        "Indoor/Outdoor (Onsite) Playspace"
+      ],
+      "top_values": [
+        {
+          "value": "Indoor/Outdoor (Onsite) Playspace",
+          "count": 897,
+          "pct": 50.1
+        },
+        {
+          "value": "Outdoor (Onsite) Playspace",
+          "count": 330,
+          "pct": 18.4
+        },
+        {
+          "value": "Contact program",
+          "count": 318,
+          "pct": 17.8
+        },
+        {
+          "value": "Outdoor (Offsite) Playspace",
+          "count": 101,
+          "pct": 5.6
+        },
+        {
+          "value": "Indoor/Outdoor (Offsite) Playspace",
+          "count": 77,
+          "pct": 4.3
+        }
+      ]
+    },
+    {
+      "name": "income_flg",
+      "dtype": "object",
+      "missing": 1395,
+      "missing_pct": 77.98,
+      "nunique": 1,
+      "sample_values": [
+        "May have income or other eligibility req…",
+        "May have income or other eligibility req…",
+        "May have income or other eligibility req…",
+        "May have income or other eligibility req…",
+        "May have income or other eligibility req…"
+      ],
+      "top_values": [
+        {
+          "value": "May have income or other eligibility req…",
+          "count": 394,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "uniforms",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "No",
+        "Yes",
+        "No",
+        "Contact program",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "No",
+          "count": 794,
+          "pct": 44.4
+        },
+        {
+          "value": "Contact program",
+          "count": 638,
+          "pct": 35.7
+        },
+        {
+          "value": "Yes",
+          "count": 357,
+          "pct": 20.0
+        }
+      ]
+    },
+    {
+      "name": "singlegender",
+      "dtype": "object",
+      "missing": 1750,
+      "missing_pct": 97.82,
+      "nunique": 3,
+      "sample_values": [
+        "Single-gender program (Girls only)",
+        "Single-gender program (Girls only)",
+        "Single-gender program (Girls only)",
+        "Single-gender program (Boys only)",
+        "Single-gender classrooms (Includes boys-…"
+      ],
+      "top_values": [
+        {
+          "value": "Single-gender program (Girls only)",
+          "count": 19,
+          "pct": 48.7
+        },
+        {
+          "value": "Single-gender program (Boys only)",
+          "count": 16,
+          "pct": 41.0
+        },
+        {
+          "value": "Single-gender classrooms (Includes boys-…",
+          "count": 4,
+          "pct": 10.3
+        }
+      ]
+    },
+    {
+      "name": "programname1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5,
+      "sample_values": [
+        "Full-Day Program",
+        "Full-Day Program",
+        "Full-Day Program",
+        "Full-Day Program",
+        "Full-Day Program"
+      ],
+      "top_values": [
+        {
+          "value": "Full-Day Program",
+          "count": 1723,
+          "pct": 96.3
+        },
+        {
+          "value": "Half-Day Program",
+          "count": 61,
+          "pct": 3.4
+        },
+        {
+          "value": "Spanish Dual Language Program",
+          "count": 2,
+          "pct": 0.1
+        },
+        {
+          "value": "5 Hour Program",
+          "count": 2,
+          "pct": 0.1
+        },
+        {
+          "value": "Italian Dual Language Program",
+          "count": 1,
+          "pct": 0.1
+        }
+      ]
+    },
+    {
+      "name": "programname2",
+      "dtype": "object",
+      "missing": 1715,
+      "missing_pct": 95.86,
+      "nunique": 5,
+      "sample_values": [
+        "Chinese Dual Language Program",
+        "Spanish Dual Language Program",
+        "Chinese Dual Language Program",
+        "Spanish Dual Language Program",
+        "Spanish Dual Language Program"
+      ],
+      "top_values": [
+        {
+          "value": "Spanish Dual Language Program",
+          "count": 50,
+          "pct": 67.6
+        },
+        {
+          "value": "Half-Day Program",
+          "count": 19,
+          "pct": 25.7
+        },
+        {
+          "value": "Chinese Dual Language Program",
+          "count": 3,
+          "pct": 4.1
+        },
+        {
+          "value": "5 Hour Program",
+          "count": 1,
+          "pct": 1.4
+        },
+        {
+          "value": "Bengali Dual Language Program",
+          "count": 1,
+          "pct": 1.4
+        }
+      ]
+    },
+    {
+      "name": "programname3",
+      "dtype": "object",
+      "missing": 1786,
+      "missing_pct": 99.83,
+      "nunique": 2,
+      "sample_values": [
+        "Spanish Dual Language Program",
+        "Russian Dual Language Program",
+        "Spanish Dual Language Program"
+      ],
+      "top_values": [
+        {
+          "value": "Spanish Dual Language Program",
+          "count": 2,
+          "pct": 66.7
+        },
+        {
+          "value": "Russian Dual Language Program",
+          "count": 1,
+          "pct": 33.3
+        }
+      ]
+    },
+    {
+      "name": "programcode1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1710,
+      "sample_values": [
+        "01M015FDPK",
+        "01M019FDPK",
+        "01M020FDPK",
+        "01M034FDPK",
+        "01M063FDPK"
+      ]
+    },
+    {
+      "name": "programcode2",
+      "dtype": "object",
+      "missing": 1715,
+      "missing_pct": 95.86,
+      "nunique": 55,
+      "sample_values": [
+        "01M020FDPKCH",
+        "01M188FDPKSP",
+        "02M001FDPKCH",
+        "03M145FDPKSP",
+        "03M180FDPKSP"
+      ]
+    },
+    {
+      "name": "programcode3",
+      "dtype": "object",
+      "missing": 1786,
+      "missing_pct": 99.83,
+      "nunique": 3,
+      "sample_values": [
+        "01M020FDPKSP",
+        "03M145FDPKRU",
+        "20Z112FDPKSP"
+      ],
+      "top_values": [
+        {
+          "value": "01M020FDPKSP",
+          "count": 1,
+          "pct": 33.3
+        },
+        {
+          "value": "03M145FDPKRU",
+          "count": 1,
+          "pct": 33.3
+        },
+        {
+          "value": "20Z112FDPKSP",
+          "count": 1,
+          "pct": 33.3
+        }
+      ]
+    },
+    {
+      "name": "nyceec_current_all",
+      "dtype": "object",
+      "missing": 813,
+      "missing_pct": 45.44,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 976,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "nyceec_current_some",
+      "dtype": "object",
+      "missing": 1761,
+      "missing_pct": 98.43,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 28,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "nyceec_current_none",
+      "dtype": "float64",
+      "missing": 1789,
+      "missing_pct": 100.0,
+      "nunique": 0,
+      "sample_values": []
+    },
+    {
+      "name": "nyceec_siblings_all",
+      "dtype": "object",
+      "missing": 826,
+      "missing_pct": 46.17,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 963,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "nyceec_siblings_some",
+      "dtype": "object",
+      "missing": 1787,
+      "missing_pct": 99.89,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 2,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "nyceec_siblings_none",
+      "dtype": "object",
+      "missing": 1750,
+      "missing_pct": 97.82,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 39,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "nyceec_services_all",
+      "dtype": "object",
+      "missing": 834,
+      "missing_pct": 46.62,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 955,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "nyceec_services_some",
+      "dtype": "object",
+      "missing": 1785,
+      "missing_pct": 99.78,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 4,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "nyceec_services_none",
+      "dtype": "object",
+      "missing": 1744,
+      "missing_pct": 97.48,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 45,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "nyceec_targetlang",
+      "dtype": "object",
+      "missing": 1653,
+      "missing_pct": 92.4,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 136,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "nyceec_targetlang_1",
+      "dtype": "object",
+      "missing": 1774,
+      "missing_pct": 99.16,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 15,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "nyceec_targetlang_2",
+      "dtype": "object",
+      "missing": 1777,
+      "missing_pct": 99.33,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 12,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "nyceec_others_all",
+      "dtype": "object",
+      "missing": 1185,
+      "missing_pct": 66.24,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 604,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "nyceec_others_some",
+      "dtype": "object",
+      "missing": 1464,
+      "missing_pct": 81.83,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 325,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "nyceec_others_none",
+      "dtype": "object",
+      "missing": 1714,
+      "missing_pct": 95.81,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 75,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "district_zonedsib",
+      "dtype": "object",
+      "missing": 1304,
+      "missing_pct": 72.89,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 485,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "district_zonedsib_1",
+      "dtype": "object",
+      "missing": 1746,
+      "missing_pct": 97.6,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 43,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "district_zonedsib_2",
+      "dtype": "float64",
+      "missing": 1789,
+      "missing_pct": 100.0,
+      "nunique": 0,
+      "sample_values": []
+    },
+    {
+      "name": "district_otherzone",
+      "dtype": "object",
+      "missing": 1450,
+      "missing_pct": 81.05,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 339,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "district_otherzone_1",
+      "dtype": "object",
+      "missing": 1646,
+      "missing_pct": 92.01,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 143,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "district_otherzone_2",
+      "dtype": "object",
+      "missing": 1743,
+      "missing_pct": 97.43,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 46,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "district_1",
+      "dtype": "object",
+      "missing": 1460,
+      "missing_pct": 81.61,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 329,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "district_2",
+      "dtype": "object",
+      "missing": 1780,
+      "missing_pct": 99.5,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 9,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "district_3",
+      "dtype": "object",
+      "missing": 1600,
+      "missing_pct": 89.44,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 189,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "district_outdissibs",
+      "dtype": "object",
+      "missing": 1465,
+      "missing_pct": 81.89,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 324,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "district_outdissibs_1",
+      "dtype": "object",
+      "missing": 1785,
+      "missing_pct": 99.78,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 4,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "district_outdissibs_2",
+      "dtype": "object",
+      "missing": 1593,
+      "missing_pct": 89.04,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 196,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "district_indistrict",
+      "dtype": "object",
+      "missing": 1555,
+      "missing_pct": 86.92,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 234,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "district_indistrict_1",
+      "dtype": "object",
+      "missing": 1702,
+      "missing_pct": 95.14,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 87,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "district_indistrict_2",
+      "dtype": "object",
+      "missing": 1582,
+      "missing_pct": 88.43,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 207,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "district_outdistrict",
+      "dtype": "object",
+      "missing": 1578,
+      "missing_pct": 88.21,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 211,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "district_outdistrict_1",
+      "dtype": "object",
+      "missing": 1772,
+      "missing_pct": 99.05,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 17,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "district_outdistrict_2",
+      "dtype": "object",
+      "missing": 1490,
+      "missing_pct": 83.29,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 299,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "pkc_indistrict_all",
+      "dtype": "object",
+      "missing": 1737,
+      "missing_pct": 97.09,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 52,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "pkc_indistrict_some",
+      "dtype": "object",
+      "missing": 1773,
+      "missing_pct": 99.11,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 16,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "pkc_indistrict_none",
+      "dtype": "float64",
+      "missing": 1789,
+      "missing_pct": 100.0,
+      "nunique": 0,
+      "sample_values": []
+    },
+    {
+      "name": "pkc_outdistrict_all",
+      "dtype": "object",
+      "missing": 1737,
+      "missing_pct": 97.09,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 52,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "pkc_outdistrict_some",
+      "dtype": "float64",
+      "missing": 1789,
+      "missing_pct": 100.0,
+      "nunique": 0,
+      "sample_values": []
+    },
+    {
+      "name": "pkc_outdistrict_none",
+      "dtype": "object",
+      "missing": 1773,
+      "missing_pct": 99.11,
+      "nunique": 1,
+      "sample_values": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ],
+      "top_values": [
+        {
+          "value": "x",
+          "count": 16,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "lpga",
+      "dtype": "object",
+      "missing": 1680,
+      "missing_pct": 93.91,
+      "nunique": 11,
+      "sample_values": [
+        "Last year, this program admitted sibling…",
+        "Last year, this program admitted student…",
+        "Last year, this program admitted student…",
+        "Last year, this program admitted student…",
+        "Last year, this program admitted student…"
+      ],
+      "top_values": [
+        {
+          "value": "Last year, this program admitted student…",
+          "count": 39,
+          "pct": 35.8
+        },
+        {
+          "value": "Last year, this program admitted sibling…",
+          "count": 31,
+          "pct": 28.4
+        },
+        {
+          "value": "This program is new to the 2018 applicat…",
+          "count": 18,
+          "pct": 16.5
+        },
+        {
+          "value": "Last year, this program admitted sibling…",
+          "count": 14,
+          "pct": 12.8
+        },
+        {
+          "value": "Last year, this program admitted sibling…",
+          "count": 1,
+          "pct": 0.9
+        }
+      ]
+    },
+    {
+      "name": "halfday_offers",
+      "dtype": "object",
+      "missing": 1770,
+      "missing_pct": 98.94,
+      "nunique": 1,
+      "sample_values": [
+        "Who Got Offers Last Year refers only to …",
+        "Who Got Offers Last Year refers only to …",
+        "Who Got Offers Last Year refers only to …",
+        "Who Got Offers Last Year refers only to …",
+        "Who Got Offers Last Year refers only to …"
+      ],
+      "top_values": [
+        {
+          "value": "Who Got Offers Last Year refers only to …",
+          "count": 19,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "bus",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1349,
+      "sample_values": [
+        "M14A, M14D, M15, M15-SBS, M21, M8, M9",
+        "M1, M101, M102, M103, M14A, M14D, M15, M…",
+        "B39, M103, M14A, M14D, M15, M15-SBS, M21…",
+        "M14A, M14D, M21, M23, M8, M9, X14, X2, X…",
+        "B39, M1, M101, M102, M103, M14A, M14D, M…"
+      ]
+    },
+    {
+      "name": "subway_stop",
+      "dtype": "object",
+      "missing": 486,
+      "missing_pct": 27.17,
+      "nunique": 189,
+      "sample_values": [
+        "F J M Z",
+        "4 5 6 L N Q R",
+        "B D F J M Z",
+        "L",
+        "4 6 B D F J L M Z"
+      ]
+    },
+    {
+      "name": "rezoning",
+      "dtype": "object",
+      "missing": 1785,
+      "missing_pct": 99.78,
+      "nunique": 1,
+      "sample_values": [
+        "This school may be included in a rezonin…",
+        "This school may be included in a rezonin…",
+        "This school may be included in a rezonin…",
+        "This school may be included in a rezonin…"
+      ],
+      "top_values": [
+        {
+          "value": "This school may be included in a rezonin…",
+          "count": 4,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "specialpriority",
+      "dtype": "object",
+      "missing": 1693,
+      "missing_pct": 94.63,
+      "nunique": 19,
+      "sample_values": [
+        "District 1 is a choice district",
+        "District 1 is a choice district",
+        "District 1 is a choice district",
+        "District 1 is a choice district",
+        "District 1 is a choice district"
+      ],
+      "top_values": [
+        {
+          "value": "This is a non-zoned school",
+          "count": 30,
+          "pct": 31.2
+        },
+        {
+          "value": "District 7 is a choice district",
+          "count": 17,
+          "pct": 17.7
+        },
+        {
+          "value": "District 1 is a choice district",
+          "count": 16,
+          "pct": 16.7
+        },
+        {
+          "value": "District 23 is a choice district",
+          "count": 13,
+          "pct": 13.5
+        },
+        {
+          "value": "This program has its own application pro…",
+          "count": 3,
+          "pct": 3.1
+        }
+      ]
+    },
+    {
+      "name": "magnet",
+      "dtype": "object",
+      "missing": 1767,
+      "missing_pct": 98.77,
+      "nunique": 20,
+      "sample_values": [
+        "This school is currently a magnet school…",
+        "This school is currently a magnet school…",
+        "This school is currently a magnet school…",
+        "This school is currently a magnet school…",
+        "This school is currently a magnet school…"
+      ],
+      "top_values": [
+        {
+          "value": "This school is currently a magnet school…",
+          "count": 3,
+          "pct": 13.6
+        },
+        {
+          "value": "This school is currently a magnet school…",
+          "count": 1,
+          "pct": 4.5
+        },
+        {
+          "value": "This school is currently a magnet school…",
+          "count": 1,
+          "pct": 4.5
+        },
+        {
+          "value": "This school is currently a magnet school…",
+          "count": 1,
+          "pct": 4.5
+        },
+        {
+          "value": "This school is currently a magnet school…",
+          "count": 1,
+          "pct": 4.5
+        }
+      ]
+    },
+    {
+      "name": "diversity",
+      "dtype": "object",
+      "missing": 1767,
+      "missing_pct": 98.77,
+      "nunique": 7,
+      "sample_values": [
+        "This school is part of the District 1 Di…",
+        "This school is part of the District 1 Di…",
+        "This school is part of the District 1 Di…",
+        "This school is part of the District 1 Di…",
+        "This school is part of the District 1 Di…"
+      ],
+      "top_values": [
+        {
+          "value": "This school is part of the District 1 Di…",
+          "count": 16,
+          "pct": 72.7
+        },
+        {
+          "value": "Students who qualify for Free and Reduce…",
+          "count": 1,
+          "pct": 4.5
+        },
+        {
+          "value": "Students from families impacted by incar…",
+          "count": 1,
+          "pct": 4.5
+        },
+        {
+          "value": "Students who qualify for Free and Reduce…",
+          "count": 1,
+          "pct": 4.5
+        },
+        {
+          "value": "Students who qualify for Free and Reduce…",
+          "count": 1,
+          "pct": 4.5
+        }
+      ]
+    },
+    {
+      "name": "earlydropoff",
+      "dtype": "object",
+      "missing": 1043,
+      "missing_pct": 58.3,
+      "nunique": 25,
+      "sample_values": [
+        "7:45am",
+        "7:45am",
+        "7:30am",
+        "Contact program for time",
+        "7:45am"
+      ],
+      "top_values": [
+        {
+          "value": "7:30am",
+          "count": 192,
+          "pct": 25.7
+        },
+        {
+          "value": "8am",
+          "count": 143,
+          "pct": 19.2
+        },
+        {
+          "value": "Contact program for time",
+          "count": 122,
+          "pct": 16.4
+        },
+        {
+          "value": "7am",
+          "count": 105,
+          "pct": 14.1
+        },
+        {
+          "value": "Contact program",
+          "count": 47,
+          "pct": 6.3
+        }
+      ]
+    },
+    {
+      "name": "latepickup",
+      "dtype": "object",
+      "missing": 969,
+      "missing_pct": 54.16,
+      "nunique": 25,
+      "sample_values": [
+        "5:30pm",
+        "5:30pm",
+        "5:30pm",
+        "Contact program for time",
+        "5pm"
+      ],
+      "top_values": [
+        {
+          "value": "6pm",
+          "count": 335,
+          "pct": 40.9
+        },
+        {
+          "value": "Contact program for time",
+          "count": 150,
+          "pct": 18.3
+        },
+        {
+          "value": "5:45pm",
+          "count": 71,
+          "pct": 8.7
+        },
+        {
+          "value": "Contact program",
+          "count": 53,
+          "pct": 6.5
+        },
+        {
+          "value": "6:30pm",
+          "count": 53,
+          "pct": 6.5
+        }
+      ]
+    },
+    {
+      "name": "flexschedule",
+      "dtype": "object",
+      "missing": 1673,
+      "missing_pct": 93.52,
+      "nunique": 1,
+      "sample_values": [
+        "May utilize flexible scheduling policy. …",
+        "May utilize flexible scheduling policy. …",
+        "May utilize flexible scheduling policy. …",
+        "May utilize flexible scheduling policy. …",
+        "May utilize flexible scheduling policy. …"
+      ],
+      "top_values": [
+        {
+          "value": "May utilize flexible scheduling policy. …",
+          "count": 116,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "iepnote",
+      "dtype": "object",
+      "missing": 1765,
+      "missing_pct": 98.66,
+      "nunique": 1,
+      "sample_values": [
+        "If your child has an IEP recommending Re…",
+        "If your child has an IEP recommending Re…",
+        "If your child has an IEP recommending Re…",
+        "If your child has an IEP recommending Re…",
+        "If your child has an IEP recommending Re…"
+      ],
+      "top_values": [
+        {
+          "value": "If your child has an IEP recommending Re…",
+          "count": 24,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "enhancedlang_note",
+      "dtype": "object",
+      "missing": 1625,
+      "missing_pct": 90.83,
+      "nunique": 10,
+      "sample_values": [
+        "Enhanced Language Support: Spanish",
+        "Enhanced Language Support: Spanish",
+        "Enhanced Language Support: Spanish",
+        "Enhanced Language Support: Spanish",
+        "Enhanced Language Support: Chinese"
+      ],
+      "top_values": [
+        {
+          "value": "Enhanced Language Support: Spanish",
+          "count": 100,
+          "pct": 61.0
+        },
+        {
+          "value": "Enhanced Language Support: Chinese",
+          "count": 18,
+          "pct": 11.0
+        },
+        {
+          "value": "Enhanced Language Support: Russian",
+          "count": 14,
+          "pct": 8.5
+        },
+        {
+          "value": "Enhanced Language Support: Yiddish",
+          "count": 13,
+          "pct": 7.9
+        },
+        {
+          "value": "Enhanced Language Support: Hebrew",
+          "count": 10,
+          "pct": 6.1
+        }
+      ]
+    },
+    {
+      "name": "accessibility",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "Partially Accessible",
+        "Not Accessible",
+        "Partially Accessible",
+        "Not Accessible",
+        "Not Accessible"
+      ],
+      "top_values": [
+        {
+          "value": "Contact program",
+          "count": 1167,
+          "pct": 65.2
+        },
+        {
+          "value": "Not Accessible",
+          "count": 370,
+          "pct": 20.7
+        },
+        {
+          "value": "Partially Accessible",
+          "count": 155,
+          "pct": 8.7
+        },
+        {
+          "value": "Fully Accessible",
+          "count": 97,
+          "pct": 5.4
+        }
+      ]
+    },
+    {
+      "name": "seats",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 163,
+      "sample_values": [
+        "18 Full-Day",
+        "18 Full-Day",
+        "54 Full-Day",
+        "18 Full-Day",
+        "36 Full-Day"
+      ]
+    },
+    {
+      "name": "hours",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 20,
+      "sample_values": [
+        "8:40am-3pm",
+        "8am-2:20pm",
+        "8:20am-2:40pm",
+        "Contact program",
+        "8:15am-2:35pm"
+      ],
+      "top_values": [
+        {
+          "value": "Contact program",
+          "count": 971,
+          "pct": 54.3
+        },
+        {
+          "value": "8am-2:20pm",
+          "count": 296,
+          "pct": 16.5
+        },
+        {
+          "value": "8:30am-2:50pm",
+          "count": 152,
+          "pct": 8.5
+        },
+        {
+          "value": "9am-3:20pm",
+          "count": 91,
+          "pct": 5.1
+        },
+        {
+          "value": "8:20am-2:40pm",
+          "count": 85,
+          "pct": 4.8
+        }
+      ]
+    },
+    {
+      "name": "postcode",
+      "dtype": "float64",
+      "missing": 10,
+      "missing_pct": 0.56,
+      "nunique": 174,
+      "sample_values": [
+        "10009.0",
+        "10003.0",
+        "10002.0",
+        "10009.0",
+        "10009.0"
+      ],
+      "stats": {
+        "min": 10001.0,
+        "max": 11697.0,
+        "mean": 10899.3907,
+        "median": 11210.0,
+        "p25": 10455.0,
+        "p75": 11354.0
+      }
+    },
+    {
+      "name": "latitude",
+      "dtype": "float64",
+      "missing": 10,
+      "missing_pct": 0.56,
+      "nunique": 1727,
+      "sample_values": [
+        "40.721807",
+        "40.729636",
+        "40.72154",
+        "40.726473",
+        "40.724117"
+      ],
+      "stats": {
+        "min": 40.5088,
+        "max": 40.9083,
+        "mean": 40.7214,
+        "median": 40.7131,
+        "p25": 40.657,
+        "p75": 40.7927
+      }
+    },
+    {
+      "name": "longitude",
+      "dtype": "float64",
+      "missing": 10,
+      "missing_pct": 0.56,
+      "nunique": 1728,
+      "sample_values": [
+        "-73.979022",
+        "-73.983818",
+        "-73.986648",
+        "-73.975181",
+        "-73.986381"
+      ],
+      "stats": {
+        "min": -74.2464,
+        "max": -73.7091,
+        "mean": -73.9189,
+        "median": -73.9211,
+        "p25": -73.964,
+        "p75": -73.8645
+      }
+    },
+    {
+      "name": "community_board",
+      "dtype": "float64",
+      "missing": 10,
+      "missing_pct": 0.56,
+      "nunique": 18,
+      "sample_values": [
+        "3.0",
+        "3.0",
+        "3.0",
+        "3.0",
+        "3.0"
+      ],
+      "top_values": [
+        {
+          "value": "3.0",
+          "count": 186,
+          "pct": 10.5
+        },
+        {
+          "value": "12.0",
+          "count": 174,
+          "pct": 9.8
+        },
+        {
+          "value": "1.0",
+          "count": 164,
+          "pct": 9.2
+        },
+        {
+          "value": "11.0",
+          "count": 134,
+          "pct": 7.5
+        },
+        {
+          "value": "7.0",
+          "count": 133,
+          "pct": 7.5
+        }
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 18.0,
+        "mean": 7.7358,
+        "median": 7.0,
+        "p25": 3.0,
+        "p75": 11.0
+      }
+    },
+    {
+      "name": "council_district",
+      "dtype": "float64",
+      "missing": 10,
+      "missing_pct": 0.56,
+      "nunique": 51,
+      "sample_values": [
+        "2.0",
+        "2.0",
+        "1.0",
+        "2.0",
+        "2.0"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 51.0,
+        "mean": 27.0742,
+        "median": 27.0,
+        "p25": 15.0,
+        "p75": 39.0
+      }
+    },
+    {
+      "name": "census_tract",
+      "dtype": "float64",
+      "missing": 10,
+      "missing_pct": 0.56,
+      "nunique": 850,
+      "sample_values": [
+        "2601.0",
+        "40.0",
+        "3001.0",
+        "28.0",
+        "32.0"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 157903.0,
+        "mean": 7792.4075,
+        "median": 381.0,
+        "p25": 185.0,
+        "p75": 907.5
+      }
+    },
+    {
+      "name": "bin",
+      "dtype": "float64",
+      "missing": 16,
+      "missing_pct": 0.89,
+      "nunique": 1708,
+      "sample_values": [
+        "1004415.0",
+        "1006478.0",
+        "1004325.0",
+        "1004564.0",
+        "1005760.0"
+      ],
+      "stats": {
+        "min": 1000000.0,
+        "max": 5167549.0,
+        "mean": 3083015.9301,
+        "median": 3146477.0,
+        "p25": 2083138.0,
+        "p75": 4134101.0
+      }
+    },
+    {
+      "name": "bbl",
+      "dtype": "float64",
+      "missing": 16,
+      "missing_pct": 0.89,
+      "nunique": 1701,
+      "sample_values": [
+        "1003740020.0",
+        "1004530034.0",
+        "1003550001.0",
+        "1003810038.0",
+        "1004310014.0"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 5079140005.0,
+        "mean": 2979520818.0902,
+        "median": 3048440001.0,
+        "p25": 2032570111.0,
+        "p75": 4033330029.0
+      }
+    },
+    {
+      "name": "nta",
+      "dtype": "object",
+      "missing": 9,
+      "missing_pct": 0.5,
+      "nunique": 191,
+      "sample_values": [
+        "Lower East Side                         …",
+        "East Village                            …",
+        "Chinatown                               …",
+        "Lower East Side                         …",
+        "East Village                            …"
+      ]
+    }
+  ]
+}

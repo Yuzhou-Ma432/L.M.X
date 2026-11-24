@@ -43,11 +43,11 @@
       "missing_pct": 0.0,
       "nunique": 623,
       "sample_values": [
-        "Medicaid - Existing Applicant or Enrollee",
+        "Medicaid - Existing Applicant or Enrolle…",
         "Food Stamp Assistance",
         "Food Stamp Assistance",
-        "One Shot Deal - Short Term Emergency Assistance",
-        "One Shot Deal - Short Term Emergency Assistance"
+        "One Shot Deal - Short Term Emergency Ass…",
+        "One Shot Deal - Short Term Emergency Ass…"
       ]
     },
     {
@@ -67,7 +67,9 @@
         "min": 0.0,
         "max": 104.0,
         "mean": 15.4422,
-        "median": 4.0
+        "median": 4.0,
+        "p25": 0.0,
+        "p75": 25.0
       }
     },
     {
@@ -77,11 +79,11 @@
       "missing_pct": 26.1,
       "nunique": 717,
       "sample_values": [
-        "    - % of inspected apartments testing positive for lead",
-        "    - % of inspected apartments testing positive for lead",
-        "    - % of inspected apartments testing positive for lead",
-        "    - % of inspected apartments testing positive for lead",
-        "    - % of inspected apartments testing positive for lead"
+        "    - % of inspected apartments testing …",
+        "    - % of inspected apartments testing …",
+        "    - % of inspected apartments testing …",
+        "    - % of inspected apartments testing …",
+        "    - % of inspected apartments testing …"
       ]
     },
     {
@@ -101,7 +103,9 @@
         "min": 0.0,
         "max": 503.0,
         "mean": 24.6318,
-        "median": 0.0
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 0.0
       }
     },
     {
@@ -116,6 +120,18 @@
         "INQ",
         "INQ",
         "INQ"
+      ],
+      "top_values": [
+        {
+          "value": "IND",
+          "count": 3695,
+          "pct": 73.9
+        },
+        {
+          "value": "INQ",
+          "count": 1305,
+          "pct": 26.1
+        }
       ]
     },
     {
@@ -130,6 +146,23 @@
         "Down",
         "Down",
         "Down"
+      ],
+      "top_values": [
+        {
+          "value": "Down",
+          "count": 1848,
+          "pct": 50.0
+        },
+        {
+          "value": "Neutral",
+          "count": 1134,
+          "pct": 30.7
+        },
+        {
+          "value": "Up",
+          "count": 713,
+          "pct": 19.3
+        }
       ]
     },
     {
@@ -144,6 +177,18 @@
         "N",
         "N",
         "N"
+      ],
+      "top_values": [
+        {
+          "value": "N",
+          "count": 2712,
+          "pct": 73.4
+        },
+        {
+          "value": "Y",
+          "count": 983,
+          "pct": 26.6
+        }
       ]
     },
     {
@@ -172,6 +217,33 @@
         "% of Inquiries",
         "% of Inquiries",
         "% of Inquiries"
+      ],
+      "top_values": [
+        {
+          "value": "Target",
+          "count": 777,
+          "pct": 27.2
+        },
+        {
+          "value": "PMMR",
+          "count": 776,
+          "pct": 27.2
+        },
+        {
+          "value": "% of Inquiries",
+          "count": 435,
+          "pct": 15.2
+        },
+        {
+          "value": "Total",
+          "count": 435,
+          "pct": 15.2
+        },
+        {
+          "value": "Rank",
+          "count": 435,
+          "pct": 15.2
+        }
       ]
     },
     {
@@ -187,11 +259,40 @@
         "2013",
         "2012"
       ],
+      "top_values": [
+        {
+          "value": "2012",
+          "count": 1755,
+          "pct": 35.1
+        },
+        {
+          "value": "2013",
+          "count": 1429,
+          "pct": 28.6
+        },
+        {
+          "value": "2011",
+          "count": 714,
+          "pct": 14.3
+        },
+        {
+          "value": "2010",
+          "count": 714,
+          "pct": 14.3
+        },
+        {
+          "value": "2014",
+          "count": 388,
+          "pct": 7.8
+        }
+      ],
       "stats": {
         "min": 2010.0,
         "max": 2014.0,
         "mean": 2012.0126,
-        "median": 2012.0
+        "median": 2012.0,
+        "p25": 2011.0,
+        "p75": 2013.0
       }
     },
     {
@@ -219,7 +320,9 @@
         "min": 0.0,
         "max": 17917000.0,
         "mean": 18606.5744,
-        "median": 39.2639
+        "median": 39.2639,
+        "p25": 6.0,
+        "p75": 253.215
       }
     },
     {
@@ -234,6 +337,28 @@
         "N",
         "N",
         "N"
+      ],
+      "top_values": [
+        {
+          "value": "N",
+          "count": 3805,
+          "pct": 76.1
+        },
+        {
+          "value": "P",
+          "count": 740,
+          "pct": 14.8
+        },
+        {
+          "value": "C",
+          "count": 334,
+          "pct": 6.7
+        },
+        {
+          "value": "T",
+          "count": 121,
+          "pct": 2.4
+        }
       ]
     },
     {
@@ -253,7 +378,9 @@
         "min": 0.0,
         "max": 149.0,
         "mean": 59.7779,
-        "median": 76.0
+        "median": 76.0,
+        "p25": 23.0,
+        "p75": 92.0
       }
     },
     {
@@ -273,7 +400,9 @@
         "min": 0.0,
         "max": 834208.0,
         "mean": 5452.5916,
-        "median": 26.87
+        "median": 26.87,
+        "p25": 5.375,
+        "p75": 318.5
       }
     },
     {
@@ -293,7 +422,9 @@
         "min": 2.8,
         "max": 17917000.0,
         "mean": 594987.9274,
-        "median": 571.5
+        "median": 571.5,
+        "p25": 177.3475,
+        "p75": 12677.75
       }
     },
     {

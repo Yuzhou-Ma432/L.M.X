@@ -1,0 +1,15 @@
+{
+  "id": "5brf-q9de",
+  "name": "2015-16 Guidance Counselor Reporting - Guidance Counselor Data",
+  "strategy": "baseline",
+  "description": "This dataset contains 2015-16 reporting data on guidance counselors at New York City public schools, organized by school building (identified by DBN code) and location type. Each row covers one school location and includes counts of total guidance counselors and social workers, broken down by full-time and part-time status, bilingual counselors, staff serving more than one location, and staff in the absent teacher reserve (ATR). It also includes 2014-15 enrollment figures and two calculated ratios: counselors plus social workers per student, and counselors only per student. With roughly 1,600 rows and 13 columns, the data supports comparisons of counselor staffing levels and student-to-counselor ratios across schools, analysis of staffing gaps or inequities, and reporting on how resources are distributed by school type or size.",
+  "prompt": "Title: 2015-16 Guidance Counselor Reporting - Guidance Counselor Data\nCategory: Education\nRows (sampled): 1644\nColumns: 13\nColumn names: dbn, location_name, location_type, total_sw_gc, total_gc, full_time, part_time, bilingual, serving_more_than_one_location, atr, sy2014_15_enrollment, ratio_gc_sw, ratio_gc_only\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 167,
+    "completion_tokens": 163,
+    "total_tokens": 330
+  },
+  "elapsed_seconds": 1.67
+}

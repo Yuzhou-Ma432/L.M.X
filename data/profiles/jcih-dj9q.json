@@ -1,0 +1,1754 @@
+{
+  "id": "jcih-dj9q",
+  "name": "DOF: Condominium Comparable Rental Income – Queens – FY 2011/2012",
+  "description": "Condominiums and cooperatives are valued as if they were residential rental apartments. Income information from similar rental properties is applied to determine value.\r\nThe Department of Finance (DOF) chooses similar properties to value condos and coops. Properties are selected based on a combination of factors such as: land location, income levels, building age and construction and exemptions and subsidies.\r\nUpdate Frequency: Annually",
+  "category": "Housing & Development",
+  "permalink": "https://data.cityofnewyork.us/d/jcih-dj9q",
+  "sampled_rows": 5000,
+  "n_rows": 434,
+  "n_cols": 70,
+  "columns": [
+    {
+      "name": "queens_condominiums_comparable_properties_boro_block_lot",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 404,
+      "sample_values": [
+        "4-00015-7501",
+        "4-00016-7501",
+        "4-00021-7501",
+        "4-00030-7501",
+        "4-00030-7501"
+      ]
+    },
+    {
+      "name": "queens_condominiums_comparable_properties_condo_section",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 434,
+      "sample_values": [
+        "0608-R1",
+        "0597-R1",
+        "0639-R1",
+        "0558-R1",
+        "0558-R2"
+      ]
+    },
+    {
+      "name": "queens_condominiums_comparable_properties_address",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 358,
+      "sample_values": [
+        "2 51 AVENUE",
+        "50 2 STREET",
+        "46 CENTER BOULEVARD",
+        "5 48 AVENUE",
+        "5 48 AVENUE"
+      ]
+    },
+    {
+      "name": "borough",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "4",
+        "4",
+        "4",
+        "4",
+        "4"
+      ],
+      "top_values": [
+        {
+          "value": "4",
+          "count": 434,
+          "pct": 100.0
+        }
+      ],
+      "stats": {
+        "min": 4.0,
+        "max": 4.0,
+        "mean": 4.0,
+        "median": 4.0,
+        "p25": 4.0,
+        "p75": 4.0
+      }
+    },
+    {
+      "name": "postcode",
+      "dtype": "float64",
+      "missing": 396,
+      "missing_pct": 91.24,
+      "nunique": 12,
+      "sample_values": [
+        "11363.0",
+        "11363.0",
+        "11414.0",
+        "11363.0",
+        "11363.0"
+      ],
+      "top_values": [
+        {
+          "value": "11363.0",
+          "count": 18,
+          "pct": 47.4
+        },
+        {
+          "value": "11694.0",
+          "count": 3,
+          "pct": 7.9
+        },
+        {
+          "value": "11691.0",
+          "count": 3,
+          "pct": 7.9
+        },
+        {
+          "value": "11385.0",
+          "count": 3,
+          "pct": 7.9
+        },
+        {
+          "value": "11693.0",
+          "count": 2,
+          "pct": 5.3
+        }
+      ],
+      "stats": {
+        "min": 11101.0,
+        "max": 11694.0,
+        "mean": 11439.6842,
+        "median": 11363.0,
+        "p25": 11363.0,
+        "p75": 11414.75
+      }
+    },
+    {
+      "name": "latitude",
+      "dtype": "float64",
+      "missing": 396,
+      "missing_pct": 91.24,
+      "nunique": 29,
+      "sample_values": [
+        "40.778087",
+        "40.778102",
+        "40.657871",
+        "40.780054",
+        "40.780626"
+      ],
+      "top_values": [
+        {
+          "value": "40.775621",
+          "count": 6,
+          "pct": 15.8
+        },
+        {
+          "value": "40.774986",
+          "count": 4,
+          "pct": 10.5
+        },
+        {
+          "value": "40.570817",
+          "count": 2,
+          "pct": 5.3
+        },
+        {
+          "value": "40.778102",
+          "count": 1,
+          "pct": 2.6
+        },
+        {
+          "value": "40.778087",
+          "count": 1,
+          "pct": 2.6
+        }
+      ],
+      "stats": {
+        "min": 40.5708,
+        "max": 40.7939,
+        "mean": 40.715,
+        "median": 40.7664,
+        "p25": 40.6574,
+        "p75": 40.7756
+      }
+    },
+    {
+      "name": "longitude",
+      "dtype": "float64",
+      "missing": 396,
+      "missing_pct": 91.24,
+      "nunique": 29,
+      "sample_values": [
+        "-73.753531",
+        "-73.75369",
+        "-73.830633",
+        "-73.752816",
+        "-73.750767"
+      ],
+      "top_values": [
+        {
+          "value": "-73.75128",
+          "count": 6,
+          "pct": 15.8
+        },
+        {
+          "value": "-73.750975",
+          "count": 4,
+          "pct": 10.5
+        },
+        {
+          "value": "-73.854379",
+          "count": 2,
+          "pct": 5.3
+        },
+        {
+          "value": "-73.75369",
+          "count": 1,
+          "pct": 2.6
+        },
+        {
+          "value": "-73.753531",
+          "count": 1,
+          "pct": 2.6
+        }
+      ],
+      "stats": {
+        "min": -73.9592,
+        "max": -73.7438,
+        "mean": -73.7928,
+        "median": -73.7536,
+        "p25": -73.829,
+        "p75": -73.7513
+      }
+    },
+    {
+      "name": "community_board",
+      "dtype": "float64",
+      "missing": 396,
+      "missing_pct": 91.24,
+      "nunique": 7,
+      "sample_values": [
+        "11.0",
+        "11.0",
+        "10.0",
+        "11.0",
+        "11.0"
+      ],
+      "top_values": [
+        {
+          "value": "11.0",
+          "count": 20,
+          "pct": 52.6
+        },
+        {
+          "value": "14.0",
+          "count": 9,
+          "pct": 23.7
+        },
+        {
+          "value": "5.0",
+          "count": 3,
+          "pct": 7.9
+        },
+        {
+          "value": "10.0",
+          "count": 2,
+          "pct": 5.3
+        },
+        {
+          "value": "7.0",
+          "count": 2,
+          "pct": 5.3
+        }
+      ],
+      "stats": {
+        "min": 2.0,
+        "max": 14.0,
+        "mean": 10.6842,
+        "median": 11.0,
+        "p25": 11.0,
+        "p75": 11.0
+      }
+    },
+    {
+      "name": "council_district",
+      "dtype": "float64",
+      "missing": 396,
+      "missing_pct": 91.24,
+      "nunique": 8,
+      "sample_values": [
+        "19.0",
+        "19.0",
+        "32.0",
+        "19.0",
+        "19.0"
+      ],
+      "top_values": [
+        {
+          "value": "19.0",
+          "count": 19,
+          "pct": 50.0
+        },
+        {
+          "value": "32.0",
+          "count": 6,
+          "pct": 15.8
+        },
+        {
+          "value": "31.0",
+          "count": 5,
+          "pct": 13.2
+        },
+        {
+          "value": "20.0",
+          "count": 3,
+          "pct": 7.9
+        },
+        {
+          "value": "30.0",
+          "count": 2,
+          "pct": 5.3
+        }
+      ],
+      "stats": {
+        "min": 19.0,
+        "max": 34.0,
+        "mean": 24.1316,
+        "median": 19.5,
+        "p25": 19.0,
+        "p75": 31.0
+      }
+    },
+    {
+      "name": "census_tract",
+      "dtype": "float64",
+      "missing": 396,
+      "missing_pct": 91.24,
+      "nunique": 17,
+      "sample_values": [
+        "1483.0",
+        "1483.0",
+        "884.0",
+        "1483.0",
+        "1483.0"
+      ],
+      "top_values": [
+        {
+          "value": "1483.0",
+          "count": 18,
+          "pct": 47.4
+        },
+        {
+          "value": "884.0",
+          "count": 2,
+          "pct": 5.3
+        },
+        {
+          "value": "928.0",
+          "count": 2,
+          "pct": 5.3
+        },
+        {
+          "value": "101002.0",
+          "count": 2,
+          "pct": 5.3
+        },
+        {
+          "value": "1417.0",
+          "count": 2,
+          "pct": 5.3
+        }
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 101002.0,
+        "mean": 16378.2632,
+        "median": 1483.0,
+        "p25": 949.75,
+        "p75": 1483.0
+      }
+    },
+    {
+      "name": "bin",
+      "dtype": "float64",
+      "missing": 419,
+      "missing_pct": 96.54,
+      "nunique": 15,
+      "sample_values": [
+        "4296313.0",
+        "4079704.0",
+        "4080349.0",
+        "4082583.0",
+        "4083610.0"
+      ],
+      "top_values": [
+        {
+          "value": "4296313.0",
+          "count": 1,
+          "pct": 6.7
+        },
+        {
+          "value": "4079704.0",
+          "count": 1,
+          "pct": 6.7
+        },
+        {
+          "value": "4080349.0",
+          "count": 1,
+          "pct": 6.7
+        },
+        {
+          "value": "4082583.0",
+          "count": 1,
+          "pct": 6.7
+        },
+        {
+          "value": "4083610.0",
+          "count": 1,
+          "pct": 6.7
+        }
+      ],
+      "stats": {
+        "min": 4079704.0,
+        "max": 4595352.0,
+        "mean": 4334062.8,
+        "median": 4443626.0,
+        "p25": 4092511.0,
+        "p75": 4532189.5
+      }
+    },
+    {
+      "name": "bbl",
+      "dtype": "float64",
+      "missing": 419,
+      "missing_pct": 96.54,
+      "nunique": 15,
+      "sample_values": [
+        "4142340562.0",
+        "4033370048.0",
+        "4033717501.0",
+        "4034567501.0",
+        "4034947501.0"
+      ],
+      "top_values": [
+        {
+          "value": "4142340562.0",
+          "count": 1,
+          "pct": 6.7
+        },
+        {
+          "value": "4033370048.0",
+          "count": 1,
+          "pct": 6.7
+        },
+        {
+          "value": "4033717501.0",
+          "count": 1,
+          "pct": 6.7
+        },
+        {
+          "value": "4034567501.0",
+          "count": 1,
+          "pct": 6.7
+        },
+        {
+          "value": "4034947501.0",
+          "count": 1,
+          "pct": 6.7
+        }
+      ],
+      "stats": {
+        "min": 4033370048.0,
+        "max": 4162267501.0,
+        "mean": 4096394877.8667,
+        "median": 4056707501.0,
+        "p25": 4039738756.0,
+        "p75": 4157152501.5
+      }
+    },
+    {
+      "name": "nta",
+      "dtype": "object",
+      "missing": 396,
+      "missing_pct": 91.24,
+      "nunique": 11,
+      "sample_values": [
+        "Douglas Manor-Douglaston-Little Neck    …",
+        "Douglas Manor-Douglaston-Little Neck    …",
+        "Lindenwood-Howard Beach                 …",
+        "Douglas Manor-Douglaston-Little Neck    …",
+        "Douglas Manor-Douglaston-Little Neck    …"
+      ],
+      "top_values": [
+        {
+          "value": "Douglas Manor-Douglaston-Little Neck    …",
+          "count": 18,
+          "pct": 47.4
+        },
+        {
+          "value": "Hammels-Arverne-Edgemere                …",
+          "count": 3,
+          "pct": 7.9
+        },
+        {
+          "value": "Ridgewood                               …",
+          "count": 3,
+          "pct": 7.9
+        },
+        {
+          "value": "Far Rockaway-Bayswater                  …",
+          "count": 3,
+          "pct": 7.9
+        },
+        {
+          "value": "Breezy Point-Belle Harbor-Rockaway Park-…",
+          "count": 3,
+          "pct": 7.9
+        }
+      ]
+    },
+    {
+      "name": "queens_condominiums_comparable_properties_neighborhood",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 34,
+      "sample_values": [
+        "LONG ISLAND CITY",
+        "LONG ISLAND CITY",
+        "LONG ISLAND CITY",
+        "LONG ISLAND CITY",
+        "LONG ISLAND CITY"
+      ]
+    },
+    {
+      "name": "queens_condominiums_comparable_properties_building_classification",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "R4-CONDOMINIUM",
+        "R4-CONDOMINIUM",
+        "R4-CONDOMINIUM",
+        "R4-CONDOMINIUM",
+        "R4-CONDOMINIUM"
+      ],
+      "top_values": [
+        {
+          "value": "R4-CONDOMINIUM",
+          "count": 295,
+          "pct": 68.0
+        },
+        {
+          "value": "R2-CONDOMINIUM",
+          "count": 107,
+          "pct": 24.7
+        },
+        {
+          "value": "R9-CONDOMINIUM",
+          "count": 30,
+          "pct": 6.9
+        },
+        {
+          "value": "RR-CONDOMINIUM",
+          "count": 2,
+          "pct": 0.5
+        }
+      ]
+    },
+    {
+      "name": "queens_condominiums_comparable_properties_total_units",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 141,
+      "sample_values": [
+        "57",
+        "177",
+        "184",
+        "121",
+        "3"
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 618.0,
+        "mean": 59.288,
+        "median": 33.0,
+        "p25": 16.25,
+        "p75": 69.75
+      }
+    },
+    {
+      "name": "queens_condominiums_comparable_properties_year_built",
+      "dtype": "float64",
+      "missing": 2,
+      "missing_pct": 0.46,
+      "nunique": 70,
+      "sample_values": [
+        "2007.0",
+        "1909.0",
+        "2008.0",
+        "2007.0",
+        "2007.0"
+      ],
+      "stats": {
+        "min": 1903.0,
+        "max": 2010.0,
+        "mean": 1983.8657,
+        "median": 1989.0,
+        "p25": 1965.0,
+        "p75": 2006.0
+      }
+    },
+    {
+      "name": "queens_condominiums_comparable_properties_gross_sqft",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 429,
+      "sample_values": [
+        "53685",
+        "187845",
+        "249920",
+        "113450",
+        "3360"
+      ],
+      "stats": {
+        "min": 1075.0,
+        "max": 515402.0,
+        "mean": 58610.4631,
+        "median": 31755.5,
+        "p25": 15413.0,
+        "p75": 66714.5
+      }
+    },
+    {
+      "name": "queens_condominiums_comparable_properties_estimated_gross_income",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 432,
+      "sample_values": [
+        "1368968",
+        "3381210",
+        "6185520",
+        "2892975",
+        "94618"
+      ],
+      "stats": {
+        "min": 17200.0,
+        "max": 8890685.0,
+        "mean": 1056390.2143,
+        "median": 611175.5,
+        "p25": 295466.25,
+        "p75": 1163620.0
+      }
+    },
+    {
+      "name": "queens_condominiums_comparable_properties_gross_income_per_sqft",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 202,
+      "sample_values": [
+        "25.5",
+        "18.0",
+        "24.75",
+        "25.5",
+        "28.16"
+      ],
+      "stats": {
+        "min": 10.9,
+        "max": 28.16,
+        "mean": 18.6131,
+        "median": 17.215,
+        "p25": 15.375,
+        "p75": 21.4825
+      }
+    },
+    {
+      "name": "queens_condominiums_comparable_properties_estimated_expense",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 432,
+      "sample_values": [
+        "416059",
+        "1292374",
+        "1936880",
+        "933694",
+        "27653"
+      ],
+      "stats": {
+        "min": 8288.0,
+        "max": 4091940.0,
+        "mean": 437756.2488,
+        "median": 240879.0,
+        "p25": 112173.75,
+        "p75": 506814.0
+      }
+    },
+    {
+      "name": "queens_condominiums_comparable_properties_expense_per_sqft",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 135,
+      "sample_values": [
+        "7.75",
+        "6.88",
+        "7.75",
+        "8.23",
+        "8.23"
+      ],
+      "stats": {
+        "min": 3.62,
+        "max": 12.0,
+        "mean": 7.3514,
+        "median": 7.38,
+        "p25": 6.53,
+        "p75": 8.0
+      }
+    },
+    {
+      "name": "queens_condominiums_comparable_properties_net_operating_income",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 433,
+      "sample_values": [
+        "952909",
+        "2088836",
+        "4248640",
+        "1959281",
+        "66965"
+      ],
+      "stats": {
+        "min": 8912.0,
+        "max": 5642752.0,
+        "mean": 618633.9654,
+        "median": 381351.5,
+        "p25": 179130.5,
+        "p75": 676023.25
+      }
+    },
+    {
+      "name": "queens_condominiums_comparable_properties_full_market_value",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 429,
+      "sample_values": [
+        "6180002",
+        "13433994",
+        "30992004",
+        "14100000",
+        "446000"
+      ],
+      "stats": {
+        "min": 59000.0,
+        "max": 41144739.0,
+        "mean": 4167439.0253,
+        "median": 2511506.5,
+        "p25": 1193747.0,
+        "p75": 4718994.5
+      }
+    },
+    {
+      "name": "queens_condominiums_comparable_properties_market_value_per_sqft",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 396,
+      "sample_values": [
+        "115.12",
+        "71.52",
+        "124.01",
+        "124.28",
+        "132.74"
+      ],
+      "stats": {
+        "min": 10.66,
+        "max": 340.12,
+        "mean": 77.4587,
+        "median": 66.865,
+        "p25": 54.295,
+        "p75": 105.5
+      }
+    },
+    {
+      "name": "comparable_rental_1_boro_block_lot",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 192,
+      "sample_values": [
+        "4-00021-0060",
+        "4-00414-0041",
+        "4-00414-0041",
+        "4-00414-0041",
+        "4-00040-0015"
+      ]
+    },
+    {
+      "name": "comparable_rental_1_address",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 180,
+      "sample_values": [
+        "47 CENTER BOULEVARD",
+        "41 CRESCENT STREET",
+        "41 CRESCENT STREET",
+        "41 CRESCENT STREET",
+        "10 JACKSON AVENUE"
+      ]
+    },
+    {
+      "name": "comparable_rental_1_neighborhood",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 30,
+      "sample_values": [
+        "LONG ISLAND CITY",
+        "LONG ISLAND CITY",
+        "LONG ISLAND CITY",
+        "LONG ISLAND CITY",
+        "LONG ISLAND CITY"
+      ],
+      "top_values": [
+        {
+          "value": "FLUSHING-NORTH",
+          "count": 137,
+          "pct": 31.6
+        },
+        {
+          "value": "ELMHURST",
+          "count": 78,
+          "pct": 18.0
+        },
+        {
+          "value": "ASTORIA",
+          "count": 35,
+          "pct": 8.1
+        },
+        {
+          "value": "LONG ISLAND CITY",
+          "count": 26,
+          "pct": 6.0
+        },
+        {
+          "value": "REGO PARK",
+          "count": 21,
+          "pct": 4.8
+        }
+      ]
+    },
+    {
+      "name": "comparable_rental_1_building_classification",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 11,
+      "sample_values": [
+        "D8-ELEVATOR",
+        "D1-ELEVATOR",
+        "D1-ELEVATOR",
+        "D1-ELEVATOR",
+        "D9-ELEVATOR"
+      ],
+      "top_values": [
+        {
+          "value": "D1-ELEVATOR",
+          "count": 175,
+          "pct": 40.3
+        },
+        {
+          "value": "C1-WALK-UP",
+          "count": 104,
+          "pct": 24.0
+        },
+        {
+          "value": "D7-ELEVATOR",
+          "count": 48,
+          "pct": 11.1
+        },
+        {
+          "value": "D3-ELEVATOR",
+          "count": 39,
+          "pct": 9.0
+        },
+        {
+          "value": "C7-WALK-UP",
+          "count": 23,
+          "pct": 5.3
+        }
+      ]
+    },
+    {
+      "name": "comparable_rental_1_total_units",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 93,
+      "sample_values": [
+        "395",
+        "141",
+        "141",
+        "141",
+        "25"
+      ],
+      "stats": {
+        "min": 8.0,
+        "max": 395.0,
+        "mean": 60.5806,
+        "median": 42.0,
+        "p25": 18.0,
+        "p75": 77.0
+      }
+    },
+    {
+      "name": "comparable_rental_1_year_built",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 68,
+      "sample_values": [
+        "2007",
+        "2007",
+        "2007",
+        "2007",
+        "2005"
+      ],
+      "stats": {
+        "min": 1915.0,
+        "max": 2010.0,
+        "mean": 1974.7166,
+        "median": 1973.0,
+        "p25": 1954.0,
+        "p75": 2003.0
+      }
+    },
+    {
+      "name": "comparable_rental_1_gross_sqft",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 188,
+      "sample_values": [
+        "466000",
+        "80000",
+        "80000",
+        "80000",
+        "24464"
+      ],
+      "stats": {
+        "min": 4840.0,
+        "max": 540846.0,
+        "mean": 54964.1244,
+        "median": 39000.0,
+        "p25": 15251.0,
+        "p75": 68440.0
+      }
+    },
+    {
+      "name": "comparable_rental_1_estimated_gross_income",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 192,
+      "sample_values": [
+        "14588166",
+        "3422550",
+        "3422550",
+        "3422550",
+        "611905"
+      ],
+      "stats": {
+        "min": 68244.0,
+        "max": 14588166.0,
+        "mean": 1134631.2028,
+        "median": 797604.5,
+        "p25": 339038.0,
+        "p75": 1201088.0
+      }
+    },
+    {
+      "name": "comparable_rental_1_gross_income_per_sqft",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 178,
+      "sample_values": [
+        "31.31",
+        "42.78",
+        "42.78",
+        "42.78",
+        "25.01"
+      ],
+      "stats": {
+        "min": 9.48,
+        "max": 42.78,
+        "mean": 19.7823,
+        "median": 18.425,
+        "p25": 15.32,
+        "p75": 22.53
+      }
+    },
+    {
+      "name": "comparable_rental_1_estimated_expense",
+      "dtype": "float64",
+      "missing": 5,
+      "missing_pct": 1.15,
+      "nunique": 189,
+      "sample_values": [
+        "5463240.0",
+        "1343416.0",
+        "1343416.0",
+        "1343416.0",
+        "183562.0"
+      ],
+      "stats": {
+        "min": 34490.0,
+        "max": 5463240.0,
+        "mean": 438799.5152,
+        "median": 292600.0,
+        "p25": 133718.0,
+        "p75": 432097.0
+      }
+    },
+    {
+      "name": "comparable_rental_1_expense_per_sqft",
+      "dtype": "float64",
+      "missing": 5,
+      "missing_pct": 1.15,
+      "nunique": 161,
+      "sample_values": [
+        "11.72",
+        "16.79",
+        "16.79",
+        "16.79",
+        "7.5"
+      ],
+      "stats": {
+        "min": 3.35,
+        "max": 16.79,
+        "mean": 7.5261,
+        "median": 7.5,
+        "p25": 6.13,
+        "p75": 8.46
+      }
+    },
+    {
+      "name": "comparable_rental_1_net_operating_income",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 192,
+      "sample_values": [
+        "9124926",
+        "2079134",
+        "2079134",
+        "2079134",
+        "428343"
+      ],
+      "stats": {
+        "min": 41837.0,
+        "max": 9124926.0,
+        "mean": 700886.9816,
+        "median": 481782.5,
+        "p25": 211289.25,
+        "p75": 711107.0
+      }
+    },
+    {
+      "name": "comparable_rental_1_full_market_value",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 184,
+      "sample_values": [
+        "37800000",
+        "15682000",
+        "15682000",
+        "15682000",
+        "2849000"
+      ],
+      "stats": {
+        "min": 293000.0,
+        "max": 37800000.0,
+        "mean": 4301414.7465,
+        "median": 3234000.0,
+        "p25": 1429000.0,
+        "p75": 4763000.0
+      }
+    },
+    {
+      "name": "comparable_rental_1_market_value_per_sqft",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 188,
+      "sample_values": [
+        "81.12",
+        "196.03",
+        "196.03",
+        "196.03",
+        "116.46"
+      ],
+      "stats": {
+        "min": 25.85,
+        "max": 260.92,
+        "mean": 83.9546,
+        "median": 74.98,
+        "p25": 54.295,
+        "p75": 104.41
+      }
+    },
+    {
+      "name": "comparable_rental_1_distance_from_condo_in_miles",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 151,
+      "sample_values": [
+        "0.24",
+        "1.1",
+        "0.94",
+        "0.91",
+        "0.21"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 10.1,
+        "mean": 0.7358,
+        "median": 0.4,
+        "p25": 0.1325,
+        "p75": 0.9175
+      }
+    },
+    {
+      "name": "comparable_rental_2_boro_block_lot",
+      "dtype": "object",
+      "missing": 3,
+      "missing_pct": 0.69,
+      "nunique": 196,
+      "sample_values": [
+        "4-00021-0060",
+        "4-00021-0060",
+        "4-00021-0060",
+        "4-00021-0060",
+        "4-00232-0018"
+      ]
+    },
+    {
+      "name": "comparable_rental_2_address",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 181,
+      "sample_values": [
+        " ",
+        "47 CENTER BOULEVARD",
+        "47 CENTER BOULEVARD",
+        "47 CENTER BOULEVARD",
+        "47 CENTER BOULEVARD"
+      ]
+    },
+    {
+      "name": "comparable_rental_2_neighborhood",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 30,
+      "sample_values": [
+        " ",
+        "LONG ISLAND CITY",
+        "LONG ISLAND CITY",
+        "LONG ISLAND CITY",
+        "LONG ISLAND CITY"
+      ],
+      "top_values": [
+        {
+          "value": "FLUSHING-NORTH",
+          "count": 139,
+          "pct": 32.0
+        },
+        {
+          "value": "ELMHURST",
+          "count": 63,
+          "pct": 14.5
+        },
+        {
+          "value": "REGO PARK",
+          "count": 35,
+          "pct": 8.1
+        },
+        {
+          "value": "ASTORIA",
+          "count": 30,
+          "pct": 6.9
+        },
+        {
+          "value": "LONG ISLAND CITY",
+          "count": 27,
+          "pct": 6.2
+        }
+      ]
+    },
+    {
+      "name": "comparable_rental_2_building_classification",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 11,
+      "sample_values": [
+        " ",
+        "D8-ELEVATOR",
+        "D8-ELEVATOR",
+        "D8-ELEVATOR",
+        "D8-ELEVATOR"
+      ],
+      "top_values": [
+        {
+          "value": "D1-ELEVATOR",
+          "count": 187,
+          "pct": 43.1
+        },
+        {
+          "value": "C1-WALK-UP",
+          "count": 95,
+          "pct": 21.9
+        },
+        {
+          "value": "D3-ELEVATOR",
+          "count": 39,
+          "pct": 9.0
+        },
+        {
+          "value": "D7-ELEVATOR",
+          "count": 35,
+          "pct": 8.1
+        },
+        {
+          "value": "D6-ELEVATOR",
+          "count": 21,
+          "pct": 4.8
+        }
+      ]
+    },
+    {
+      "name": "comparable_rental_2_total_units",
+      "dtype": "float64",
+      "missing": 3,
+      "missing_pct": 0.69,
+      "nunique": 99,
+      "sample_values": [
+        "395.0",
+        "395.0",
+        "395.0",
+        "395.0",
+        "82.0"
+      ],
+      "stats": {
+        "min": 8.0,
+        "max": 1201.0,
+        "mean": 66.6914,
+        "median": 42.0,
+        "p25": 21.0,
+        "p75": 77.0
+      }
+    },
+    {
+      "name": "comparable_rental_2_year_built",
+      "dtype": "float64",
+      "missing": 3,
+      "missing_pct": 0.69,
+      "nunique": 65,
+      "sample_values": [
+        "2007.0",
+        "2007.0",
+        "2007.0",
+        "2007.0",
+        "1960.0"
+      ],
+      "stats": {
+        "min": 1921.0,
+        "max": 2008.0,
+        "mean": 1973.0951,
+        "median": 1970.0,
+        "p25": 1950.5,
+        "p75": 2001.5
+      }
+    },
+    {
+      "name": "comparable_rental_2_gross_sqft",
+      "dtype": "float64",
+      "missing": 3,
+      "missing_pct": 0.69,
+      "nunique": 193,
+      "sample_values": [
+        "466000.0",
+        "466000.0",
+        "466000.0",
+        "466000.0",
+        "68281.0"
+      ],
+      "stats": {
+        "min": 4480.0,
+        "max": 1228778.0,
+        "mean": 59762.5128,
+        "median": 38750.0,
+        "p25": 18900.0,
+        "p75": 68440.0
+      }
+    },
+    {
+      "name": "comparable_rental_2_estimated_gross_income",
+      "dtype": "float64",
+      "missing": 3,
+      "missing_pct": 0.69,
+      "nunique": 196,
+      "sample_values": [
+        "14588166.0",
+        "14588166.0",
+        "14588166.0",
+        "14588166.0",
+        "970956.0"
+      ],
+      "stats": {
+        "min": 82902.0,
+        "max": 21316772.0,
+        "mean": 1228051.2552,
+        "median": 660316.0,
+        "p25": 339038.0,
+        "p75": 1115389.0
+      }
+    },
+    {
+      "name": "comparable_rental_2_gross_income_per_sqft",
+      "dtype": "float64",
+      "missing": 3,
+      "missing_pct": 0.69,
+      "nunique": 179,
+      "sample_values": [
+        "31.31",
+        "31.31",
+        "31.31",
+        "31.31",
+        "14.22"
+      ],
+      "stats": {
+        "min": 9.06,
+        "max": 42.78,
+        "mean": 19.1851,
+        "median": 18.04,
+        "p25": 15.535,
+        "p75": 21.44
+      }
+    },
+    {
+      "name": "comparable_rental_2_estimated_expense",
+      "dtype": "float64",
+      "missing": 4,
+      "missing_pct": 0.92,
+      "nunique": 195,
+      "sample_values": [
+        "5463240.0",
+        "5463240.0",
+        "5463240.0",
+        "5463240.0",
+        "524398.0"
+      ],
+      "stats": {
+        "min": 13134.0,
+        "max": 8908776.0,
+        "mean": 472441.1209,
+        "median": 263749.5,
+        "p25": 148397.5,
+        "p75": 417211.25
+      }
+    },
+    {
+      "name": "comparable_rental_2_expense_per_sqft",
+      "dtype": "float64",
+      "missing": 4,
+      "missing_pct": 0.92,
+      "nunique": 168,
+      "sample_values": [
+        "11.72",
+        "11.72",
+        "11.72",
+        "11.72",
+        "7.68"
+      ],
+      "stats": {
+        "min": 2.93,
+        "max": 16.79,
+        "mean": 7.2979,
+        "median": 7.42,
+        "p25": 5.89,
+        "p75": 8.35
+      }
+    },
+    {
+      "name": "comparable_rental_2_net_operating_income",
+      "dtype": "float64",
+      "missing": 3,
+      "missing_pct": 0.69,
+      "nunique": 196,
+      "sample_values": [
+        "9124926.0",
+        "9124926.0",
+        "9124926.0",
+        "9124926.0",
+        "446558.0"
+      ],
+      "stats": {
+        "min": 41182.0,
+        "max": 12407996.0,
+        "mean": 756706.2854,
+        "median": 431520.0,
+        "p25": 201030.5,
+        "p75": 709949.0
+      }
+    },
+    {
+      "name": "comparable_rental_2_full_market_value",
+      "dtype": "float64",
+      "missing": 3,
+      "missing_pct": 0.69,
+      "nunique": 190,
+      "sample_values": [
+        "37800000.0",
+        "37800000.0",
+        "37800000.0",
+        "37800000.0",
+        "3096000.0"
+      ],
+      "stats": {
+        "min": 328000.0,
+        "max": 87230000.0,
+        "mean": 4491046.4037,
+        "median": 2849000.0,
+        "p25": 1439000.0,
+        "p75": 4664000.0
+      }
+    },
+    {
+      "name": "comparable_rental_2_market_value_per_sqft",
+      "dtype": "float64",
+      "missing": 3,
+      "missing_pct": 0.69,
+      "nunique": 190,
+      "sample_values": [
+        "81.12",
+        "81.12",
+        "81.12",
+        "81.12",
+        "45.34"
+      ],
+      "stats": {
+        "min": 30.22,
+        "max": 260.92,
+        "mean": 82.6138,
+        "median": 70.75,
+        "p25": 54.005,
+        "p75": 103.65
+      }
+    },
+    {
+      "name": "comparable_rental_2_distance_from_condo_in_miles",
+      "dtype": "float64",
+      "missing": 3,
+      "missing_pct": 0.69,
+      "nunique": 183,
+      "sample_values": [
+        "0.2",
+        "0.1",
+        "0.17",
+        "0.17",
+        "1.43"
+      ],
+      "stats": {
+        "min": 0.0,
+        "max": 9.97,
+        "mean": 0.9964,
+        "median": 0.56,
+        "p25": 0.195,
+        "p75": 1.33
+      }
+    },
+    {
+      "name": "comparable_rental_3_boro_block_lot",
+      "dtype": "object",
+      "missing": 308,
+      "missing_pct": 70.97,
+      "nunique": 85,
+      "sample_values": [
+        "4-00342-0024",
+        "4-00620-0178",
+        "4-00198-0001",
+        "4-00676-0074",
+        "4-00531-0059"
+      ]
+    },
+    {
+      "name": "comparable_rental_3_address",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 81,
+      "sample_values": [
+        " ",
+        " ",
+        " ",
+        " ",
+        " "
+      ]
+    },
+    {
+      "name": "comparable_rental_3_neighborhood",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 19,
+      "sample_values": [
+        " ",
+        " ",
+        " ",
+        " ",
+        " "
+      ],
+      "top_values": [
+        {
+          "value": " ",
+          "count": 308,
+          "pct": 71.0
+        },
+        {
+          "value": "FLUSHING-NORTH",
+          "count": 46,
+          "pct": 10.6
+        },
+        {
+          "value": "ELMHURST",
+          "count": 12,
+          "pct": 2.8
+        },
+        {
+          "value": "ASTORIA",
+          "count": 10,
+          "pct": 2.3
+        },
+        {
+          "value": "FOREST HILLS",
+          "count": 9,
+          "pct": 2.1
+        }
+      ]
+    },
+    {
+      "name": "comparable_rental_3_building_classification",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 10,
+      "sample_values": [
+        " ",
+        " ",
+        " ",
+        " ",
+        " "
+      ],
+      "top_values": [
+        {
+          "value": " ",
+          "count": 308,
+          "pct": 71.0
+        },
+        {
+          "value": "D1-ELEVATOR",
+          "count": 49,
+          "pct": 11.3
+        },
+        {
+          "value": "C1-WALK-UP",
+          "count": 37,
+          "pct": 8.5
+        },
+        {
+          "value": "D7-ELEVATOR",
+          "count": 14,
+          "pct": 3.2
+        },
+        {
+          "value": "C7-WALK-UP",
+          "count": 13,
+          "pct": 3.0
+        }
+      ]
+    },
+    {
+      "name": "comparable_rental_3_total_units",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 52,
+      "sample_values": [
+        " ",
+        " ",
+        " ",
+        " ",
+        " "
+      ]
+    },
+    {
+      "name": "comparable_rental_3_year_built",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 44,
+      "sample_values": [
+        " ",
+        " ",
+        " ",
+        " ",
+        " "
+      ]
+    },
+    {
+      "name": "comparable_rental_3_gross_sqft",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 86,
+      "sample_values": [
+        " ",
+        " ",
+        " ",
+        " ",
+        " "
+      ]
+    },
+    {
+      "name": "comparable_rental_3_estimated_gross_income",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 86,
+      "sample_values": [
+        " ",
+        " ",
+        " ",
+        " ",
+        " "
+      ]
+    },
+    {
+      "name": "comparable_rental_3_gross_income_per_sqft",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 86,
+      "sample_values": [
+        " ",
+        " ",
+        " ",
+        " ",
+        " "
+      ]
+    },
+    {
+      "name": "comparable_rental_3_estimated_expense",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 85,
+      "sample_values": [
+        " ",
+        " ",
+        " ",
+        " ",
+        " "
+      ]
+    },
+    {
+      "name": "comparable_rental_3_expense_per_sqft",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 79,
+      "sample_values": [
+        " ",
+        " ",
+        " ",
+        " ",
+        " "
+      ]
+    },
+    {
+      "name": "comparable_rental_3_net_operating_income",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 86,
+      "sample_values": [
+        " ",
+        " ",
+        " ",
+        " ",
+        " "
+      ]
+    },
+    {
+      "name": "comparable_rental_3_full_market_value",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 86,
+      "sample_values": [
+        " ",
+        " ",
+        " ",
+        " ",
+        " "
+      ]
+    },
+    {
+      "name": "comparable_rental_3_market_value_per_sqft",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 86,
+      "sample_values": [
+        " ",
+        " ",
+        " ",
+        " ",
+        " "
+      ]
+    },
+    {
+      "name": "comparable_rental_3_distance_from_condo_in_miles",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 81,
+      "sample_values": [
+        " ",
+        " ",
+        " ",
+        " ",
+        " "
+      ]
+    }
+  ]
+}

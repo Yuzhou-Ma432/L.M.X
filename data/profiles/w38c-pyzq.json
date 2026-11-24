@@ -1,0 +1,549 @@
+{
+  "id": "w38c-pyzq",
+  "name": "Police- Community Relations Awards 2016",
+  "description": "",
+  "category": "City Government",
+  "permalink": "https://data.cityofnewyork.us/d/w38c-pyzq",
+  "sampled_rows": 5000,
+  "n_rows": 4,
+  "n_cols": 14,
+  "columns": [
+    {
+      "name": "organization",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "Fresh Youth Initiatives",
+        "Silent Cry Inc.",
+        "The Lower Eastside Girls Club",
+        "Center for Alternative Sentencing and Em…"
+      ],
+      "top_values": [
+        {
+          "value": "Fresh Youth Initiatives",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "Silent Cry Inc.",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "The Lower Eastside Girls Club",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "Center for Alternative Sentencing and Em…",
+          "count": 1,
+          "pct": 25.0
+        }
+      ]
+    },
+    {
+      "name": "project_title",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "Community Connections: Spring Police-You…",
+        "Silent Cry",
+        "POP (Power of Peace) Coalition - Police …",
+        "Improving Youth-Family-Police Relations …"
+      ],
+      "top_values": [
+        {
+          "value": "Community Connections: Spring Police-You…",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "Silent Cry",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "POP (Power of Peace) Coalition - Police …",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "Improving Youth-Family-Police Relations …",
+          "count": 1,
+          "pct": 25.0
+        }
+      ]
+    },
+    {
+      "name": "project_address",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "505 W. 171 Street New York, New York 100…",
+        "1809 7th Ave, Suite 3E New York, New Yor…",
+        "101 Avenue D, Suite 12E New York, New Yo…",
+        "151 Lawrence Street, 3rd Floor Brooklyn,…"
+      ],
+      "top_values": [
+        {
+          "value": "505 W. 171 Street New York, New York 100…",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "1809 7th Ave, Suite 3E New York, New Yor…",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "101 Avenue D, Suite 12E New York, New Yo…",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "151 Lawrence Street, 3rd Floor Brooklyn,…",
+          "count": 1,
+          "pct": 25.0
+        }
+      ]
+    },
+    {
+      "name": "fy_award",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "12000.0",
+        "12000.0",
+        "12000.0",
+        "12000.0"
+      ],
+      "top_values": [
+        {
+          "value": "12000.0",
+          "count": 4,
+          "pct": 100.0
+        }
+      ],
+      "stats": {
+        "min": 12000.0,
+        "max": 12000.0,
+        "mean": 12000.0,
+        "median": 12000.0,
+        "p25": 12000.0,
+        "p75": 12000.0
+      }
+    },
+    {
+      "name": "postcode",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "10032",
+        "10026",
+        "10009",
+        "11201"
+      ],
+      "top_values": [
+        {
+          "value": "10032",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "10026",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "10009",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "11201",
+          "count": 1,
+          "pct": 25.0
+        }
+      ],
+      "stats": {
+        "min": 10009.0,
+        "max": 11201.0,
+        "mean": 10317.0,
+        "median": 10029.0,
+        "p25": 10021.75,
+        "p75": 10324.25
+      }
+    },
+    {
+      "name": "borough",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "MANHATTAN",
+        "MANHATTAN",
+        "MANHATTAN",
+        "BROOKLYN "
+      ],
+      "top_values": [
+        {
+          "value": "MANHATTAN",
+          "count": 3,
+          "pct": 75.0
+        },
+        {
+          "value": "BROOKLYN ",
+          "count": 1,
+          "pct": 25.0
+        }
+      ]
+    },
+    {
+      "name": "latitude",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "40.841854",
+        "40.799677",
+        "40.723308",
+        "40.691506"
+      ],
+      "top_values": [
+        {
+          "value": "40.841854",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "40.799677",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "40.723308",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "40.691506",
+          "count": 1,
+          "pct": 25.0
+        }
+      ],
+      "stats": {
+        "min": 40.6915,
+        "max": 40.8419,
+        "mean": 40.7641,
+        "median": 40.7615,
+        "p25": 40.7154,
+        "p75": 40.8102
+      }
+    },
+    {
+      "name": "longitude",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "-73.935885",
+        "-73.955112",
+        "-73.976323",
+        "-73.986297"
+      ],
+      "top_values": [
+        {
+          "value": "-73.935885",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "-73.955112",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "-73.976323",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "-73.986297",
+          "count": 1,
+          "pct": 25.0
+        }
+      ],
+      "stats": {
+        "min": -73.9863,
+        "max": -73.9359,
+        "mean": -73.9634,
+        "median": -73.9657,
+        "p25": -73.9788,
+        "p75": -73.9503
+      }
+    },
+    {
+      "name": "community_board",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "12",
+        "10",
+        "3",
+        "2"
+      ],
+      "top_values": [
+        {
+          "value": "12",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "10",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "3",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "2",
+          "count": 1,
+          "pct": 25.0
+        }
+      ],
+      "stats": {
+        "min": 2.0,
+        "max": 12.0,
+        "mean": 6.75,
+        "median": 6.5,
+        "p25": 2.75,
+        "p75": 10.5
+      }
+    },
+    {
+      "name": "council_district",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "10",
+        "9",
+        "2",
+        "33"
+      ],
+      "top_values": [
+        {
+          "value": "10",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "9",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "2",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "33",
+          "count": 1,
+          "pct": 25.0
+        }
+      ],
+      "stats": {
+        "min": 2.0,
+        "max": 33.0,
+        "mean": 13.5,
+        "median": 9.5,
+        "p25": 7.25,
+        "p75": 15.75
+      }
+    },
+    {
+      "name": "census_tract",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "253",
+        "216",
+        "2602",
+        "11"
+      ],
+      "top_values": [
+        {
+          "value": "253",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "216",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "2602",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "11",
+          "count": 1,
+          "pct": 25.0
+        }
+      ],
+      "stats": {
+        "min": 11.0,
+        "max": 2602.0,
+        "mean": 770.5,
+        "median": 234.5,
+        "p25": 164.75,
+        "p75": 840.25
+      }
+    },
+    {
+      "name": "bin",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "1063082",
+        "1054938",
+        "1089381",
+        "3000404"
+      ],
+      "top_values": [
+        {
+          "value": "1063082",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "1054938",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "1089381",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "3000404",
+          "count": 1,
+          "pct": 25.0
+        }
+      ],
+      "stats": {
+        "min": 1054938.0,
+        "max": 3000404.0,
+        "mean": 1551951.25,
+        "median": 1076231.5,
+        "p25": 1061046.0,
+        "p75": 1567136.75
+      }
+    },
+    {
+      "name": "bbl",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "1021280052",
+        "1018200061",
+        "1003777503",
+        "3001520006"
+      ],
+      "top_values": [
+        {
+          "value": "1021280052",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "1018200061",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "1003777503",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "3001520006",
+          "count": 1,
+          "pct": 25.0
+        }
+      ],
+      "stats": {
+        "min": 1003777503.0,
+        "max": 3001520006.0,
+        "mean": 1511194405.5,
+        "median": 1019740056.5,
+        "p25": 1014594421.5,
+        "p75": 1516340040.5
+      }
+    },
+    {
+      "name": "nta",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "Washington Heights South                …",
+        "Central Harlem South                    …",
+        "Lower East Side                         …",
+        "DUMBO-Vinegar Hill-Downtown Brooklyn-Boe…"
+      ],
+      "top_values": [
+        {
+          "value": "Washington Heights South                …",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "Central Harlem South                    …",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "Lower East Side                         …",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "value": "DUMBO-Vinegar Hill-Downtown Brooklyn-Boe…",
+          "count": 1,
+          "pct": 25.0
+        }
+      ]
+    }
+  ]
+}

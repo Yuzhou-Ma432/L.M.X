@@ -1,0 +1,522 @@
+{
+  "id": "2n4x-d97d",
+  "name": "NYC Taxi and Limousine Commission authorized Dispatch Service Providers (DSP)",
+  "description": "A Dispatch Service Provider (DSP) can dispatch trips on behalf of the FHV (For-Hire-Vehicle) Base.",
+  "category": "Transportation",
+  "permalink": "https://data.cityofnewyork.us/d/2n4x-d97d",
+  "sampled_rows": 5000,
+  "n_rows": 2,
+  "n_cols": 21,
+  "columns": [
+    {
+      "name": "license_number",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "ED0002",
+        "ED0003"
+      ],
+      "top_values": [
+        {
+          "value": "ED0002",
+          "count": 1,
+          "pct": 50.0
+        },
+        {
+          "value": "ED0003",
+          "count": 1,
+          "pct": 50.0
+        }
+      ]
+    },
+    {
+      "name": "licensee_name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "OPERR TECHNOLOGIES, INC",
+        "KS DACHE INC."
+      ],
+      "top_values": [
+        {
+          "value": "OPERR TECHNOLOGIES, INC",
+          "count": 1,
+          "pct": 50.0
+        },
+        {
+          "value": "KS DACHE INC.",
+          "count": 1,
+          "pct": 50.0
+        }
+      ]
+    },
+    {
+      "name": "alternate_name_of_licensee",
+      "dtype": "float64",
+      "missing": 2,
+      "missing_pct": 100.0,
+      "nunique": 0,
+      "sample_values": []
+    },
+    {
+      "name": "building",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "130-30",
+        "155-12"
+      ],
+      "top_values": [
+        {
+          "value": "130-30",
+          "count": 1,
+          "pct": 50.0
+        },
+        {
+          "value": "155-12",
+          "count": 1,
+          "pct": 50.0
+        }
+      ]
+    },
+    {
+      "name": "street_address",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "31 AVENUE",
+        "SANDFORD AVE"
+      ],
+      "top_values": [
+        {
+          "value": "31 AVENUE",
+          "count": 1,
+          "pct": 50.0
+        },
+        {
+          "value": "SANDFORD AVE",
+          "count": 1,
+          "pct": 50.0
+        }
+      ]
+    },
+    {
+      "name": "secondary_address",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "SUITE 801",
+        "APT 2FL"
+      ],
+      "top_values": [
+        {
+          "value": "SUITE 801",
+          "count": 1,
+          "pct": 50.0
+        },
+        {
+          "value": "APT 2FL",
+          "count": 1,
+          "pct": 50.0
+        }
+      ]
+    },
+    {
+      "name": "city",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "FLUSHING",
+        "FLUSHING"
+      ],
+      "top_values": [
+        {
+          "value": "FLUSHING",
+          "count": 2,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "state",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "NY",
+        "NY"
+      ],
+      "top_values": [
+        {
+          "value": "NY",
+          "count": 2,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "zip_code",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "11354",
+        "11355"
+      ],
+      "top_values": [
+        {
+          "value": "11354",
+          "count": 1,
+          "pct": 50.0
+        },
+        {
+          "value": "11355",
+          "count": 1,
+          "pct": 50.0
+        }
+      ],
+      "stats": {
+        "min": 11354.0,
+        "max": 11355.0,
+        "mean": 11354.5,
+        "median": 11354.5,
+        "p25": 11354.25,
+        "p75": 11354.75
+      }
+    },
+    {
+      "name": "borough",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "Queens",
+        "Queens"
+      ],
+      "top_values": [
+        {
+          "value": "Queens",
+          "count": 2,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "telephone_number",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "7183958288",
+        "3472215062"
+      ],
+      "top_values": [
+        {
+          "value": "7183958288",
+          "count": 1,
+          "pct": 50.0
+        },
+        {
+          "value": "3472215062",
+          "count": 1,
+          "pct": 50.0
+        }
+      ],
+      "stats": {
+        "min": 3472215062.0,
+        "max": 7183958288.0,
+        "mean": 5328086675.0,
+        "median": 5328086675.0,
+        "p25": 4400150868.5,
+        "p75": 6256022481.5
+      }
+    },
+    {
+      "name": "last_updated_date",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "2017-08-10T00:00:00.000",
+        "2017-08-10T00:00:00.000"
+      ],
+      "top_values": [
+        {
+          "value": "2017-08-10T00:00:00.000",
+          "count": 2,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "last_updated_time",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "34:53.7",
+        "34:53.7"
+      ],
+      "top_values": [
+        {
+          "value": "34:53.7",
+          "count": 2,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "latitude",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "40.769233",
+        "40.76135"
+      ],
+      "top_values": [
+        {
+          "value": "40.769233",
+          "count": 1,
+          "pct": 50.0
+        },
+        {
+          "value": "40.76135",
+          "count": 1,
+          "pct": 50.0
+        }
+      ],
+      "stats": {
+        "min": 40.7614,
+        "max": 40.7692,
+        "mean": 40.7653,
+        "median": 40.7653,
+        "p25": 40.7633,
+        "p75": 40.7673
+      }
+    },
+    {
+      "name": "longitude",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "-73.838638",
+        "-73.810227"
+      ],
+      "top_values": [
+        {
+          "value": "-73.838638",
+          "count": 1,
+          "pct": 50.0
+        },
+        {
+          "value": "-73.810227",
+          "count": 1,
+          "pct": 50.0
+        }
+      ],
+      "stats": {
+        "min": -73.8386,
+        "max": -73.8102,
+        "mean": -73.8244,
+        "median": -73.8244,
+        "p25": -73.8315,
+        "p75": -73.8173
+      }
+    },
+    {
+      "name": "community_board",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "7",
+        "7"
+      ],
+      "top_values": [
+        {
+          "value": "7",
+          "count": 2,
+          "pct": 100.0
+        }
+      ],
+      "stats": {
+        "min": 7.0,
+        "max": 7.0,
+        "mean": 7.0,
+        "median": 7.0,
+        "p25": 7.0,
+        "p75": 7.0
+      }
+    },
+    {
+      "name": "community_council",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "19",
+        "20"
+      ],
+      "top_values": [
+        {
+          "value": "19",
+          "count": 1,
+          "pct": 50.0
+        },
+        {
+          "value": "20",
+          "count": 1,
+          "pct": 50.0
+        }
+      ],
+      "stats": {
+        "min": 19.0,
+        "max": 20.0,
+        "mean": 19.5,
+        "median": 19.5,
+        "p25": 19.25,
+        "p75": 19.75
+      }
+    },
+    {
+      "name": "census_tract",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "907",
+        "1187"
+      ],
+      "top_values": [
+        {
+          "value": "907",
+          "count": 1,
+          "pct": 50.0
+        },
+        {
+          "value": "1187",
+          "count": 1,
+          "pct": 50.0
+        }
+      ],
+      "stats": {
+        "min": 907.0,
+        "max": 1187.0,
+        "mean": 1047.0,
+        "median": 1047.0,
+        "p25": 977.0,
+        "p75": 1117.0
+      }
+    },
+    {
+      "name": "bin",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "4100745",
+        "4121522"
+      ],
+      "top_values": [
+        {
+          "value": "4100745",
+          "count": 1,
+          "pct": 50.0
+        },
+        {
+          "value": "4121522",
+          "count": 1,
+          "pct": 50.0
+        }
+      ],
+      "stats": {
+        "min": 4100745.0,
+        "max": 4121522.0,
+        "mean": 4111133.5,
+        "median": 4111133.5,
+        "p25": 4105939.25,
+        "p75": 4116327.75
+      }
+    },
+    {
+      "name": "bbl",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "4043600001",
+        "4053850029"
+      ],
+      "top_values": [
+        {
+          "value": "4043600001",
+          "count": 1,
+          "pct": 50.0
+        },
+        {
+          "value": "4053850029",
+          "count": 1,
+          "pct": 50.0
+        }
+      ],
+      "stats": {
+        "min": 4043600001.0,
+        "max": 4053850029.0,
+        "mean": 4048725015.0,
+        "median": 4048725015.0,
+        "p25": 4046162508.0,
+        "p75": 4051287522.0
+      }
+    },
+    {
+      "name": "nta",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "College Point",
+        "East Flushing"
+      ],
+      "top_values": [
+        {
+          "value": "College Point",
+          "count": 1,
+          "pct": 50.0
+        },
+        {
+          "value": "East Flushing",
+          "count": 1,
+          "pct": 50.0
+        }
+      ]
+    }
+  ]
+}

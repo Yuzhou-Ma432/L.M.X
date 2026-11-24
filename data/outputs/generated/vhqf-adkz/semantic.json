@@ -1,0 +1,21 @@
+{
+  "id": "vhqf-adkz",
+  "name": "Greater Transit Zone",
+  "strategy": "semantic",
+  "description": "This dataset contains a single geographic feature representing the Greater Transit Zone, a boundary area designated in housing and development policy. It has three columns: a zone label identifying the feature as the Greater Transit Zone, and two numeric fields giving the length and area of its boundary geometry (approximately 2,093,212 in linear units and 4,390,086,774 in square units). Because the dataset holds only one record, it serves as a reference boundary rather than a table of multiple observations.\n\nThe data is most useful for mapping and spatial analysis. Planners and analysts could overlay the zone with parcel, zoning, or transit network layers, measure its footprint, or use it to screen properties and projects for transit-oriented development, housing program eligibility, or other land-use policies tied to the designated area. It could also provide a base layer for visualizations or for comparing the zone against other planning boundaries.",
+  "prompt": "Title: Greater Transit Zone\nCategory: Housing & Development\nRows (sampled): 1\nColumns: 3\n\nColumn details:\n- gtz_qs (type object) 1 distinct values 0.0% missing common values: Greater Transit Zone (100.0%) samples: Greater Transit Zone\n- shape_leng (type float64) 1 distinct values 0.0% missing min=2093211.8753 max=2093211.8753 mean=2093211.8753 p25=2093211.8753 p75=2093211.8753 common values: 2093211.87532 (100.0%) samples: 2093211.87532\n- shape_area (type float64) 1 distinct values 0.0% missing min=4390086774.18 max=4390086774.18 mean=4390086774.18 p25=4390086774.18 p75=4390086774.18 common values: 4390086774.18 (100.0%) samples: 4390086774.18\n\nSemantic summary (topic and possible uses):\nThis dataset defines a single Greater Transit Zone (GTZ) boundary, a geographic area designated in housing and development policy, likely around a major transit hub or corridor. It belongs to the housing, land-use, and urban planning domain, with columns giving the zone identifier and the length and area of its boundary geometry. It could be used for mapping and spatial analysis, overlaying the zone with parcels or transit networks, calculating its size, or supporting planning and policy work such as zoning, transit-oriented development, or eligibility screening for housing programs.\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 426,
+    "completion_tokens": 180,
+    "total_tokens": 606
+  },
+  "elapsed_seconds": 3.57,
+  "semantic_summary": "This dataset defines a single Greater Transit Zone (GTZ) boundary, a geographic area designated in housing and development policy, likely around a major transit hub or corridor. It belongs to the housing, land-use, and urban planning domain, with columns giving the zone identifier and the length and area of its boundary geometry. It could be used for mapping and spatial analysis, overlaying the zone with parcels or transit networks, calculating its size, or supporting planning and policy work such as zoning, transit-oriented development, or eligibility screening for housing programs.",
+  "semantic_usage": {
+    "prompt_tokens": 139,
+    "completion_tokens": 108,
+    "total_tokens": 247
+  }
+}

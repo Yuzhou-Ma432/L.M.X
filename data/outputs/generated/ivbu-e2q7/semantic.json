@@ -1,0 +1,21 @@
+{
+  "id": "ivbu-e2q7",
+  "name": "Directory Of Unsheltered Street Homeless To General Population Ratio 2011",
+  "strategy": "semantic",
+  "description": "This dataset lists eight major U.S. cities and, for each, gives the 2011 count of people experiencing unsheltered street homelessness, the city's general population, and the resulting ratio of unsheltered homeless residents to the overall population (expressed as \"1 in N\"). Cities include Washington, DC, Los Angeles, San Francisco, New York City, and Chicago, among others. Counts range from a few hundred to roughly 15,770 unsheltered individuals, and general populations range from about 433,000 to more than 8 million.\n\nThe data can be used to compare the prevalence of street homelessness across cities of very different sizes, since the ratio normalizes for population. It supports advocacy, policy analysis, and funding decisions, and provides a 2011 baseline for tracking how unsheltered homelessness changes over time. Because the table is small, it is best suited to simple comparisons and illustrative analysis rather than statistical modeling.",
+  "prompt": "Title: Directory Of Unsheltered Street Homeless To General Population Ratio 2011\nCategory: Social Services\nRows (sampled): 8\nColumns: 4\n\nColumn details:\n- city (type object) 8 distinct values 0.0% missing common values: \nWashington, DC,   (12.5%), \nLos Angeles, CA,   (12.5%), \nSan Francisco, CA,   (12.5%), \nNew York City,   (12.5%), \nChicago, IL,   (12.5%) samples: \nWashington, DC,  , \nLos Angeles, CA,  , \nSan Francisco, CA,  , \nNew York City,  , \nChicago, IL,  \n- street_homeless_population (type int64) 8 distinct values 0.0% missing min=182.0 max=15770.0 mean=3094.25 p25=445.5 p75=2663.25 common values: 321 (12.5%), 15770 (12.5%), 2709 (12.5%), 2648 (12.5%), 884 (12.5%) samples: 321, 15770, 2709, 2648, 884\n- general_population (type int64) 8 distinct values 0.0% missing min=433136.0 max=8175133.0 mean=2245019.875 p25=612901.0 p75=3096418.0 common values: 601723 (12.5%), 3831868 (12.5%), 805235 (12.5%), 8175133 (12.5%), 2851268 (12.5%) samples: 601723, 3831868, 805235, 8175133, 2851268\n- ratio_of_unsheltered_homeless_to_general_population (type object) 8 distinct values 0.0% missing common values: 1 in 1,875  (12.5%), 1 in 243  (12.5%), 1 in 297  (12.5%), 1 in 3,087  (12.5%), 1 in 3,225  (12.5%) samples: 1 in 1,875 , 1 in 243 , 1 in 297 , 1 in 3,087 , 1 in 3,225 \n\nSemantic summary (topic and possible uses):\nThis dataset provides counts of unsheltered street homeless populations alongside general population figures for several cities, along with the resulting ratio of homeless to general population for 2011. It belongs to the social services and public policy domain, specifically homelessness and urban demographics. It could be used to compare the prevalence of street homelessness across cities, benchmark local conditions, support advocacy or funding decisions, and serve as a baseline for tracking trends over time.\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 690,
+    "completion_tokens": 191,
+    "total_tokens": 881
+  },
+  "elapsed_seconds": 2.79,
+  "semantic_summary": "This dataset provides counts of unsheltered street homeless populations alongside general population figures for several cities, along with the resulting ratio of homeless to general population for 2011. It belongs to the social services and public policy domain, specifically homelessness and urban demographics. It could be used to compare the prevalence of street homelessness across cities, benchmark local conditions, support advocacy or funding decisions, and serve as a baseline for tracking trends over time.",
+  "semantic_usage": {
+    "prompt_tokens": 165,
+    "completion_tokens": 86,
+    "total_tokens": 251
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "id": "mzcd-fznk",
+  "name": "NYC Climate Budgeting Report: Resiliency Exposure Forecast - Outdoor Heat - Tree Canopy",
+  "description": "The Resiliency Exposure Forecast for Tree Canopy projects percent canopy coverage across NYC neighborhoods at decadal intervals (2021, 2030, 2040, 2050, 2055). Projections are based on expected tree canopy growth maintained across jurisdictions - requiring efforts by private and public landowners - and expanded through the NYC Parks Department's Neighborhood Tree Planting Program. Coverage estimates are derived from Land Cover raster data from the city's Light Detection and Ranging (LiDAR) assessments. The 2021 value serves as the baseline year, corresponding to the most recent LiDAR survey update. For more information on methods and modeling, see OMB's Technical Appendix for the FY 2027 Climate Budgeting Publication: https://www.nyc.gov/assets/omb/downloads/pdf/exec26/exec26-nyccbta.pdf",
+  "category": "Uncategorized",
+  "permalink": "https://data.cityofnewyork.us/d/mzcd-fznk",
+  "sampled_rows": 5000,
+  "n_rows": 1310,
+  "n_cols": 5,
+  "columns": [
+    {
+      "name": "publication_date",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "20260513",
+        "20260513",
+        "20260513",
+        "20260513",
+        "20260513"
+      ],
+      "top_values": [
+        {
+          "value": "20260513",
+          "count": 1310,
+          "pct": 100.0
+        }
+      ],
+      "stats": {
+        "min": 20260513.0,
+        "max": 20260513.0,
+        "mean": 20260513.0,
+        "median": 20260513.0,
+        "p25": 20260513.0,
+        "p75": 20260513.0
+      }
+    },
+    {
+      "name": "ntaname",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 262,
+      "sample_values": [
+        "Greenpoint",
+        "Greenpoint",
+        "Greenpoint",
+        "Greenpoint",
+        "Greenpoint"
+      ]
+    },
+    {
+      "name": "ntaabbrev",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 262,
+      "sample_values": [
+        "Grnpt",
+        "Grnpt",
+        "Grnpt",
+        "Grnpt",
+        "Grnpt"
+      ]
+    },
+    {
+      "name": "year",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 5,
+      "sample_values": [
+        "2021",
+        "2030",
+        "2040",
+        "2050",
+        "2055"
+      ],
+      "top_values": [
+        {
+          "value": "2021",
+          "count": 262,
+          "pct": 20.0
+        },
+        {
+          "value": "2030",
+          "count": 262,
+          "pct": 20.0
+        },
+        {
+          "value": "2040",
+          "count": 262,
+          "pct": 20.0
+        },
+        {
+          "value": "2050",
+          "count": 262,
+          "pct": 20.0
+        },
+        {
+          "value": "2055",
+          "count": 262,
+          "pct": 20.0
+        }
+      ],
+      "stats": {
+        "min": 2021.0,
+        "max": 2055.0,
+        "mean": 2039.2,
+        "median": 2040.0,
+        "p25": 2030.0,
+        "p75": 2050.0
+      }
+    },
+    {
+      "name": "canopy_coverage_percent",
+      "dtype": "float64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1310,
+      "sample_values": [
+        "12.31673415932321",
+        "13.70921844700613",
+        "15.3486814025342",
+        "17.18399111365598",
+        "18.22247447656936"
+      ],
+      "stats": {
+        "min": 0.84,
+        "max": 83.2724,
+        "mean": 26.9302,
+        "median": 24.2368,
+        "p25": 18.7319,
+        "p75": 31.4654
+      }
+    }
+  ]
+}

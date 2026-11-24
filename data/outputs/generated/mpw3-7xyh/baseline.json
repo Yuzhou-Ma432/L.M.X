@@ -1,0 +1,15 @@
+{
+  "id": "mpw3-7xyh",
+  "name": "Adult Protective Services - Refer to Close by Referral Source",
+  "strategy": "baseline",
+  "description": "This dataset tracks Adult Protective Services referrals by referral source, showing how many cases were referred and how many were found ineligible, organized by report date and referral source type. Each row records a report date, the type of referral source (such as a specific agency or reporting channel), the total number of referrals received, and the total number deemed ineligible. With 96 sampled rows and four columns, it supports analysis of referral volumes over time, comparison of eligibility outcomes across referral sources, and identification of sources that generate high numbers of ineligible referrals. It could be useful for program monitoring, workload planning, quality improvement, and reporting on screening outcomes.",
+  "prompt": "Title: Adult Protective Services - Refer to Close by Referral Source\nCategory: Social Services\nRows (sampled): 96\nColumns: 4\nColumn names: report_date, referral_source_type, total_referred, total_ineligible\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 124,
+    "completion_tokens": 130,
+    "total_tokens": 254
+  },
+  "elapsed_seconds": 1.45
+}

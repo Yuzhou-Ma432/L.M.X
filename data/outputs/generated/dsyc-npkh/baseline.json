@@ -1,0 +1,15 @@
+{
+  "id": "dsyc-npkh",
+  "name": "Air Quality Testing at Saratoga Village",
+  "strategy": "baseline",
+  "description": "This dataset contains air quality test results collected at Saratoga Village, with 264 sampled records and 17 columns. Each record captures a date and sample location along with up to three measurement events per visit. For each event, the data includes the time of measurement, volatile organic compound (VOC) readings in parts per million, temperature in degrees Fahrenheit, relative humidity, and any field observations noted by the tester.\n\nThe structure supports comparison of air quality conditions across different times of day and locations within the site, and allows analysis of how VOC levels relate to temperature and humidity. It could be used by environmental health researchers, property managers, or public health officials to identify patterns or potential concerns in indoor or on-site air quality, to track conditions over time, or to flag locations and times warranting further testing.",
+  "prompt": "Title: Air Quality Testing at Saratoga Village\nCategory: Health\nRows (sampled): 264\nColumns: 17\nColumn names: date, sample_location, time1, vocs1_ppm, temp1_f, humidity1, observations1, time2, vocs2_ppm, temp2_f, humidity2, observations2, time3, vocs3_ppm, temp3_f, humidity3, observations3\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 167,
+    "completion_tokens": 163,
+    "total_tokens": 330
+  },
+  "elapsed_seconds": 1.64
+}

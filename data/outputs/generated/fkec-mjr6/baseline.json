@@ -1,0 +1,15 @@
+{
+  "id": "fkec-mjr6",
+  "name": "DOHMH Cryptosporidiosis by Race/Ethnicity, Age Group, and Borough of Residence",
+  "strategy": "baseline",
+  "description": "This dataset contains New York City Department of Health and Mental Hygiene (DOHMH) surveillance data on cryptosporidiosis cases, broken down by year, race/ethnicity, age group, and borough of residence. Each row represents a combination of year and race/ethnicity, with case counts by age group (under 1, 1–4, 5, 5–9, 10–19, 20–44, 45–59, and 60 and older) and rates per 100,000 population for the citywide total and for each of the five boroughs (Manhattan, Bronx, Brooklyn, Queens, and Staten Island). The sampled file includes 200 rows and 16 columns.\n\nThe data can be used to track trends in cryptosporidiosis incidence over time, compare burden across racial and ethnic groups, identify age groups at highest risk, and examine geographic disparities among boroughs. It supports public health analysis, epidemiological research, and",
+  "prompt": "Title: DOHMH Cryptosporidiosis by Race/Ethnicity, Age Group, and Borough of Residence\nCategory: Health\nRows (sampled): 200\nColumns: 16\nColumn names: year, race_ethnicity, age_group_1_year_number_rate, age_group_1_4_years_number, age_group_5_years_number, age_group_5_9_years_number, age_group_10_19_years_number, age_group_20_44_years_number, age_group_45_59_years_number, age_group_60_years_number, citywide_number_rate, manhattan_number_rate, bronx_number_rate, brooklyn_number_rate, queens_number_rate, staten_island_number_rate\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "length",
+  "usage": {
+    "prompt_tokens": 231,
+    "completion_tokens": 200,
+    "total_tokens": 431
+  },
+  "elapsed_seconds": 1.59
+}

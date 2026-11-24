@@ -1,0 +1,21 @@
+{
+  "id": "wapz-jfhq",
+  "name": "DCWP Language Line Interpretation Services",
+  "strategy": "semantic",
+  "description": "This dataset records individual calls made to the New York City Department of Consumer and Worker Protection's language line interpretation service. Each row represents one interpreted call and includes the date and time of the call, the language requested (36 languages appear, including Spanish, Mandarin, and Cantonese), an access code identifying the requesting unit or program (such as Intake, Licensing, Collections, Paid Sick Leave, or Adjudication), and the call duration in seconds. The sample covers 5,000 calls with no missing values in any column.\n\nThe data can be used to analyze demand for interpretation services by language and by program area, identify peak call periods for staffing and scheduling, and estimate service volume and cost through call duration. It also supports evaluation of compliance with municipal language access requirements for limited-English-proficient residents and comparison of interpretation needs across agency functions.",
+  "prompt": "Title: DCWP Language Line Interpretation Services\nCategory: Business\nRows (sampled): 5000\nColumns: 4\n\nColumn details:\n- date (type object) 4923 distinct values 0.0% missing samples: 2016-01-04T05:54:00.000, 2016-01-04T06:20:00.000, 2016-01-04T07:17:00.000, 2016-01-04T08:20:00.000, 2016-01-04T08:56:00.000\n- language (type object) 36 distinct values 0.0% missing samples: MANDARIN, SPANISH, SPANISH, SPANISH, CANTONESE\n- access_code (type object) 13 distinct values 0.0% missing common values: Intake (34.8%), Licensing (27.6%), Collections (9.9%), Paid Sick Leave (8.7%), Adjudication (6.5%) samples: Adjudication, Intake, Intake, Intake, Intake\n- duration_seconds (type int64) 1503 distinct values 0.0% missing min=7.0 max=6703.0 mean=587.5962 p25=234.0 p75=714.0 samples: 2066, 359, 294, 342, 737\n\nSemantic summary (topic and possible uses):\nThis dataset records usage of the New York City Department of Consumer and Worker Protection's language line interpretation service, capturing each call's date, the language requested, an access code identifying the requesting unit or service, and the call duration in seconds. It belongs to the government and public-sector operations domain, specifically municipal language access and customer service. Likely uses include analyzing demand for interpretation across languages, identifying peak periods and staffing needs, measuring service costs through call duration, and evaluating compliance with language access mandates for limited-English-proficient residents.\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 498,
+    "completion_tokens": 170,
+    "total_tokens": 668
+  },
+  "elapsed_seconds": 2.91,
+  "semantic_summary": "This dataset records usage of the New York City Department of Consumer and Worker Protection's language line interpretation service, capturing each call's date, the language requested, an access code identifying the requesting unit or service, and the call duration in seconds. It belongs to the government and public-sector operations domain, specifically municipal language access and customer service. Likely uses include analyzing demand for interpretation across languages, identifying peak periods and staffing needs, measuring service costs through call duration, and evaluating compliance with language access mandates for limited-English-proficient residents.",
+  "semantic_usage": {
+    "prompt_tokens": 140,
+    "completion_tokens": 106,
+    "total_tokens": 246
+  }
+}

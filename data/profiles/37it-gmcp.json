@@ -1,0 +1,859 @@
+{
+  "id": "37it-gmcp",
+  "name": "WiredNYC – Certified Buildings",
+  "description": "This dataset contains information for buildings that have completed the certification process. These buildings are all publicly viewable on the WiredNYC website (www.wiredscore.com)",
+  "category": "NYC BigApps",
+  "permalink": "https://data.cityofnewyork.us/d/37it-gmcp",
+  "sampled_rows": 5000,
+  "n_rows": 51,
+  "n_cols": 31,
+  "columns": [
+    {
+      "name": "bble",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 51,
+      "sample_values": [
+        "1012681102",
+        "1000041010",
+        "1000160150",
+        "1000160125",
+        "1000160120"
+      ]
+    },
+    {
+      "name": "bbl",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 51,
+      "sample_values": [
+        "1-1268-1102",
+        "1-4-1010",
+        "1-16-150",
+        "1-16-125",
+        "1-16-120"
+      ]
+    },
+    {
+      "name": "borough",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "Manhattan",
+        "Manhattan",
+        "Manhattan",
+        "Manhattan",
+        "Manhattan"
+      ],
+      "top_values": [
+        {
+          "value": "Manhattan",
+          "count": 51,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "building_name",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 51,
+      "sample_values": [
+        "666 Fifth Avenue",
+        "One New York Plaza",
+        "250 Vesey Street",
+        "225 Liberty Street",
+        "200 Liberty Street"
+      ]
+    },
+    {
+      "name": "street_address",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 51,
+      "sample_values": [
+        "666 5 AVENUE",
+        "1 WATER STREET",
+        "250 VESEY PLACE",
+        "225 LIBERTY STREET",
+        "200 LIBERTY STREET"
+      ]
+    },
+    {
+      "name": "certification_class",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "Platinum",
+        "Platinum",
+        "Gold",
+        "Gold",
+        "Platinum"
+      ],
+      "top_values": [
+        {
+          "value": "Platinum",
+          "count": 25,
+          "pct": 49.0
+        },
+        {
+          "value": "Gold",
+          "count": 18,
+          "pct": 35.3
+        },
+        {
+          "value": "Silver",
+          "count": 8,
+          "pct": 15.7
+        }
+      ]
+    },
+    {
+      "name": "of_carriers",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "5 or more",
+        "5 or more",
+        "5 or more",
+        "5 or more",
+        "5 or more"
+      ],
+      "top_values": [
+        {
+          "value": "5 or more",
+          "count": 43,
+          "pct": 84.3
+        },
+        {
+          "value": "4",
+          "count": 6,
+          "pct": 11.8
+        },
+        {
+          "value": "3",
+          "count": 2,
+          "pct": 3.9
+        }
+      ]
+    },
+    {
+      "name": "coax_cable_connections",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 51,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "fiber_connection",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 51,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "satellite_fixed_wireless_connection",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Yes",
+        "No",
+        "No",
+        "No",
+        "No"
+      ],
+      "top_values": [
+        {
+          "value": "No",
+          "count": 31,
+          "pct": 60.8
+        },
+        {
+          "value": "Yes",
+          "count": 20,
+          "pct": 39.2
+        }
+      ]
+    },
+    {
+      "name": "fiber_distribution",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "Partial Distribution (some floors)",
+        "Full Distribution (all floors)",
+        "Full Distribution (all floors)",
+        "Full Distribution (all floors)",
+        "Full Distribution (all floors)"
+      ],
+      "top_values": [
+        {
+          "value": "Full Distribution (all floors)",
+          "count": 33,
+          "pct": 64.7
+        },
+        {
+          "value": "Partial Distribution (some floors)",
+          "count": 17,
+          "pct": 33.3
+        },
+        {
+          "value": "No Distribution",
+          "count": 1,
+          "pct": 2.0
+        }
+      ]
+    },
+    {
+      "name": "isps_1",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 3,
+      "sample_values": [
+        "5 or more",
+        "5 or more",
+        "5 or more",
+        "5 or more",
+        "5 or more"
+      ],
+      "top_values": [
+        {
+          "value": "5 or more",
+          "count": 39,
+          "pct": 76.5
+        },
+        {
+          "value": "4",
+          "count": 6,
+          "pct": 11.8
+        },
+        {
+          "value": "3",
+          "count": 6,
+          "pct": 11.8
+        }
+      ]
+    },
+    {
+      "name": "multiple_points_of_entry",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Yes",
+        "Yes",
+        "No",
+        "Yes",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 45,
+          "pct": 88.2
+        },
+        {
+          "value": "No",
+          "count": 6,
+          "pct": 11.8
+        }
+      ]
+    },
+    {
+      "name": "designated_telecom_utility_space",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4,
+      "sample_values": [
+        "Combination of open, shared, and dedicat…",
+        "Combination of open, shared, and dedicat…",
+        "Dedicated room",
+        "Combination of open, shared, and dedicat…",
+        "Dedicated room"
+      ],
+      "top_values": [
+        {
+          "value": "Combination of open, shared, and dedicat…",
+          "count": 29,
+          "pct": 56.9
+        },
+        {
+          "value": "Dedicated room",
+          "count": 9,
+          "pct": 17.6
+        },
+        {
+          "value": "Common (shared) room",
+          "count": 9,
+          "pct": 17.6
+        },
+        {
+          "value": "Hallway/Open Space",
+          "count": 4,
+          "pct": 7.8
+        }
+      ]
+    },
+    {
+      "name": "additional_telecom_space",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 47,
+          "pct": 92.2
+        },
+        {
+          "value": "No",
+          "count": 4,
+          "pct": 7.8
+        }
+      ]
+    },
+    {
+      "name": "riser_space_for_current_providers",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 1,
+      "sample_values": [
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 51,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "riser_space_for_additional_providers",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 48,
+          "pct": 94.1
+        },
+        {
+          "value": "No",
+          "count": 3,
+          "pct": 5.9
+        }
+      ]
+    },
+    {
+      "name": "diverse_riser_locations",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 38,
+          "pct": 74.5
+        },
+        {
+          "value": "Does not have two or more diverse riser …",
+          "count": 13,
+          "pct": 25.5
+        }
+      ]
+    },
+    {
+      "name": "signed_poes",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Yes - for installed connections",
+        "Yes - for installed connections",
+        "None available",
+        "None available",
+        "Yes - for installed connections"
+      ],
+      "top_values": [
+        {
+          "value": "Yes - for installed connections",
+          "count": 38,
+          "pct": 74.5
+        },
+        {
+          "value": "None available",
+          "count": 13,
+          "pct": 25.5
+        }
+      ]
+    },
+    {
+      "name": "agreements",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "No",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 33,
+          "pct": 64.7
+        },
+        {
+          "value": "No",
+          "count": 18,
+          "pct": 35.3
+        }
+      ]
+    },
+    {
+      "name": "new_service_providers",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "Yes",
+          "count": 47,
+          "pct": 92.2
+        },
+        {
+          "value": "No capability available",
+          "count": 4,
+          "pct": 7.8
+        }
+      ]
+    },
+    {
+      "name": "isps_2",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 50,
+      "sample_values": [
+        "Zayo,Verizon FIOS,Verizon,Time Warner Ca…",
+        "Zayo,Verizon,Time Warner Cable,Lightpath…",
+        "Zayo,Verizon,Time Warner Cable,Lightower…",
+        "Verizon,Time Warner Cable,Lightpath,Ligh…",
+        "Zayo,Verizon,Time Warner Cable,Sidera,Le…"
+      ]
+    },
+    {
+      "name": "latitude",
+      "dtype": "float64",
+      "missing": 4,
+      "missing_pct": 7.84,
+      "nunique": 47,
+      "sample_values": [
+        "40.760549",
+        "40.702444",
+        "40.711537",
+        "40.711425",
+        "40.70943"
+      ],
+      "stats": {
+        "min": 40.7024,
+        "max": 40.7701,
+        "mean": 40.7429,
+        "median": 40.7506,
+        "p25": 40.7369,
+        "p75": 40.7571
+      }
+    },
+    {
+      "name": "longitude",
+      "dtype": "float64",
+      "missing": 4,
+      "missing_pct": 7.84,
+      "nunique": 47,
+      "sample_values": [
+        "-73.976421",
+        "-74.012742",
+        "-74.015673",
+        "-74.015442",
+        "-74.011102"
+      ],
+      "stats": {
+        "min": -74.0157,
+        "max": -73.9683,
+        "mean": -73.9881,
+        "median": -73.9861,
+        "p25": -73.9926,
+        "p75": -73.9768
+      }
+    },
+    {
+      "name": "community_board",
+      "dtype": "float64",
+      "missing": 4,
+      "missing_pct": 7.84,
+      "nunique": 5,
+      "sample_values": [
+        "5.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0"
+      ],
+      "top_values": [
+        {
+          "value": "5.0",
+          "count": 27,
+          "pct": 57.4
+        },
+        {
+          "value": "1.0",
+          "count": 10,
+          "pct": 21.3
+        },
+        {
+          "value": "6.0",
+          "count": 5,
+          "pct": 10.6
+        },
+        {
+          "value": "4.0",
+          "count": 4,
+          "pct": 8.5
+        },
+        {
+          "value": "2.0",
+          "count": 1,
+          "pct": 2.1
+        }
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 6.0,
+        "mean": 4.1064,
+        "median": 5.0,
+        "p25": 4.0,
+        "p75": 5.0
+      }
+    },
+    {
+      "name": "community_council",
+      "dtype": "float64",
+      "missing": 4,
+      "missing_pct": 7.84,
+      "nunique": 5,
+      "sample_values": [
+        "4.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0"
+      ],
+      "top_values": [
+        {
+          "value": "4.0",
+          "count": 18,
+          "pct": 38.3
+        },
+        {
+          "value": "1.0",
+          "count": 11,
+          "pct": 23.4
+        },
+        {
+          "value": "3.0",
+          "count": 9,
+          "pct": 19.1
+        },
+        {
+          "value": "2.0",
+          "count": 8,
+          "pct": 17.0
+        },
+        {
+          "value": "6.0",
+          "count": 1,
+          "pct": 2.1
+        }
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 6.0,
+        "mean": 2.8085,
+        "median": 3.0,
+        "p25": 2.0,
+        "p75": 4.0
+      }
+    },
+    {
+      "name": "census_tract",
+      "dtype": "float64",
+      "missing": 4,
+      "missing_pct": 7.84,
+      "nunique": 31,
+      "sample_values": [
+        "104.0",
+        "9.0",
+        "31703.0",
+        "31704.0",
+        "13.0"
+      ],
+      "stats": {
+        "min": 7.0,
+        "max": 31704.0,
+        "mean": 1659.4681,
+        "median": 88.0,
+        "p25": 55.0,
+        "p75": 117.0
+      }
+    },
+    {
+      "name": "bin",
+      "dtype": "float64",
+      "missing": 4,
+      "missing_pct": 7.84,
+      "nunique": 47,
+      "sample_values": [
+        "1034520.0",
+        "1000005.0",
+        "1000058.0",
+        "1000057.0",
+        "1001068.0"
+      ],
+      "stats": {
+        "min": 1000005.0,
+        "max": 1085972.0,
+        "mean": 1029106.7872,
+        "median": 1024714.0,
+        "p25": 1014422.0,
+        "p75": 1036205.5
+      }
+    },
+    {
+      "name": "nta",
+      "dtype": "object",
+      "missing": 4,
+      "missing_pct": 7.84,
+      "nunique": 8,
+      "sample_values": [
+        "Midtown-Midtown South                   …",
+        "Battery Park City-Lower Manhattan       …",
+        "Battery Park City-Lower Manhattan       …",
+        "Battery Park City-Lower Manhattan       …",
+        "Battery Park City-Lower Manhattan       …"
+      ],
+      "top_values": [
+        {
+          "value": "Midtown-Midtown South                   …",
+          "count": 12,
+          "pct": 25.5
+        },
+        {
+          "value": "Battery Park City-Lower Manhattan       …",
+          "count": 8,
+          "pct": 17.0
+        },
+        {
+          "value": "Turtle Bay-East Midtown                 …",
+          "count": 7,
+          "pct": 14.9
+        },
+        {
+          "value": "Murray Hill-Kips Bay                    …",
+          "count": 5,
+          "pct": 10.6
+        },
+        {
+          "value": "Hudson Yards-Chelsea-Flatiron-Union Squa…",
+          "count": 5,
+          "pct": 10.6
+        }
+      ]
+    },
+    {
+      "name": "postcode",
+      "dtype": "float64",
+      "missing": 4,
+      "missing_pct": 7.84,
+      "nunique": 21,
+      "sample_values": [
+        "10103.0",
+        "10004.0",
+        "10280.0",
+        "10281.0",
+        "10006.0"
+      ],
+      "top_values": [
+        {
+          "value": "10017.0",
+          "count": 9,
+          "pct": 19.1
+        },
+        {
+          "value": "10036.0",
+          "count": 5,
+          "pct": 10.6
+        },
+        {
+          "value": "10019.0",
+          "count": 4,
+          "pct": 8.5
+        },
+        {
+          "value": "10016.0",
+          "count": 4,
+          "pct": 8.5
+        },
+        {
+          "value": "10022.0",
+          "count": 4,
+          "pct": 8.5
+        }
+      ],
+      "stats": {
+        "min": 10003.0,
+        "max": 10281.0,
+        "mean": 10038.4043,
+        "median": 10017.0,
+        "p25": 10011.5,
+        "p75": 10022.0
+      }
+    },
+    {
+      "name": "council_district",
+      "dtype": "float64",
+      "missing": 4,
+      "missing_pct": 7.84,
+      "nunique": 5,
+      "sample_values": [
+        "4.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0"
+      ],
+      "top_values": [
+        {
+          "value": "4.0",
+          "count": 18,
+          "pct": 38.3
+        },
+        {
+          "value": "1.0",
+          "count": 11,
+          "pct": 23.4
+        },
+        {
+          "value": "3.0",
+          "count": 9,
+          "pct": 19.1
+        },
+        {
+          "value": "2.0",
+          "count": 8,
+          "pct": 17.0
+        },
+        {
+          "value": "6.0",
+          "count": 1,
+          "pct": 2.1
+        }
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 6.0,
+        "mean": 2.8085,
+        "median": 3.0,
+        "p25": 2.0,
+        "p75": 4.0
+      }
+    }
+  ]
+}

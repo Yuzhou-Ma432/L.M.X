@@ -1,0 +1,452 @@
+{
+  "id": "w49t-5gha",
+  "name": "MBPO Broadway Storefront Vacancy Survey 2020",
+  "description": "Survey of vacant storefronts in August 2020 along Broadway, from the Battery to Inwood.",
+  "category": "Business",
+  "permalink": "https://data.cityofnewyork.us/d/w49t-5gha",
+  "sampled_rows": 5000,
+  "n_rows": 385,
+  "n_cols": 15,
+  "columns": [
+    {
+      "name": "business_address",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 345,
+      "sample_values": [
+        "423 Broadway",
+        "1 Astor Place",
+        "10 Times Square",
+        "11 Broadway",
+        "1107 Broadway"
+      ]
+    },
+    {
+      "name": "business_name_n_a_if_there",
+      "dtype": "object",
+      "missing": 178,
+      "missing_pct": 46.23,
+      "nunique": 199,
+      "sample_values": [
+        "Gap",
+        "Pet Smart",
+        "Jos. A. Bank",
+        "Broadway Cafe",
+        "Hill Country Chicken"
+      ]
+    },
+    {
+      "name": "what_indicates_the_storefront",
+      "dtype": "object",
+      "missing": 17,
+      "missing_pct": 4.42,
+      "nunique": 11,
+      "sample_values": [
+        "For Rent/For Lease/Retail Space Availabl…",
+        "For Rent/For Lease/Retail Space Availabl…",
+        "For Rent/For Lease/Retail Space Availabl…",
+        "For Rent/For Lease/Retail Space Availabl…",
+        "Permanently Closed"
+      ],
+      "top_values": [
+        {
+          "value": "For Rent/For Lease/Retail Space Availabl…",
+          "count": 215,
+          "pct": 58.4
+        },
+        {
+          "value": "Empty",
+          "count": 49,
+          "pct": 13.3
+        },
+        {
+          "value": "Closed Until Further Notice",
+          "count": 33,
+          "pct": 9.0
+        },
+        {
+          "value": "Covered Windows",
+          "count": 33,
+          "pct": 9.0
+        },
+        {
+          "value": "Permanently Closed",
+          "count": 12,
+          "pct": 3.3
+        }
+      ]
+    },
+    {
+      "name": "is_the_storefront_boarded",
+      "dtype": "object",
+      "missing": 7,
+      "missing_pct": 1.82,
+      "nunique": 2,
+      "sample_values": [
+        "No",
+        "No",
+        "No",
+        "No",
+        "Yes"
+      ],
+      "top_values": [
+        {
+          "value": "No",
+          "count": 335,
+          "pct": 88.6
+        },
+        {
+          "value": "Yes",
+          "count": 43,
+          "pct": 11.4
+        }
+      ]
+    },
+    {
+      "name": "east_or_west_side_of_the",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "West",
+        "East",
+        "West",
+        "West",
+        "West"
+      ],
+      "top_values": [
+        {
+          "value": "West",
+          "count": 203,
+          "pct": 52.7
+        },
+        {
+          "value": "East",
+          "count": 182,
+          "pct": 47.3
+        }
+      ]
+    },
+    {
+      "name": "latitude",
+      "dtype": "float64",
+      "missing": 8,
+      "missing_pct": 2.08,
+      "nunique": 337,
+      "sample_values": [
+        "40.719663",
+        "40.730054",
+        "40.754677",
+        "40.705354",
+        "40.742743"
+      ],
+      "stats": {
+        "min": 40.7043,
+        "max": 40.8694,
+        "mean": 40.7753,
+        "median": 40.7664,
+        "p25": 40.7403,
+        "p75": 40.8013
+      }
+    },
+    {
+      "name": "longitude",
+      "dtype": "float64",
+      "missing": 8,
+      "missing_pct": 2.08,
+      "nunique": 331,
+      "sample_values": [
+        "-74.00167",
+        "-73.992629",
+        "-73.986761",
+        "-74.013731",
+        "-73.989213"
+      ],
+      "stats": {
+        "min": -74.0137,
+        "max": -73.9166,
+        "mean": -73.9765,
+        "median": -73.9822,
+        "p25": -73.9896,
+        "p75": -73.9679
+      }
+    },
+    {
+      "name": "community_board",
+      "dtype": "float64",
+      "missing": 8,
+      "missing_pct": 2.08,
+      "nunique": 6,
+      "sample_values": [
+        "102.0",
+        "102.0",
+        "105.0",
+        "101.0",
+        "105.0"
+      ],
+      "top_values": [
+        {
+          "value": "105.0",
+          "count": 111,
+          "pct": 29.4
+        },
+        {
+          "value": "107.0",
+          "count": 95,
+          "pct": 25.2
+        },
+        {
+          "value": "102.0",
+          "count": 52,
+          "pct": 13.8
+        },
+        {
+          "value": "112.0",
+          "count": 49,
+          "pct": 13.0
+        },
+        {
+          "value": "109.0",
+          "count": 41,
+          "pct": 10.9
+        }
+      ],
+      "stats": {
+        "min": 101.0,
+        "max": 112.0,
+        "mean": 106.1273,
+        "median": 105.0,
+        "p25": 105.0,
+        "p75": 107.0
+      }
+    },
+    {
+      "name": "council_district",
+      "dtype": "float64",
+      "missing": 8,
+      "missing_pct": 2.08,
+      "nunique": 7,
+      "sample_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "1.0",
+        "3.0"
+      ],
+      "top_values": [
+        {
+          "value": "6.0",
+          "count": 80,
+          "pct": 21.2
+        },
+        {
+          "value": "1.0",
+          "count": 73,
+          "pct": 19.4
+        },
+        {
+          "value": "7.0",
+          "count": 64,
+          "pct": 17.0
+        },
+        {
+          "value": "4.0",
+          "count": 48,
+          "pct": 12.7
+        },
+        {
+          "value": "3.0",
+          "count": 45,
+          "pct": 11.9
+        }
+      ],
+      "stats": {
+        "min": 1.0,
+        "max": 10.0,
+        "mean": 4.7056,
+        "median": 4.0,
+        "p25": 2.0,
+        "p75": 7.0
+      }
+    },
+    {
+      "name": "census_tract",
+      "dtype": "float64",
+      "missing": 8,
+      "missing_pct": 2.08,
+      "nunique": 62,
+      "sample_values": [
+        "47.0",
+        "57.0",
+        "113.0",
+        "13.0",
+        "58.0"
+      ],
+      "stats": {
+        "min": 7.0,
+        "max": 22301.0,
+        "mean": 479.1777,
+        "median": 159.0,
+        "p25": 76.0,
+        "p75": 219.0
+      }
+    },
+    {
+      "name": "bin",
+      "dtype": "float64",
+      "missing": 11,
+      "missing_pct": 2.86,
+      "nunique": 285,
+      "sample_values": [
+        "1003012.0",
+        "1008806.0",
+        "1022569.0",
+        "1000044.0",
+        "1015602.0"
+      ],
+      "stats": {
+        "min": 1000000.0,
+        "max": 1090587.0,
+        "mean": 1041527.5963,
+        "median": 1033296.0,
+        "p25": 1015758.25,
+        "p75": 1063475.0
+      }
+    },
+    {
+      "name": "bbl",
+      "dtype": "float64",
+      "missing": 11,
+      "missing_pct": 2.86,
+      "nunique": 283,
+      "sample_values": [
+        "1002310001.0",
+        "1005450059.0",
+        "1009930055.0",
+        "1000130005.0",
+        "1008267501.0"
+      ],
+      "stats": {
+        "min": 1000110001.0,
+        "max": 1022430241.0,
+        "mean": 1012046713.4706,
+        "median": 1010273779.0,
+        "p25": 1008140052.0,
+        "p75": 1018770062.5
+      }
+    },
+    {
+      "name": "nta",
+      "dtype": "object",
+      "missing": 8,
+      "missing_pct": 2.08,
+      "nunique": 13,
+      "sample_values": [
+        "SoHo-TriBeCa-Civic Center-Little Italy",
+        "West Village",
+        "Midtown-Midtown South",
+        "Battery Park City-Lower Manhattan",
+        "Hudson Yards-Chelsea-Flatiron-Union Squa…"
+      ],
+      "top_values": [
+        {
+          "value": "Midtown-Midtown South",
+          "count": 84,
+          "pct": 22.3
+        },
+        {
+          "value": "Upper West Side",
+          "count": 76,
+          "pct": 20.2
+        },
+        {
+          "value": "SoHo-TriBeCa-Civic Center-Little Italy",
+          "count": 48,
+          "pct": 12.7
+        },
+        {
+          "value": "Washington Heights South",
+          "count": 30,
+          "pct": 8.0
+        },
+        {
+          "value": "Hudson Yards-Chelsea-Flatiron-Union Squa…",
+          "count": 27,
+          "pct": 7.2
+        }
+      ]
+    },
+    {
+      "name": "borough",
+      "dtype": "object",
+      "missing": 8,
+      "missing_pct": 2.08,
+      "nunique": 1,
+      "sample_values": [
+        "MANHATTAN",
+        "MANHATTAN",
+        "MANHATTAN",
+        "MANHATTAN",
+        "MANHATTAN"
+      ],
+      "top_values": [
+        {
+          "value": "MANHATTAN",
+          "count": 377,
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "postcode",
+      "dtype": "float64",
+      "missing": 8,
+      "missing_pct": 2.08,
+      "nunique": 24,
+      "sample_values": [
+        "10013.0",
+        "10003.0",
+        "10018.0",
+        "10004.0",
+        "10010.0"
+      ],
+      "top_values": [
+        {
+          "value": "10025.0",
+          "count": 48,
+          "pct": 12.7
+        },
+        {
+          "value": "10019.0",
+          "count": 34,
+          "pct": 9.0
+        },
+        {
+          "value": "10024.0",
+          "count": 33,
+          "pct": 8.8
+        },
+        {
+          "value": "10031.0",
+          "count": 29,
+          "pct": 7.7
+        },
+        {
+          "value": "10012.0",
+          "count": 29,
+          "pct": 7.7
+        }
+      ],
+      "stats": {
+        "min": 10001.0,
+        "max": 10279.0,
+        "mean": 10023.5119,
+        "median": 10023.0,
+        "p25": 10013.0,
+        "p75": 10031.0
+      }
+    }
+  ]
+}

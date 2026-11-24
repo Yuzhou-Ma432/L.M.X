@@ -1,0 +1,15 @@
+{
+  "id": "y4fw-iqfr",
+  "name": "NYC Cooling Tower Registrations",
+  "strategy": "baseline",
+  "description": "This dataset contains a sample of 5,000 registered cooling tower systems in New York City, with 16 fields describing each registration. Records include a building identification number (BIN), system ID, registration date, street address, borough, ZIP code, and sample collection dates, along with equipment status. Geographic identifiers such as BBL, latitude and longitude, community board, council district, census tract, and neighborhood tabulation area (NTA) code allow the records to be mapped and linked to other local data. The data can support public health surveillance and environmental analysis, such as tracking cooling tower locations by neighborhood, examining registration and sampling patterns, and identifying buildings or areas for further inspection related to Legionella risk management.",
+  "prompt": "Title: NYC Cooling Tower Registrations\nCategory: Health\nRows (sampled): 5000\nColumns: 16\nColumn names: bin, system_id, date_registered, number, street, borough, zip, sampledates, activeequipment, bbl, latitude, longitude, community_board, council_district, census_tract, ntacode\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 149,
+    "completion_tokens": 145,
+    "total_tokens": 294
+  },
+  "elapsed_seconds": 1.55
+}

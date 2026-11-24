@@ -1,0 +1,15 @@
+{
+  "id": "xqbk-beh5",
+  "name": "GreenThumb Site Visits",
+  "strategy": "baseline",
+  "description": "This dataset records site visits and inspections of community gardens, with 361 sampled rows and 35 columns. Each row corresponds to an inspection of a specific garden, identified by parksid and inspectionid. The columns capture physical characteristics of the site, such as total fence length, sidewalk area and length, whether the garden is next to another garden, and whether it has an on-site service. They also record infrastructure and features including rain harvesting and gallons collected, solar panels, compost systems and tumblers, greenhouses, season-extension structures, sheds, signs, murals, ponds with fish or turtles, aquaponics, and chickens. Additional fields describe land use and vegetation, such as food production, non-food plants, open lawn or communal areas, paved areas, trees in the garden, fruit trees, street trees, and empty tree pits. Other columns note proximity to hydrants, farmers markets, and CSA pickup locations. The data could be used to profile garden amenities and infrastructure, compare",
+  "prompt": "Title: GreenThumb Site Visits\nCategory: Environment\nRows (sampled): 361\nColumns: 35\nColumn names: parksid, inspectionid, nexttoanothergarden, totalfencelength, totalsidewalkarea, totalsidewalklength, onsiteservice, hydrantw_in15ft, hydrantongardenside, rainharvesting, raingallons, solarpanels, compostsystem, composttumblers, nonfoodplants, food, openlawnorcommunalarea, pavedarea, treesingarden, fruittrees, streettrees, emptytreepits, murals, blankshed, parkssign, chickens, pond, fishinpond, turtles, aquaponics, farmersmarket, csapickup, composting, greenhouse, structureforseasonextension\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "length",
+  "usage": {
+    "prompt_tokens": 249,
+    "completion_tokens": 200,
+    "total_tokens": 449
+  },
+  "elapsed_seconds": 1.69
+}

@@ -1,0 +1,15 @@
+{
+  "id": "g2dh-zf5t",
+  "name": "Child Support Caseload and Collections",
+  "strategy": "content",
+  "description": "This dataset contains child support program performance data organized by indicator, case type, and date. Each row pairs a measure—such as total cases with orders, support establishment percentage, percentage of cases with a collection, current distributed percentage, or calendar year collections—with a case category (Total, Current, Former, Never, or Yearly Goal) and a reporting date. Depending on the indicator, the corresponding value appears in one of three numeric fields: caseload (counts of cases), percentage (rates and shares), or dollars (collection amounts). Because each row uses only the field relevant to its indicator, the numeric columns are largely empty by design.\n\nThe data can be used to track child support caseloads and collection outcomes over time, compare performance across case types, monitor progress toward yearly goals, and benchmark establishment and collection rates. Analysts could build trend reports, dashboards, or performance scorecards, and agencies could use the figures to assess program effectiveness and identify where case categories",
+  "prompt": "Title: Child Support Caseload and Collections\nCategory: Social Services\nRows (sampled): 1189\nColumns: 6\n\nColumn details:\n- indicator (type object) 7 distinct values 0.0% missing common values: Support Establishment Percent (SEP) % of… (17.2%), % Cases w/Collection (1) (17.2%), Calendar Year Collections (17.2%), % Current Distributed (13.8%), Total Cases with Orders (13.8%) samples: Total Cases with Orders, Total Cases with Orders, Total Cases with Orders, Total Cases with Orders, Support Establishment Percent (SEP) % of…\n- case_type (type object) 6 distinct values 0.08% missing common values: Total (24.2%), Current (20.7%), Never (20.7%), Former (20.6%), Yearly Goal (10.4%) samples: Total, Current, Former, Never, Current\n- date (type object) 41 distinct values 0.0% missing samples: 2026-09-30T00:00:00.000, 2026-09-30T00:00:00.000, 2026-09-30T00:00:00.000, 2026-09-30T00:00:00.000, 2026-09-30T00:00:00.000\n- caseload (type float64) 300 distinct values 72.41% missing min=23.0 max=201857.0 mean=46717.6098 p25=243.75 p75=84151.5 samples: 174663.0, 16937.0, 74612.0, 83114.0, 464.0\n- percentage (type float64) 48 distinct values 44.83% missing min=0.32 max=0.89 mean=0.6019 p25=0.43 p75=0.7625 samples: 0.55, 0.75, 0.73, 0.83, 0.76\n- dollars (type float64) 169 distinct values 82.76% missing min=1533089.0 max=717000000.0 mean=159483705.0683 p25=18300563.0 p75=60596966.0 samples: 51494771.0, 17912413.0, 31687227.0, 1895131.0, 672900000.0\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "length",
+  "usage": {
+    "prompt_tokens": 618,
+    "completion_tokens": 200,
+    "total_tokens": 818
+  },
+  "elapsed_seconds": 1.76
+}

@@ -1,0 +1,210 @@
+{
+  "id": "jt9i-9gxr",
+  "name": "Environmentally Preferable Purchasing  FY15 - Goods",
+  "description": "",
+  "category": "City Government",
+  "permalink": "https://data.cityofnewyork.us/d/jt9i-9gxr",
+  "sampled_rows": 5000,
+  "n_rows": 13,
+  "n_cols": 5,
+  "columns": [
+    {
+      "name": "description",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 11,
+      "sample_values": [
+        "Shredding Machines- Paper Re-ad",
+        "Shredding Machines- Paper Re-ad",
+        "Calendars, Diaries, Planners & Journals",
+        "Business Cards",
+        "Ballasts"
+      ],
+      "top_values": [
+        {
+          "value": "Shredding Machines- Paper Re-ad",
+          "count": 2,
+          "pct": 15.4
+        },
+        {
+          "value": "Machines, Stamping: Time/Date and Payrol…",
+          "count": 2,
+          "pct": 15.4
+        },
+        {
+          "value": "Calendars, Diaries, Planners & Journals",
+          "count": 1,
+          "pct": 7.7
+        },
+        {
+          "value": "Business Cards",
+          "count": 1,
+          "pct": 7.7
+        },
+        {
+          "value": "Ballasts",
+          "count": 1,
+          "pct": 7.7
+        }
+      ]
+    },
+    {
+      "name": "epp_minimum_standard_indicated",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 2,
+      "sample_values": [
+        "Yes - Energy Star Compliant",
+        "Yes - Energy Star Compliant",
+        "Yes - 30% Minimum Recycled Content",
+        "Yes - 30% Minimum Recycled Content",
+        "Yes - Energy Star Compliant"
+      ],
+      "top_values": [
+        {
+          "value": "Yes - Energy Star Compliant",
+          "count": 7,
+          "pct": 53.8
+        },
+        {
+          "value": "Yes - 30% Minimum Recycled Content",
+          "count": 6,
+          "pct": 46.2
+        }
+      ]
+    },
+    {
+      "name": "contract_start_end_dates",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 9,
+      "sample_values": [
+        "09/01/14 thru 08/31/19",
+        "09/01/14 thru 08/31/19",
+        "09/25/15 thru 09/24/20",
+        "07/01/14 thru 06/30/19",
+        "09/01/14 thru 08/31/19"
+      ],
+      "top_values": [
+        {
+          "value": "09/01/14 thru 08/31/19",
+          "count": 4,
+          "pct": 30.8
+        },
+        {
+          "value": "01/01/15 thru 12/31/19",
+          "count": 2,
+          "pct": 15.4
+        },
+        {
+          "value": "09/25/15 thru 09/24/20",
+          "count": 1,
+          "pct": 7.7
+        },
+        {
+          "value": "10/01/14 thru 09/30/17",
+          "count": 1,
+          "pct": 7.7
+        },
+        {
+          "value": "07/01/14 thru 06/30/19",
+          "count": 1,
+          "pct": 7.7
+        }
+      ]
+    },
+    {
+      "name": "registration_date",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 13,
+      "sample_values": [
+        "2014-07-02T00:00:00.000",
+        "2014-07-30T00:00:00.000",
+        "2015-06-24T00:00:00.000",
+        "2014-08-16T00:00:00.000",
+        "2014-08-19T00:00:00.000"
+      ],
+      "top_values": [
+        {
+          "value": "2014-07-02T00:00:00.000",
+          "count": 1,
+          "pct": 7.7
+        },
+        {
+          "value": "2014-07-30T00:00:00.000",
+          "count": 1,
+          "pct": 7.7
+        },
+        {
+          "value": "2015-06-24T00:00:00.000",
+          "count": 1,
+          "pct": 7.7
+        },
+        {
+          "value": "2014-08-16T00:00:00.000",
+          "count": 1,
+          "pct": 7.7
+        },
+        {
+          "value": "2014-08-19T00:00:00.000",
+          "count": 1,
+          "pct": 7.7
+        }
+      ]
+    },
+    {
+      "name": "contract_value",
+      "dtype": "int64",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 13,
+      "sample_values": [
+        "1511280",
+        "169940",
+        "724438",
+        "656713",
+        "170000"
+      ],
+      "top_values": [
+        {
+          "value": "1511280",
+          "count": 1,
+          "pct": 7.7
+        },
+        {
+          "value": "169940",
+          "count": 1,
+          "pct": 7.7
+        },
+        {
+          "value": "724438",
+          "count": 1,
+          "pct": 7.7
+        },
+        {
+          "value": "656713",
+          "count": 1,
+          "pct": 7.7
+        },
+        {
+          "value": "170000",
+          "count": 1,
+          "pct": 7.7
+        }
+      ],
+      "stats": {
+        "min": 9690.0,
+        "max": 2068021.0,
+        "mean": 758478.0769,
+        "median": 656713.0,
+        "p25": 241122.0,
+        "p75": 728740.0
+      }
+    }
+  ]
+}

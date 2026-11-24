@@ -1,0 +1,21 @@
+{
+  "id": "uamn-5779",
+  "name": "MISC_TEXT",
+  "strategy": "semantic",
+  "description": "This dataset contains about 3,000 rows of short free-text entries from a city government context, each paired with a numeric rotation value. The text column holds 2,143 distinct values, mostly brief codes, labels, and street or location references such as \"LOCUST AVE,\" \"P2776,\" and \"450-C,\" with a small share of missing entries. The rotation column is a float ranging from 0 to about 360, with a mean near 144 and roughly 10% of values missing, suggesting an angle or ordering measure used to cycle or position items.\n\nThe data could be used to catalog and deduplicate municipal text entries, train or test text classification and normalization workflows, or manage the display order of messages and labels via the rotation field. It may also serve as a reference list for matching short codes and location names in other city records.",
+  "prompt": "Title: MISC_TEXT\nCategory: City Government\nRows (sampled): 3018\nColumns: 2\n\nColumn details:\n- misc_text (type object) 2143 distinct values 0.1% missing samples: LOCUST AVE, P2776, 499-C, 450-C, C2205-18A\n- rotation (type float64) 2558 distinct values 9.97% missing min=0.0 max=359.667 mean=144.2345 p25=38.3143 p75=278.3004 samples: 43.27892911, 123.10472991, 282.17334769, 88.70497085, 51.0841922\n\nSemantic summary (topic and possible uses):\nThe dataset appears to contain short free-text entries from a city government context, paired with a rotation indicator, likely used to track or cycle through miscellaneous text items such as notices, labels, or messages. It belongs to the municipal or local government domain, where such text might come from public communications, service records, or internal reference lists. With roughly 3,000 rows, it could support tasks like cataloging city text content, building text classification or deduplication workflows, or managing the display order of messages through the rotation field.\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 347,
+    "completion_tokens": 177,
+    "total_tokens": 524
+  },
+  "elapsed_seconds": 3.05,
+  "semantic_summary": "The dataset appears to contain short free-text entries from a city government context, paired with a rotation indicator, likely used to track or cycle through miscellaneous text items such as notices, labels, or messages. It belongs to the municipal or local government domain, where such text might come from public communications, service records, or internal reference lists. With roughly 3,000 rows, it could support tasks like cataloging city text content, building text classification or deduplication workflows, or managing the display order of messages through the rotation field.",
+  "semantic_usage": {
+    "prompt_tokens": 132,
+    "completion_tokens": 107,
+    "total_tokens": 239
+  }
+}

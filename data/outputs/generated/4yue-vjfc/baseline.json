@@ -1,0 +1,15 @@
+{
+  "id": "4yue-vjfc",
+  "name": "Bridge Ratings",
+  "strategy": "baseline",
+  "description": "This dataset contains inspection and condition records for 3,204 bridges, with 20 fields describing each structure. It identifies bridges by a unique bridge identification number (bin) and includes location details such as borough (boro), latitude and longitude coordinates, and community district codes (cd, cd2, cd3). Descriptive fields capture what each bridge carries (feature_carried) and crosses (feature_crossed), whether a railroad is involved, the bridge type, ownership status, and number of spans.\n\nCondition information includes the rating source, inspection date, general recommendation, current numeric rating, and a verbal rating category. Physical and financial attributes cover deck area in square feet and estimated replacement cost. The data could support infrastructure condition assessments, prioritization of repair or replacement spending, mapping of bridge locations, comparisons of condition across boroughs or bridge types, and analyses linking bridge size or age-related inspection results to cost estimates.",
+  "prompt": "Title: Bridge Ratings\nCategory: Transportation\nRows (sampled): 3204\nColumns: 20\nColumn names: bin, boro, feature_carried, feature_crossed, rail_road, bridge_type, other_owner, spans, rating_source, inspection_date, general_recommendation, current_rating, verbal_rating, deck_area_sq_ft, replacement_cost, x_coord_lat, y_coord_lon, cd, cd2, cd3\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 178,
+    "completion_tokens": 184,
+    "total_tokens": 362
+  },
+  "elapsed_seconds": 1.64
+}

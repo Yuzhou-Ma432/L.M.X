@@ -1,0 +1,138 @@
+{
+  "id": "9b9u-8989",
+  "name": "NYC Business Acceleration Businesses Served and Jobs Created",
+  "description": "The list tracks the number of businesses that NYC Business Acceleration has assisted in opening and how many jobs were created by those businesses. This data is up to date as of the date reflected in the \"About\" tab of this dataset.",
+  "category": "Business",
+  "permalink": "https://data.cityofnewyork.us/d/9b9u-8989",
+  "sampled_rows": 5000,
+  "n_rows": 5000,
+  "n_cols": 9,
+  "columns": [
+    {
+      "name": "establishment_record_dba",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4731,
+      "sample_values": [
+        "Orchard Grocer Inc",
+        "Palermo Salumeria",
+        "Foragers City Grocers",
+        "Cultural Xchange",
+        "ST. JOHNS CHURCH"
+      ]
+    },
+    {
+      "name": "establishment_record_establishment_street",
+      "dtype": "object",
+      "missing": 0,
+      "missing_pct": 0.0,
+      "nunique": 4838,
+      "sample_values": [
+        "78 Orchard St",
+        "33-35 Francis Lewis Blvd",
+        "300 West 22nd Street",
+        "35 Lafayette Ave",
+        "90-37 213 Street"
+      ]
+    },
+    {
+      "name": "establishment_record_establishment_zip",
+      "dtype": "object",
+      "missing": 6,
+      "missing_pct": 0.12,
+      "nunique": 324,
+      "sample_values": [
+        "10002",
+        "11358",
+        "10011",
+        "11217",
+        "11428"
+      ]
+    },
+    {
+      "name": "establishment_record_establishment_borough",
+      "dtype": "object",
+      "missing": 6,
+      "missing_pct": 0.12,
+      "nunique": 7,
+      "sample_values": [
+        "Manhattan",
+        "Queens",
+        "Manhattan",
+        "Brooklyn",
+        "Queens"
+      ]
+    },
+    {
+      "name": "establishment_record_business_sector",
+      "dtype": "object",
+      "missing": 1246,
+      "missing_pct": 24.92,
+      "nunique": 9,
+      "sample_values": [
+        "Accommodations and Food",
+        "Accommodations and Food",
+        "Other",
+        "Accommodations and Food",
+        "Accommodations and Food"
+      ]
+    },
+    {
+      "name": "establishment_record_establishment_category",
+      "dtype": "object",
+      "missing": 1328,
+      "missing_pct": 26.56,
+      "nunique": 29,
+      "sample_values": [
+        "Restaurants and Other Eating Places",
+        "Restaurants and Other Eating Places",
+        "Restaurants and Other Eating Places",
+        "Restaurants and Other Eating Places",
+        "Restaurants and Other Eating Places"
+      ]
+    },
+    {
+      "name": "establishment_record_type_of_cuisine",
+      "dtype": "object",
+      "missing": 2007,
+      "missing_pct": 40.14,
+      "nunique": 321,
+      "sample_values": [
+        "Mediterranean",
+        "Italian",
+        "Soul",
+        "Italian",
+        "American"
+      ]
+    },
+    {
+      "name": "number_of_employees",
+      "dtype": "object",
+      "missing": 1158,
+      "missing_pct": 23.16,
+      "nunique": 91,
+      "sample_values": [
+        "3",
+        "6",
+        "10",
+        "15",
+        "8"
+      ]
+    },
+    {
+      "name": "establishment_record_actual_opening_date",
+      "dtype": "object",
+      "missing": 216,
+      "missing_pct": 4.32,
+      "nunique": 2070,
+      "sample_values": [
+        "2017-02-01T00:00:00.000",
+        "2017-01-21T00:00:00.000",
+        "2017-05-26T00:00:00.000",
+        "2017-01-16T00:00:00.000",
+        "2016-10-20T00:00:00.000"
+      ]
+    }
+  ]
+}

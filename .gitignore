@@ -218,3 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# L.M.X derived data — ignore the large raw catalog dump, keep the small
+# curated artifacts (selected.json, profiles/, outputs/) committed for
+# reproducibility.
+data/catalog/catalog.json

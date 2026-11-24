@@ -1,0 +1,15 @@
+{
+  "id": "w7w3-xahh",
+  "name": "Issued Licenses",
+  "strategy": "baseline",
+  "description": "This dataset records issued business licenses, with one row per license and 31 columns covering license details, business identity, location, and geography. Key fields include the license number, business name and trade name, business category and license type, license status, creation and expiration dates, and a free-text detail field. Contact information is limited to a phone number. Each record also includes a structured address (building, street, unit, city, state, ZIP) along with administrative and geographic identifiers such as borough, community board, council district, BIN, BBL, neighborhood tabulation area, census block and tract, and latitude/longitude coordinates.\n\nThe data can be used to analyze the distribution of licensed businesses by category, type, and status; to map business locations across neighborhoods and districts; to track license issuance and expiration over time; and to join with census or property data for local economic and planning research. Because the sample covers 5,000 rows, it is best suited to exploratory analysis",
+  "prompt": "Title: Issued Licenses\nCategory: Business\nRows (sampled): 5000\nColumns: 31\nColumn names: license_nbr, business_name, dba_trade_name, business_unique_id, business_category, license_type, license_status, license_creation_date, lic_expir_dd, detail, contact_phone, address_type, address_building, address_street_name, address_street_name_2, street3, unit_type, apt_suite, address_city, address_state, address_zip, address_borough, community_board, council_district, bin, bbl, nta, census_block_2010_, census_tract, latitude, longitude\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "length",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 200,
+    "total_tokens": 418
+  },
+  "elapsed_seconds": 1.99
+}

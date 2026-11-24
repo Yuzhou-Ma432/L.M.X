@@ -1,0 +1,15 @@
+{
+  "id": "4fnu-iufz",
+  "name": "FY2013 PMMR Agency Performance Indicators",
+  "strategy": "baseline",
+  "description": "This dataset contains agency performance indicators from the FY2013 Mayor's Management Report (PMMR), covering New York City government agencies. Each row represents a reported measure for a specific agency, indicator, and sub-indicator, with fields describing the indicator's name and sequence, the desired direction of performance, whether it is flagged as critical, the geography and measure type, and the fiscal year. Values are stored in a raw form alongside formatted versions for percentages, numbers, currency, time, and ratios, plus conditional formatting information.\n\nThe data can be used to track and compare agency performance across indicators, identify measures where performance is moving in the desired or undesired direction, and examine critical indicators. Analysts, researchers, and the public can use it to build dashboards, assess trends within FY2013, and evaluate how different agencies report and measure their services.",
+  "prompt": "Title: FY2013 PMMR Agency Performance Indicators\nCategory: City Government\nRows (sampled): 5000\nColumns: 20\nColumn names: agency, indicator_id, indicator_name, indicator_sequence, sub_indicator, subindicator_sequence, record_type, desired_direction, critical_flag, geography, measure_type, fiscal_year, conditional_format, raw_value, format_type, value_percent, value_number, value_currency, value_time, value_ratio\n\nWrite a clear description of this dataset.",
+  "model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 174,
+    "completion_tokens": 173,
+    "total_tokens": 347
+  },
+  "elapsed_seconds": 2.4
+}

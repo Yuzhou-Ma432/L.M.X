@@ -1,0 +1,7 @@
+pandas>=2.0
+numpy>=1.26
+pyyaml>=6.0
+requests>=2.31     # corpus fetching
+openai>=1.30       # only for --llm openai
+python-dotenv>=1.0
+pytest>=7

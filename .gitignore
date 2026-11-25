@@ -223,3 +223,8 @@ __marimo__/
 # curated artifacts (selected.json, profiles/, outputs/) committed for
 # reproducibility.
 data/catalog/catalog.json
+
+# robustddg prototype
+.cache/
+data/corpus/
+results/*_mock/
